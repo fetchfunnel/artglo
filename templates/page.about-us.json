@@ -1,12 +1,12 @@
 {
   "sections": {
-    "about_banner": {
-      "type": "about_banner",
+    "tmb_about_banner": {
+      "type": "tmb_about_banner",
       "settings": {
       }
     }
   },
   "order": [
-    "about_banner"
+    "tmb_about_banner"
   ]
 }

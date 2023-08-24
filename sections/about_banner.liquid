@@ -1,6 +1,87 @@
+<style>
+  .tmb_about_banner {
+            padding: 87px 0 119px;
+            position: relative;
+
+        }
+
+        .tmb_about_banner::before {
+            content: "";
+            position: absolute;
+            background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/EllipseBanner1.png?v=1692860195");
+            /* background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(229, 12, 125, 0.90) 0%, rgba(244, 0, 127, 0.00) 100%); */
+            backdrop-filter: blur(65px);
+            width: 100%;
+            top: 0;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: left;
+        }
+
+        .tmb_about_banner::after {
+            content: "";
+            background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/about_banner_bg.png?v=1692859144");
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .tmb_about_banner_content {
+            padding: 48px 78px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.30);
+            backdrop-filter: blur(10px);
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            z-index: 3;
+        }
+
+        .tmb_about_banner-title {
+            color: #FFF;
+            text-align: center;
+            font-family: Newake;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 128%;
+        }
+
+        .tmb_about_banner-brief {
+            color: #FFF;
+            text-align: center;
+            font-family: Circular Std;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 450;
+            line-height: 163%;
+            max-width: 765px;
+            width: 100%;
+            margin: 0 auto;
+        }
+</style>
+<section class="tmb_about_banner tmb_about_section">
+  <div class="tmb_container">
+    <div class="tmb_about_banner_content">
+      <h2 class="tmb_about_banner-title">We're in business to help you thrive</h2>
+      <p class="tmb_about_banner-brief">
+        a azuki bean corn fava bean mustard tigernut jï¿½cama green bean celtuce collard greens avocado quandong fennel
+        gumbo black-eyed pea. Grape silver beet watercress potato tigernut corn groundnut.
+      </p>
+    </div>
+  </div>
+</section>
+
 {% schema %}
-  {
-    "name": "About Banner Page",
-    "settings": []
-  }
+{
+  "name": "About Banner Page",
+  "settings": []
+}
 {% endschema %}

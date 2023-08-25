@@ -364,7 +364,6 @@ slider-component.slider-component-full-width {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -48px;
 }
 
 .slider-button:not([disabled]):hover {
@@ -395,4 +394,8 @@ slider-component.slider-component-full-width {
 
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
+}
+
+.slider-button.slider-button--prev{
+  margin-left:-48px;
 }

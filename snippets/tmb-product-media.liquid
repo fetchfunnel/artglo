@@ -17,11 +17,31 @@
 </style>
 
 <div class="tmb_product_mediaWrapper">
-<div class="tmb_product_media_slider">
-</div>
-<div class="tmb_product_mainImage">
 
-</div>
+<div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiperMain">
+    <div class="swiper-wrapper ">
+      {% for image in product.images %} 
+          <div class="swiper-slide product_main_image">
+            <img src="{{ image | img_url :"" }}"
+              alt="{{ image.alt }}" width="" height="" loading="lazy" class="d-block product_gallery_image "
+            >
+          </div>
+        {%- endfor -%}
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <div thumbsSlider="" class="swiper mySwiperGallery">
+    <div class="swiper-wrapper">
+       {% for image in product.images %} 
+          <div class="swiper-slide product_gallery_items" >
+            <img src="{{ image | img_url :"" }}"
+              alt="{{ image.alt }}" width="" height="" loading="lazy" class="d-block product_gallery_image"
+            >
+          </div>
+        {%- endfor -%}
+    </div>
+  </div>
 
 
 

@@ -9,7 +9,7 @@
     font-display: swap;
 }
 
-/*  Circular Std font faces */
+/* Circular Std font faces */
 
 @font-face {
     font-family: 'Circular Std';
@@ -35,7 +35,7 @@
     font-display: swap;
 }
 
-/*  Knewave font faces */
+/* Knewave font faces */
 @font-face {
     font-family: 'Knewave';
     src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/Knewave-Regular.woff2') format('woff2'),

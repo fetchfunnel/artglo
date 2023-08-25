@@ -1,5 +1,10 @@
 {
   "sections": {
+    "tmb-product-banner": {
+      "type": "tmb-product-banner",
+      "settings": {
+      }
+    },
     "tmb_about_banner": {
       "type": "tmb_about_banner",
       "settings": {
@@ -12,6 +17,7 @@
     }
   },
   "order": [
+    "tmb-product-banner",
     "tmb_about_banner",
     "tmb-about-story"
   ]

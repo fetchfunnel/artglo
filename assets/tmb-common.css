@@ -1,0 +1,30 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: Newake;
+}
+.hero_heading{
+  color: #FFF;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 1.6px;
+}
+.hero_heading span{
+  color: #FFDD40;
+}
+.sec_heading{
+  text-shadow: 0px 0px 27px #FFDD40;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 64px; 
+  letter-spacing: 1.6px;
+  color: #FFDD40;
+  text-align: center;
+}
+
+/* Responsive Breakpoints */
+@media(max-width:767px){
+  .hero_heading{
+    font-size: 34px;
+    line-height:38px;
+  }
+}

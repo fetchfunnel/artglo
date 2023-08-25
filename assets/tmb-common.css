@@ -172,7 +172,10 @@ h1,h2,h3,h4,h5,h6{
     font-size: 18px;
   }
   /* common heading Styles end */
-  
+  .solid_cta{
+    max-width:100%;
+    width:100%;
+  }
   /* common body text Styles start */
   .body_text_lg{
     font-size: 16px;

@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6{
 /* common heading Styles end */
 
 /* common body text Styles start */
-.body-text-lg{
+.body_text_lg{
   color: #F3F3F3;
   font-family: Circular Std;
   font-size: 18px;
@@ -54,13 +54,26 @@ h1,h2,h3,h4,h5,h6{
   line-height: normal;
   letter-spacing: 0.6px;
 }
-.body-text-md{
+.body_text_md{
   color: #FFF;
   font-family: Circular Std;
   font-size: 16px;
   font-style: normal;
   font-weight: 450;
   line-height: 22px; 
+}
+.solid_cta{
+  border-radius: 10px;
+  border: 2px solid #E50C7D;
+  background: #e50c7dcc;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  padding:19px;
 }
 /* common body text Styles end */
 
@@ -86,7 +99,7 @@ h1,h2,h3,h4,h5,h6{
   /* common heading Styles end */
   
   /* common body text Styles start */
-  .body-text-lg{
+  .body_text_lg{
     font-size: 16px;
   }
   /* common body text Styles end */

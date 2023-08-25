@@ -3,6 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+button{
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
 .tmb_container {
   max-width: 1242px;
   width: 100%;
@@ -15,6 +26,31 @@
 /* common heading Styles start */
 h1,h2,h3,h4,h5,h6{
   font-family: Newake;
+}
+
+.block{
+  display: block;
+}
+.inline-block{
+  display: inline-block;
+}
+.flex{
+  display: flex;
+}
+.item-center{
+  align-items: center;
+}
+.item-between{
+  justify-content: space-between;
+}
+.t-center{
+  text-align: center;
+}
+.m-auto{
+  margin: 0 auto;
+}
+.relative{
+  position: relative;
 }
 .hero_heading{
   color: #FFF;

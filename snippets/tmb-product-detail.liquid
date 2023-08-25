@@ -85,6 +85,20 @@
 </style>
 
 <div class="tmb-product-deatail">
+    <form
+    method="get"
+    action="/cart/add"
+    id="product-hero-form"
+    accept-charset="UTF-8"
+    class="product-form"
+    enctype="multipart/form-data"
+    data-available="false"
+  >
+    <input type="hidden" name="form_type" value="product">
+    <input type="hidden" name="utf8" value="✓">
+    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+    <input type="hidden" name="quantity" value="1">
+    <input type="hidden" name="return_to" value="back">
     <div class="tmb_product_review">
         <ul class="tmb_stars">
             <li class="tmb_star">
@@ -182,5 +196,5 @@
                 </form>
 
             </div>
-
+ </form>
         </div>

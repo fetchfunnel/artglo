@@ -74,6 +74,26 @@ h1,h2,h3,h4,h5,h6{
   line-height: 18px;
   letter-spacing: 1px;
   padding:19px;
+  position:relative;
+  overflow:hidden;
+  transition:0.4s;
+}
+.solid_cta:after{
+  content:''
+  background:#fff;
+  position:absolute;
+  top:-100%;
+  left:0;
+  right:0;
+  height:100%;
+  transition:0.4s;
+}
+.solid_cta:hover{
+  color: #e50c7dcc;
+  
+}
+.solid_cta:hover:after{
+   top:0;
 }
 /* common body text Styles end */
 

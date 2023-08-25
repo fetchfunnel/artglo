@@ -133,6 +133,11 @@
       "type": "newsletter-sec",
       "settings": {
       }
+    },
+    "faq-sec": {
+      "type": "faq-sec",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -140,6 +145,7 @@
     "4461967f-2532-499e-8372-2e2f6be918b6",
     "b34b9790-629e-4e76-9b93-4c910eb686a1",
     "ae9e47a9-9059-4506-a234-49132f2ad089",
-    "newsletter-sec"
+    "newsletter-sec",
+    "faq-sec"
   ]
 }

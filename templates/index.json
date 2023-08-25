@@ -51,9 +51,9 @@
     "4461967f-2532-499e-8372-2e2f6be918b6": {
       "type": "featured-collection",
       "settings": {
-        "title": "Celebration & Moments",
+        "title": "Endless Possibilities",
         "heading_size": "h1",
-        "description": "<p>A collection of Easel 1.0 Prints for celebrations and special moments.<\/p>",
+        "description": "<p>With hundreds of prints available, you can find the perfect art to match your style. Whether you want to celebrate holidays, show your political affiliations, or display your love for sports, ArtGlo has the ideal panel for you.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "celebration",
@@ -62,17 +62,18 @@
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "link",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "portrait",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 40,
-        "padding_bottom": 20
+        "padding_top": 96,
+        "padding_bottom": 32
       }
     },
     "b34b9790-629e-4e76-9b93-4c910eb686a1": {
@@ -92,6 +93,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "portrait",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
@@ -119,6 +121,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
@@ -127,6 +130,11 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "get-started": {
+      "type": "get-started",
+      "settings": {
       }
     },
     "newsletter-sec": {
@@ -145,6 +153,7 @@
     "4461967f-2532-499e-8372-2e2f6be918b6",
     "b34b9790-629e-4e76-9b93-4c910eb686a1",
     "ae9e47a9-9059-4506-a234-49132f2ad089",
+    "get-started",
     "newsletter-sec",
     "faq-sec"
   ]

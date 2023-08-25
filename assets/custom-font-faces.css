@@ -2,7 +2,6 @@
 
 @font-face {
     font-family: 'Circular Std';
-    src: url('CircularStd-Black.woff2') format('woff2'),
         url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularStd-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
@@ -10,9 +9,8 @@
 }
 
 @font-face {
-    font-family: 'CircularStd';
+    font-family: 'Circular Std';
     src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularStd-Bold.woff2') format('woff2'),
-        url('CircularStd-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -20,9 +18,8 @@
 
 
 @font-face {
-    font-family: 'CircularStd';
-    src: url('CircularStd-Book.woff2') format('woff2'),
-        url('CircularStd-Book.woff') format('woff');
+    font-family: 'Circular Std';
+    src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularStd-Medium.woff') format('woff'),
     font-weight: 500;
     font-style: normal;
     font-display: swap;

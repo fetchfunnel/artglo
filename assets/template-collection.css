@@ -46,7 +46,9 @@
 
 .collection__description > * {
   margin: 0;
-   font-weight: 500;
+}
+.collection__description p{
+  font-weight:500;
 }
 
 .collection__title.title-wrapper {

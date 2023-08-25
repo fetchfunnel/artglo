@@ -78,7 +78,7 @@ h1,h2,h3,h4,h5,h6{
   overflow:hidden;
   transition:0.4s;
 }
-.solid_cta::after{
+/* .solid_cta::after{
   content:'';
   background:#fff;
   position:absolute;
@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .solid_cta:hover::after{
    top:0;
-}
+} */
 /* common body text Styles end */
 
 

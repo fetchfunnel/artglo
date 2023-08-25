@@ -110,10 +110,10 @@
     "ae9e47a9-9059-4506-a234-49132f2ad089": {
       "type": "featured-collection",
       "settings": {
-        "title": "Food & Drink",
+        "title": "",
         "heading_size": "h1",
-        "description": "<p>Showcase your inner foodie with food and drink inspired art.<\/p>",
-        "show_description": false,
+        "description": "<p>food<\/p><p><\/p>",
+        "show_description": true,
         "description_style": "body",
         "collection": "food-drink",
         "products_to_show": 20,

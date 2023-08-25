@@ -1,0 +1,162 @@
+<style>
+  .get_started_sec{
+    padding:120px 0 96px;
+  }
+  .get_started_sec .sec_head{
+    margin-bottom:84px;
+  }
+  .get_started_sec .sec_head_inner{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .star_wrapper {
+    margin-top: -6px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid #FFDD40;
+    background: rgba(255, 255, 255, 0.08);
+  }
+  .star_wrapper img {
+    margin: auto;
+    max-width: 27px;
+  }
+  .get_started_sec .spacer{
+    margin-top: -6px;
+    background: #FFDD40;
+    width: 38px;
+    height: 1px;
+    display: block;
+  }
+  .get_started_sec .sec_content_inner,
+  .get_started_sec .text_wrapper
+  {
+    display:flex;
+    align-items:center;
+    gap:21px;
+  }
+  .get_started_sec .text_wrapper{
+   align-items:start; 
+  }
+  .text_heading{
+    color: #E50C7D;
+    text-shadow: 0px 0px 54.04px rgba(229, 12, 125, 0.80);
+    font-family: Newake;
+    font-size: 166.924px;
+    font-weight: 400;
+    line-height: 165.614px;
+    letter-spacing: 5.564px;
+  }
+  .get_started_sec .heading_lg{
+    margin-bottom:16px;
+  }
+  .get_started_sec .body_text_lg {
+      max-width: 595px;
+  }
+  .text_wrapper{
+    max-width:70%;
+    width:100%;
+  }
+  .img_wrapper{
+    max-width:30%;
+    width:100%;
+   
+  }
+  .img_wrapper .img_inner{
+    padding:3px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 221, 64, 0.60);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0px 24px 40px 12px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(6px);
+    width: fit-content;
+    margin: 0 0 0 auto;
+  }
+  .img_wrapper .img_inner img{
+    display:block;
+  }
+  
+  .get_started_sec .heading_xl{
+    text-align:start;
+  }
+  .img_wrapper .inner-modifier{
+    margin: 0 auto 0 0;
+  }
+  .highlighted_text{
+    color: #FFDD40;
+    display:block;
+  }
+
+  @media(max-width:750px){
+    .get_started_sec{
+      padding:56px 0 64px;
+    }
+    .get_started_sec .sec_head{
+      margin-bottom:48px;
+    }
+    .star_wrapper{
+      width: 32px;
+      height: 32px;
+    }
+    .star_wrapper img{
+      max-width: 17px;
+    }
+    .get_started_sec .spacer{
+        width: 24px;
+    }
+  }
+</style>
+<section class="get_started_sec">
+  <div class="tmb_container">
+    <div class="sec_head">
+      <div class="sec_head_inner">
+        <div class="star_wrapper">
+          <img src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/stars.png?v=1692956061" alt="image-description">
+        </div>
+        <div class="spacer"></div>
+        <h2 class="heading_xl">How to get started</h2>
+      </div>
+    </div>
+    <div class="sec_content">
+      <div class="sec_content_inner">
+        <div class="text_wrapper">
+          <h2 class="text_heading">1</h2>
+          <div>
+              <h3 class="heading_lg">Add the Easel</h3>
+              <p class="body_text_lg">In order to display and illuminate your art, you will first need an Easel 1.0. This is the base unit that includes an illumination panel, mounting brackets, and a yard stand</p>
+          </div>
+        </div>
+        <div class="img_wrapper">
+          <div class="img_inner">
+            <img src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/easel-new.jpg?v=1692958158" alt="image-description">
+          </div>
+        </div>
+      </div>
+      
+      <div class="sec_content_inner ">
+        <div class="img_wrapper">
+          <div class="img_inner inner-modifier">
+            <img src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/easel-new.jpg?v=1692958158" alt="image-description">
+          </div>
+        </div>
+        <div class="text_wrapper">
+          <h2 class="text_heading">2</h2>
+          <div>
+              <h3 class="heading_lg">Find a print</h3>
+              <p class="body_text_lg">ArtGlo has hundreds of prints you can order for your Easel 1.0. Find the perfect print and add it to your order. <span class="highlighted_text">When you purchase an Easel 1.0 your first print is free!<span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Get Started Section",
+    "settings": []
+  }
+{% endschema %}

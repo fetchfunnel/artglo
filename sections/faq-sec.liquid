@@ -12,14 +12,13 @@
      .faq_item {
         background: #1C1D3C;
         border-radius: 20px;
-
+       padding: 22px;
         margin-bottom: 20px;
      }
    .faq_que{
        display: flex;
        justify-content: space-between;
        cursor:pointer;
-       padding: 22px;
    }
    .faq_ans{
      height: 0;
@@ -27,14 +26,10 @@
     visibility: hidden;
     opacity: 0;
         transition: 0.4s;
-      padding: 0px;
-     
-     
    }
   .faq_que.active + .faq_ans{
     visibility: visible;
     opacity: 1;
-      padding: 22px;
   }
      .faq_title {
          color: #FFF;
@@ -66,9 +61,9 @@
 <section class="faq-sec sec_bg ">
   <div class="tmb_container">
     <div class="faq-_content">
-      <h2 class="heading_xl faq_heading">Frequently asked questions</h2>
-
-      <div class="faq_item">
+      <h2 class="heading_xl faq_heading {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">Frequently asked questions</h2>
+      
+      <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div class="faq_que">
           <p class="faq_title">What is a paragraph?</p>
           <span class="plus">+</span>
@@ -86,8 +81,8 @@
           </p>
         </div>
       </div>
-
-      <div class="faq_item">
+      
+      <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div class="faq_que">
           <p class="faq_title">What is a paragraph?</p>
           <span class="plus">+</span>
@@ -105,7 +100,7 @@
           </p>
         </div>
       </div>
-      <div class="faq_item">
+      <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div class="faq_que">
           <p class="faq_title">What is a paragraph?</p>
           <span class="plus">+</span>
@@ -123,7 +118,7 @@
           </p>
         </div>
       </div>
-      <div class="faq_item">
+      <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div class="faq_que">
           <p class="faq_title">What is a paragraph?</p>
           <span class="plus">+</span>
@@ -141,7 +136,7 @@
           </p>
         </div>
       </div>
-      <div class="faq_item">
+      <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div class="faq_que">
           <p class="faq_title">What is a paragraph?</p>
           <span class="plus">+</span>
@@ -159,7 +154,7 @@
           </p>
         </div>
       </div>
-      <div class="faq_item">
+      <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div class="faq_que">
           <p class="faq_title">What is a paragraph?</p>
           <span class="plus">+</span>
@@ -185,7 +180,6 @@
   
   
   
-  
      let faqTitle = document.querySelectorAll(".faq_que");
         for (let i of faqTitle) {
             i.addEventListener("click", () => {
@@ -200,7 +194,6 @@
                 }
             })
         }
-
 
 
 

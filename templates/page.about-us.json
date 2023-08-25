@@ -4,9 +4,15 @@
       "type": "tmb_about_banner",
       "settings": {
       }
+    },
+    "tmb-about-story": {
+      "type": "tmb-about-story",
+      "settings": {
+      }
     }
   },
   "order": [
-    "tmb_about_banner"
+    "tmb_about_banner",
+    "tmb-about-story"
   ]
 }

@@ -32,6 +32,11 @@ backdrop-filter: blur(8.736111640930176px);
     max-width: 107px;
     width: 100%;
 }
+  .swiper_thumbnail_tmb{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+  }
 
 
 
@@ -63,7 +68,7 @@ backdrop-filter: blur(8.736111640930176px);
 
 <div class="tmb_product_mediaWrapper">
 
-<div class="swiper mySwiperMain">
+  <div class="swiper mySwiperMain">
     <div class="swiper-wrapper ">
       {% for image in product.images %} 
           <div class="swiper-slide product_main_image">
@@ -77,7 +82,7 @@ backdrop-filter: blur(8.736111640930176px);
     <div class="swiper-button-prev"></div>
   </div>
   <div thumbsSlider="" class="swiper mySwiperGallery">
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper swiper_thumbnail_tmb">
        {% for image in product.images %} 
           <div class="swiper-slide product_gallery_items" >
             <img src="{{ image | img_url :"" }}"

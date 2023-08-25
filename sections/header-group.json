@@ -18,7 +18,7 @@
       ],
       "custom_css": [
         ".announcement-bar__message {color: #fff; font-family: Circular Std; font-size: 16px; font-style: normal; font-weight: 900; line-height: normal; letter-spacing: 0.6px; text-align: center; padding: 16px 0; margin: 0; letter-spacing: 0.1rem; min-height: unset;}",
-        "@media (max-width: 767px) {.announcement-bar__message {font-size: 12px; padding: 10px 0; }}"
+        "@media (max-width: 767px) {.announcement-bar__message {font-size: 11.5px; padding: 10px 0; }}"
       ],
       "settings": {
         "color_scheme": "scheme-82f684c1-9eb2-43b5-bdc1-4b190d3e16c2",

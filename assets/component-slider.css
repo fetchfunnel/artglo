@@ -399,3 +399,6 @@ slider-component.slider-component-full-width {
 .slider-button.slider-button--prev{
   margin-left:-48px;
 }
+.slider-button.slider-button--next{
+  margin-right:-25px;
+}

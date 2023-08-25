@@ -1,3 +1,13 @@
+
+@font-face {
+    font-family: 'Newake';
+    src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/NewakeDemo.woff2') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/NewakeDemo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Sansita One font faces */
 
 @font-face {

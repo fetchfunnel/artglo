@@ -79,7 +79,7 @@ h1,h2,h3,h4,h5,h6{
   transition:0.4s;
 }
 .solid_cta::after{
-  content:''
+  content:'';
   background:#fff;
   position:absolute;
   top:-100%; 

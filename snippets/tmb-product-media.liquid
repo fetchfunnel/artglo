@@ -62,11 +62,13 @@ backdrop-filter: blur(8.736111640930176px);
 
   <div class="swiper mySwiperMain">
     <div class="swiper-wrapper ">
+      {% for image in product.images %} 
           <div class="swiper-slide product_main_image">
-            <img src="{{ product.images | img_url :"" }}"
-              alt="{{ product.images.alt }}" width="" height="" loading="lazy" class="d-block product_gallery_image "
+            <img src="{{ image | img_url :"" }}"
+              alt="{{ image.alt }}" width="" height="" loading="lazy" class="d-block product_gallery_image "
             >
           </div>
+        {%- endfor -%}
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>

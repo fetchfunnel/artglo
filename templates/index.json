@@ -78,8 +78,11 @@
     },
     "b34b9790-629e-4e76-9b93-4c910eb686a1": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {font-size: 14px; text-align: left;}"
+      ],
       "settings": {
-        "title": "Animals & Pets",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": true,

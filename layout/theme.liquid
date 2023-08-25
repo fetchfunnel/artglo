@@ -354,6 +354,7 @@ window.TriplePixelData={TripleName:"artglo-signs.myshopify.com",ver:"1.9.0"},fun
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'custom-font-face.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>

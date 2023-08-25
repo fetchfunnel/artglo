@@ -1,5 +1,6 @@
 <style>
     .product_main_image{
+      padding:14px;
       max-width:490px;
       width:100%;
       border-radius: 8.736px;
@@ -66,7 +67,7 @@ backdrop-filter: blur(8.736111640930176px);
 
 <div class="tmb_product_mediaWrapper">
 
-<div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiperMain">
+<div class="swiper mySwiperMain">
     <div class="swiper-wrapper ">
       {% for image in product.images %} 
           <div class="swiper-slide product_main_image">

@@ -110,7 +110,20 @@
     }
   }
 {%- endstyle -%}
-
+<style>
+  .list-menu__item {
+    color: rgba(229, 12, 125, 0.80);
+    text-align: center;
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}  
+  .list-menu__item:hover{
+    color: rgba(229, 12, 125, 0.80);
+   
+  }
+</style>
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>

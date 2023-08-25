@@ -51,11 +51,11 @@
     "4461967f-2532-499e-8372-2e2f6be918b6": {
       "type": "featured-collection",
       "settings": {
-        "title": "Endless Possibilities",
+        "title": "",
         "heading_size": "h1",
-        "description": "<p>With hundreds of prints available, you can find the perfect art to match your style. Whether you want to celebrate holidays, show your political affiliations, or display your love for sports, ArtGlo has the ideal panel for you.<\/p>",
+        "description": "<p>With hundreds of<\/p>",
         "show_description": false,
-        "description_style": "body",
+        "description_style": "subtitle",
         "collection": "celebration",
         "products_to_show": 15,
         "columns_desktop": 5,

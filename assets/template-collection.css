@@ -9,6 +9,9 @@
   .collection .slider.slider--tablet {
     margin-bottom: 1.5rem;
   }
+  .collection__title.title-wrapper{
+    text-align:center;
+  }
 }
 
 .collection .loading-overlay {

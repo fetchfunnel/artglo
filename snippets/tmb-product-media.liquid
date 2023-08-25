@@ -1,18 +1,54 @@
 <style>
-    .tmb_product_mediaWrapper{
-        display:flex;
-    
-    }
-    .tmb_product_media_slider{
-        display:flex;
-        flex-direction:columns;
-        gap:12px;
     }
 
-    .tmb_product_mainImage{
-        max-width:490px;
-        width:100%;
+   .swiper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    height: 80%;
+    width: 100%;
+  }
+
+  .mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .mySwiperGallery .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  
+  .mySwiperGallery .swiper-slide-thumb-active {
+    opacity: 1;
+    display:flex;
+  }
+
+  @media screen and (max-width: 768px) {
+    .product_gallery_image {
+      margin: 0 auto;
+      max-width: 280px;
+      width: 100%;
     }
+   .product_main_image{
+      max-width:100%;
+    }
+   .product_gallery_block .swiper-button-next:after, .swiper-button-prev:after{
+     font-size:25px;
+   } 
+  }
+    
+  
 
 </style>
 
@@ -46,3 +82,29 @@
 
 
 </div>
+
+
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiperGallery", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 5,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiperMain", {
+      loop: true,
+      spaceBetween: 10,
+        slidesPerView: 1,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>

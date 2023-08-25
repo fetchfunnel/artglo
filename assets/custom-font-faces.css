@@ -16,7 +16,6 @@
     font-display: swap;
 }
 
-
 @font-face {
     font-family: 'Circular Std';
     src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularStd-Medium.woff') format('woff'),
@@ -36,7 +35,6 @@
 }
 
 
-
 /* Nerko One font faces */
 @font-face {
     font-family: 'Nerko One';
@@ -46,7 +44,6 @@
     font-style: normal;
     font-display: swap; 
 }
-
 
 
 /* Ubunto font faces */

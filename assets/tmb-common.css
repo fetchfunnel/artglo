@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6{
 .hero_heading span{
   color: #FFDD40;
 }
-.sec_heading{
+.sec_heading_xl{
   text-shadow: 0px 0px 27px #FFDD40;
   font-size: 48px;
   font-weight: 400;
@@ -20,6 +20,22 @@ h1,h2,h3,h4,h5,h6{
   color: #FFDD40;
   text-align: center;
 }
+.sec_heading_lg{
+  color: #FFF;
+  font-family: Circular Std;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+.sec_heading_md{
+  color: #FFF;
+  font-family: Circular Std;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
 
 /* Responsive Breakpoints */
 @media(max-width:767px){
@@ -27,8 +43,14 @@ h1,h2,h3,h4,h5,h6{
     font-size: 34px;
     line-height:38px;
   }
-  .sec_heading{
+  .sec_heading_xl{
     font-size: 28px;
     line-height:32px;
   }
+  .sec_heading_lg,
+  .sec_heading_md
+  {
+    font-size: 18px;
+  }
+  
 }

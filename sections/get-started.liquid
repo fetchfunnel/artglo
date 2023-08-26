@@ -330,17 +330,11 @@
     <div class="sec_content">
 
      {% for block in section.blocks %} 
+      {% assign mod = forloop.index | modulo: 2 %}
+       
       <div class="sec_content_inner {% if forloop.index == 1 %} first-slide {% endif %} {% if forloop.index == 2 %} second-slide {% endif %}{% if forloop.index == 3 %} third-slide {% endif %}{% if forloop.index == 4 %} forth-slide {% endif %}">
-        <div class="text_wrapper">
-          <h2 class="text_heading">{{ forloop.index }}</h2>
-          <div>
-              <h3 class="heading_lg">{{ block.settings.heading }}</h3>
-              <p class="body_text_lg">
-                {{ block.settings.description }}
-              </p>
-          </div>
-        </div>
-        <div class="img_wrapper">
+        {% if mod == 0 %}
+          <div class="img_wrapper">
           <div class="img_inner">
            {% if block.settings.image !=blank %}
             <img src="{{ block.settings.image | img_url : "master" }}" alt="image-description">
@@ -351,6 +345,39 @@
           <p class="tooltip_text">{{ block.settings.label }}</p>
             {%  endif %}
         </div>
+        <div class="text_wrapper">
+          <h2 class="text_heading">{{ forloop.index }}</h2>
+          <div>
+              <h3 class="heading_lg">{{ block.settings.heading }}</h3>
+              <p class="body_text_lg">
+                {{ block.settings.description }}
+              </p>
+          </div>
+        </div>
+        
+        {% else %}
+          <div class="text_wrapper">
+          <h2 class="text_heading">{{ forloop.index }}</h2>
+          <div>
+              <h3 class="heading_lg">{{ block.settings.heading }}</h3>
+              <p class="body_text_lg">
+                {{ block.settings.description }}
+              </p>
+          </div>
+        </div>
+          <div class="img_wrapper">
+          <div class="img_inner">
+           {% if block.settings.image !=blank %}
+            <img src="{{ block.settings.image | img_url : "master" }}" alt="image-description">
+           {%  endif %}
+             
+          </div>
+          {% if forloop.index == 1 %}
+          <p class="tooltip_text">{{ block.settings.label }}</p>
+            {%  endif %}
+        </div>
+        {% endif %}
+          
       </div>
       {% endfor %}
       

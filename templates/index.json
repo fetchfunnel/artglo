@@ -136,6 +136,7 @@
       "type": "feature-collection-2",
       "settings": {
         "title": "Endless Possibilities",
+        "bgImage": "shopify:\/\/shop_images\/colections-bg-2.png",
         "heading_size": "h1",
         "description": "<p>With hundreds of prints available, you can find the perfect art to match your style. Whether you want to celebrate holidays, show your political affiliations, or display your love for sports, ArtGlo has the ideal panel for you.<\/p>",
         "show_description": false,

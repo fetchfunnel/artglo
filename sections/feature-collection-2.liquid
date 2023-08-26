@@ -79,7 +79,9 @@
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
-        slider
+          {%- for collection in section.settings.collection -%}
+              {{ collection.handle }}
+          {% endfor %}
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"

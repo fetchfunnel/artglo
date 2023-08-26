@@ -77,93 +77,6 @@
         "padding_bottom": 36
       }
     },
-    "4461967f-2532-499e-8372-2e2f6be918b6": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "<p>Trending<\/p>",
-        "show_description": false,
-        "description_style": "subtitle",
-        "collection": "celebration",
-        "products_to_show": 21,
-        "columns_desktop": 5,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "link",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 96,
-        "padding_bottom": 32
-      }
-    },
-    "b34b9790-629e-4e76-9b93-4c910eb686a1": {
-      "type": "featured-collection",
-      "custom_css": [
-        "h2 {font-size: 14px; text-align: left;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "<p>Celebration & Moments<\/p>",
-        "show_description": false,
-        "description_style": "subtitle",
-        "collection": "animals-pets",
-        "products_to_show": 25,
-        "columns_desktop": 5,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "link",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 20
-      }
-    },
-    "ae9e47a9-9059-4506-a234-49132f2ad089": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "<p>Food & Drink<\/p>",
-        "show_description": false,
-        "description_style": "subtitle",
-        "collection": "food-drink",
-        "products_to_show": 20,
-        "columns_desktop": 5,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "link",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "get-started": {
       "type": "get-started",
       "settings": {
@@ -183,9 +96,6 @@
   "order": [
     "459aae35-97c9-4540-b575-43aec709385f",
     "d9aea10e-76b4-450a-a288-326b38784fa9",
-    "4461967f-2532-499e-8372-2e2f6be918b6",
-    "b34b9790-629e-4e76-9b93-4c910eb686a1",
-    "ae9e47a9-9059-4506-a234-49132f2ad089",
     "get-started",
     "newsletter-sec",
     "faq-sec"

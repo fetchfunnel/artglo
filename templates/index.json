@@ -56,10 +56,7 @@
         "description_style": "body",
         "collection": [
           "animals-pets",
-          "artglo-original-prints",
-          "astronomy-space",
-          "books-comics",
-          "botanical"
+          "artglo-original-prints"
         ],
         "products_to_show": 25,
         "columns_desktop": 5,

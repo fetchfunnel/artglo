@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 989px) {
   .collection .slider.slider--tablet {
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
   }
   .collection__title.title-wrapper{
     text-align:center;
@@ -55,7 +55,7 @@
 }
 
 .collection__title.title-wrapper {
-  margin-bottom: 2.5rem;
+  margin-bottom: 64px;
 }
 
 .collection__title .title:not(:only-child) {

@@ -15,6 +15,8 @@
 .image-with-text__media {
   min-height: 100%;
   overflow: visible;
+  border:1px solid red;
+  border-radius:10px;
 }
 
 .image-with-text__media--small {

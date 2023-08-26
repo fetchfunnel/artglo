@@ -1,38 +1,361 @@
 <style>
-.tmb-product-wrapper{
-  display:flex;
-  gap:21px;
-}
-.tmb_product_galary{
-  max-width:614px;
-  width:100%;
+    .tmb_product_banner {
+        padding: 64px 0;
+        position: relative;
+        z-index: 2;
+    }
 
-}
+    .tmb_product_banner::before {
+        content: "";
+        position: absolute;
+        background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/EllipseBanner1.png?v=1692860195");
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -30%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left bottom;
+        z-index: -1;
+    }
+    .tmb-product-wrapper {
+        display: flex;
+        gap: 21px;
+    }
+
+    .tmb_product_title {
+        color: #FFF;
+        font-family: Newake;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 8px;
+        letter-spacing: 1px;
+    }
+
+    .tmb_product_cost {
+        color: #FFDD40;
+        font-family: Ubuntu;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+    }
+    .tmb_product_galary {
+        max-width: 614px;
+        width: 100%;
+
+    }
+    .tmb_product_mediaWrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 17px;
+        justify-content: space-between;
+
+    }
+    .product_main_image {
+        padding: 14px;
+        max-width: 490px;
+        width: 100%;
+        border-radius: 8.736px;
+        border: 1.456px solid rgba(255, 221, 64, 0.60);
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: 0 34.9444465637207px 58.24074172973633px 17.47222328186035px rgba(0, 0, 0, 0.24);
+        backdrop-filter: blur(8.736111640930176px);
+    }
+
+    .product_main_image img {
+        border-radius: 8px;
+        display: block;
+    }
+
+    .product_gallery_items img {
+        max-width: 107px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #FFDD40;
+        height: 132px;
+        display: block;
+    }
+    .tmb-product-deatail {
+        max-width: 567px;
+        width: 100%;
+    }
+    .tmb_stars {
+        display: flex;
+        gap: 4px;
+    }
+    .tmb_cost_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 8px 0;
+    }
+    .tmb_product_wishList {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        color: #FFF;
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .tmb_product-shoppay {
+        align-items: center;
+        color: #FFF;
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0;
+    }
+    .tmb_product-shoppay a {
+        text-decoration-line: underline;
+        color: #FFF;
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    .tmb_product_featuresList {
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        margin: 22px 0;
+    }
+    .tmb_product_quntity_controls {
+        max-width: 125px;
+        width: 100%;
+        padding: 8px 10px;
+        border-radius: 10px;
+        border: 1px solid #FFF;
+        display: flex;
+        align-items: center;
+    }
+    .tmb_product_feature_item {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        color: #FFF;
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .tmb_product_quntity_controls button {
+        background: transparent;
+        font-size: 24px;
+        outline: none;
+        border: none;
+        color: #fff;
+        width: 24px;
+
+    }
+
+    .tmb_product_quantity_input {
+        background: transparent;
+        border: none;
+        outline: none;
+        display: inline-block;
+        color: #FFF;
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .tmb_costContainer {
+        gap: 16px;
+    }
+    .tmb_totalCost span {
+        display: flex;
+        color: #FFF;
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+    .tmb_product_btn {
+        width: 100%;
+        margin: 20px 0 16px;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input:focus {
+        background-color: transparent;
+        border: none;
+    }
+    .swiper.mySwiperGallery {
+        max-width: 107px;
+        width: 100%;
+    }
+    .swiper_thumbnail_tmb {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
 
 
+    .mySwiperGallery .swiper-slide-thumb-active {
+        opacity: 1;
+        display: flex;
+    }
+    .tmb_product_description {
+        position: relative;
+    }
+    .tmb_product_description::after {
+        content="";
+        position: absolute;
+        background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/discriptionEclips.png?v=1693035832");
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left bottom;
+
+    }
+
+    .tmb_feature_on_buy p {
+      color: #FFDD40;
+      font-family: Ubuntu;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 21px;
+      letter-spacing:0;
+  }
+
+  .tmb_feature_on_buy a {
+      text-decoration-line: underline;
+      color: #FFDD40;
+      font-family: Ubuntu;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 21px;
+  }
+  .tmb_product_description{
+      margin-top:40px;
+  }
+
+  .tmb_product_description_list{
+      padding:16px 0 21px;
+      border-top:1px solid #fff;
+  }
+
+  ul .tmb_product_description_list:last-child{
+      border-bottom:1px solid #fff;
+  }
+
+  .tmb_product_description_heading{
+      color: #FFF;
+      font-family: Newake;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom:8px;
+  }
+
+    @media only screen and (max-width:991px) {
+        .tmb-product-wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        .tmb-product-deatail {
+            max-width: 100%;
+            width: 100%;
+        }
+        .tmb_product_btn {
+            width: 100%;
+            margin: 20px 0 16px;
+            max-width: 50%;
+        }
+
+    }
+    @media only screen and (max-width:750px) {
+        .tmb_product_banner {
+            padding: 24px 0 56px;
+        }
+        .tmb_product_title {
+            font-size: 20px;
+            margin-top: 0;
+        }
+        .tmb_product_cost {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+        .tmb_cost_container {
+            margin: 13px 0;
+        }
+        .tmb_product-shoppay {
+            font-size: 16px;
+        }
+        .tmb_feature_on_buy p {
+            font-size: 14px;
+        }
+        .mySwiperGallery {
+            display: none;
+        }
+        .product_main_image {
+            max-width: 100%;
+            padding: 9px;
+        }
+        .tmb_product_content {
+            align-self: cente;
+        }
+        .tmb_product_btn {
+            width: 100%;
+            margin: 20px 0 16px;
+            max-width: 100%;
+        }
+        .tmb_product_description_list {
+          padding: 16px 0 16px;
+      }
+
+
+    }
+
+    @media only screen and(max-width:750px) {}
 </style>
-<section class="tmb-product-banner">
-<div class="tmb_container">
-  <div class="tmb-product-wrapper">
-    <div class="tmb_product_galary">
-      {% render 'tmb-product-media' %}
-      
+<section class="tmb_product_banner">
+    <div class="tmb_container">
+        <div class="tmb-product-wrapper">
+            <div class="tmb_product_galary">
+                {% render 'tmb-product-media' %}
+            </div>
+            <div class="tmb_product_content">
+                {% render 'tmb-product-detail' %}
+            </div>
+        </div>
     </div>
-    <div>
-      {% render 'tmb-product-detail' %}
-    </div>
-    
-  </div>
-</div>
-  
 </section>
-  <script>
+<script>
     let productMetaData = {{ product | json }}
-</script> 
+</script>
 
 
 {% schema %}
-  {
+{
     "name": "Product Banner",
     "settings": []
   }

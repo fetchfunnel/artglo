@@ -400,9 +400,50 @@
 </section>
 
 
+
 {% schema %}
-  {
-    "name": "Get Started Section",
-    "settings": []
-  }
+{
+  "name": "Slideshow",
+  "tag": "section",
+  "class": "slideshow",
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": "heading"
+    }
+  ],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "limit" : 8,
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_show",
+          "label": "Button Show/Hide",
+          "default": false
+        }
+       ]
+     }
+   ]
+}
 {% endschema %}
+

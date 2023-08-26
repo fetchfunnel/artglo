@@ -40,6 +40,14 @@
             "artHeading": "Interchangeable:",
             "artInfo": "Easily change the art for different seasons or occasions."
           }
+        },
+        "e87c643e-4e21-4dff-afa6-d1c513d1f8ad": {
+          "type": "features",
+          "settings": {
+            "artImg": "shopify:\/\/shop_images\/b36bcc1635af60768c19d7efce939230.png",
+            "artHeading": "Solar Powered:",
+            "artInfo": "Automatic shutoff means there’s no need to manually turn it on or off."
+          }
         }
       },
       "block_order": [
@@ -47,7 +55,8 @@
         "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-text-1",
         "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-button-1",
         "165d9312-83d7-48c0-b635-424a10f2e8c5",
-        "1e3800c5-9f30-4d8b-95b1-3a2ba245c6e7"
+        "1e3800c5-9f30-4d8b-95b1-3a2ba245c6e7",
+        "e87c643e-4e21-4dff-afa6-d1c513d1f8ad"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner.png",

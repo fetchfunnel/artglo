@@ -135,9 +135,9 @@
     "d9aea10e-76b4-450a-a288-326b38784fa9": {
       "type": "feature-collection-2",
       "settings": {
-        "title": "Featured collection",
+        "title": "Endless Possibilities",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>With hundreds of prints available, you can find the perfect art to match your style. Whether you want to celebrate holidays, show your political affiliations, or display your love for sports, ArtGlo has the ideal panel for you.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": [
@@ -146,21 +146,21 @@
           "celebration",
           "cocktail-bar"
         ],
-        "products_to_show": 25,
+        "products_to_show": 16,
         "columns_desktop": 5,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -173,11 +173,68 @@
     "newsletter-sec": {
       "type": "newsletter-sec",
       "settings": {
+        "heading": "Subscribe to our Newsletter",
+        "info": "Be first to get update for a diverse collection of prints, curated to reflect your unique style. From holiday celebrations to political expressions and sports enthusiasms, ArtGlo offers the perfect panel for every passion.",
+        "leftImage": "shopify:\/\/shop_images\/letter.svg",
+        "RightImage": "shopify:\/\/shop_images\/letter-right.svg"
       }
     },
     "faq-sec": {
       "type": "faq-sec",
+      "blocks": {
+        "8c9cfb69-a6ec-40c3-befe-a9316d829a2d": {
+          "type": "faqs",
+          "settings": {
+            "question": "What is Faq?",
+            "Answer": "A FAQ page is one of the most important and must-have sections for business and product websites. If you’ve been wondering what a FAQ page really is or how to create one for your website, you’ve come to the right place. If you still don’t have a FAQ page on your website, you’re already missing out on many benefits it can bring you. Like saving hours worth of sales calls or emails and helping potential buyers make a decision all by themselves. In this detailed guide, we’re going to dive deep into the whole concept of FAQs. To discover their main purpose and to find out how it can help generate more sales and leads for your business."
+          }
+        },
+        "4af434da-4d31-4620-8000-8e858a82e722": {
+          "type": "faqs",
+          "settings": {
+            "question": "What is Faq?",
+            "Answer": "A FAQ page is one of the most important and must-have sections for business and product websites. If you’ve been wondering what a FAQ page really is or how to create one for your website, you’ve come to the right place. If you still don’t have a FAQ page on your website, you’re already missing out on many benefits it can bring you. Like saving hours worth of sales calls or emails and helping potential buyers make a decision all by themselves. In this detailed guide, we’re going to dive deep into the whole concept of FAQs. To discover their main purpose and to find out how it can help generate more sales and leads for your business."
+          }
+        },
+        "b323cb32-9fc3-4cc5-b9fd-a5ce4e7b8e6f": {
+          "type": "faqs",
+          "settings": {
+            "question": "What is Faq?",
+            "Answer": "A FAQ page is one of the most important and must-have sections for business and product websites. If you’ve been wondering what a FAQ page really is or how to create one for your website, you’ve come to the right place. If you still don’t have a FAQ page on your website, you’re already missing out on many benefits it can bring you. Like saving hours worth of sales calls or emails and helping potential buyers make a decision all by themselves. In this detailed guide, we’re going to dive deep into the whole concept of FAQs. To discover their main purpose and to find out how it can help generate more sales and leads for your business."
+          }
+        },
+        "3c8494b4-5f69-4715-8a0c-d2bc6fc715d8": {
+          "type": "faqs",
+          "settings": {
+            "question": "What is Faq?",
+            "Answer": "A FAQ page is one of the most important and must-have sections for business and product websites. If you’ve been wondering what a FAQ page really is or how to create one for your website, you’ve come to the right place. If you still don’t have a FAQ page on your website, you’re already missing out on many benefits it can bring you. Like saving hours worth of sales calls or emails and helping potential buyers make a decision all by themselves. In this detailed guide, we’re going to dive deep into the whole concept of FAQs. To discover their main purpose and to find out how it can help generate more sales and leads for your business."
+          }
+        },
+        "4ff557f3-187f-4d7a-8241-cb9c488df829": {
+          "type": "faqs",
+          "settings": {
+            "question": "What is Faq?",
+            "Answer": "A FAQ page is one of the most important and must-have sections for business and product websites. If you’ve been wondering what a FAQ page really is or how to create one for your website, you’ve come to the right place. If you still don’t have a FAQ page on your website, you’re already missing out on many benefits it can bring you. Like saving hours worth of sales calls or emails and helping potential buyers make a decision all by themselves. In this detailed guide, we’re going to dive deep into the whole concept of FAQs. To discover their main purpose and to find out how it can help generate more sales and leads for your business."
+          }
+        },
+        "1e6c0af7-bb09-4a4a-903d-a25544b8f812": {
+          "type": "faqs",
+          "settings": {
+            "question": "What is Faq?",
+            "Answer": "A FAQ page is one of the most important and must-have sections for business and product websites. If you’ve been wondering what a FAQ page really is or how to create one for your website, you’ve come to the right place. If you still don’t have a FAQ page on your website, you’re already missing out on many benefits it can bring you. Like saving hours worth of sales calls or emails and helping potential buyers make a decision all by themselves. In this detailed guide, we’re going to dive deep into the whole concept of FAQs. To discover their main purpose and to find out how it can help generate more sales and leads for your business."
+          }
+        }
+      },
+      "block_order": [
+        "8c9cfb69-a6ec-40c3-befe-a9316d829a2d",
+        "4af434da-4d31-4620-8000-8e858a82e722",
+        "b323cb32-9fc3-4cc5-b9fd-a5ce4e7b8e6f",
+        "3c8494b4-5f69-4715-8a0c-d2bc6fc715d8",
+        "4ff557f3-187f-4d7a-8241-cb9c488df829",
+        "1e6c0af7-bb09-4a4a-903d-a25544b8f812"
+      ],
       "settings": {
+        "heading": "Frequently asked questions"
       }
     }
   },

@@ -127,6 +127,8 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
+              <a href="{{ product.url}}">
+          
             {% render 'card-product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
@@ -137,6 +139,7 @@
               show_quick_add: section.settings.enable_quick_add,
               section_id: section.id
             %}
+              </a>
           </li>
         {%- else -%}
           {%- for i in (1..4) -%}
@@ -147,13 +150,12 @@
                 style="--animation-order: {{ forloop.index }};"
               {% endif %}
             >
-              <a href="{{ product.url}}">
               {%- assign placeholder_image = 'product-apparel-' | append: forloop.rindex -%}
               {% render 'card-product',
                 show_vendor: section.settings.show_vendor,
                 placeholder_image: placeholder_image
               %}
-              </a>
+              
             </li>
           {%- endfor -%}
         {%- endfor -%}

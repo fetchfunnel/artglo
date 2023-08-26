@@ -1,200 +1,203 @@
 <style>
-        .tmb_story_section{
-          padding:86px 0 91px;
+          .tmb_story_section{
+            padding:86px 0 91px;
+          }
+          .tmb_story_brief {
+                    max-width: 709px;
+                    width: 100%;
+                    margin: 0 auto;
+                    text-align:center;
+                    margin-bottom:64px;
+                }
+
+                .tmb_story_logo img {
+                    margin: 0 auto;
+                  max-width:166px;
+                  width:100%
+                }
+
+                .tmb_story_brief_text {
+                    margin-top: 24px;
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Circular Std;
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 35.992px;
+                }
+
+                .tmb_story_grid {
+                    display: flex;
+                    gap: 70px;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 80px;
+                }
+
+
+                .tmb_grid_content {
+                    max-width: 645px;
+                    width: 100%;
+                }
+
+                .tmb_grid_content p:not(:first-child) {
+                    margin-top: 25px;
+                }
+
+
+                .tmb_grid_image {
+                    max-width: 515px;
+                    width: 100%;
+                    border-radius: 8.736px;
+                    border: 1.456px solid rgba(255, 221, 64, 0.60);
+                    background: rgba(255, 255, 255, 0.06);
+                    box-shadow: 0px 34.9444465637207px 58.24074172973633px 17.47222328186035px rgba(0, 0, 0, 0.24);
+                    backdrop-filter: blur(8.736111640930176px);
+                    padding: 7px;
+                }
+          .tmb_grid_image img{
+            display:block;
+            height:auto;
+          }
+
+        .story_reverse{
+          flex-direction: row-reverse;
         }
-        .tmb_story_brief {
-                  max-width: 709px;
-                  width: 100%;
-                  margin: 0 auto;
-                  text-align:center;
-                  margin-bottom:64px;
-              }
-
-              .tmb_story_logo img {
-                  margin: 0 auto;
-                max-width:166px;
-                width:100%
-              }
-
-              .tmb_story_brief_text {
-                  margin-top: 24px;
-                  color: #FFF;
-                  text-align: center;
-                  font-family: Circular Std;
-                  font-size: 22px;
-                  font-weight: 400;
-                  line-height: 35.992px;
-              }
-
-              .tmb_story_grid {
-                  display: flex;
-                  gap: 70px;
-                  justify-content: space-between;
-                  align-items: center;
-                  margin-bottom: 80px;
-              }
 
 
-              .tmb_grid_content {
-                  max-width: 645px;
-                  width: 100%;
-              }
-
-              .tmb_grid_content p:not(:first-child) {
-                  margin-top: 25px;
-              }
-
-
-              .tmb_grid_image {
-                  max-width: 515px;
-                  width: 100%;
-                  border-radius: 8.736px;
-                  border: 1.456px solid rgba(255, 221, 64, 0.60);
-                  background: rgba(255, 255, 255, 0.06);
-                  box-shadow: 0px 34.9444465637207px 58.24074172973633px 17.47222328186035px rgba(0, 0, 0, 0.24);
-                  backdrop-filter: blur(8.736111640930176px);
-                  padding: 7px;
-              }
-        .tmb_grid_image img{
-          display:block;
-          height:auto;
-        }
-
-      .story_reverse{
-        flex-direction: row-reverse;
+      .about_main_img{
+        background:url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/about-big-img.png?v=1693047990");
+        min-height:390px;
+        margin-bottom:32px;
+      }
+      .main_img_text{
+          margin-bottom:70px;
       }
 
 
-    .about_main_img{
-      background:url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/about-big-img.png?v=1693047990");
-      min-height:390px;
-      margin-bottom:32px;
-    }
-    .main_img_text{
-        margin-bottom:70px;
-    }
-
-
-    .about-btn{
-      max-width:317px;
-      width:100%;
-       margin-top:40px;
-    }
-      @media (max-width:1024px){
-         .tmb_grid_image{
-          max-width: 420px;
-          width: 100%;
-        }
+      .about-btn{
+        max-width:317px;
+        width:100%;
+         margin-top:40px;
       }
-      @media (max-width:991px){
-        .tmb_story_section{
-                  padding:44px 0 0;
-        }
-         .tmb_grid_image{
-          max-width: 380px;
-           width: 100%;
-        }
-         .tmb_story_brief_text {
-                  font-size: 18px;
-                  line-height: 22px;
-              }
-        .tmb_story_grid{
-            flex-direction: column;
-        }
-        .tmb_grid_content{
-          text-align:center;
-          max-width:100%;
-        }
-        .about_main_img{
-        min-height:340px;
-      }
-        .story-btn{
-        flex-direction: column-reverse;
-        }
-
-  }
-        @media (max-width:750px){
-          .tmb_about_banner{
-            padding:86px 0 64px;
+        @media (max-width:1024px){
+           .tmb_grid_image{
+            max-width: 420px;
+            width: 100%;
           }
-          .tmb_story_brief{
-            margin-bottom:61px;
-          }
-          .tmb_story_grid {
-              gap: 32px;
-          }
-          .tmb_grid_image{
-          max-width:462px;
-            width:100%
         }
+        @media (max-width:991px){
+          .tmb_story_section{
+                    padding:44px 0 0;
+          }
+           .tmb_grid_image{
+            max-width: 380px;
+             width: 100%;
+          }
+           .tmb_story_brief_text {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+          .tmb_story_grid{
+              flex-direction: column;
+          }
           .tmb_grid_content{
-          text-align:left;
+            text-align:center;
+            max-width:100%;
+          }
+          .about_main_img{
+          min-height:340px;
         }
-
-        .about-btn{
-          max-width:100%;
-        }
-      }
-        @media (max-width:455px){
-            .tmb_story_grid {
-                  margin-bottom: 56px;
-              }
-          .tmb_grid_image{
-           margin-left:-60px;
-        }
-          .right-overflow{
-           margin-right:-120px;
+          .story-btn{
+          flex-direction: column-reverse;
           }
 
-      }
+    }
+          @media (max-width:750px){
+            .tmb_about_banner{
+              padding:86px 0 64px;
+            }
+            .tmb_story_brief{
+              margin-bottom:61px;
+            }
+            .tmb_story_grid {
+                gap: 32px;
+            }
+            .tmb_grid_image{
+            max-width:462px;
+              width:100%
+          }
+            .tmb_grid_content{
+            text-align:left;
+          }
+          .main_img_text{
+          margin-bottom:48px;
+          }
+          .about-btn{
+            max-width:100%;
+          }
+        }
+          @media (max-width:455px){
+              .tmb_story_grid {
+                    margin-bottom: 56px;
+                }
+            .tmb_grid_image{
+             margin-left:-60px;
+          }
+            .right-overflow{
+             margin-right:-120px;
+            }
+
+        }
 </style>
 <section class="tmb_story_section tmb_about_section">
   <div class="tmb_container">
     <div class="tmb_story_brief">
       {% if section.settings.image != blank %}
-      <span class="tmb_story_logo block">
-        <img
-          src="{{  section.settings.image | img_url : "master"}}"
-          alt="Image of logo"
-          class="tmb_block"
-        >
-      </span>
-        {% endif %}
+        <span class="tmb_story_logo block">
+          <img
+            src="{{  section.settings.image | img_url : "master"}}"
+            alt="Image of logo"
+            class="tmb_block"
+          >
+        </span>
+      {% endif %}
       {% if section.settings.title != blank %}
         <P class="tmb_story_brief_text">{{ section.settings.title }} </P>
       {% endif %}
-  
     </div>
 
- {% assign fullWidthNum = section.settings.fullwidthsection %}   
+    {% assign fullWidthNum = section.settings.fullwidthsection %}
 
-{% for block in section.blocks %} 
+    {% for block in section.blocks %}
+      {% assign mod = forloop.index | modulo: 2 %}
 
-        {% assign mod = forloop.index | modulo: 2 %}
-
-       {% if forloop.index == fullWidthNum %}
-          <div class="about_main_img" style="background-image:url({{ block.settings.image | img_url : "master" }})"></div> 
-            <div class="body_text_lg main_img_text">{{ block.settings.description }}</div>
-        {% else %}
-          <div class="tmb_story_grid {% if block.settings.button_show  %} story-btn{% else %} {% if mod == 0  %} story_reverse {% else %} {% endif %}{% endif %}">     
-              <div class="tmb_grid_content">
-                <div class="body_text_lg tmb_grid_content_text">
-                  {{ block.settings.description }}
-                </div>
-         
-                {% if block.settings.button_show  %}
-                   <button class="solid_cta about-btn">Get Your Unique Art</button>
-                {% endif %}
-              </div>
-              <div class="tmb_grid_image">
-                <img src="{{ block.settings.image | img_url : "master" }}" width="501" height="370"  alt="Image" class="tmb_block" />
-              </div>
+      {% if forloop.index == fullWidthNum %}
+        <div class="about_main_img" style="background-image:url({{ block.settings.image | img_url : "master" }})"></div>
+        <div class="body_text_lg main_img_text">{{ block.settings.description }}</div>
+      {% else %}
+        <div class="tmb_story_grid {% if block.settings.button_show  %} story-btn{% else %} {% if mod == 0  %} story_reverse {% else %} {% endif %}{% endif %}">
+          <div class="tmb_grid_content">
+            <div class="body_text_lg tmb_grid_content_text">
+              {{ block.settings.description }}
             </div>
-         {% endif %}
-           
-        {% endfor %}
 
-
+            {% if block.settings.button_show %}
+              <button class="solid_cta about-btn">Get Your Unique Art</button>
+            {% endif %}
+          </div>
+          <div class="tmb_grid_image">
+            <img
+              src="{{ block.settings.image | img_url : "master" }}"
+              width="501"
+              height="370"
+              alt="Image"
+              class="tmb_block"
+            >
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
 </section>
 

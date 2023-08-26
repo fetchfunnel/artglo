@@ -18,6 +18,9 @@
   border:1px solid #FFDD4099;
   border-radius:10px;
 }
+.image-with-text__media img{
+  padding:7px;
+}
 
 .image-with-text__media--small {
   height: 19.4rem;

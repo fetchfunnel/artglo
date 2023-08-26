@@ -385,10 +385,11 @@
       </div>
       {% endfor %}
       
-
-      <div class="cta_wrapper">
-        <a href="#" class="solid_cta">Get Your Unique Art</a>
-      </div>
+      {% if section.settings.button_show %}
+        <div class="cta_wrapper">
+          <a href="{{ section.settings.button_link }}" class="solid_cta">Get Your Unique Art</a>
+        </div>
+        {% endif %}
     </div>
   </div>
 </section>

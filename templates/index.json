@@ -93,16 +93,23 @@
             "button_link": "",
             "button_style_secondary": false
           }
+        },
+        "ee001b5a-13d6-4f8e-98a6-68e19e68390d": {
+          "type": "shadowHeading",
+          "settings": {
+            "shadowHeading1": "How it works?"
+          }
         }
       },
       "block_order": [
         "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-text-1",
-        "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-button-1"
+        "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-button-1",
+        "ee001b5a-13d6-4f8e-98a6-68e19e68390d"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-2.png",
-        "sectionHeading": "Illuminate Your Yard with",
-        "sectionHeadingHighlighted": "Unique Art Prints",
+        "sectionHeading": "",
+        "sectionHeadingHighlighted": "",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

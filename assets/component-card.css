@@ -134,7 +134,7 @@
   position: relative;
   padding: calc(var(--image-padding) + 1rem);
 }
-/* 
+
 .card__content {
   display: grid;
   grid-template-rows: minmax(0, 1fr) max-content minmax(0, 1fr);
@@ -142,7 +142,7 @@
   width: 100%;
   flex-grow: 1;
 }
- */
+
 .card__content--auto-margins {
   grid-template-rows: minmax(0, auto) max-content minmax(0, auto);
 }

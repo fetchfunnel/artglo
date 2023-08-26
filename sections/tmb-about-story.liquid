@@ -114,12 +114,7 @@
           .tmb_about_banner{
             padding:86px 0 64px;
           }
-          .tmb_story_section{
-            padding:44px 0 0px;
-          }
-          .tmb_story_logo{
-              margin-bottom:60px;
-          }
+          
           .tmb_story_grid {
               gap: 32px;
           }
@@ -152,7 +147,7 @@
   <div class="tmb_container">
     <div class="tmb_story_brief">
       {% if section.settings.image != blank %}
-      <div class="tmb_story_logo">
+      <span class="tmb_story_logo">
         <img
           src="{{  section.settings.image | img_url : "master"}}"
           alt="Image of logo"

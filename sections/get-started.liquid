@@ -342,7 +342,10 @@
         </div>
         <div class="img_wrapper">
           <div class="img_inner">
-            <img src="{{ block.settings.image  }}" alt="image-description">
+           {% if block.settings.image !=blank %}
+            <img src="{{ block.settings.image | img_url : "master" }}" alt="image-description">
+           {%  endif %}
+             
           </div>
           {% if forloop.index == 1 %}
           <p class="tooltip_text">{{ block.settings.label }}</p>

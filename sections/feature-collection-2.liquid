@@ -2,8 +2,8 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
-{{ 'template-collection.css' | asset_url | stylesheet_tag }}s
-
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+ 
 {% if section.settings.image_shape == 'blob' %}
   {{ 'mask-blobs.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
@@ -19,7 +19,25 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-
+.collection__description{
+  max-width: 1247px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  .endless_container{
+    max-width: 1347px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .collection__description.body_text_lg {
+    text-align: center;
+    max-width: 690px;
+}
+  .collection__description.heading_lg {
+    margin-bottom: 16px;
+}
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-{{ collection.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -49,7 +67,7 @@
 -%}
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
-  <div class="tmb_container">
+  <div class="endless_container">
   <div class="collection section-{{ section.id }}-{{ collection.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
     
     <div class="collection__title title-wrapper  title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
@@ -75,7 +93,7 @@
     </div>
     {%- for collection in section.settings.collection -%}
 
-<div class="collection__description body_text_lg {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+<div class="collection__description heading_lg {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           <p>{{ collection.title }}</p>
         </div>
       

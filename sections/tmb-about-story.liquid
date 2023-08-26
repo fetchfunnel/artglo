@@ -1,92 +1,93 @@
 <style>
-  .tmb_story_section{
-    padding:86px 0 91px;
+    .tmb_story_section{
+      padding:86px 0 91px;
+    }
+    .tmb_story_brief {
+              max-width: 709px;
+              width: 100%;
+              margin: 0 auto;
+              text-align:center;
+              margin-bottom:64px;
+          }
+
+          .tmb_story_logo img {
+              margin: 0 auto;
+          }
+
+          .tmb_story_brief_text {
+              margin-top: 24px;
+              color: #FFF;
+              text-align: center;
+              font-family: Circular Std;
+              font-size: 22px;
+              font-weight: 400;
+              line-height: 35.992px;
+          }
+
+          .tmb_story_grid {
+              display: flex;
+              gap: 21px;
+              justify-content: space-between;
+              align-items: center;
+          }
+
+
+          .tmb_grid_content {
+              max-width: 645px;
+              width: 100%;
+          }
+
+          .tmb_grid_content_text {
+
+          }
+
+          .tmb_grid_content p:not(:first-child) {
+              margin-top: 25px;
+          }
+
+
+          .tmb_grid_image {
+              max-width: 515px;
+              width: 100%;
+              border-radius: 8.736px;
+              border: 1.456px solid rgba(255, 221, 64, 0.60);
+              background: rgba(255, 255, 255, 0.06);
+              box-shadow: 0px 34.9444465637207px 58.24074172973633px 17.47222328186035px rgba(0, 0, 0, 0.24);
+              backdrop-filter: blur(8.736111640930176px);
+              padding: 7px;
+          }
+    .tmb_grid_image img{
+      display:block;
+      height:auto;
+    }
+
+  @media (max-width:1024px){
+     .tmb_grid_image{
+      max-width: 420px;
+      width: 100%;
+    }
   }
-  .tmb_story_brief {
-            max-width: 709px;
-            width: 100%;
-            margin: 0 auto;
-            text-align:center;
-            margin-bottom:64px;
-        }
-
-        .tmb_story_logo img {
-            margin: 0 auto;
-        }
-
-        .tmb_story_brief_text {
-            margin-top: 24px;
-            color: #FFF;
-            text-align: center;
-            font-family: Circular Std;
-            font-size: 22px;
-            font-weight: 400;
-            line-height: 35.992px;
-            ;
-        }
-
-        .tmb_story_grid {
-            display: flex;
-            gap: 21px;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-
-        .tmb_grid_content {
-            max-width: 645px;
-            width: 100%;
-        }
-
-        .tmb_grid_content_text {
-          
-        }
-
-        .tmb_grid_content p:not(:first-child) {
-            margin-top: 25px;
-        }
-
-
-        .tmb_grid_image {
-            max-width: 515px;
-            width: 100%;
-            border-radius: 8.736px;
-            border: 1.456px solid rgba(255, 221, 64, 0.60);
-            background: rgba(255, 255, 255, 0.06);
-            box-shadow: 0px 34.9444465637207px 58.24074172973633px 17.47222328186035px rgba(0, 0, 0, 0.24);
-            backdrop-filter: blur(8.736111640930176px);
-            padding: 7px;
-        }
-  .tmb_grid_image img{
-    display:block;
-    height:auto;
-  }
-
-@media (max-width:1024px){
-   .tmb_grid_image{
-    max-width: 420px;
-    width: 100%;
-  } 
-}
-@media (max-width:991px){
-   .tmb_grid_image{
-    max-width: 380px;
-     width: 100%;
-  } 
-  .tmb_story_grid{
-      flex-direction: column-reverse;
-  }
-  .tmb_grid_content{
-    text-align:center;
-    max-width:100%;
-  }
-}
-  @media (max-width:750px){
+  @media (max-width:991px){
+     .tmb_grid_image{
+      max-width: 380px;
+       width: 100%;
+    }
+    .tmb_story_grid{
+        flex-direction: column-reverse;
+    }
     .tmb_grid_content{
-    text-align:left;
+      text-align:center;
+      max-width:100%;
+    }
   }
-}
-  
+    @media (max-width:750px){
+      .tmb_grid_image{
+      max-width:100%;
+    }
+      .tmb_grid_content{
+      text-align:left;
+    }
+  }
 </style>
 <section class="tmb_story_section tmb_about_section">
   <div class="tmb_container">
@@ -118,7 +119,6 @@
         </p>
       </div>
       <div class="tmb_grid_image">
-          
         <img
           src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/aboutPage_story1.png?v=1692862071"
           ;

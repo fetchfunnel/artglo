@@ -99,12 +99,20 @@
             "PairHeading": "Wireless Illumination",
             "pairInfo": "Harnessing patented solar technology, ArtGlo’s Easel 1.0  signs automatically light up for 4 hours every night, requiring no manual intervention. Enjoy the beauty of your customized print."
           }
+        },
+        "6956e84e-4829-459b-a3b1-9cec83e0c436": {
+          "type": "InfoHeadingPair",
+          "settings": {
+            "PairHeading": "Easy to Use",
+            "pairInfo": "From design to display, simplicity is at the core of our product. Mount the panel with brackets or place it in your yard using the included stand. To change a design, simply peel off the existing print and stick on the new one. Let ArtGlo brighten your space effortlessly."
+          }
         }
       },
       "block_order": [
         "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-button-1",
         "ee001b5a-13d6-4f8e-98a6-68e19e68390d",
-        "b1abe789-e4c6-48ca-ba9e-3ced25b58142"
+        "b1abe789-e4c6-48ca-ba9e-3ced25b58142",
+        "6956e84e-4829-459b-a3b1-9cec83e0c436"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-2.png",

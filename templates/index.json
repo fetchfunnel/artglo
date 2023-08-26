@@ -24,15 +24,35 @@
             "button_link": "",
             "button_style_secondary": false
           }
+        },
+        "165d9312-83d7-48c0-b635-424a10f2e8c5": {
+          "type": "features",
+          "settings": {
+            "artImg": "shopify:\/\/shop_images\/ed71431ee5897f1be7ac63f33e0fbc91.png",
+            "artHeading": "Personalization:",
+            "artInfo": "Add text for celebrations and occasions."
+          }
+        },
+        "1e3800c5-9f30-4d8b-95b1-3a2ba245c6e7": {
+          "type": "features",
+          "settings": {
+            "artImg": "shopify:\/\/shop_images\/8fa780bb24cf1f8e9c3baa400589c8c5.png",
+            "artHeading": "Interchangeable:",
+            "artInfo": "Easily change the art for different seasons or occasions."
+          }
         }
       },
       "block_order": [
         "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-heading-1",
         "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-text-1",
-        "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-button-1"
+        "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-button-1",
+        "165d9312-83d7-48c0-b635-424a10f2e8c5",
+        "1e3800c5-9f30-4d8b-95b1-3a2ba245c6e7"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner.png",
+        "sectionHeading": "Illuminate Your Yard with",
+        "sectionHeadingHighlighted": "Unique Art Prints",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

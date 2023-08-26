@@ -211,7 +211,7 @@
             {%- endif -%}
           </div> -->
         </div>
-        {%- if show_quick_add -%}
+        <!-- {%- if show_quick_add -%}
           <div class="quick-add no-js-hidden">
             {%- liquid
               assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id
@@ -325,7 +325,7 @@
               </product-form>
             {%- endif -%}
           </div>
-        {%- endif -%}
+        {%- endif -%} -->
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
             <span

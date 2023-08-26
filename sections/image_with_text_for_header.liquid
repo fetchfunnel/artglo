@@ -20,10 +20,10 @@
 
 }
 
-/* .image-with-text__content {
+.image-with-text__content {
     padding: 0px 80px 10px 0px !important;
 }
- */
+
  .image-with-text.image-with-text--no-overlap.page-width.isolate.section-template--20712805368118__9f09c02c-3713-4bee-b6ba-618ed92ba0e8-padding.scroll-trigger.animate--slide-in {
     width: 100%;
 }
@@ -154,6 +154,14 @@ padding-left: 0px;
     .image-for-mobile{
        display:block; 
     }
+    .image-with-text__content {
+        padding: 0px !important;
+    }
+    
+ .image-with-text:not(.collapse-corners,.image-with-text--overlap) .image-with-text__media-item {
+    max-width: 100%;
+   margin-right:-16px;
+} 
   }
 {%- endstyle -%}
 

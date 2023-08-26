@@ -111,6 +111,9 @@
 
   }
         @media (max-width:750px){
+          .tmb_about_banner{
+            padding:86px 0 64px;
+          }
           .tmb_story_grid {
               gap: 32px;
           }
@@ -177,7 +180,7 @@
                    <button class="solid_cta about-btn">Get Your Unique Art</button>
                 {% endif %}
               </div>
-              <div class="tmb_grid_image {% if block.settings.button_show  %}{% else %} {% if mod == 0  %} right-overflow {% else %} {% endif %}{% endif %}">
+              <div class="tmb_grid_image">
                 <img src="{{ block.settings.image | img_url : "master" }}" width="501" height="370"  alt="Image" class="tmb_block" />
               </div>
             </div>

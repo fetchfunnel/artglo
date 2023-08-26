@@ -79,13 +79,6 @@
     "63607d9b-a75d-4e56-af97-1691b332e6ad": {
       "type": "image_with_text_for_header",
       "blocks": {
-        "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
         "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-button-1": {
           "type": "button",
           "settings": {
@@ -99,12 +92,19 @@
           "settings": {
             "shadowHeading1": "How it works?"
           }
+        },
+        "b1abe789-e4c6-48ca-ba9e-3ced25b58142": {
+          "type": "InfoHeadingPair",
+          "settings": {
+            "PairHeading": "Wireless Illumination",
+            "pairInfo": "Harnessing patented solar technology, ArtGlo’s Easel 1.0  signs automatically light up for 4 hours every night, requiring no manual intervention. Enjoy the beauty of your customized print."
+          }
         }
       },
       "block_order": [
-        "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-text-1",
         "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-button-1",
-        "ee001b5a-13d6-4f8e-98a6-68e19e68390d"
+        "ee001b5a-13d6-4f8e-98a6-68e19e68390d",
+        "b1abe789-e4c6-48ca-ba9e-3ced25b58142"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner-2.png",

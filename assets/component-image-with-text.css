@@ -24,6 +24,15 @@
   border-radius:10px;
 }
 
+.image-with-text__text.rte.body{
+  color: #FFF;
+font-family: Circular Std;
+font-size: 18px;
+font-style: normal;
+font-weight: 450;
+line-height: 26px;
+}
+
 .image-with-text__media--small {
   height: 19.4rem;
 }

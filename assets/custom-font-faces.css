@@ -36,7 +36,7 @@
     font-style: normal;
     font-display: swap;
 }
-
+/* 
 @font-face {
     font-family: 'circular';
     src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXSub-Regular.woff2') format('woff2'),
@@ -47,7 +47,7 @@
     src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Thin.woff2') format('woff2'),
          url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Thin.woff') format('woff');
 }
-
+ */
 /* Knewave font faces */
 @font-face {
     font-family: 'Knewave';

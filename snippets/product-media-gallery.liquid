@@ -11,6 +11,8 @@
   {% render 'product-media-gallery', is_duplicate: true %}
 {% endcomment %}
 
+
+
 {%- liquid
   if section.settings.hide_variants and variant_images.size == product.media.size
     assign single_media_visible = true
@@ -44,16 +46,16 @@
 -%}
 
 <media-gallery
-  id="MediaGallery-{{ section.id }}{{ id_append }}"
+  id="MediaGallery-{{ section.id }}{{ id_append }} "
   role="region"
   {% if section.settings.enable_sticky_info %}
-    class="product__column-sticky"
+    class="product__column-sticky tmb_MediaGallery"
   {% endif %}
   aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
   data-desktop-layout="{{ section.settings.gallery_layout }}"
 >
   <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
-  <slider-component id="GalleryViewer-{{ section.id }}{{ id_append }}" class="slider-mobile-gutter">
+  <slider-component id="GalleryViewer-{{ section.id }}{{ id_append }}" class="slider-mobile-gutter tmb_main_Image">
     {%- unless is_duplicate -%}
       <a class="skip-to-content-link button visually-hidden quick-add-hidden" href="#ProductInfo-{{ section.id }}">
         {{ 'accessibility.skip_to_product_info' | t }}

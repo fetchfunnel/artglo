@@ -240,7 +240,7 @@ padding-left: 0px;
     
     <img src="//www.artglo.com/cdn/shop/files/Subtitle.png?v=1692728561&amp;width=1500" alt="error" >
       
-    <h1 class="hero_heading">Illuminate Your Yard with <span>Unique Art Prints</span></h1>
+    <h1 class="hero_heading">{{ section.settings.sectionHeading }} <span>{{ section.settings.sectionHeadingHighlighted}}</span></h1>
 
 
       <div
@@ -268,10 +268,16 @@ padding-left: 0px;
                 {{ block.settings.text }}
               </div>
 
-            <div class="info ">
-                <img src="https://www.artglo.com/cdn/shop/files/ed71431ee5897f1be7ac63f33e0fbc91.png" alt="img-description" />
-                <p><strong>Personalization:</strong> Add text for celebrations and occasions.</p>
+          {% for block in section.blocks %}
+            {% if block.type == "features" %}
+                 <div class="info ">
+                  <img src="{{ block.settings.artImg | img_url:"" }}" alt="img-description" />
+                <p><strong>{{ block.settings.artHeading | escape }}</strong> {{ block.settings.artInfo | escape }}</p>
             </div>
+              {% endif %}
+            {% endfor %}
+
+           
             <div class="info infoicon">
                 <img src="https://www.artglo.com/cdn/shop/files/8fa780bb24cf1f8e9c3baa400589c8c5.png" alt="img-description" />
                 <p><strong> Interchangeable:</strong> Easily change the art for different seasons/occasions.</p>
@@ -352,6 +358,18 @@ padding-left: 0px;
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
+    },
+     {
+      "type": "text",
+      "id": "sectionHeading",
+      "label": "Main Heading",
+       "default":"Illuminate Your Yard with"
+    },
+     {
+      "type": "text",
+      "id": "sectionHeadingHighlighted",
+      "label": "Highlighted Heading",
+      "default":"Unique Art Prints"
     },
     {
       "type": "select",
@@ -686,6 +704,28 @@ padding-left: 0px;
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
         }
       ]
+    },
+    {
+     "type": "features",
+      "name": "Art Features",
+      "limit": 3,
+       "settings": [
+           {
+            "type": "image_picker",
+            "id": "artImg",
+            "label": "Art Image"
+          },
+         {
+          "type": "text",
+          "id": "artHeading",
+          "label": "Art Heading"
+        },
+         {
+          "type": "text",
+          "id": "artInfo",
+          "label": "Art Info"
+        }
+       ]
     }
   ],
   "presets": [

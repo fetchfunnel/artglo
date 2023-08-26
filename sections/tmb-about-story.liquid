@@ -177,7 +177,7 @@
                    <button class="solid_cta about-btn">Get Your Unique Art</button>
                 {% endif %}
               </div>
-              <div class="tmb_grid_image">
+              <div class="tmb_grid_image {% if block.settings.button_show  %}{% else %} {% if mod == 0  %} right-overflow {% else %} {% endif %}{% endif %}">
                 <img src="{{ block.settings.image | img_url : "master" }}" width="501" height="370"  alt="Image" class="tmb_block" />
               </div>
             </div>

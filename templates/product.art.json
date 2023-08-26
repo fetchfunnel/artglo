@@ -5,9 +5,15 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
+          }
+        },
+        "57ad8994-6ff6-44fd-9530-33f0b26355ac": {
+          "type": "rating",
+          "settings": {
           }
         },
         "title": {
@@ -17,6 +23,11 @@
         },
         "price": {
           "type": "price",
+          "settings": {
+          }
+        },
+        "d78c4ac2-2187-4c06-8c99-fcbfbe768f0a": {
+          "type": "quantity_selector",
           "settings": {
           }
         },
@@ -32,57 +43,29 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
           }
-        },
-        "aaa3fa8f-3384-4158-9ff9-102f6d8f2bde": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Free shipping on orders over $50",
-            "icon": "none",
-            "content": "<p>Content goes here.<\/p>",
-            "page": ""
-          }
-        },
-        "d3daa43f-ebc5-475f-bc25-2477064097ab": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Made in the U.S.A.",
-            "icon": "none",
-            "content": "",
-            "page": ""
-          }
-        },
-        "e8574a9b-132e-4244-9362-cbffbf68220a": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "What's in the box",
-            "icon": "none",
-            "content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "vendor",
+        "57ad8994-6ff6-44fd-9530-33f0b26355ac",
         "title",
         "price",
+        "d78c4ac2-2187-4c06-8c99-fcbfbe768f0a",
         "description",
-        "buy_buttons",
-        "aaa3fa8f-3384-4158-9ff9-102f6d8f2bde",
-        "d3daa43f-ebc5-475f-bc25-2477064097ab",
-        "e8574a9b-132e-4244-9362-cbffbf68220a"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "media_size": "large",
-        "constrain_to_viewport": true,
+        "media_size": "medium",
+        "constrain_to_viewport": false,
         "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
-        "hide_variants": true,
-        "enable_video_looping": true,
-        "padding_top": 36,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 56,
         "padding_bottom": 12
       }
     },

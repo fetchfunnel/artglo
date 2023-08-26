@@ -26,9 +26,6 @@ button{
 .sec_bg{
   background-color: #1C1D3C;
 }
-body{
-  background-color: #1C1D3C;
-}
 /* common heading Styles start */
 h1,h2,h3,h4,h5,h6{
   font-family: Newake;
@@ -155,7 +152,10 @@ h1,h2,h3,h4,h5,h6{
 } */
 /* common body text Styles end */
 
-
+main#MainContent {
+    overflow: hidden;
+    position: relative;
+} 
 
 
 /* ======== Responsive Breakpoints ======== */
@@ -187,118 +187,4 @@ h1,h2,h3,h4,h5,h6{
   }
   /* common body text Styles end */
   
-}
-
-
-
-@media screen and (min-width: 750px) {
-
-  .tmb_main_Image{
-    max-width: 490px;
-    width: 100%;
-  }
-  .thumbnail-list__item .slider__slide{
-    width:100%;
-  }
-  .product--thumbnail_slider .thumbnail-slider{
-    max-width: 107px;
-    width: 100%;
-  }
-  .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide{
-    width: 100%;
-    max-width: 107px;
-  }
-  .tmb_MediaGallery{
-    display: flex!important;
-    flex-direction:row-reverse;
-  }
-  .tmb_main_Image{
-    width: 70%;
-  }
-  .product--thumbnail_slider .thumbnail-slider {
-    display: flex;
-  }
-
- 
-
-}
-
-.tmb_media_previewImage img{
-  padding:14px;
-  border-radius: 8.736px;
-border: 1.456px solid rgba(255, 221, 64, 0.60);
-background: rgba(255, 255, 255, 0.06);
-box-shadow: 0px 34.9444465637207px 58.24074172973633px 17.47222328186035px rgba(0, 0, 0, 0.24);
-backdrop-filter: blur(8.736111640930176px);
-}
-.tmb_quantity_label{
-  display: none;
-}
-.tmb_quantitys{
-  border-radius: 10px;
-border: 1px solid #FFF;
-overflow: hidden;
-}
-.quantity__button_tmb{
-  outline:none;
-  border: none;
-}
-.quantity__input{
-  color: #FFF;
-text-align: center;
-font-family: Ubuntu;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px; 
-}
-
-.tmb_add_to_wish_btn{
-  display: flex;
-  color: #FFF;
-font-family: Ubuntu;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-gap:16px;
-}
-
-.tmb_price_per_items{
-  max-width: 535px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.tmb_price_item{
-  color: #FFDD40;
-font-family: Ubuntu;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
-line-height: 48px;
-}
-
-.product__title.tmb_product_title h1 {
-  color: #FFF;
-  font-family: Ubuntu;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 38px;
-}
-
-
-@media screen and (max-widht: 750px) {
-
-  .tmb_price_item{
-    font-family: Newake;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28px;
-  
-  }
-
-
 }

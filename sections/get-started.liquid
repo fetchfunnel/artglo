@@ -330,7 +330,7 @@
     <div class="sec_content">
 
      {% for block in section.blocks %} 
-      <div class="sec_content_inner first-slide">
+      <div class="sec_content_inner {% if forloop.index == 1 %} first-slide {% endif %} {% if forloop.index == 1 %} second-slide {% endif %}{% if forloop.index == 1 %} third-slide {% endif %}{% if forloop.index == 1 %} forth-slide {% endif %}">
         <div class="text_wrapper">
           <h2 class="text_heading">1</h2>
           <div>

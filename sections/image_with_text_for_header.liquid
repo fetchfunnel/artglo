@@ -240,7 +240,7 @@ padding-left: 0px;
     
     <img src="//www.artglo.com/cdn/shop/files/Subtitle.png?v=1692728561&amp;width=1500" alt="error" >
       
-    <h1 class="hero_heading">Illuminate Your Yard with <span>Unique Art Prints</span></h1>
+    <h1 class="hero_heading">{{ section.settings.sectionHeading }} <span>{{ section.settings.sectionHeadingHighlighted}}</span></h1>
 
 
       <div
@@ -352,6 +352,18 @@ padding-left: 0px;
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
+    },
+     {
+      "type": "text",
+      "id": "sectionHeading",
+      "label": "Main Heading",
+       "default":"Illuminate Your Yard with"
+    },
+     {
+      "type": "text",
+      "id": "sectionHeadingHighlighted",
+      "label": "Highlighted Heading",
+      "default":"Unique Art Prints"
     },
     {
       "type": "select",

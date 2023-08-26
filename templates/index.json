@@ -32,6 +32,7 @@
         "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-button-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

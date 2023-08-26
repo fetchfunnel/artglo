@@ -1,5 +1,50 @@
 {
   "sections": {
+    "459aae35-97c9-4540-b575-43aec709385f": {
+      "type": "image_with_text_for_header",
+      "blocks": {
+        "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unleash your creativity with our customizable options! Add your own text and design to our art prints, making them perfect for commemorating special occasions or expressing your unique personality.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Your Unique Art",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-heading-1",
+        "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-text-1",
+        "template--20759522574646__459aae35-97c9-4540-b575-43aec709385f-button-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -152,6 +197,7 @@
     }
   },
   "order": [
+    "459aae35-97c9-4540-b575-43aec709385f",
     "image_banner",
     "4461967f-2532-499e-8372-2e2f6be918b6",
     "b34b9790-629e-4e76-9b93-4c910eb686a1",

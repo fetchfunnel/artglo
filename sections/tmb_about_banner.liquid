@@ -106,9 +106,34 @@
   </div>
 </section>
 
+
 {% schema %}
 {
-  "name": "About Banner Page",
-  "settings": []
+  "name": "About Banner",
+  "tag": "section",
+  "class": "about-banner-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Banner Background Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "page_description",
+      "label": "Page Description"
+    }
+  ]
 }
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -27,7 +27,7 @@
     }
   }
 {%- endstyle -%}
-{{ section.settings.collection }}
+
 
 {%- liquid
   assign products_to_display = section.settings.collection.all_products_count
@@ -79,6 +79,7 @@
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
+        slider
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"

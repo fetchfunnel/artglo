@@ -60,6 +60,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner.png",
+        "topImage": "shopify:\/\/shop_images\/Subtitle.png",
         "sectionHeading": "Illuminate Your Yard with",
         "sectionHeadingHighlighted": "Unique Art Prints",
         "height": "adapt",

@@ -116,41 +116,32 @@
     <img
       src="{{ section.settings.leftImage | img_url:"" }}"
       alt="newsletter"
-      loading="lazy"
-      class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}
-
-
-
-
-
-
-"
-    >
+      loading="lazy">
   </div>
   <div class="newsletter newsletter_right">
     <img
       src="{{ section.settings.RightImage | img_url:"" }}"
       alt="newsletter"
       loading="lazy"
-      class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}
+      
     >
   </div>
   <div class="newsletter_content">
     <div class="newsletter_heading_box">
-      <h2 class="heading_xl newsletter_heading {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.heading }}</h2>
+      <h2 class="heading_xl newsletter_heading ">{{ section.settings.heading }}</h2>
       <img
         src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/newsletter_icon_c9e41f8c-3d84-470f-8518-503be457f712.svg?v=1692945895"
         alt="newsletter Icon"
         loading="lazy"
-        class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        
       >
     </div>
-    <p class="body_text_lg newsletter_text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <p class="body_text_lg newsletter_text ">
       {{ section.settings.info }}
     </p>
     <form class="newsletter_form">
-      <input type="email" class="newsletter_email {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" placeholder="Email">
-      <button class="solid_cta newsletter_btn {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" type="submit">Subscribe</button>
+      <input type="email" class="newsletter_email " placeholder="Email">
+      <button class="solid_cta newsletter_btn " type="submit">Subscribe</button>
     </form>
   </div>
 </section>

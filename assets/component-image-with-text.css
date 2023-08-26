@@ -20,6 +20,7 @@
 }
 .image-with-text__media img{
   padding:7px;
+  border-radius:10px;
 }
 
 .image-with-text__media--small {

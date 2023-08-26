@@ -187,11 +187,21 @@
             "description": "ArtGlo has hundreds of prints you can order for your Easel 1.0. Find the perfect print and add it to your order.",
             "label": ""
           }
+        },
+        "0207c667-b9cf-4439-843a-d344cefb79bf": {
+          "type": "started",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/second-third.jpg",
+            "heading": "Set it up",
+            "description": "Mount your easel with brackets or place it in your yard using the included stand (make sure it has some sun). It will automatically illuminate at night and will stay illuminated for 4 hours.",
+            "label": ""
+          }
         }
       },
       "block_order": [
         "08a4896f-8213-4890-90c8-fd9ad48b6ca2",
-        "c1b925a5-0c5f-4493-9a02-c2bf9ce5999d"
+        "c1b925a5-0c5f-4493-9a02-c2bf9ce5999d",
+        "0207c667-b9cf-4439-843a-d344cefb79bf"
       ],
       "settings": {
         "title": ""

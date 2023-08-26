@@ -328,6 +328,28 @@
       </div>
     </div>
     <div class="sec_content">
+
+     {% for block in section.blocks %} 
+      <div class="sec_content_inner first-slide">
+        <div class="text_wrapper">
+          <h2 class="text_heading">1</h2>
+          <div>
+              <h3 class="heading_lg">{{ block.settings.heading }}</h3>
+              <p class="body_text_lg">
+                {{ block.settings.description }}
+              </p>
+          </div>
+        </div>
+        <div class="img_wrapper">
+          <div class="img_inner">
+            <img src="{{ block.settings.image  }}" alt="image-description">
+          </div>
+          {% if forloop.index == 1 %}
+          <p class="tooltip_text">{{ block.settings.label }}</p>
+            {%  endif %}
+        </div>
+      </div>
+      {% endfor %}
       
       <div class="sec_content_inner first-slide">
         <div class="text_wrapper">
@@ -343,7 +365,6 @@
           </div>
           <p class="tooltip_text">A specific glow unique to ArtGlo, not a bright light.</p>
         </div>
-        
       </div>
       
       <div class="sec_content_inner second-slide">

@@ -1,3 +1,4 @@
+{{ section.settings.image }}
 <style>
 .tmb_about_banner {
 	padding: 87px 0 119px;
@@ -8,7 +9,7 @@
 	content: "";
 	position: absolute;
      {% if section.settings.image !=blank %}
-	 background: url("{{ section.settings.image | image_url : "master" }}");
+	 background: url("{{ section.settings.image | img_url : "master" }}");
      {% else %}
 	  background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/EllipseBanner1.png?v=1692860195");
      {% endif %}

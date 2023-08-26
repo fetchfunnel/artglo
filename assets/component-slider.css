@@ -154,12 +154,10 @@ slider-component.slider-component-full-width {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-  
+    margin-bottom: 64px;
     scroll-padding-left: var(--desktop-margin-left-first-item);
   }
-  .slider--desktop:not(:last-child){
-      margin-bottom: 64px;
-  }
+  
 
   /* Fix to show some space at the end of our sliders in all browsers */
   .slider--desktop:after {

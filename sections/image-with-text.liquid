@@ -1,16 +1,5 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
-<style>
-  /* .image-with-text.image-with-text-tmb {
-    max-width:100%;
-    width:100%;
-  } */
-  .image-with-text-tmb .image-with-text__text-item.grid__item{
-    max-width: 645px;
-    width: 100%;
-    margin: auto;
-    padding: 0;
-  }  
-</style>
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;

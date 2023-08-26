@@ -7,7 +7,54 @@
     },
     "tmb-about-story": {
       "type": "tmb-about-story",
+      "blocks": {
+        "a807f535-a6e0-4d95-ab11-fb009171db51": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-2.png",
+            "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<\/p><p><br\/>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<\/p>",
+            "button_show": false,
+            "button_link": ""
+          }
+        },
+        "fc141cf9-5ab6-4bb1-94fc-34ef91d10f53": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog-img.png",
+            "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<\/p>",
+            "button_show": false,
+            "button_link": ""
+          }
+        },
+        "11d1cef4-6d12-45cb-b5d1-16d1e4f95939": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-big-img.png",
+            "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<\/p>",
+            "button_show": false,
+            "button_link": ""
+          }
+        },
+        "ae43ed87-3b81-49f2-b9f5-db87086e8f90": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-2.png",
+            "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<\/p><p><br\/>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<\/p>",
+            "button_show": true,
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "a807f535-a6e0-4d95-ab11-fb009171db51",
+        "fc141cf9-5ab6-4bb1-94fc-34ef91d10f53",
+        "11d1cef4-6d12-45cb-b5d1-16d1e4f95939",
+        "ae43ed87-3b81-49f2-b9f5-db87086e8f90"
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/artglo-logo_c0e412fc-6378-435a-a982-c2f4c122f8b8.png",
+        "title": "Our story is your story. You want to do good work. You're motivated by mission and purpose. And you want your work to make a difference. We want the same thing.",
+        "fullwidthsection": 3
       }
     }
   },

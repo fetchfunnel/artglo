@@ -74,7 +74,7 @@
       {%- endif -%}
     </div>
     {%- for collection in section.settings.collection -%}
-{{ collection[collection.handle].all_products_count }} count
+{{ collections[collection.handle].all_products_count }} count
       {%- liquid
   assign products_to_display = collection[collection.handle].all_products_count
   if section.settings.collection.all_products_count > section.settings.products_to_show

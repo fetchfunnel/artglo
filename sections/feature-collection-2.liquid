@@ -40,7 +40,7 @@
 }
   .collection-sec {
     padding: 96px 0 64px;
-    /* background-image:url(https://cdn.shopify.com/s/files/1/0765/0695/6086/files/colections-bg-2.png?v=1693054501); */
+    background-image:url({{  section.settings.bgImageDesktop | img_url:"" }});
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: unset;
@@ -58,6 +58,9 @@
     .collection__description.heading_lg {
       margin-bottom: 10px;
     }
+     .collection-sec{
+        background-image:url({{  section.settings.bgImageMobile | img_url:"" }});
+     }
   }
 {%- endstyle -%}
 
@@ -81,7 +84,7 @@
   endif
 -%}
 
-<div class="color-{{ section.settings.color_scheme }} isolate gradient collection-sec" style="background:url( {{  section.settings.bgImage | img_url:"" }});">
+<div class="color-{{ section.settings.color_scheme }} isolate gradient collection-sec">
   <div class="endless_container">
   <div class="collection section-{{ section.id }}-{{ collection.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
     
@@ -261,8 +264,13 @@
     },
     {
       "type":"image_picker",
-      "label":"Background Image",
-      "id":"bgImage"
+      "label":"Background Image For Desktop",
+      "id":"bgImageDesktop"
+    },
+    {
+      "type":"image_picker",
+      "label":"Background Image For Mobile",
+      "id":"bgImageMobile"
     },
     {
       "type": "select",

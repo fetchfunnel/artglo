@@ -138,6 +138,12 @@ padding-left: 0px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  @media screen and (max-width: 991px) {
+    .image-with-text-tmb .image-with-text__grid {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
 {%- endstyle -%}
 
 {% assign scheme1 = settings.color_schemes | first %}

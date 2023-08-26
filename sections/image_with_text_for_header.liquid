@@ -258,6 +258,16 @@ padding-left: 0px;
           <h2 class="heading_xl">{{ block.settings.shadowHeading1 }}</h2>
         {% endif %}
       {% endfor %}
+      
+      {% for block1 in section.blocks %}
+          {% if block1.type == "InfoHeadingPair" %}
+                <div class="pair_wrapper">
+                  <h4 class="heading_md">{{ block1.settings.PairHeading  }}</h4>
+                  <p class="body_text_lg">{{ block1.settings.pairInfo  }}</p>
+                </div>
+            {% endif %}
+        {% endfor %}
+ 
 
       <div
         id="ImageWithText--{{ section.id }}"
@@ -295,15 +305,7 @@ padding-left: 0px;
 
 
 
-        {% for block1 in section.blocks %}
-          {% if block1.type == "InfoHeadingPair" %}
-                <div class="pair_wrapper">
-                  <h4 class="heading_md">{{ block1.settings.PairHeading  }}</h4>
-                  <p class="body_text_lg">{{ block1.settings.pairInfo  }}</p>
-                </div>
-            {% endif %}
-        {% endfor %}
- 
+        
         
 
                <!-- This is for desktop -->

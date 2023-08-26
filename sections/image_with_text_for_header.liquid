@@ -243,6 +243,11 @@ padding-left: 0px;
       
     <h1 class="hero_heading">{{ section.settings.sectionHeading }} <span>{{ section.settings.sectionHeadingHighlighted}}</span></h1>
 
+      {% for block in section.blocks %}
+        {% if block.type == "shadowHeading" %}
+          <h2 class="heading_xl">{{ block.settings.shadowHeading1 }}</h2>
+        {% endif %}
+      {% endfor %}
 
       <div
         id="ImageWithText--{{ section.id }}"
@@ -724,6 +729,18 @@ padding-left: 0px;
           "label": "Art Info"
         }
        ]
+    },
+    {
+     "type": "shadowHeading",
+      "name": "Heading With Shadow",
+       "settings": [
+        
+         {
+          "type": "text",
+          "id": "shadowHeading1",
+          "label": "Heading With Text Shadow"
+        }
+       ]
     }
   ],
   "presets": [
@@ -738,7 +755,14 @@ padding-left: 0px;
         },
         {
           "type": "button"
+        },
+        {
+          "type": "features"
+        },
+        {
+         "type": "shadowHeading"
         }
+        
       ]
     }
   ]

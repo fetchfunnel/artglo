@@ -51,6 +51,8 @@
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="tmb_container">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
+    {%- for collection in section.settings.collection -%}
+    
     <div class="collection__title title-wrapper  title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
       {%- if section.settings.title != blank -%}
         <h2 class="title heading_xl inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -58,6 +60,7 @@
         <!-- Endless Possibilities -->
         </h2>
       {%- endif -%}
+      
       {%- if section.settings.description != blank
         or section.settings.show_description
         and section.settings.collection.description != empty
@@ -79,9 +82,7 @@
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
-          {%- for collection in section.settings.collection -%}
-              <h1>{{ collection.handle }}</h1> <br />
-          {% endfor %}
+          
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
@@ -164,6 +165,9 @@
     {% if section.settings.image_shape == 'arch' %}
       {% render 'mask-arch' %}
     {%- endif -%}
+
+              
+  {% endfor %}
   </div>
   </div>
 </div>

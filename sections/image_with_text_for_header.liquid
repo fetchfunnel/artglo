@@ -295,12 +295,14 @@ padding-left: 0px;
 
 
 
-       
+        {% for block in section.blocks %}
+          {% if block.type == "InfoHeadingPair" %}
                 <div class="pair_wrapper">
-                  <h4 class="heading_md">fsdfsds</h4>
-                  <p class="body_text_lg">dsfsdfsdf</p>
+                  <h4 class="heading_md">{{ block.settings.PairHeading | escape }}</h4>
+                  <p class="body_text_lg">{{ block.settings.pairInfo | escape }}</p>
                 </div>
-         
+            {% endif %}
+        {% endfor %}
 
         
 

@@ -15,13 +15,13 @@
 {%- endif -%}
 
 {%- style -%}
-  .section-{{ section.id }}-padding {
+  .section-{{ section.id }}-{{ collection.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
+    .section-{{ section.id }}-{{ collection.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
@@ -50,7 +50,7 @@
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="tmb_container">
-  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
+  <div class="collection section-{{ section.id }}-{{ collection.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
     
     <div class="collection__title title-wrapper  title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
       {%- if section.settings.title != blank -%}
@@ -98,7 +98,7 @@
           
         {%- for product in collections[collection.handle].products limit: section.settings.products_to_show -%}
           <li
-            id="Slide-{{ section.id }}-{{ forloop.index }}"
+            id="Slide-{{ section.id }}-{{ collection.id }}-{{ forloop.index }}"
             class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -141,7 +141,7 @@
             class="slider-button slider-button--prev"
             name="previous"
             aria-label="{{ 'general.slider.previous_slide' | t }}"
-            aria-controls="Slider-{{ section.id }}"
+            aria-controls="Slider-{{ section.id }}-{{ collection.id }}"
           >
             {% render 'icon-caret' %}
           </button>
@@ -156,7 +156,7 @@
             class="slider-button slider-button--next"
             name="next"
             aria-label="{{ 'general.slider.next_slide' | t }}"
-            aria-controls="Slider-{{ section.id }}"
+            aria-controls="Slider-{{ section.id }}-{{ collection.id }}"
           >
             {% render 'icon-caret' %}
           </button>

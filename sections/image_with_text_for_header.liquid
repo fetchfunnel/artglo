@@ -131,7 +131,9 @@ padding-left: 0px;
   .image-with-text-tmb .image-with-text__grid {
     flex-wrap: nowrap;
 }
-
+.image-for-mobile{
+   display:none; 
+}
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -146,6 +148,12 @@ padding-left: 0px;
       flex-wrap: wrap;
       flex-direction: column-reverse;
     }
+    .image-for-desktop{
+       display:none; 
+    }
+    .image-for-mobile{
+       display:block; 
+    }
   }
 {%- endstyle -%}
 
@@ -153,7 +161,9 @@ padding-left: 0px;
 
 <div id="bg-banners" class="image-with-text image-with-text-tmb  image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == scheme1 and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
-    <div class="image-with-text__media-item asdasdas image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
+    
+    <!-- This is for desktop -->
+    <div class="image-with-text__media-item image-for-desktop image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
       <div
         class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
         {% if section.settings.height == 'adapt' and section.settings.image != blank %}
@@ -184,6 +194,7 @@ padding-left: 0px;
         {%- endif -%}
       </div>
     </div>
+    
     <div class="image-with-text__text-item grid__item">
 
     
@@ -229,6 +240,40 @@ padding-left: 0px;
                 <img src="https://www.artglo.com/cdn/shop/files/b36bcc1635af60768c19d7efce939230.png" alt="img-description" />
                 <p><strong>Solar Powered:</strong> Automatic Shutoff no need to manually turn it on/off.</p>
             </div>
+
+               <!-- This is for desktop -->
+                <div class="image-with-text__media-item image-for-mobile image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
+                  <div
+                    class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
+                    {% if section.settings.height == 'adapt' and section.settings.image != blank %}
+                      style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+                    {% endif %}
+                  >
+                    {%- if section.settings.image != blank -%}
+                      {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
+                        {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                        {%- capture sizes -%}
+                          (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+                          (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+                        {%- endcapture -%}
+                      {%- else -%}
+                        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                        {%- capture sizes -%}
+                          (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                          (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                        {%- endcapture -%}
+                      {%- endif -%}
+                      {{
+                        section.settings.image
+                        | image_url: width: 1500
+                        | image_tag: loading: 'lazy', sizes: sizes, widths: widths
+                      }}
+                    {%- else -%}
+                      {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                    {%- endif -%}
+                  </div>
+                </div>
+        
         
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
@@ -247,6 +292,7 @@ padding-left: 0px;
           {%- endcase -%}
         {%- endfor -%}
       </div>
+      
     </div>
   </div>
 </div>

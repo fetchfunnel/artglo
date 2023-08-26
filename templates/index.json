@@ -196,12 +196,22 @@
             "description": "Mount your easel with brackets or place it in your yard using the included stand (make sure it has some sun). It will automatically illuminate at night and will stay illuminated for 4 hours.",
             "label": ""
           }
+        },
+        "c2fd4bee-89b5-416f-80b6-f0c69ff69416": {
+          "type": "started",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fourth-slide.jpg",
+            "heading": "Endless opportunities",
+            "description": "Keep building your art collection for only $29 at piece. Whether you want to express yourself, or just decorate your yard differently for specific occasions like Xmas, Halloween, Birthdays and so on, we got you!",
+            "label": ""
+          }
         }
       },
       "block_order": [
         "08a4896f-8213-4890-90c8-fd9ad48b6ca2",
         "c1b925a5-0c5f-4493-9a02-c2bf9ce5999d",
-        "0207c667-b9cf-4439-843a-d344cefb79bf"
+        "0207c667-b9cf-4439-843a-d344cefb79bf",
+        "c2fd4bee-89b5-416f-80b6-f0c69ff69416"
       ],
       "settings": {
         "title": ""

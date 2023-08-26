@@ -77,7 +77,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .heading_lg{
   color: #FFF;
-  font-family: 'Circular Std';
+  font-family: Circular Std;
   font-size: 28px;
   font-weight: 900;
   line-height: normal;
@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .heading_md{
   color: #FFF;
-  font-family: 'Circular Std';
+  font-family: Circular Std;
   font-size: 24px;
   font-weight: 900;
   line-height: normal;
@@ -102,7 +102,7 @@ h1,h2,h3,h4,h5,h6{
 /* common body text Styles start */
 .body_text_lg{
   color: #F3F3F3;
-  font-family: 'Circular Std';
+  font-family: Circular Std;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
@@ -110,7 +110,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .body_text_md{
   color: #FFF;
-  font-family: 'Circular Std';
+  font-family: Circular Std;
   font-size: 16px;
   font-style: normal;
   font-weight: 450;

@@ -79,14 +79,6 @@
     "63607d9b-a75d-4e56-af97-1691b332e6ad": {
       "type": "image_with_text_for_header",
       "blocks": {
-        "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
         "ee001b5a-13d6-4f8e-98a6-68e19e68390d": {
           "type": "shadowHeading",
           "settings": {
@@ -116,7 +108,6 @@
         }
       },
       "block_order": [
-        "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-button-1",
         "ee001b5a-13d6-4f8e-98a6-68e19e68390d",
         "b1abe789-e4c6-48ca-ba9e-3ced25b58142",
         "6956e84e-4829-459b-a3b1-9cec83e0c436",

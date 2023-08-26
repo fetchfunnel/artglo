@@ -60,11 +60,52 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner.png",
+        "topImage": "shopify:\/\/shop_images\/Subtitle.png",
         "sectionHeading": "Illuminate Your Yard with",
         "sectionHeadingHighlighted": "Unique Art Prints",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "63607d9b-a75d-4e56-af97-1691b332e6ad": {
+      "type": "image_with_text_for_header",
+      "blocks": {
+        "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-text-1",
+        "template--20759522574646__63607d9b-a75d-4e56-af97-1691b332e6ad-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-2.png",
+        "sectionHeading": "Illuminate Your Yard with",
+        "sectionHeadingHighlighted": "Unique Art Prints",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -91,7 +132,7 @@
         ],
         "products_to_show": 25,
         "columns_desktop": 5,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
@@ -126,6 +167,7 @@
   },
   "order": [
     "459aae35-97c9-4540-b575-43aec709385f",
+    "63607d9b-a75d-4e56-af97-1691b332e6ad",
     "d9aea10e-76b4-450a-a288-326b38784fa9",
     "get-started",
     "newsletter-sec",

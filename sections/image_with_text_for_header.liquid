@@ -213,7 +213,7 @@ padding-left: 0px;
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     
     <!-- This is for desktop -->
-    <div class="image-with-text__media-item image-for-desktop image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
+    <div class="image-with-text__media-item {% if section.settings.hideDEsktopImage %} image-for-desktop {% endif %} image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
       <div
         class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
         {% if section.settings.height == 'adapt' and section.settings.image != blank %}

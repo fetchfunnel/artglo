@@ -155,6 +155,12 @@ padding-left: 0px;
     text-align: start;
     margin-bottom: 16px;
 }
+  .pair_wrapper:not(:last-child){
+      margin-bottom:24px;
+  }
+  .heading_md{
+     margin-bottom:16px;
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -288,20 +294,6 @@ padding-left: 0px;
             {% endfor %}
 
 
-         <!-- "settings": [
-        
-         {
-          "type": "text",
-          "id": "PairHeading",
-          "label": "Pair Heading"
-        },
-         {
-          "type": "textarea",
-          "id": "pairInfo",
-          "label": "Pair Info"
-        }
-       ] -->
-        
 
         {% for block in section.blocks %}
           {% if block.type == "InfoHeadingPair" %}

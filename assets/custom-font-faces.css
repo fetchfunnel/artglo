@@ -42,6 +42,7 @@
     font-family: 'Circular Std';
     src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Thin.woff2') format('woff2'),
          url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Thin.woff') format('woff');
+    font-weight: 700;
 }
 
 @font-face {

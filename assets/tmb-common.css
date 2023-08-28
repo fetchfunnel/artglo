@@ -129,6 +129,7 @@ h6 {
   border: 2px solid #e50c7d;
   background: linear-gradient(180deg, #e50c7dcc, transparent) #e50c7dcc;
   /* background: linear-gradient(0deg,#e50c7dcc,#ffdd40 350%,#e50c7dcc); */
+      background-size: 300% 100%;
   color: #fff;
   text-align: center;
   font-family: Inter;
@@ -144,7 +145,8 @@ h6 {
 }
 .solid_cta:hover {
   /* background-image: linear-gradient(0deg,#e50c7dcc,#ffdd40 0%,#e50c7dcc); */
-  background-position: 100% 0;
+   background-position: 100% 0;
+    transition: all .4s ease-in-out;
   background-color: #c3ae4b;
 }
 /* 

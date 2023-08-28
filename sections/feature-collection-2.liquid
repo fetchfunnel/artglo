@@ -38,16 +38,13 @@
   .collection__description.heading_lg {
     margin-bottom: 16px;
 }
-  .collection-sec { 
+  .collection-sec {
     padding: 69px 0 37px;
     background-image:url({{  section.settings.bgImageDesktop | img_url:"" }});
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: unset;
   }
-    .collection__description p {
-        font-weight: 400;
-    } 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-{{ collection.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -57,14 +54,6 @@
   @media(max-width:989px){
     .collection__title.title-wrapper{
       padding-right:20px;
-    }
-    .collection__title.title-wrapper .heading_xl,
-    .collection__title.title-wrapper .collection__description p
-    {
-      text-align: start;
-    }
-    .collection__title.title-wrapper {
-        margin-bottom: 32px;
     }
       .collection-sec {
         padding: 21px 0 12px;

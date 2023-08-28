@@ -476,6 +476,9 @@ ul .tmb_product_description_list:last-child {
   .tmb_product_description_list {
     padding: 16px 0 16px;
   }
+  .tmb_product_review {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 991px) {

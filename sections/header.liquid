@@ -604,6 +604,14 @@
       "url": {{ request.origin | append: page.url | json }}
     }
   </script>
+  <script>
+    let mainMenu  = document.querySelectorAll(".list-menu-main-link");
+    for(let i of mainMenu){
+      i.addEventListener("mouseover",()=>{
+        console.log("hover")
+      })
+    }
+  </script>
 {%- endif -%}
 
 {% schema %}

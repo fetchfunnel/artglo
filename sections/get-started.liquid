@@ -355,6 +355,9 @@
               <h3 class="heading_lg">{{ block.settings.heading }}</h3>
               <p class="body_text_lg">
                 {{ block.settings.description }}
+                {% unless forloop.index == 0 %}
+                  working
+                  {% endunless %}
               </p>
           </div>
         </div>
@@ -377,7 +380,7 @@
              
           </div>
           {% if forloop.index == 1 %}
-          <p class="tooltip_text">{{ block.settings.label }}</p> 12
+          <p class="tooltip_text">{{ block.settings.label }}</p>
             {%  endif %}
         </div>
         {% endif %}

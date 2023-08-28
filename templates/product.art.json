@@ -80,10 +80,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": [
-          "animals-pets",
-          "artglo-original-prints",
-          "celebration",
-          "cocktail-bar"
+          "artglo-original-prints"
         ],
         "products_to_show": 16,
         "columns_desktop": 5,

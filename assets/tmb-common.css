@@ -456,11 +456,11 @@ ul .tmb_product_description_list:last-child {
 }
 .tmb_product-shoppay svg {
   margin-bottom: -3px;
-
-.tmb_feature_on_buy{
-      display: flex;
-    flex-direction: column;
-    gap: 8px;
+}
+.tmb_feature_on_buy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 @media screen and (max-width: 750px) {

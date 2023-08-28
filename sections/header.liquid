@@ -115,6 +115,14 @@
   .header-wrapper.with-bg {
       background: #1c1d3c;
   }
+    .header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    transition: 0.4s;
+}
   .list-menu__item
   
   {
@@ -168,13 +176,7 @@
       font-weight: 500;
     }
 
-  .header-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: transparent;
-}
+
   
   /* Responsive Breakpoints */
   
@@ -653,6 +655,8 @@
   
   /* Header Sticky */
   let header = document.querySelector(".header-wrapper");
+  let utilityBar  = document.querySelector(".utility-bar");
+  let utilityBarHeight = utilityBar.offsetHeight;
   let oldValue = 0;
   window.addEventListener("scroll", () => {
     if (window.scrollY > oldValue) {
@@ -661,7 +665,7 @@
       header.classList.remove("with-bg");
     } else {
       oldValue = window.scrollY;
-      header.setAttribute("style", "top: 0px;");
+      header.setAttribute("style", `top: ${utilityBarHeight}px;`);
       header.classList.add("with-bg");
     }
   });

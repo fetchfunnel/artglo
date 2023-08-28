@@ -293,9 +293,9 @@ fieldset.product-form__input .form__label {
   max-width: 25rem;
 }
 
-.product-form__submit {
+/* .product-form__submit {
   margin-bottom: 1rem;
-}
+} */
 
 .no-js .product-form__submit.button--secondary {
   --color-button: inherit;
@@ -344,10 +344,6 @@ fieldset.product-form__input .form__label {
 .product__info-container .icon-with-text {
   margin: 2.5rem 0;
 } */
-
-.product__text {
-  margin-bottom: 0;
-}
 
 a.product__text {
   display: block;

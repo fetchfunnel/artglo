@@ -203,11 +203,11 @@
 
       {% if forloop.index == fullWidthNum %}
         <div class="about_main_img" style="background-image:url({{ block.settings.image | img_url : "master" }})"></div>
-        <div class="body_text_lg main_img_text">{{ block.settings.description }}</div>
+        <div class="body_text_lg main_img_text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ block.settings.description }}</div>
       {% else %}
         <div class="tmb_story_grid {% if block.settings.button_show  %} story-btn{% else %} {% if mod == 0  %} story_reverse {% else %} {% endif %}{% endif %}">
           <div class="tmb_grid_content">
-            <div class="body_text_lg tmb_grid_content_text">
+            <div class="body_text_lg tmb_grid_content_text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
               {{ block.settings.description }}
             </div>
 

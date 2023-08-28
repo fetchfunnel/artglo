@@ -607,7 +607,9 @@
       "url": {{ request.origin | append: page.url | json }}
     }
   </script>
-  <script>
+  
+{%- endif -%}
+<script>
     if(window.innerWidth > 989){
       let mainMenu  = document.querySelectorAll(".list-menu-main-link");
       let subMenu  = document.querySelectorAll(".tmb-main-link");
@@ -624,7 +626,6 @@
       
     }
   </script>
-{%- endif -%}
 
 {% schema %}
 {

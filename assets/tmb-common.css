@@ -293,6 +293,7 @@ h6 {
 .product__info-wrapper.tmb_product_info_wrapper.grid__item.scroll-trigger.animate--slide-in {
   max-width: 567px;
   width: 100%;
+  padding-left: 0;
 }
 .price__container {
   width: 100%;

@@ -192,7 +192,7 @@
         </span>
       {% endif %}
       {% if section.settings.title != blank %}
-        <P class="tmb_story_brief_text">{{ section.settings.title }} </P>
+        <P class="tmb_story_brief_text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.title }} </P>
       {% endif %}
     </div>
 

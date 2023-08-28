@@ -137,8 +137,8 @@ h1,h2,h3,h4,h5,h6{
   cursor:pointer;
 }
 .solid_cta:hover{
- background-color: #fff;
-  color:#FFDD40;
+ background-color: blue;
+  color:white;
 }
 
 

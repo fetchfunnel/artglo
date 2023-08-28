@@ -186,9 +186,9 @@
   .tmb_sub_menu li:last-child span {
       display: none;
   }
-  /* .tmb_sub_menu_main details {
-      display: inline-block;
-  } */
+  .tmb_sub_menu_main details[open] > .header__menu-item .icon-caret {
+      transform: rotate(-90deg);
+  }
   }
   @media(min-width:1170px){
     .header__submenu.list-menu.list-menu--disclosure{
@@ -219,9 +219,7 @@
       justify-content:center;
     }
   
-    .tmb_sub_menu_main details[open] > .header__menu-item .icon-caret {
-        transform: rotate(-90deg);
-    }
+    
   
   }
 </style>

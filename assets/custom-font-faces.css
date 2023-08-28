@@ -29,8 +29,8 @@
 }
 @font-face {
     font-family: 'Circular Std';
-    src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-ThinItalic.woff2') format('woff2'),
-         url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-ThinItalic.woff') format('woff');
+    src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-LightItalic.woff2') format('woff2'),
+         url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-LightItalic.woff') format('woff');
     font-weight: 300;
    font-style: italic;
    font-display: swap;

@@ -1,24 +1,96 @@
 {
   "sections": {
-    "tmb-product-banner": {
-      "type": "tmb-product-banner",
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "57ad8994-6ff6-44fd-9530-33f0b26355ac": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "d78c4ac2-2187-4c06-8c99-fcbfbe768f0a": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "57ad8994-6ff6-44fd-9530-33f0b26355ac",
+        "title",
+        "price",
+        "d78c4ac2-2187-4c06-8c99-fcbfbe768f0a",
+        "description",
+        "buy_buttons"
+      ],
       "settings": {
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 56,
+        "padding_bottom": 12
       }
     },
-    "tmb_about_banner": {
-      "type": "tmb_about_banner",
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
       "settings": {
-      }
-    },
-    "tmb-about-story": {
-      "type": "tmb-about-story",
-      "settings": {
+        "heading": "Similar artwork you may like",
+        "heading_size": "h2",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 28,
+        "padding_bottom": 48
       }
     }
   },
   "order": [
-    "tmb-product-banner",
-    "tmb_about_banner",
-    "tmb-about-story"
+    "main",
+    "related-products"
   ]
 }

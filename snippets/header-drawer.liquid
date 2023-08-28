@@ -20,7 +20,7 @@
       <div class="menu-drawer__inner-container">
         <div class="menu-drawer__navigation-container">
           <nav class="menu-drawer__navigation">
-            <ul class="menu-drawer__menu has-submenu list-menu" role="list">
+            <ul class="menu-drawer__menu has-submenu asdasdas list-menu" role="list">
               {%- for link in section.settings.menu.links -%}
                 <li>
                   {%- if link.links != blank -%}
@@ -123,6 +123,7 @@
               {%- endfor -%}
             </ul>
           </nav>
+        {% comment %}
           <div class="menu-drawer__utility-links">
             {%- if shop.customer_accounts_enabled -%}
               <a
@@ -304,6 +305,7 @@
               {%- endif -%}
             </ul>
           </div>
+        {% endcomment %}
         </div>
       </div>
     </div>

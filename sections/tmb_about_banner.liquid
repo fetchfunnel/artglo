@@ -10,7 +10,7 @@
        {% endif %}
     background-size: cover;
     background-attachment: fixed;
-    
+
   }
 
   .tmb_about_banner::before {
@@ -26,20 +26,20 @@
       background-size: contain;
       background-position: left;
   }
-  
- 
-  .tmb_about_banner::after {
-  	content: "";
-  	 background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/about_banner_bg.png?v=1692859144"); 
-  	position: absolute;
-  	top: 0;
-  	bottom: 0;
-  	left: 0;
-  	right: 0;
-  	background-size: cover;
-  	background-position: center;
-    background-attachment: fixed;
-  }
+
+  .tmb_about_banner::after{
+          content: '';
+          position: absolute;
+          top: 120px;
+          left: -30%;
+          width: 1262.481px;
+          height: 2333.615px;
+         border-radius: 614.492px;
+          opacity: 0.2;
+          background: radial-gradient(50% 50.00% at 50% 50.00%, #E50C7D 0%, rgba(244, 0, 127, 0.00) 100%);
+          backdrop-filter: blur(65px);
+          z-index:-1;
+          }
 
   .tmb_about_banner_content {
   	padding: 48px 78px;
@@ -92,9 +92,9 @@
   }
     @media (max-width:750px){
         .tmb_about_banner {
-  	padding: 127px 0 64px !important; 
+  	padding: 127px 0 64px !important;
     margin-top:-82px;
-    
+
   }
       .tmb_about_banner_content {
   	padding: 24px 16px;
@@ -113,8 +113,12 @@
 <section class="tmb_about_banner tmb_about_section">
   <div class="tmb_container">
     <div class="tmb_about_banner_content ">
-      <h2 class="tmb_about_banner-title {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.heading }}</h2>
-      <p class="tmb_about_banner-brief {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.page_description }}</p>
+      <h2 class="tmb_about_banner-title {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ section.settings.heading }}
+      </h2>
+      <p class="tmb_about_banner-brief {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ section.settings.page_description }}
+      </p>
     </div>
   </div>
 </section>

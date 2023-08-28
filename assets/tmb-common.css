@@ -525,4 +525,7 @@ ul .tmb_product_description_list:last-child {
   .tmb_product_banner {
     padding: 24px 0 56px;
   }
+  .tmb_price_per_items {
+    margin: 25px 0 13px;
+  }
 }

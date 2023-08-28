@@ -127,7 +127,7 @@ h6 {
 .solid_cta {
   border-radius: 10px;
   border: 2px solid #e50c7d;
-  background: linear-gradient(180deg, #e50c7dcc, transparent) #e50c7dcc;
+  /* background: linear-gradient(180deg, #e50c7dcc, transparent) #e50c7dcc; */
     background-size: 300% 100%;
   /* background: linear-gradient(0deg,#e50c7dcc,#ffdd40 350%,#e50c7dcc); */
   color: #fff;

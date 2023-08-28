@@ -657,9 +657,11 @@
   window.addEventListener("scroll", () => {
     if (window.scrollY > oldValue) {
       oldValue = window.scrollY;
+      header.setAttribute("style", "top: -100%;");
       header.classList.remove("with-bg");
     } else {
       oldValue = window.scrollY;
+      header.setAttribute("style", "top: 0px;");
       header.classList.add("with-bg");
     }
   });

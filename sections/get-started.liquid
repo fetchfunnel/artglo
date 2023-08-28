@@ -388,7 +388,7 @@
       
       {% if section.settings.button_show %}
         <div class="cta_wrapper">
-          <a href="{{ section.settings.button_link }}" class="solid_cta">Get Your Unique Art</a>
+          <a href="{{ section.settings.button_link }}" class="solid_cta">{{ section.settings.btnText }}</a>
         </div>
         {% endif %}
     </div>
@@ -415,11 +415,18 @@
           "label": "Button Show/Hide",
           "default": false
         },
+    {
+            "type": "text",
+            "id": "btnText",
+            "label": "Button Text",
+            "default":"Get Your Unique Art"
+          },
          {
             "type": "url",
             "id": "button_link",
             "label": "Button link"
           }
+         
   ],
   "blocks": [
      {

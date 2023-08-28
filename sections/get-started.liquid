@@ -342,7 +342,7 @@
              
           </div>
           {% if forloop.index == 1 or  forloop.index == 2 %}
-          <p class="tooltip_text">{{ block.settings.label }} 12
+          <p class="tooltip_text">{{ block.settings.label }} 
             {% if forloop.index == 2 %}
           <span class="highlighted_text"> 12{{ block.settings.label }}</span>  {%  endif %}
           </p>
@@ -356,7 +356,7 @@
               <p class="body_text_lg">
                 {{ block.settings.description }}
                 {% unless forloop.index == 0 %}
-                  <span class="highlighted_text"> 12{{ block.settings.label }}</span>  
+                  <span class="highlighted_text"> {{ block.settings.label }}</span>  
                   {% endunless %}
               </p>
           </div>

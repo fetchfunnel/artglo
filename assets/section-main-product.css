@@ -395,7 +395,8 @@ a.product__text {
 
 @media screen and (min-width: 750px) {
   .product__info-container {
-    max-width: 60rem;
+    max-width: 567px;
+    width: 100%;
   }
 
   .product__info-container .price--on-sale .price-item--regular {
@@ -407,9 +408,9 @@ a.product__text {
   }
 }
 
-.product__description-title {
+/* .product__description-title {
   font-weight: 600;
-}
+} */
 
 .product--no-media .product__title,
 .product--no-media .product__text,

@@ -406,6 +406,7 @@ ul .tmb_product_description_list:last-child {
 }
 .product.grid.tmb_product_grid {
   flex-wrap: nowrap;
+  .product.grid.tmb_product_grid;
 }
 
 .tmb_product_banner {

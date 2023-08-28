@@ -437,6 +437,7 @@ ul .tmb_product_description_list:last-child {
   width: 100%;
   height: 100%;
   z-index: -1;
+  background-position: center;
 }
 
 @media screen and (max-width: 750px) {

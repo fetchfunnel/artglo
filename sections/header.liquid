@@ -608,10 +608,18 @@
     if(window.innerWidth > 989){
       let mainMenu  = document.querySelectorAll(".list-menu-main-link");
       let subMenu  = document.querySelectorAll(".tmb-main-link");
+      
       [...mainMenu,...subMenu].forEach((elem,ind)=>{
-        
-        console.log(elem)
+        let parent = elem.closest('details');
+        parent.addEventListener("mouseover",()=>{
+           parent.setAttribute('open','')
+        })
+        parent.addEventListener("mouseout",()=>{
+           parent.removeAttribute('open')
+        })
       })
+
+      
       // for(let i of mainMenu){
       //   let parent = i.closest('details');
       //   parent.addEventListener("mouseover",()=>{

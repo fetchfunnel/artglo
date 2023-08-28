@@ -482,6 +482,12 @@ ul .tmb_product_description_list:last-child {
   .product.grid.tmb_product_grid {
     gap: 0;
   }
+  .product__title.tmb_product_title h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+  }
 }
 
 @media screen and (max-width: 991px) {

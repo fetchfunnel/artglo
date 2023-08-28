@@ -214,7 +214,7 @@ h6 {
   .tmb_MediaGallery {
     display: flex !important;
     flex-direction: row-reverse;
-    gap: 12px;
+    gap: 11px;
   }
   .tmb_main_Image {
     width: 70%;

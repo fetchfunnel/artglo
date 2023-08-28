@@ -21,25 +21,6 @@
 
 /* Circular Std font faces */
 
-  @font-face {
-   font-family: 'Circular Std';
-    src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Black.woff2') format('woff2'),
-         url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-@font-face {
-    font-family: 'Circular Std';
-    src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Bold.woff2') format('woff2'),
-         url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
 @font-face {
     font-family: 'Circular Std';
     src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Thin.woff2') format('woff2'),
@@ -54,19 +35,33 @@
      font-weight: 400;
 }
 
-
-
 @font-face {
     font-family: 'Circular Std';
-         url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXSub-Medium_98231670-f2d6-4e6d-a868-804204e8cf15.woff2') format('woff2');
-    src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXSub-Medium.woff') format('woff'),
+    src:  url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXSub-Medium_98231670-f2d6-4e6d-a868-804204e8cf15.woff2') format('woff2'),
+    url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXSub-Medium.woff') format('woff');
      font-weight: 500;
     font-style: normal;
     font-display: swap; 
+}
 
+@font-face {
+    font-family: 'Circular Std';
+    src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Bold.woff2') format('woff2'),
+         url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 
+  @font-face {
+   font-family: 'Circular Std';
+    src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Black.woff2') format('woff2'),
+         url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
 /* Circular Std font faces */
 
 /* Knewave font faces */

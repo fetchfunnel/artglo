@@ -608,8 +608,15 @@
     let mainMenu  = document.querySelectorAll(".list-menu-main-link");
     for(let i of mainMenu){
       i.addEventListener("mouseover",()=>{
+        i.classList.toggle("show");
         let parent = i.closest('details');
-         parent.setAttribute('open','')
+        if(i.classList.contains(".show")){
+           parent.setAttribute('open','') 
+        }else{
+           parent.removeAttribute('open','') 
+        }
+        
+         
       })
     }
   </script>

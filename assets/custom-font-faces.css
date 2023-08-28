@@ -27,7 +27,6 @@
          url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Thin.woff') format('woff');
     font-weight: 300;
 }
-
 @font-face {
     font-family: 'Circular Std';
     src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-ThinItalic.woff2') format('woff2'),
@@ -50,6 +49,14 @@
     url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXSub-Medium.woff') format('woff');
      font-weight: 500;
     font-style: normal;
+    font-display: swap; 
+}
+@font-face {
+    font-family: 'Circular Std';
+    src:  url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-MediumItalic.woff2') format('woff2'),
+    url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-MediumItalic.woff') format('woff');
+     font-weight: 500;
+      font-style: italic;
     font-display: swap; 
 }
 

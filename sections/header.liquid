@@ -164,6 +164,14 @@
         color: rgba(229, 12, 125, 0.80);
       font-weight: 500;
     }
+
+  .header-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+}
   
   /* Responsive Breakpoints */
   
@@ -639,6 +647,20 @@
       })
       
     }
+  
+  /* Header Sticky */
+  let header = document.querySelector(".header-wrapper");
+  let oldValue = 0;
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > oldValue) {
+      oldValue = window.scrollY;
+      header.classList.remove("with-bg");
+    } else {
+      oldValue = window.scrollY;
+      header.classList.add("with-bg");
+    }
+  });
+
   </script>
 
 {% schema %}

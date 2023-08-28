@@ -136,10 +136,13 @@ h1,h2,h3,h4,h5,h6{
   transition:0.4s;
   cursor:pointer;
 }
-/* .solid_cta:hover{
- background-color: #e50c7d;
-} */
-.solid_cta::after{
+.solid_cta:hover{
+ background-color: #fff;
+  color:#FFDD40;
+}
+
+
+/* .solid_cta::after{
   content:'';
   background:#fff;
   position:absolute;
@@ -155,7 +158,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .solid_cta:hover::after{
    top:0;
-}
+} */
 /* common body text Styles end */
 
 

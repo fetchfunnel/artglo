@@ -432,7 +432,7 @@ ul .tmb_product_description_list:last-child {
   background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/mobiProductBannerbg.png?v=1693217344");
   position: absolute;
   top: 0;
-  left="0"
+  left: 0;
   background-size: cover;
   width: 100%;
   height: 100%;

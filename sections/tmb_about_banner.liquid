@@ -3,7 +3,11 @@
   	padding: 170px 0 119px;
     margin-top:-82px;
   	position: relative;
-    background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/about_banner_bg.png?v=1692859144");
+       {% if section.settings.image !=blank %}
+  	 background: url("{{ section.settings.image | img_url : "master" }}");
+       {% else %}
+      background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/about_banner_bg.png?v=1692859144");
+       {% endif %}
     background-size: cover;
     background-attachment: fixed;
     

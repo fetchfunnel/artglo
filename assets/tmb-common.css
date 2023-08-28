@@ -148,7 +148,6 @@ h6 {
   /* background-image: linear-gradient(0deg,#e50c7dcc,#ffdd40 0%,#e50c7dcc); */
    background-position: 100% 0;
     transition: all .4s ease-in-out;
-  background-color: blue;
 }
 /* 
 .solid_cta::after {

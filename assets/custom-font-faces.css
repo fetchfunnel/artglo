@@ -34,7 +34,7 @@
 @font-face {
     font-family: 'Circular Std';
     src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Bold.woff2') format('woff2'),
-  url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Bold.woff') format('woff');
+         url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;

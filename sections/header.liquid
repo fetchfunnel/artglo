@@ -654,10 +654,16 @@
     }
   
   /* Header Sticky */
+  
+  let headerIconMenu = document.querySelector(".header__icon--menu");
   let header = document.querySelector(".header-wrapper");
   let utilityBar  = document.querySelector(".utility-bar");
   let utilityBarHeight = utilityBar.offsetHeight;
   header.setAttribute("style", `top: ${utilityBarHeight}px;`);
+
+  headerIconMenu.addEventListener("click",()=>{
+    header.classList.toggle("with-bg");
+  })
   let oldValue = 0;
   window.addEventListener("scroll", () => {
     if (window.scrollY > oldValue) {

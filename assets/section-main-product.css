@@ -361,7 +361,7 @@ a.product__text {
 
 .product__title {
   word-break: break-word;
-  margin-bottom: 1.5rem;
+  margin: 8px 0;
 }
 
 .product__title > * {

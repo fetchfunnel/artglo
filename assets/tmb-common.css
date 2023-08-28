@@ -511,6 +511,9 @@ ul .tmb_product_description_list:last-child {
   .tmb_feature_on_buy {
     display: block;
   }
+  .tmb_product_description {
+    margin-top: 32px;
+  }
 }
 
 @media screen and (max-width: 991px) {

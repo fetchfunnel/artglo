@@ -441,6 +441,9 @@ ul .tmb_product_description_list:last-child {
 .product__column-sticky {
   justify-content: flex-end;
 }
+.tmb_product_banner.slider-buttons {
+  display: none;
+}
 
 @media screen and (max-width: 750px) {
   .tmb_price_item {

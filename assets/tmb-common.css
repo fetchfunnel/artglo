@@ -137,7 +137,7 @@ h1,h2,h3,h4,h5,h6{
   cursor:pointer;
 }
 .solid_cta:hover{
-   background-color:#c51470cc;
+   background-color:#FFDD40;
 }
 /* .solid_cta::after{
   content:'';

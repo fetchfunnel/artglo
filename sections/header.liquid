@@ -657,6 +657,7 @@
   let header = document.querySelector(".header-wrapper");
   let utilityBar  = document.querySelector(".utility-bar");
   let utilityBarHeight = utilityBar.offsetHeight;
+  header.setAttribute("style", `top: ${utilityBarHeight}px;`);
   let oldValue = 0;
   window.addEventListener("scroll", () => {
     if (window.scrollY > oldValue) {
@@ -665,7 +666,7 @@
       header.classList.remove("with-bg");
     } else {
       oldValue = window.scrollY;
-      header.setAttribute("style", `top: ${utilityBarHeight}px;`);
+      header.setAttribute("style", `top:0px;`);
       header.classList.add("with-bg");
     }
   });

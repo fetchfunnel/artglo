@@ -514,6 +514,9 @@ ul .tmb_product_description_list:last-child {
   .tmb_product_description {
     margin-top: 32px;
   }
+  .tmb_media_previewImage img {
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 991px) {

@@ -506,6 +506,7 @@ ul .tmb_product_description_list:last-child {
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
+    display: inline;
   }
   .tmb_feature_on_buy {
     display: block;

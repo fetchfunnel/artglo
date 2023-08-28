@@ -102,7 +102,7 @@
 </style>
 <section class="tmb_about_banner tmb_about_section">
   <div class="tmb_container">
-    <div class="tmb_about_banner_content">
+    <div class="tmb_about_banner_content {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <h2 class="tmb_about_banner-title">{{ section.settings.heading }}</h2>
       <p class="tmb_about_banner-brief">{{ section.settings.page_description }}</p>
     </div>

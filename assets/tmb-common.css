@@ -301,8 +301,8 @@ h6 {
   gap: 4px;
   align-items: center;
 }
-..tmb_stars svg{
-  block
+.tmb_stars svg {
+  display: block;
 }
 
 .tmb_product-shoppay {
@@ -449,6 +449,9 @@ ul .tmb_product_description_list:last-child {
 }
 .tmb_product_banner .slider-buttons {
   display: none;
+}
+.tmb_product-shoppay {
+  margin-top: 8px;
 }
 
 @media screen and (max-width: 750px) {

@@ -310,7 +310,14 @@ padding-left: 0px;
     <div class="image-with-text__text-item grid__item">
 
     {% if section.settings.topImage != blank %}
-      <img src="{{ section.settings.topImage | img_url:"" }}" alt="error" >
+      <div class="sec_head_inner">
+        <div class="star_wrapper">
+          <img src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/frame.png" alt="image-description">
+        </div>
+        <div class="spacer"> </div>
+        <h2 class="heading_xl">{{ section.settings.title }}</h2>
+      </div>
+      
     {% endif %}
 
       {% if section.settings.sectionHeading != blank %}

@@ -77,7 +77,6 @@
     font-display: swap;
 }
 
-
   @font-face {
    font-family: 'Circular Std';
     src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-Black.woff2') format('woff2'),
@@ -86,6 +85,15 @@
     font-style: normal;
     font-display: swap;
 }
+  @font-face {
+   font-family: 'Circular Std';
+    src: url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-BlackItalic.woff2') format('woff2'),
+         url('https://cdn.shopify.com/s/files/1/0765/0695/6086/files/CircularXXWeb-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
 /* Circular Std font faces */
 
 /* Knewave font faces */

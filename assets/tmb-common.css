@@ -238,6 +238,8 @@ h6 {
   border-radius: 10px;
   border: 1px solid #fff;
   overflow: hidden;
+  max-width: 124px;
+  width: 100%;
 }
 .quantity__button_tmb {
   outline: none;

@@ -479,7 +479,7 @@ ul .tmb_product_description_list:last-child {
     content: "";
     background: url(https://cdn.shopify.com/s/files/1/0765/0695/6086/files/mobElips.png?v=1693214893);
     position: absolute;
-    right: -3%;
+    right: -6%;
     top: 50%;
     transform: translateY(-50%);
     background-position: right;

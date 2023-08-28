@@ -608,10 +608,10 @@
     let mainMenu  = document.querySelectorAll(".list-menu-main-link");
     for(let i of mainMenu){
       let parent = i.closest('details');
-      i.addEventListener("mouseover",()=>{
+      parent.addEventListener("mouseover",()=>{
          parent.setAttribute('open','')
       })
-      i.addEventListener("mouseout",()=>{
+      parent.addEventListener("mouseout",()=>{
          parent.removeAttribute('open')
       })
     }

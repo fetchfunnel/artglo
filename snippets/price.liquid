@@ -37,9 +37,7 @@
   endif
 -%}
 
-<div
-  class="
-    price
+<div class="price
     {%- if price_class %} {{ price_class }}{% endif -%}
     {%- if available == false %} price--sold-out{% endif -%}
     {%- if compare_at_price > price and product.quantity_price_breaks_configured? != true %} price--on-sale{% endif -%}
@@ -84,10 +82,12 @@
         <span class="price-item price-item--regular tmb_price_item">
           {{ money_price }}
         </span>
-      
-
       </div>
       {%- endif -%}
+
+      
+
+  <!--+++--- Add to wish Button ---+++-->
       <button class="tmb_add_to_wish_btn">
         <span>
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,7 +103,13 @@
         Add to Wish
       
       </button>
+<!--+++--- Add to wish Button ---+++-->
+
+              
     </div>
+
+
+              
     <div class="price__sale">
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>

@@ -127,7 +127,7 @@ h6 {
 .solid_cta {
   border-radius: 10px;
   border: 2px solid #e50c7d;
-   background-image: linear-gradient(to right, #e50c7dcc, #e50c7dcc, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+   background-image: linear-gradient(to right, #e50c7dcc, #e50c7dcc, #e50c7dcc, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
   /* background: linear-gradient(180deg, #e50c7dcc, transparent) #e50c7dcc; */
   /* background: linear-gradient(0deg,#e50c7dcc,#ffdd40 350%,#e50c7dcc); */
       background-size: 300% 100%;

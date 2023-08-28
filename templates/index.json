@@ -216,7 +216,8 @@
       "settings": {
         "title": "How to get started",
         "button_show": true,
-        "button_link": "#"
+        "btnText": "Get Your Unique Art",
+        "button_link": "shopify:\/\/collections"
       }
     },
     "newsletter-sec": {

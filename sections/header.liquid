@@ -608,9 +608,9 @@
     if(window.innerWidth > 989){
       let mainMenu  = document.querySelectorAll(".list-menu-main-link");
       let subMenu  = document.querySelectorAll(".tmb-main-link");
-      [mainMenu,subMenu].forEach((elem,ind)=>{
+      [...mainMenu,...subMenu].forEach((elem,ind)=>{
         
-        console.log(elem[ind])
+        console.log(elem)
       })
       // for(let i of mainMenu){
       //   let parent = i.closest('details');

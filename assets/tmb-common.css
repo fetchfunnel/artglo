@@ -479,6 +479,9 @@ ul .tmb_product_description_list:last-child {
   .tmb_product_review {
     display: none;
   }
+  .product.grid.tmb_product_grid {
+    gap: 0;
+  }
 }
 
 @media screen and (max-width: 991px) {

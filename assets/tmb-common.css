@@ -140,7 +140,7 @@ h6 {
   padding: 19px;
   position: relative;
   overflow: hidden;
-  transition: 0.3s;
+    transition: all .4s ease-in-out;
   cursor: pointer;
 }
 .solid_cta:hover {

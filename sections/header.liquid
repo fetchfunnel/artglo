@@ -608,7 +608,8 @@
     let mainMenu  = document.querySelectorAll(".list-menu-main-link");
     for(let i of mainMenu){
       i.addEventListener("mouseover",()=>{
-        console.log("hover")
+        let parent = i.closest('details');
+        console.log(parent)
       })
     }
   </script>

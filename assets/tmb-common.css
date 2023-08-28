@@ -138,7 +138,7 @@ h6 {
   padding: 19px;
   position: relative;
   overflow: hidden;
-  transition: 0.4s;
+  transition: 0.3s;
   cursor: pointer;
 }
 .solid_cta:hover {

@@ -142,8 +142,7 @@ h6 {
   cursor: pointer;
 }
 .solid_cta:hover {
-  color: #ffdd40;
-  border-color:#FFDD4099;
+    background-image: linear-gradient(90deg,#e50c7dcc, #e50c7dcc 48%, #ffdd40);
 }
 
 

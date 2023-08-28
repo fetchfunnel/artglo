@@ -607,9 +607,12 @@
   <script>
     let mainMenu  = document.querySelectorAll(".list-menu-main-link");
     for(let i of mainMenu){
+      let parent = i.closest('details');
       i.addEventListener("mouseover",()=>{
-        let parent = i.closest('details');
          parent.setAttribute('open','')
+      })
+      i.addEventListener("mouseout",()=>{
+         parent.removeAttribute('open')
       })
     }
   </script>

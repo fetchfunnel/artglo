@@ -364,10 +364,6 @@ a.product__text {
   margin: 8px 0;
 }
 
-.product__title > * {
-  margin: 0;
-}
-
 .product__title > a {
   display: none;
 }

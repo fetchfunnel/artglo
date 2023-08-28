@@ -416,7 +416,7 @@ ul .tmb_product_description_list:last-child {
 .tmb_product_banner::before {
   content: "";
   position: absolute;
-  background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/EllipseBanner1.png?v=1692860195");
+  background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/Ellipse.png?v=1693217054");
   width: 100%;
   top: 50%;
   transform: translateY(-50%);

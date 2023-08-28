@@ -453,6 +453,9 @@ ul .tmb_product_description_list:last-child {
 .tmb_product-shoppay {
   margin-top: 8px;
 }
+.tmb_product-shoppay svg {
+  margin-bottom: -3px;
+}
 
 @media screen and (max-width: 750px) {
   .tmb_price_item {

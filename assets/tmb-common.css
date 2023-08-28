@@ -411,7 +411,6 @@ ul .tmb_product_description_list:last-child{
     .tmb_product_banner {
         position: relative;
         z-index: 2;
-      background:green;
     }
 
     .tmb_product_banner::before {

@@ -438,6 +438,9 @@ ul .tmb_product_description_list:last-child {
   right: 0;
   z-index: -1;
 }
+.product__column-sticky {
+  justify-content: flex-end;
+}
 
 @media screen and (max-width: 750px) {
   .tmb_price_item {

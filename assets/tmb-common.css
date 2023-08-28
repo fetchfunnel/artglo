@@ -510,4 +510,7 @@ ul .tmb_product_description_list:last-child {
     height: 100%;
     z-index: -1;
   }
+  .tmb_product_banner {
+    padding: 24px 0 56px;
+  }
 }

@@ -65,8 +65,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 56,
-        "padding_bottom": 12
+        "padding_top": 44,
+        "padding_bottom": 64
       }
     },
     "d9aea10e-76b4-450a-a288-326b38784fa9": {

@@ -112,7 +112,9 @@
   }
 {%- endstyle -%}
 <style>
-  .header-wrapper.with-bg {
+  .header-wrapper.with-bg ,
+  .with-static-bg
+  {
       background: #1c1d3c;
   }
     .header-wrapper {
@@ -662,7 +664,7 @@
   header.setAttribute("style", `top: ${utilityBarHeight}px;`);
 
   headerIconMenu.addEventListener("click",()=>{
-    header.classList.toggle("with-bg");  
+    header.classList.toggle("with-static-bg");  
   })
   
   let oldValue = 0;

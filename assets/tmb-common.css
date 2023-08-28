@@ -136,7 +136,7 @@ h1,h2,h3,h4,h5,h6{
   transition:0.4s;
   cursor:pointer;
 }
-.solid_cta:hover::after{
+.solid_cta:hover{
    background:#c51470cc;
 }
 /* .solid_cta::after{

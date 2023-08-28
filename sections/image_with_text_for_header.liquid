@@ -241,6 +241,18 @@ padding-left: 0px;
       width: 500px;
       height: 500px;
     }
+    .image-for-mobile{
+      position:relative;
+    }
+    .image-for-mobile::after{
+      content:;
+      width: 248.461px;
+      height: 375px;
+      border-radius: 375px;
+      opacity: 0.2;
+      background: radial-gradient(50% 50.00% at 50% 50.00%, #E50C7D 0%, rgba(244, 0, 127, 0.00) 100%);
+      backdrop-filter: blur(65px);
+    }
   }
   @media screen and (max-width: 750px){
     .image-with-text-tmb .solid_cta{

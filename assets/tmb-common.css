@@ -299,6 +299,7 @@ h6 {
 .tmb_stars {
   display: flex;
   gap: 4px;
+  align-items: center;
 }
 
 .tmb_product-shoppay {
@@ -406,7 +407,8 @@ ul .tmb_product_description_list:last-child {
 }
 .product.grid.tmb_product_grid {
   flex-wrap: nowrap;
-  .product.grid.tmb_product_grid;
+  gap: 21px;
+  justify-content: space-between;
 }
 
 .tmb_product_banner {

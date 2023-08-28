@@ -7,7 +7,7 @@
 
 
 <nav class="header__inline-menu">
-  <ul class="list-menu list-menu--inline tmb-top" role="list">
+  <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
@@ -28,7 +28,7 @@
               </summary>
               <ul
                 id="HeaderMenu-MenuList-{{ forloop.index }}"
-                class="header__submenu tmb-middle list-menu tmb_sub_menu_main list-menu--disclosure color-{{ section.settings.menu_color_scheme }} gradient caption-large motion-reduce global-settings-popup"
+                class="header__submenu  list-menu tmb_sub_menu_main list-menu--disclosure color-{{ section.settings.menu_color_scheme }} gradient caption-large motion-reduce global-settings-popup"
                 role="list"
                 tabindex="-1"
               >
@@ -56,7 +56,7 @@
                         </summary>
                         <ul
                           id="HeaderMenu-SubMenuList-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
-                          class="header__submenu tmb-middle-inner tmb_sub_menu list-menu motion-reduce"
+                          class="header__submenu  tmb_sub_menu list-menu motion-reduce"
                         >
                           {%- for grandchildlink in childlink.links -%}
                             <li>

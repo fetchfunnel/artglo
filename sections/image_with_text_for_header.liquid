@@ -309,8 +309,10 @@ padding-left: 0px;
     {% if section.settings.topImage != blank %}
       <img src="{{ section.settings.topImage | img_url:"" }}" alt="error" >
     {% endif %}
-      
-    <h1 class="hero_heading">{{ section.settings.sectionHeading }} <span>{{ section.settings.sectionHeadingHighlighted}}</span></h1>
+
+      {% if section.settings.sectionHeading %}
+        <h1 class="hero_heading">{{ section.settings.sectionHeading }} <span>{{ section.settings.sectionHeadingHighlighted}}</span></h1>
+      {% endif %}
 
       {% for block in section.blocks %}
         {% if block.type == "shadowHeading" %}

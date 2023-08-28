@@ -216,9 +216,7 @@ h6 {
     flex-direction: row-reverse;
     gap: 11px;
   }
-  .tmb_main_Image {
-    width: 70%;
-  }
+
   .product--thumbnail_slider .thumbnail-slider {
     display: flex;
   }

@@ -133,7 +133,7 @@ h1,h2,h3,h4,h5,h6{
   padding:19px;
   position:relative;
   overflow:hidden;
-  transition:all 0.4s;
+  transition:4s linear;
   cursor:pointer;
 }
 .solid_cta:hover{

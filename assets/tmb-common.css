@@ -528,4 +528,7 @@ ul .tmb_product_description_list:last-child {
   .tmb_price_per_items {
     margin: 25px 0 13px;
   }
+  .product__title {
+    margin-bottom: 0;
+  }
 }

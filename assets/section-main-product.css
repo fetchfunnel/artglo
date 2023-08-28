@@ -1448,6 +1448,7 @@ a.product__text {
   position: relative;
   width: 100%;
   max-width: calc(100% - 40px);
+  margin: 0 auto;
 }
 
 .product-media-container.constrain-height {

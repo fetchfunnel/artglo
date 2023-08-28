@@ -607,6 +607,8 @@
   <script>
     if(window.innerWidth > 989){
       let mainMenu  = document.querySelectorAll(".list-menu-main-link");
+      let subMenu  = document.querySelectorAll(".tmb-main-link");
+      [mainMenu,subMenu]
       for(let i of mainMenu){
         let parent = i.closest('details');
         parent.addEventListener("mouseover",()=>{

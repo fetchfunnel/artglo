@@ -144,7 +144,6 @@ h6 {
 .solid_cta:hover {
   color: #ffdd40;
   border-color:#FFDD4099;
-   box-shadow: var(--text-boxes-shadow-horizontal-offset) var(--text-boxes-shadow-vertical-offset) var(--text-boxes-shadow-blur-radius) rgba(var(--color-shadow),var(--text-boxes-shadow-opacity));
 }
 
 

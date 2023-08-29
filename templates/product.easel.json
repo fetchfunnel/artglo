@@ -118,6 +118,7 @@
       "settings": {
         "title": "How to get started",
         "button_show": true,
+        "btnText": "Get Your Unique Art",
         "button_link": "#"
       }
     },
@@ -134,6 +135,10 @@
         "collection": [
           "animals-pets"
         ],
+        "showMoreCheckbox": false,
+        "showMoreCheckbox2": true,
+        "CtaText": "Show More",
+        "CtaText2": "Explore More Arts",
         "products_to_show": 16,
         "columns_desktop": 5,
         "full_width": true,

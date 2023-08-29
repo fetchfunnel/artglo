@@ -293,7 +293,7 @@
               
   {% endfor %}
    {% if section.settings.showMoreCheckbox2 %}
-          <a href="{{ section.settings.collection.url }}" class="solid_cta tmb_feature">{{ section.settings.CtaText2 }}</a>
+          <a href="{{ section.settings.linkSolid }}" class="solid_cta tmb_feature">{{ section.settings.CtaText2 }}</a>
         {% endif %}
   </div>
   
@@ -405,6 +405,11 @@
       "id": "CtaText2",
       "label": "Cta Text",
       "default":"Explore More Arts"
+    },
+    {
+      "type":"url",
+      "id": "linkSolid",
+      "label": "Solid Button Link"
     },
     {
       "type": "range",

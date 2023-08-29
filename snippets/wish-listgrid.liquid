@@ -1,19 +1,18 @@
+
 <style>
-
-
-.tmb_wishList_grid{
-display:grid;
-gird-template-columns:1fr 1fr 1fr 1fr 1fr;
+.wishlist__grid img{
+  border-radius:10px;
 }
+  .wishlist__grid{
+    display:flex;
+    gap:20px;
+  }
   
 </style>
 
 
-<div class="tmb_container">
   <div class="tmb_wishList_grid">
       <a href="{{ product.url }}">
-        <img src="{{ product.featured_image | img_url }}" />
+        <img src="{{ product.featured_image | img_url:"medium" }}" />
       </a>
   </div>
-</div>
-

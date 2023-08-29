@@ -389,7 +389,7 @@
                     let htmlPriceBlock = document.querySelector('.total-price')
                     setTimeout(()=>{
                       let qty= document.querySelector('input[name="quantity"]').value
-                       htmlPriceBlock.innerHTML = '$'+priceOfProduct* +qty
+                       htmlPriceBlock.innerHTML = '$'+Math.round(priceOfProduct* +qty)
                     },200)
                    });
       </script>

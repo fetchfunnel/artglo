@@ -567,10 +567,10 @@ a.active-facets__button.focused .active-facets__button-inner,
   display: flex;
 }
 
-.mobile-facets__wrapper .disclosure-has-popup[open] > summary::before {
+/* .mobile-facets__wrapper .disclosure-has-popup[open] > summary::before {
   height: 100vh;
   z-index: 3;
-}
+} */
 
 /* .mobile-facets__inner {
   background-color: rgb(var(--color-background));

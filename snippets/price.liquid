@@ -101,31 +101,31 @@
         </span>
         Add to Wish
       </button>
-<script src="https://sdks.shopifycdn.com/buy-button/latest/buybutton.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const addToWishlistButtons = document.querySelectorAll('.add-to-wishlist-btn');
-
-    addToWishlistButtons.forEach(button => {
-      button.addEventListener('click', function() {
-        const productId = this.getAttribute('data-product-id');
-        const client = ShopifyBuy.buildClient({
-          domain: 'your-shopify-store.myshopify.com', // Replace with your store's domain
-          storefrontAccessToken: 'your-storefront-access-token' // Replace with your storefront access token
-        });
-
-        client.collection.fetchAllWithProducts().then(collections => {
-          const product = collections.products.find(prod => prod.id === productId);
-          client.checkout.create().then(checkout => {
-            client.checkout.addLineItems(checkout.id, [{ variantId: product.variants[0].id, quantity: 1 }]).then(() => {
-              window.location.href = checkout.webUrl;
-            });
-          });
-        });
-      });
-    });
-  });
-</script>
+            <script src="https://sdks.shopifycdn.com/buy-button/latest/buybutton.js"></script>
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const addToWishlistButtons = document.querySelectorAll('.add-to-wishlist-btn');
+            
+                addToWishlistButtons.forEach(button => {
+                  button.addEventListener('click', function() {
+                    const productId = this.getAttribute('data-product-id');
+                    const client = ShopifyBuy.buildClient({
+                      domain: 'your-shopify-store.myshopify.com', // Replace with your store's domain
+                      storefrontAccessToken: 'your-storefront-access-token' // Replace with your storefront access token
+                    });
+            
+                    client.collection.fetchAllWithProducts().then(collections => {
+                      const product = collections.products.find(prod => prod.id === productId);
+                      client.checkout.create().then(checkout => {
+                        client.checkout.addLineItems(checkout.id, [{ variantId: product.variants[0].id, quantity: 1 }]).then(() => {
+                          window.location.href = checkout.webUrl;
+                        });
+                      });
+                    });
+                  });
+                });
+              });
+            </script>
               
     </div>
 

@@ -1,10 +1,15 @@
 
-
+<style>
+.wishlist__grid img{
+  border-radius:10px;
+}
+  
+</style>
 
 
   <div class="tmb_wishList_grid">
       <a href="{{ product.url }}">
-        <img src="{{ product.featured_image | img_url:"200" }}" />
+        <img src="{{ product.featured_image | img_url:"medium" }}" />
       </a>
   </div>
 

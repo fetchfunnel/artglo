@@ -904,9 +904,9 @@ summary::-webkit-details-marker {
   }
 }
 
-.grid:last-child {
+/* .grid:last-child {
   margin-bottom: 0;
-}
+} */
 
 .grid__item {
   width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);

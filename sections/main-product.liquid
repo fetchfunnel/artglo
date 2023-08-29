@@ -369,7 +369,11 @@
                       value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                       form="{{ product_form_id }}"
                     />
+<<<<<<< HEAD
                     <button class="quantity__button quantity__button_tmb no-js-hidden increment-btn" name="plus" type="button">
+=======
+                    <button class="quantity__button quantity__button_tmb no-js-hidden" name="plus" type="button">
+>>>>>>> amira_elamir
                       <span class="visually-hidden">
                         {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
                       </span>
@@ -380,6 +384,7 @@
             
                   <div class="tmb_totalCost">
                     <span>Total:</span>
+<<<<<<< HEAD
                     <span class="total-price">{{ product.price | money }}</span>
                 </div>
 
@@ -402,6 +407,11 @@
 
             
 
+=======
+                    <span>$198.00</span>
+                </div>
+
+>>>>>>> amira_elamir
             
                   {%- liquid
                     assign volume_pricing_array = product.selected_or_first_available_variant.quantity_price_breaks | sort: 'quantity' | reverse

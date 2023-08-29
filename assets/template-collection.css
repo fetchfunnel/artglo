@@ -7,7 +7,10 @@
 
 @media screen and (max-width: 989px) {
   .collection .slider.slider--tablet {
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
+  }
+  .collection__title.title-wrapper{
+    text-align:center;
   }
 }
 
@@ -47,13 +50,16 @@
 .collection__description > * {
   margin: 0;
 }
+.collection__description p{
+  font-weight:500;
+}
 
 .collection__title.title-wrapper {
-  margin-bottom: 2.5rem;
+  margin-bottom: 64px;
 }
 
 .collection__title .title:not(:only-child) {
-  margin-bottom: 1rem;
+  margin-bottom: 24px;
 }
 
 @media screen and (min-width: 990px) {

@@ -1,0 +1,181 @@
+<style>
+    .newsletter-sec {
+      padding: 64px 0 87px;
+      background: url(https://cdn.shopify.com/s/files/1/0765/0695/6086/files/newsletter-bg.png?v=1692953463);
+      background-attachment: fixed;
+      position: relative;
+  }
+
+  .newsletter {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%)
+  }
+
+  .newsletter_right {
+      right: 0;
+      left: auto;
+  }
+
+  .newsletter_content {
+      max-width: 752px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 16px;
+  }
+
+  .newsletter_heading_box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 22px;
+      margin-bottom: 25px;
+
+  }
+
+  .newsletter_heading {
+      text-shadow: 0px 0px 27px #E50C7D;
+      color: #E50C7D;
+      font-size: 50px;
+  }
+
+  .newsletter_text {
+      text-align: center;
+      margin-bottom: 32px;
+  }
+
+  .newsletter_form {
+      max-width: 409px;
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  .newsletter_email {
+      font-family: Circular Std;
+      background: transparent;
+      outline: none;
+      border: none;
+      width: 100%;
+      padding: 15px 16px;
+      border-radius: 10px;
+      margin-bottom: 24px;
+      border: 1px solid #BDBDBD;
+      background: rgba(255, 255, 255, 0.20);
+      color: white;
+  }
+
+  ::placeholder {
+      color: white;
+      font-weight: 450;
+      line-height: 18px;
+      font-size: 16px;
+  }
+
+  .newsletter_btn {
+      width: 100%;
+      padding: 13px;
+  }
+
+
+
+  @media (max-width:1250px) {
+      .newsletter img {
+          max-width: 250px;
+          width: 100%;
+      }
+  }
+
+  @media (max-width:1024px) {
+      .newsletter {
+          display: none;
+      }
+  }
+
+  @media (max-width:750px) {
+    .newsletter_text{
+      font-weight:300;  
+    }
+      .newsletter_heading_box {
+          margin-bottom: 16px;
+      }
+
+      .newsletter_heading {
+          font-size: 28px;
+      }
+
+      .newsletter_heading_box img {
+          display: none;
+      }
+
+      .newsletter_email {
+          margin-bottom: 16px;
+      }
+  }
+</style>
+
+<section class="newsletter-sec">
+  <div class="newsletter">
+    <img
+      src="{{ section.settings.leftImage | img_url:"" }}"
+      alt="newsletter"
+      loading="lazy">
+  </div>
+  <div class="newsletter newsletter_right">
+    <img
+      src="{{ section.settings.RightImage | img_url:"" }}"
+      alt="newsletter"
+      loading="lazy"
+      
+    >
+  </div>
+  <div class="newsletter_content">
+    <div class="newsletter_heading_box">
+      <h2 class="heading_xl newsletter_heading ">{{ section.settings.heading }}</h2>
+      <img
+        src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/newsletter_icon_c9e41f8c-3d84-470f-8518-503be457f712.svg?v=1692945895"
+        alt="newsletter Icon"
+        loading="lazy"
+        
+      >
+    </div>
+    <p class="body_text_lg newsletter_text ">
+      {{ section.settings.info }}
+    </p>
+    <form class="newsletter_form">
+      <input type="email" class="newsletter_email " placeholder="Email">
+      <button class="solid_cta newsletter_btn " type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "Newsletter Section",
+  "settings": [
+   {
+      "type": "text",
+      "id": "heading",
+      "default": "Subscribe to our Newsletter",
+      "label": "Section Heading"
+    },
+   {
+      "type": "textarea",
+      "id": "info",
+      "default": "Be first to get update for a diverse collection of prints, curated to reflect your unique style. From holiday celebrations to political expressions and sports enthusiasms, ArtGlo offers the perfect panel for every passion.",
+      "label": "Section Info"
+    },
+   {
+      "type": "image_picker",
+      "id": "leftImage",
+      "label": "Section Left Image"
+    },
+   {
+      "type": "image_picker",
+      "id": "RightImage",
+      "label": "Section Right Image"
+    }
+  ]
+}
+{% endschema %}

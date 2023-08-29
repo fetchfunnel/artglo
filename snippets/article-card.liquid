@@ -113,6 +113,7 @@
         </div>
       </div>
       <div class="card__content">
+      
         <div class="card__information">
           <h3 class="card__heading{% if show_excerpt %} h2{% endif %}">
             <a href="{{ article.url }}" class="full-unstyled-link">
@@ -144,6 +145,8 @@
             </div>
           {%- endif -%}
         </div>
+
+        
         {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">
             <span class="badge color-{{ settings.color_schemes | first }}">{{ 'blogs.article.blog' | t }}</span>

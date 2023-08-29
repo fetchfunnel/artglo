@@ -1,0 +1,58 @@
+
+
+<div class="tmb_product_mediaWrapper">
+
+  <div class="swiper mySwiperMain">
+    <div class="swiper-wrapper ">
+      {% for image in product.images limit:1 %} 
+          <div class="swiper-slide product_main_image">
+            <img src="{{ image | img_url :"" }}"
+              alt="{{ image.alt }}" width="" height="" loading="lazy" class="d-block product_gallery_image "
+            >
+          </div>
+        {%- endfor -%}
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <div thumbsSlider="" class="swiper mySwiperGallery">
+    <div class="swiper-wrapper swiper_thumbnail_tmb">
+       {% for image in product.images %} 
+          <div class="swiper-slide product_gallery_items" >
+            <img src="{{ image | img_url :"" }}"
+              alt="{{ image.alt }}" width="" height="" loading="lazy" class="d-block product_gallery_image"
+            >
+          </div>
+        {%- endfor -%}
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiperGallery", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 5,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiperMain", {
+      loop: true,
+      spaceBetween: 10,
+        slidesPerView: 1,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>

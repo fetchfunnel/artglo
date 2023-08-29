@@ -26,10 +26,8 @@ let ifExist =()=> {
         let btn = document.querySelector('button.tmb_add_to_wish_btn.active')
         existing = existing.split(",")
         let slug = location.split("/").pop()
-        console.log(existing,slug)
         if(existing.includes(slug)) 
           btn.classList.add('active')
-        
     }
   
 }

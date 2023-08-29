@@ -94,6 +94,9 @@
         "8bfc67bc-07f4-4337-90b4-57e160056498",
         "475a0700-9917-4122-8547-4177ac269331"
       ],
+      "custom_css": [
+        "{padding: 40px 0 100px;}"
+      ],
       "settings": {
         "heading": "Frequently asked questions"
       }

@@ -136,9 +136,9 @@
     </div>
     {%- for collection in section.settings.collection -%}
 
-<div class="collection__description asdasdasd heading_lg {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <p>{{ collection.title }}</p>
-        </div>
+    <div class="collection__description  heading_lg {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      <p>{{ collection.title }}</p>
+    </div>
       
       {%- liquid
   assign products_to_display2 = collections[collection.handle].all_products_count

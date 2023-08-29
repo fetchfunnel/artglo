@@ -385,8 +385,11 @@
 
             <script>
                   document.querySelector('quantity-input.quantity.tmb_quantitys').addEventListener("click",()=>{
-                    let qty= document.querySelector('input[name="quantity"]').value
-                    console.log(qty,'qty === qty')
+                    
+                    setTimeout(()=>{
+                      let qty= document.querySelector('input[name="quantity"]').value
+                       console.log(qty,'qty === qty')
+                    },400)
                    })
       </script>
 

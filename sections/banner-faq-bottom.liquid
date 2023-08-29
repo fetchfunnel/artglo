@@ -2,6 +2,15 @@
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
+
+
+
+.faq .banner.banner--content-align-center.banner--content-align-mobile-center.banner--adapt.banner--mobile-bottom.scroll-trigger.animate--fade-in {
+    width: 72%;
+    margin: auto;
+    margin-bottom: 70px;
+
+}
     @media screen and (max-width: 749px) {
       #Banner-{{ section.id }}::before,
       #Banner-{{ section.id }} .banner__media::before,
@@ -37,12 +46,6 @@
 
 
 
-.faq .banner.banner--content-align-center.banner--content-align-mobile-center.banner--adapt.banner--mobile-bottom.scroll-trigger.animate--fade-in {
-    width: 72%;
-    margin: auto;
-    margin-bottom: 70px;
-
-}
 
 .faq .faq-sec {
     padding: 40px 0 70px;

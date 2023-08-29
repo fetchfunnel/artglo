@@ -54,10 +54,16 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  @media(min-width:990px){
+  @media(min-width:1101px){
     .grid__item.tmb-item-wrapper.scroll-trigger {
         max-width: 230px ;
         width: 100% ;
+    }
+  }
+  @media(max-width:1100px){
+    .grid__item.tmb-item-wrapper.scroll-trigger {
+        max-width: 139px ;
+      width: 100% ;
     }
   }
   @media(max-width:989px){

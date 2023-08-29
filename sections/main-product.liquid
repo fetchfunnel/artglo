@@ -386,9 +386,10 @@
             <script>
                 document.querySelector('quantity-input.quantity.tmb_quantitys').addEventListener("click",()=>{
                     let priceOfProduct = {{ product.price | money_without_currency }}
+                    let htmlPriceBlock = document.querySelector('.total-price')
                     setTimeout(()=>{
                       let qty= document.querySelector('input[name="quantity"]').value
-                       console.log(qty,'qty === qty',priceOfProduct* +qty)
+                       htmlPriceBlock.innerHTML = '$'+priceOfProduct* +qty
                     },400)
                    });
       </script>

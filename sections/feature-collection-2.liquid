@@ -148,7 +148,9 @@
         <div class="collection__description  heading_lg {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           <p>{{ collection.title }}</p>
         <div>
-          <a href="{{ collection.handle }}" class="body_text_lg">See More</a>
+        {% if section.settings.showMoreCheckbox %}
+          <a href="{{ collection.handle }}" class="body_text_lg">{{ section.settings.CtaText }}</a>
+        {% endif %}
         </div>
         </div>
         
@@ -367,6 +369,17 @@
       "id": "collection",
       "label": "t:sections.featured-collection.settings.collection.label",
       "limit":50
+    },
+    {
+      "type": "checkbox",
+      "id": "showMoreCheckbox",
+      "label": "Show Collection Cta"
+    },
+    {
+      "type":"text",
+      "id": "CtaText",
+      "label": "Cta Text",
+      "default":"Show More"
     },
     {
       "type": "range",

@@ -53,6 +53,48 @@
         "padding_bottom": 48
       }
     },
+    "a5b68e36-a8d8-4c16-9277-8a2c56d641bd": {
+      "type": "faq-sec",
+      "blocks": {
+        "template--20832297845046__a5b68e36-a8d8-4c16-9277-8a2c56d641bd-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "1213213213",
+            "Answer": "1213213213"
+          }
+        },
+        "fb1132a1-cf56-4a44-a2c3-9ae8f919d803": {
+          "type": "faqs",
+          "settings": {
+            "question": "1213213213",
+            "Answer": "1213213213"
+          }
+        },
+        "8bfc67bc-07f4-4337-90b4-57e160056498": {
+          "type": "faqs",
+          "settings": {
+            "question": "1213213213",
+            "Answer": "1213213213"
+          }
+        },
+        "475a0700-9917-4122-8547-4177ac269331": {
+          "type": "faqs",
+          "settings": {
+            "question": "1213213213",
+            "Answer": "1213213213"
+          }
+        }
+      },
+      "block_order": [
+        "template--20832297845046__a5b68e36-a8d8-4c16-9277-8a2c56d641bd-faqs-1",
+        "fb1132a1-cf56-4a44-a2c3-9ae8f919d803",
+        "8bfc67bc-07f4-4337-90b4-57e160056498",
+        "475a0700-9917-4122-8547-4177ac269331"
+      ],
+      "settings": {
+        "heading": "Frequently asked questions"
+      }
+    },
     "6a98424f-444e-4ea2-b0a2-5d6678e22ad9": {
       "type": "banner-faq-bottom",
       "blocks": {
@@ -100,48 +142,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "a5b68e36-a8d8-4c16-9277-8a2c56d641bd": {
-      "type": "faq-sec",
-      "blocks": {
-        "template--20832297845046__a5b68e36-a8d8-4c16-9277-8a2c56d641bd-faqs-1": {
-          "type": "faqs",
-          "settings": {
-            "question": "1213213213",
-            "Answer": "1213213213"
-          }
-        },
-        "fb1132a1-cf56-4a44-a2c3-9ae8f919d803": {
-          "type": "faqs",
-          "settings": {
-            "question": "1213213213",
-            "Answer": "1213213213"
-          }
-        },
-        "8bfc67bc-07f4-4337-90b4-57e160056498": {
-          "type": "faqs",
-          "settings": {
-            "question": "1213213213",
-            "Answer": "1213213213"
-          }
-        },
-        "475a0700-9917-4122-8547-4177ac269331": {
-          "type": "faqs",
-          "settings": {
-            "question": "1213213213",
-            "Answer": "1213213213"
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__a5b68e36-a8d8-4c16-9277-8a2c56d641bd-faqs-1",
-        "fb1132a1-cf56-4a44-a2c3-9ae8f919d803",
-        "8bfc67bc-07f4-4337-90b4-57e160056498",
-        "475a0700-9917-4122-8547-4177ac269331"
-      ],
-      "settings": {
-        "heading": "Frequently asked questions"
-      }
     }
   },
   "order": [
@@ -149,7 +149,7 @@
     "tmb-about-story",
     "7aec9b16-a5ac-48ab-9909-ba7a15974b0b",
     "b430aa2c-dc54-4c52-ac56-3cdc3ca9f6ce",
-    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9",
-    "a5b68e36-a8d8-4c16-9277-8a2c56d641bd"
+    "a5b68e36-a8d8-4c16-9277-8a2c56d641bd",
+    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9"
   ]
 }

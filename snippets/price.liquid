@@ -101,31 +101,37 @@
         </span>
         Add to Wish
       </button>
-            <script src="https://sdks.shopifycdn.com/buy-button/latest/buybutton.js"></script>
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                const addToWishlistButtons = document.querySelectorAll('.add-to-wishlist-btn');
-            
-                addToWishlistButtons.forEach(button => {
-                  button.addEventListener('click', function() {
-                    const productId = this.getAttribute('data-product-id');
-                    const client = ShopifyBuy.buildClient({
-                      domain: 'your-shopify-store.myshopify.com', // Replace with your store's domain
-                      storefrontAccessToken: 'your-storefront-access-token' // Replace with your storefront access token
-                    });
-            
-                    client.collection.fetchAllWithProducts().then(collections => {
-                      const product = collections.products.find(prod => prod.id === productId);
-                      client.checkout.create().then(checkout => {
-                        client.checkout.addLineItems(checkout.id, [{ variantId: product.variants[0].id, quantity: 1 }]).then(() => {
-                          window.location.href = checkout.webUrl;
-                        });
-                      });
-                    });
-                  });
-                });
-              });
-            </script>
+           <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const addToWishlistButtons = document.querySelectorAll('.add-to-wishlist-btn');
+
+    addToWishlistButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const productId = this.getAttribute('data-product-id');
+        let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+        
+        if (!wishlist.includes(productId)) {
+          wishlist.push(productId);
+          localStorage.setItem('wishlist', JSON.stringify(wishlist));
+          alert('Product added to wishlist.');
+        } else {
+          alert('Product is already in the wishlist.');
+        }
+      });
+    });
+  });
+</script>
+In this example, when the user clicks the "Add to Wishlist" button, the product's ID is stored in the browser's local storage. This approach doesn't require a Storefront Access Token but comes with limitations:
+
+It's not a server-side solution, so the wishlist won't be available on different devices or after clearing browser data.
+The user experience might not be ideal, as it lacks synchronization across devices and the ability to view the wishlist outside of the current browser.
+For a more robust and persistent wishlist solution, it's generally recommended to use Shopify's APIs with proper authentication.
+
+
+
+
+
+
               
     </div>
 

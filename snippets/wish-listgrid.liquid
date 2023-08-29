@@ -1,5 +1,10 @@
+.tmb_wishList_grid{
+display:grid;
+gird-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
+
 <div class="tmb_container">
-  <div>
+  <div class="tmb_wishList_grid">
       <a href="{{ product.url }}">
         <img src="{{ product.featured_image | img_url }}" />
       </a>

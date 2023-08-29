@@ -54,7 +54,7 @@
   font-weight:500;
 }
 
-.collection__title.title-wrapper {
+.collection__title.title-wrapper .title {
   margin-bottom: 64px;
 }
 

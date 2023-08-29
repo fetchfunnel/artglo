@@ -6,7 +6,9 @@
 } */
 
 @media screen and (max-width: 989px) {
-  .collection .slider.slider--tablet {
+  .collection .slider.slider--tablet ,
+  .product-grid
+  {
     margin-bottom: 24px;
   }
   .collection__title.title-wrapper{

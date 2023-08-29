@@ -1,1 +1,112 @@
-{"sections":{"tmb_about_banner":{"type":"faq-banner","settings":{"image":"shopify:\/\/shop_images\/about_banner_bg.png","heading":"You’ve got questions, <br> We got answers!","page_description":""}},"tmb-about-story":{"type":"tmb-about-story","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/artglo-logo_c0e412fc-6378-435a-a982-c2f4c122f8b8.png","title":"Our story is your story. You want to do good work. You're motivated by mission and purpose. And you want your work to make a difference. We want the same thing.","fullwidthsection":3}},"7aec9b16-a5ac-48ab-9909-ba7a15974b0b":{"type":"blogposts","settings":{"heading":"","add_link":"learn more","heading_size":"h1","blog":"news","post_limit":3,"columns_desktop":3,"color_scheme":"scheme-b43e3f63-d843-48f8-a028-c88372070f09","show_image":true,"show_date":false,"show_author":false,"show_view_all":false,"padding_top":0,"padding_bottom":8}},"b430aa2c-dc54-4c52-ac56-3cdc3ca9f6ce":{"type":"blogposts","settings":{"heading":"","add_link":"learn more","heading_size":"h1","blog":"news","post_limit":3,"columns_desktop":3,"color_scheme":"background-1","show_image":true,"show_date":false,"show_author":false,"show_view_all":false,"padding_top":0,"padding_bottom":48}},"6a98424f-444e-4ea2-b0a2-5d6678e22ad9":{"type":"banner-faq-bottom","blocks":{"template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-heading-1":{"type":"heading","settings":{"heading":"Still can’t find what you’re looking for?","heading_size":"h1"}},"template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-text-1":{"type":"text","settings":{"text":"","text_style":"body"}},"template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-buttons-1":{"type":"buttons","settings":{"button_label_1":"Chat with us","button_link_1":"#","button_style_secondary_1":false,"button_label_2":"Write us a message on artglo@support.com","button_link_2":"mailto:artglo@support.com","button_style_secondary_2":false}}},"block_order":["template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-heading-1","template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-text-1","template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-buttons-1"],"settings":{"image":"shopify:\/\/shop_images\/Rectangle_578659.jpg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":true,"show_text_below":true}}},"order":["tmb_about_banner","tmb-about-story","7aec9b16-a5ac-48ab-9909-ba7a15974b0b","b430aa2c-dc54-4c52-ac56-3cdc3ca9f6ce","6a98424f-444e-4ea2-b0a2-5d6678e22ad9"]}
+{
+  "sections": {
+    "tmb_about_banner": {
+      "type": "faq-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_banner_bg.png",
+        "heading": "You’ve got questions, <br> We got answers!",
+        "page_description": ""
+      }
+    },
+    "tmb-about-story": {
+      "type": "tmb-about-story",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/artglo-logo_c0e412fc-6378-435a-a982-c2f4c122f8b8.png",
+        "title": "Our story is your story. You want to do good work. You're motivated by mission and purpose. And you want your work to make a difference. We want the same thing.",
+        "fullwidthsection": 3
+      }
+    },
+    "7aec9b16-a5ac-48ab-9909-ba7a15974b0b": {
+      "type": "blogposts",
+      "settings": {
+        "heading": "",
+        "add_link": "learn more",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-b43e3f63-d843-48f8-a028-c88372070f09",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "b430aa2c-dc54-4c52-ac56-3cdc3ca9f6ce": {
+      "type": "blogposts",
+      "settings": {
+        "heading": "",
+        "add_link": "learn more",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9": {
+      "type": "banner-faq-bottom",
+      "blocks": {
+        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Still can’t find what you’re looking for?",
+            "heading_size": "h1"
+          }
+        },
+        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Chat with us",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "Write us a message on artglo@support.com",
+            "button_link_2": "mailto:artglo@support.com",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-heading-1",
+        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-text-1",
+        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_578659.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "tmb_about_banner",
+    "tmb-about-story",
+    "7aec9b16-a5ac-48ab-9909-ba7a15974b0b",
+    "b430aa2c-dc54-4c52-ac56-3cdc3ca9f6ce",
+    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9"
+  ]
+}

@@ -284,9 +284,7 @@
           {{ 'sections.featured_collection.view_all' | t }}
         </a>
       </div>
-     {% if section.settings.showMoreCheckbox2 %}
-          <a href="{{ collection.url }}" class="solid_cta tmb_feature">{{ section.settings.CtaText2 }}</a>
-        {% endif %}
+    
     {%- endif -%}
     {% if section.settings.image_shape == 'arch' %}
       {% render 'mask-arch' %}
@@ -294,6 +292,9 @@
 
               
   {% endfor %}
+   {% if section.settings.showMoreCheckbox2 %}
+          <a href="{{ collection.url }}" class="solid_cta tmb_feature">{{ section.settings.CtaText2 }}</a>
+        {% endif %}
   </div>
   
        

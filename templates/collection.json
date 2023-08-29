@@ -38,8 +38,8 @@
           "transportation",
           "upsells"
         ],
-        "products_to_show": 5,
-        "columns_desktop": 4,
+        "products_to_show": 25,
+        "columns_desktop": 5,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",

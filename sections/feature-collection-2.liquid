@@ -286,8 +286,8 @@
   {% endfor %}
   </div>
   
-        {% if section.settings.showMoreCheckbox %}
-          <a href="{{ collection.url }}" class="solid_cta ">{{ section.settings.CtaText }}</a>
+        {% if section.settings.showMoreCheckbox2 %}
+          <a href="{{ collection.url }}" class="solid_cta tmb_feature">{{ section.settings.CtaText2 }}</a>
         {% endif %}
     
   </div>
@@ -378,13 +378,24 @@
     {
       "type": "checkbox",
       "id": "showMoreCheckbox",
-      "label": "Show Collection Cta"
+      "label": "Show Link Cta"
+    },
+    {
+      "type": "checkbox",
+      "id": "showMoreCheckbox2",
+      "label": "Show Solid Button"
     },
     {
       "type":"text",
       "id": "CtaText",
       "label": "Cta Text",
       "default":"Show More"
+    },
+    {
+      "type":"text",
+      "id": "CtaText2",
+      "label": "Cta Text",
+      "default":"Explore More Arts"
     },
     {
       "type": "range",

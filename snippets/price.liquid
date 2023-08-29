@@ -101,6 +101,29 @@
         </span>
         Add to Wish
       </button>
+
+              <script>
+
+                function postToWishlist() {
+  $("#wish-list").submit(function(e) {
+    e.preventDefault();
+    var postData = $(this).serializeArray();
+    var formURL = $(this).attr("action");
+    $.ajax({
+      url : formURL,
+      type: "POST",
+      data : postData,
+      success:function(data, textStatus) {
+        console.log(textStatus);
+        $('.js-wish-list').empty().html('<p>This product is in your <a href="/pages/wish-list">wishlist</a></p>');
+      },
+      error: function() {
+        $(this).append("<p>I'm afraid that didn't work.</p>");
+      }
+    });
+  });
+}
+              </script>
  
 
 

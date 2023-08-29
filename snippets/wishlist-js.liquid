@@ -10,10 +10,25 @@ const selectors = {
   productCard: '.product-card',
 };
 
+
+
 document.addEventListener('DOMContentLoaded', () => {
   initButtons();
   initGrid();
+  ifExist();
 });
+
+ifExist() {
+   let existing = localStorage.getItem(LOCAL_STORAGE_WISHLIST_KEY);
+   if(existing == null) return 
+   let location = window.location.href
+    if(location.includes('products')){
+        let btn = document.querySelector('button.tmb_add_to_wish_btn.active')
+        existing = JSON.parse(existing)
+        console.log(existing)
+    }
+  
+}
 
 document.addEventListener('shopify-wishlist:updated', (event) => {
   console.log('[Shopify Wishlist] Wishlist Updated ✅', event.detail.wishlist);

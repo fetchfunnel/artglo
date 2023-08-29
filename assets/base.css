@@ -3140,12 +3140,12 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
-
+/* 
 .rte:after {
   clear: both;
   content: '';
   display: block;
-}
+} */
 
 .rte > *:first-child {
   margin-top: 0;

@@ -385,10 +385,10 @@
 
             <script>
                 document.querySelector('quantity-input.quantity.tmb_quantitys').addEventListener("click",()=>{
-                    
+                    let priceOfProduct = {{ product.price | money_without_currency }}
                     setTimeout(()=>{
                       let qty= document.querySelector('input[name="quantity"]').value
-                       console.log(qty,'qty === qty')
+                       console.log(qty,'qty === qty',priceOfProduct)
                     },400)
                    });
       </script>

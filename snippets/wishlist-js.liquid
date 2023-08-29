@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ifExist();
 });
 
-ifExist() {
+let ifExist =()=> {
    let existing = localStorage.getItem(LOCAL_STORAGE_WISHLIST_KEY);
    if(existing == null) return 
    let location = window.location.href

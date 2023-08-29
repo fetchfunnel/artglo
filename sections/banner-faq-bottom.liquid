@@ -238,13 +238,14 @@ a.button.button--primary {
               {{ block.shopify_attributes }}
             >
               {%- if block.settings.button_label_1 != blank -%}
+<i class="fa fa-close"></i>
+
                 <a
                   {% if block.settings.button_link_1 == blank %}
                     role="link" aria-disabled="true"
                   {% else %}
                     href="{{ block.settings.button_link_1 }}"
                   {% endif %}
-<button class="btn"><i class="fa fa-close"></i></button>
 
                   class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
                 >

@@ -388,7 +388,7 @@
                     let priceOfProduct = {{ product.price | money_without_currency }}
                     setTimeout(()=>{
                       let qty= document.querySelector('input[name="quantity"]').value
-                       console.log(qty,'qty === qty',priceOfProduct)
+                       console.log(qty,'qty === qty',priceOfProduct* +qty)
                     },400)
                    });
       </script>

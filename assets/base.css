@@ -1059,9 +1059,9 @@ summary::-webkit-details-marker {
     margin: 0;
   }
 
-  .grid--peek .grid__item {
+  /* .grid--peek .grid__item {
     min-width: 35%;
-  }
+  } */
 
   /* .grid--peek.slider .grid__item:first-of-type {
     margin-left: 1.5rem;

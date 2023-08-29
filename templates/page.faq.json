@@ -49,7 +49,7 @@
         "columns_desktop": 3,
         "color_scheme": "scheme-b43e3f63-d843-48f8-a028-c88372070f09",
         "show_image": true,
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
         "show_view_all": false,
         "padding_top": 0,

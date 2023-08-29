@@ -570,9 +570,9 @@ a.active-facets__button.focused .active-facets__button-inner,
 .mobile-facets__wrapper .disclosure-has-popup[open] > summary::before {
   height: 100vh;
   z-index: 3;
-} */
+}
 
-/* .mobile-facets__inner {
+.mobile-facets__inner {
   background-color: rgb(var(--color-background));
   width: calc(100% - 5rem);
   margin-left: auto;
@@ -594,9 +594,9 @@ a.active-facets__button.focused .active-facets__button-inner,
 
 .menu-opening .mobile-facets__inner {
   transform: translateX(0);
-} */
+}
 
-/* .js .disclosure-has-popup:not(.menu-opening) .mobile-facets__inner {
+.js .disclosure-has-popup:not(.menu-opening) .mobile-facets__inner {
   transform: translateX(105vw);
 }
 

@@ -87,7 +87,7 @@
 
       
 
-      <button class="tmb_add_to_wish_btn">
+      <button class="tmb_add_to_wish_btn add-to-wishlist-btn" data-product-id="{{ product.id }}">
         <span>
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M12 5.09L10.5802 3.88099C9.66658 3.32208 8.59721 3 7.5 3C4.42 3 2 5.42 2 8.5C2 12.2769 5.39442 15.3549 10.5373 20.0185L10.55 20.03L12 21.35L13.45 20.04L13.4895 20.0041C18.6174 15.3442 22 12.2703 22 8.5C22 5.42 19.58 3 16.5 3C15.4028 3 14.3334 3.32208 13.4198 3.88099L12 5.09ZM19.34 10.8749C18.3645 12.6902 16.8698 14.2298 12.1049 18.5599L12.0051 18.65L11.8964 18.551C7.14926 14.2464 5.64456 12.699 4.66601 10.8857C4.21194 10.0443 4 9.27778 4 8.5C4 6.52457 5.52457 5 7.5 5C8.62227 5 9.74637 5.52835 10.4773 6.38668L12 8.17481L13.5227 6.38668C14.2536 5.52835 15.3777 5 16.5 5C18.4754 5 20 6.52457 20 8.5C20 9.27441 19.7899 10.0376 19.34 10.8749Z" fill="white"/>
@@ -101,7 +101,31 @@
         </span>
         Add to Wish
       </button>
+<script src="https://sdks.shopifycdn.com/buy-button/latest/buybutton.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const addToWishlistButtons = document.querySelectorAll('.add-to-wishlist-btn');
 
+    addToWishlistButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const productId = this.getAttribute('data-product-id');
+        const client = ShopifyBuy.buildClient({
+          domain: 'your-shopify-store.myshopify.com', // Replace with your store's domain
+          storefrontAccessToken: 'your-storefront-access-token' // Replace with your storefront access token
+        });
+
+        client.collection.fetchAllWithProducts().then(collections => {
+          const product = collections.products.find(prod => prod.id === productId);
+          client.checkout.create().then(checkout => {
+            client.checkout.addLineItems(checkout.id, [{ variantId: product.variants[0].id, quantity: 1 }]).then(() => {
+              window.location.href = checkout.webUrl;
+            });
+          });
+        });
+      });
+    });
+  });
+</script>
               
     </div>
 

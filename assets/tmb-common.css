@@ -446,6 +446,11 @@ ul .tmb_product_description_list:last-child {
 .product-form__buttons .tmb_product_btn {
   font-size: 18px;
 }
+
+.tmb_add_to_wish_btn.active svg path {
+  fill:#e50c7d;
+
+}
 @media screen and (min-width: 750px) {
   .tmb_main_Image {
     max-width: 490px;

@@ -27,7 +27,9 @@ let ifExist =()=> {
         existing = existing.split(",")
         let slug = location.split("/").pop()
         console.log(existing,slug)
-        existing.includes(slug) ? btn.classList.add('active') : btn.classList.remove('active') ;
+        if(existing.includes(slug)) 
+          btn.classList.add('active')
+        
     }
   
 }

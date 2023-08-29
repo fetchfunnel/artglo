@@ -38,6 +38,8 @@
           "transportation",
           "upsells"
         ],
+        "showMoreCheckbox": true,
+        "CtaText": "Show More",
         "products_to_show": 25,
         "columns_desktop": 5,
         "full_width": true,

@@ -1,1 +1,66 @@
-{"sections":{"main":{"type":"main-list-collections","settings":{"title":"Shop by category","sort":"alphabetical","image_ratio":"portrait","columns_desktop":4,"columns_mobile":"2"}}},"order":["main"]}
+{
+  "sections": {
+    "collections": {
+      "type": "feature-collection-2",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": [
+          "abstract",
+          "animals-pets",
+          "artglo-original-prints",
+          "astronomy-space",
+          "books-comics",
+          "botanical",
+          "celebration",
+          "cocktail-bar",
+          "fantasy",
+          "figurative",
+          "halloween",
+          "food-drink",
+          "holidays",
+          "home-hearth",
+          "humor",
+          "kids",
+          "motivational",
+          "music",
+          "people-culture",
+          "performing-arts",
+          "personalize",
+          "places",
+          "religion-spirituality",
+          "scenic-nature",
+          "sports",
+          "still-life",
+          "transportation",
+          "upsells"
+        ],
+        "showMoreCheckbox": true,
+        "CtaText": "Show More",
+        "products_to_show": 25,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "collections"
+  ]
+}

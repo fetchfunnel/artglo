@@ -285,7 +285,11 @@
               
   {% endfor %}
   </div>
-  <button>more</button>
+  
+        {% if section.settings.showMoreCheckbox %}
+          <a href="{{ collection.url }}" class="solid_cta ">{{ section.settings.CtaText }}</a>
+        {% endif %}
+    
   </div>
 </div>
 

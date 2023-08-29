@@ -4,7 +4,7 @@
       "type": "faq-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/about_banner_bg.png",
-        "heading": "You’ve got questions,  We got answers!",
+        "heading": "You’ve got questions, <br> We got answers!",
         "page_description": ""
       }
     },

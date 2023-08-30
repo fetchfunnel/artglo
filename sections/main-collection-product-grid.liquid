@@ -56,6 +56,11 @@ div#ProductGridContainer .grid_wrapper{
   .facets-container.scroll-trigger.animate--fade-in {
     padding: 0;
 }
+  .active-facets.active-facets-desktop {
+    display: flex !important;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
 {%- endstyle -%}
 {% assign results =  collection  %}
 {%- liquid

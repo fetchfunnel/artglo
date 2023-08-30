@@ -12,25 +12,25 @@
         "padding_bottom": 4
       }
     },
-    "ea4a277f-81a7-4f04-86a1-cceb97daace5": {
-      "type": "blogposts",
+    "a8f6c78f-86fd-4dcf-bcf9-3a013cda707d": {
+      "type": "feature-posts-blog",
       "settings": {
         "heading": "",
         "add_link": "learn more",
         "heading_size": "h1",
         "blog": "test",
-        "post_limit": 3,
-        "columns_desktop": 3,
+        "post_limit": 4,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_image": true,
         "show_date": false,
         "show_author": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "a8f6c78f-86fd-4dcf-bcf9-3a013cda707d": {
+    "e1304f84-ff8a-4e96-b11f-a518340a3ed0": {
       "type": "feature-posts-blog",
       "settings": {
         "heading": "",
@@ -51,7 +51,7 @@
   },
   "order": [
     "main",
-    "ea4a277f-81a7-4f04-86a1-cceb97daace5",
-    "a8f6c78f-86fd-4dcf-bcf9-3a013cda707d"
+    "a8f6c78f-86fd-4dcf-bcf9-3a013cda707d",
+    "e1304f84-ff8a-4e96-b11f-a518340a3ed0"
   ]
 }

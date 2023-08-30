@@ -177,6 +177,13 @@
             "question": "Returns, Exchanges, and Warranty: What is your return policy?",
             "Answer": ", We stand behind the quality and craftsmanship of our ArtGlo signs. We want you to love your ArtGlo product and we understand that sometimes things just don't work out. Therefore, we've implemented a return policy that works for both us and our valued customers. <br>\n\n. Unused Product: If you're not fully satisfied with your purchase, you may return your ArtGlo sign in its original, unused condition within 30 days of purchase. Please note that we deduct the cost of the printed sign panel ($25) from the refund amount to cover production costs. <br>\n. Customized Items: Due to their unique nature, customized ArtGlo signs cannot be returned unless they are defective or incorrect. We strongly encourage our customers to double-check the details of their customized orders before submission.\n<br>\n.Defective or Incorrect Items: We do our best to ensure that you receive your product in perfect condition. However, if your ArtGlo sign arrives defective or incorrect due to our error, please contact us within 14 days of receiving your order. We will arrange for a return and replacement at no additional cost to you."
           }
+        },
+        "61e941ce-f5cd-418a-bc31-654e2f8f40b4": {
+          "type": "faqs",
+          "settings": {
+            "question": "What if my panel arrives damaged?",
+            "Answer": "At ArtGlo, we are committed to ensuring that every product you order arrives in perfect condition. However, we understand that sometimes, despite our best efforts, items may be damaged during transit. If your product arrives damaged, please contact us immediately. Send us an email at support@artglo.com with your order number and photos of the damaged product. Our customer service team will work with you to resolve the issue as quickly as possible.\nWe may ask you to return the damaged product to us. If this is the case, we will provide you with a prepaid return shipping label. Once we receive and confirm the damage, we'll expedite a replacement at no additional cost to you. Your satisfaction is our priority, and we appreciate your understanding in this matter."
+          }
         }
       },
       "block_order": [
@@ -196,7 +203,8 @@
         "8e272fa5-6c5f-4e04-af42-522ec26f1c50",
         "1f053b24-1acf-4530-bc34-d4289770554d",
         "201fa082-a100-4b24-b360-e8972e7d953e",
-        "a0a1be7b-5360-48d1-a19d-282ac24d5589"
+        "a0a1be7b-5360-48d1-a19d-282ac24d5589",
+        "61e941ce-f5cd-418a-bc31-654e2f8f40b4"
       ],
       "custom_css": [
 

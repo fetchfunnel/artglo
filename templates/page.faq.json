@@ -561,49 +561,22 @@
         "heading": "Product Related"
       }
     },
-    "c3cfaa99-48c7-4abc-a583-dbf595d83b4d": {
-      "type": "image-with-text",
+    "cae4cdce-76bd-47ca-b65a-553cab5faab7": {
+      "type": "faq-for-two",
       "blocks": {
-        "template--20832297845046__c3cfaa99-48c7-4abc-a583-dbf595d83b4d-heading-1": {
-          "type": "heading",
+        "24877c89-5b69-4786-83b4-6ad14ab51be0": {
+          "type": "faqs",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "template--20832297845046__c3cfaa99-48c7-4abc-a583-dbf595d83b4d-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--20832297845046__c3cfaa99-48c7-4abc-a583-dbf595d83b4d-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "question": "How do I install my ArtGlo sign?",
+            "Answer": "fjkbfkbf"
           }
         }
       },
       "block_order": [
-        "template--20832297845046__c3cfaa99-48c7-4abc-a583-dbf595d83b4d-heading-1",
-        "template--20832297845046__c3cfaa99-48c7-4abc-a583-dbf595d83b4d-text-1",
-        "template--20832297845046__c3cfaa99-48c7-4abc-a583-dbf595d83b4d-button-1"
+        "24877c89-5b69-4786-83b4-6ad14ab51be0"
       ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading": "Product Related"
       }
     }
   },
@@ -616,6 +589,6 @@
     "f2b476de-c073-47b1-b566-b1abd5aadad0",
     "6a98424f-444e-4ea2-b0a2-5d6678e22ad9",
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
-    "c3cfaa99-48c7-4abc-a583-dbf595d83b4d"
+    "cae4cdce-76bd-47ca-b65a-553cab5faab7"
   ]
 }

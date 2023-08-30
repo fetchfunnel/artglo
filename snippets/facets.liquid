@@ -148,7 +148,7 @@
                       {{- 'products.facets.max_price' | t: price: max_price_amount -}}
                     </span>
                     {%- if filter_type != 'vertical' -%}
-                      <facet-remove>
+                      <facet-remove> ererer
                         <a href="{{ filter.url_to_remove }}" class="facets__reset link underlined-link">
                           {{ 'products.facets.reset' | t }}
                         </a>
@@ -419,7 +419,7 @@
             <div class="active-facets active-facets-desktop">
               {%- for filter in results.filters -%}
                 {%- for value in filter.active_values -%}
-                  <facet-remove> 123
+                  <facet-remove> 
                     <a href="{{ value.url_to_remove }}" class="active-facets__button active-facets__button--light">
                       <span class="active-facets__button-inner button button--tertiary">
                         {{ filter.label }}: {{ value.label | escape }}

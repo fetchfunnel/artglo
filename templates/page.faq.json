@@ -184,6 +184,13 @@
             "question": "What if my panel arrives damaged?",
             "Answer": "At ArtGlo, we are committed to ensuring that every product you order arrives in perfect condition. However, we understand that sometimes, despite our best efforts, items may be damaged during transit. If your product arrives damaged, please contact us immediately. Send us an email at support@artglo.com with your order number and photos of the damaged product. Our customer service team will work with you to resolve the issue as quickly as possible.\nWe may ask you to return the damaged product to us. If this is the case, we will provide you with a prepaid return shipping label. Once we receive and confirm the damage, we'll expedite a replacement at no additional cost to you. Your satisfaction is our priority, and we appreciate your understanding in this matter."
           }
+        },
+        "2351c8b0-e64a-4bd1-ada6-c90639494813": {
+          "type": "faqs",
+          "settings": {
+            "question": "Do you offer a warranty?",
+            "Answer": "Every ArtGlo product comes with a 1-year manufacturer's warranty, assuring you of its quality and durability. This warranty covers any manufacturing defects in your ArtGlo sign from the date of purchase. If a defect arises within the warranty period, please contact our customer service at support@artglo.com with your order number and a detailed description of the issue. We will either repair or replace your product free of charge. Please note that this warranty does not cover damage caused by improper use, accidents, or normal wear and tear."
+          }
         }
       },
       "block_order": [
@@ -204,7 +211,8 @@
         "1f053b24-1acf-4530-bc34-d4289770554d",
         "201fa082-a100-4b24-b360-e8972e7d953e",
         "a0a1be7b-5360-48d1-a19d-282ac24d5589",
-        "61e941ce-f5cd-418a-bc31-654e2f8f40b4"
+        "61e941ce-f5cd-418a-bc31-654e2f8f40b4",
+        "2351c8b0-e64a-4bd1-ada6-c90639494813"
       ],
       "custom_css": [
 

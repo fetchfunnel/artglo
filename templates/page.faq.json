@@ -198,6 +198,13 @@
             "question": "Technical Support: How do I install my ArtGlo sign?",
             "Answer": "Link to User Manual"
           }
+        },
+        "5b1d495a-06bf-4b1f-85d8-69d235f08f2c": {
+          "type": "faqs",
+          "settings": {
+            "question": "How do I care for and maintain my ArtGlo sign?",
+            "Answer": "ArtGlo panels are designed for the outdoors. They can take a beating, but sometimes need to be freshened up. Using a soft microfiber towel, and some warm water with dish soap will bring your panel and insert back to looking fresh!"
+          }
         }
       },
       "block_order": [
@@ -220,7 +227,8 @@
         "a0a1be7b-5360-48d1-a19d-282ac24d5589",
         "61e941ce-f5cd-418a-bc31-654e2f8f40b4",
         "2351c8b0-e64a-4bd1-ada6-c90639494813",
-        "80611434-3969-422d-bba2-d375aa044ecb"
+        "80611434-3969-422d-bba2-d375aa044ecb",
+        "5b1d495a-06bf-4b1f-85d8-69d235f08f2c"
       ],
       "custom_css": [
 

@@ -285,96 +285,6 @@
         "heading": "Frequently asked questions"
       }
     },
-    "c54e64fd-1b07-46e4-9365-b9b8f84c920d": {
-      "type": "faq-for-two",
-      "blocks": {
-        "template--20832297845046__c54e64fd-1b07-46e4-9365-b9b8f84c920d-faqs-1": {
-          "type": "faqs",
-          "settings": {
-            "question": "What is ArtGlo?",
-            "Answer": "ArtGlo panels are a unique and innovative brand of customizable illuminated art signs. They harness proprietary solar powered illumination technology to create vibrant, energy-efficient, and customizable illuminated signs that add a unique aesthetic touch to any setting."
-          }
-        },
-        "33853a87-18fa-4e63-9c5a-9c3c1abc525a": {
-          "type": "faqs",
-          "settings": {
-            "question": "How does ArtGlo work?",
-            "Answer": "ArtGlo utilizes advanced LED technology in conjunction with a proprietary, patent-pending light-diffusing system designed by our part. Truly “set it and forget it” the LED lights within the sign automatically illuminate the entire design when the sun goes down, casting a radiant glow that allows it to be visible both day and night. The result is a stunning piece of illuminated art that can be personalized to your taste."
-          }
-        },
-        "aebcca86-41a2-402c-8295-42da425d7258": {
-          "type": "faqs",
-          "settings": {
-            "question": "How long does the light stay on?",
-            "Answer": "The panel will illuminate continuously for 4 hours. After 4 hours, the light turns off to preserve the battery life of the panel."
-          }
-        },
-        "e0e7fc09-aa1d-4ca4-aee1-ed1b32617504": {
-          "type": "faqs",
-          "settings": {
-            "question": "What are the panel specs?",
-            "Answer": ", ArtGlo signs come in a standard size of 18 inches by 24 inches. This size has been chosen to provide an optimal balance between visibility and convenience. The signs can be displayed in both portrait and landscape orientations to suit your design preferences and space requirements.\n<br>\n. ArtGlo Panels weigh just over 6 lbs. With the stand and mounting options, the total package weight comes to 11 lbs"
-          }
-        },
-        "587b1124-8358-4faf-a1f7-405098c5e48a": {
-          "type": "faqs",
-          "settings": {
-            "question": "Are ArtGlo signs safe to use?",
-            "Answer": "Absolutely. Safety is a top priority for us at ArtGlo. Our signs use LED lights, which are known for their cool operation and energy efficiency. The signs are built with durable materials designed for longevity and safety. However, like any electrical product, they should be used responsibly. ArtGlo signs do not make good skateboards, frisbees, pitching backstops, or footstools."
-          }
-        },
-        "cd8237c4-153c-4c24-9558-46c15c6c1041": {
-          "type": "faqs",
-          "settings": {
-            "question": "Can I customize an ArtGlo sign?",
-            "Answer": "Yes, customization is one of ArtGlo's most exciting features! We offer a range of pre-designed signs, but we also give our customers the opportunity to create their unique designs. Whether it's a logo, a favorite quote, a band poster, or anything else you can imagine, ArtGlo can help illuminate your creativity."
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__c54e64fd-1b07-46e4-9365-b9b8f84c920d-faqs-1",
-        "33853a87-18fa-4e63-9c5a-9c3c1abc525a",
-        "aebcca86-41a2-402c-8295-42da425d7258",
-        "e0e7fc09-aa1d-4ca4-aee1-ed1b32617504",
-        "587b1124-8358-4faf-a1f7-405098c5e48a",
-        "cd8237c4-153c-4c24-9558-46c15c6c1041"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "ubfbfio"
-      }
-    },
-    "9eb82f02-88ad-4aca-9f08-c3e1733d8595": {
-      "type": "faq-for-one",
-      "blocks": {
-        "template--20832297845046__9eb82f02-88ad-4aca-9f08-c3e1733d8595-faqs-1": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": true,
-            "question": "",
-            "Answer": ""
-          }
-        },
-        "f6f2cdbb-a2d6-44c1-ad69-546406d5cd46": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": true,
-            "question": "",
-            "Answer": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__9eb82f02-88ad-4aca-9f08-c3e1733d8595-faqs-1",
-        "f6f2cdbb-a2d6-44c1-ad69-546406d5cd46"
-      ],
-      "settings": {
-        "heading": "fnggn",
-        "right_heading": "fblfbfb"
-      }
-    },
     "77b62a2e-e797-4be1-99fa-f33837889f7b": {
       "type": "banner-faq-bottom",
       "blocks": {
@@ -431,8 +341,6 @@
     "dc4a1fed-ae7b-470e-a6af-15317aaeef7f",
     "a5b68e36-a8d8-4c16-9277-8a2c56d641bd",
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
-    "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
-    "9eb82f02-88ad-4aca-9f08-c3e1733d8595",
     "77b62a2e-e797-4be1-99fa-f33837889f7b"
   ]
 }

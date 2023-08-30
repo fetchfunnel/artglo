@@ -43,7 +43,28 @@
   </div>
 </section>
 
+<script>
+  
+  
+  
+     let faqTitle = document.querySelectorAll(".faq_que");
+        for (let i of faqTitle) {
+            i.addEventListener("click", () => {
+                i.classList.toggle("active");
+                let nextSibling = i.nextElementSibling;
+                let nextSiblingHeight = nextSibling.scrollHeight;
+                console.log(nextSibling);
+                if (i.classList.contains("active")) {
+                    nextSibling.setAttribute("style", `height:${nextSiblingHeight}px`);
+                } else {
+                    nextSibling.removeAttribute("style");
+                }
+            })
+        }
 
+
+
+</script>
 
 {% schema %}
 {

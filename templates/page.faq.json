@@ -403,43 +403,43 @@
         "heading": "Product Related"
       }
     },
-    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9": {
-      "type": "banner-faq-bottom",
+    "46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f": {
+      "type": "space",
       "blocks": {
-        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-heading-1": {
+        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Still can’t find what you’re looking for?",
+            "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-text-1": {
+        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-text-1": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
         },
-        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-buttons-1": {
+        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Chat with us",
-            "button_link_1": "#",
+            "button_label_1": "Button label",
+            "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Write us a message on artglo@support.com",
-            "button_link_2": "mailto:artglo@support.com",
+            "button_label_2": "Button label",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-heading-1",
-        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-text-1",
-        "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-buttons-1"
+        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-heading-1",
+        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-text-1",
+        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-buttons-1"
       ],
       "settings": {
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -544,7 +544,7 @@
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "d0f8cc2f-6508-4e2a-839c-e13fba180489",
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
-    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9",
+    "46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f",
     "f42a9d4d-c5cc-4983-8020-563403540bba",
     "8233b563-83be-474b-9d7a-b395ec7877ad",
     "77b62a2e-e797-4be1-99fa-f33837889f7b"

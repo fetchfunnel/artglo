@@ -96,7 +96,6 @@
     </h2>
     {% for block in section.blocks %}
       {% if block.settings.left_align %}
-<div class="test">
         <div class="faq_content-left">
           <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <div class="faq_que">
@@ -125,7 +124,6 @@
                 {{ block.settings.Answer }}
               </p>
             </div>
- </div>
           </div>
         </div>
       {% endif %}

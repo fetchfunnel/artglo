@@ -1,9 +1,11 @@
 <style>
+
   .faq_content-left{
   width:50%;
   display:flex;
   flex-flow:nowrap column;
   }
+
   .faq_content-right{width:50%;
   display:flex;
   flex-flow:nowrap column;}
@@ -91,7 +93,6 @@
     <h2 class="heading_xlh2 faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       {{ section.settings.heading }}
     </h2>
-
     {% for block in section.blocks %}
       {% if block.settings.left_align %}
         <div class="faq_content-left">

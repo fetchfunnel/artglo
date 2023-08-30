@@ -336,12 +336,20 @@
             "question": "How long does the light stay on?",
             "Answer": "The panel will illuminate continuously for 4 hours. After 4 hours, the light turns off to preserve the battery life of the panel."
           }
+        },
+        "e0e7fc09-aa1d-4ca4-aee1-ed1b32617504": {
+          "type": "faqs",
+          "settings": {
+            "question": "What are the panel specs?",
+            "Answer": "ArtGlo signs come in a standard size of 18 inches by 24 inches. This size has been chosen to provide an optimal balance between visibility and convenience. The signs can be displayed in both portrait and landscape orientations to suit your design preferences and space requirements."
+          }
         }
       },
       "block_order": [
         "template--20832297845046__c54e64fd-1b07-46e4-9365-b9b8f84c920d-faqs-1",
         "33853a87-18fa-4e63-9c5a-9c3c1abc525a",
-        "aebcca86-41a2-402c-8295-42da425d7258"
+        "aebcca86-41a2-402c-8295-42da425d7258",
+        "e0e7fc09-aa1d-4ca4-aee1-ed1b32617504"
       ],
       "settings": {
         "heading": "Product Related"

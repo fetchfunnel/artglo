@@ -270,7 +270,6 @@
         "99471608-08eb-48e5-a4b5-71112ace7196",
         "5881bfcd-0320-49b6-8eda-52bf8b2dc45c"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -446,6 +445,25 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "70adae76-3c0f-41f5-85e6-26466bf91544": {
+      "type": "faq-for-one",
+      "blocks": {
+        "template--20832297845046__70adae76-3c0f-41f5-85e6-26466bf91544-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "align": "joho",
+            "question": "jbvkvku",
+            "Answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20832297845046__70adae76-3c0f-41f5-85e6-26466bf91544-faqs-1"
+      ],
+      "settings": {
+        "heading": "subtitiles"
+      }
     }
   },
   "order": [
@@ -457,6 +475,7 @@
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "d0f8cc2f-6508-4e2a-839c-e13fba180489",
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
-    "77b62a2e-e797-4be1-99fa-f33837889f7b"
+    "77b62a2e-e797-4be1-99fa-f33837889f7b",
+    "70adae76-3c0f-41f5-85e6-26466bf91544"
   ]
 }

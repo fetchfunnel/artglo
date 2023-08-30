@@ -421,24 +421,6 @@
         "heading": "Frequently asked questions"
       }
     },
-    "1ff3cffd-1b32-48b5-add1-23217bebb9c2": {
-      "type": "faq-for-two",
-      "blocks": {
-        "template--20832297845046__1ff3cffd-1b32-48b5-add1-23217bebb9c2-faqs-1": {
-          "type": "faqs",
-          "settings": {
-            "question": "",
-            "Answer": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__1ff3cffd-1b32-48b5-add1-23217bebb9c2-faqs-1"
-      ],
-      "settings": {
-        "heading": "Frequently asked questions"
-      }
-    },
     "6a98424f-444e-4ea2-b0a2-5d6678e22ad9": {
       "type": "banner-faq-bottom",
       "blocks": {
@@ -498,7 +480,6 @@
     "d0f8cc2f-6508-4e2a-839c-e13fba180489",
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
     "63fdc1be-60b2-4ae1-9d07-8b0527f889de",
-    "1ff3cffd-1b32-48b5-add1-23217bebb9c2",
     "6a98424f-444e-4ea2-b0a2-5d6678e22ad9"
   ]
 }

@@ -279,18 +279,6 @@
     },
     "8b4b86d4-315c-40bd-898c-850061ee00a9": {
       "type": "Heading",
-      "blocks": {
-        "template--20832297845046__8b4b86d4-315c-40bd-898c-850061ee00a9-faqs-1": {
-          "type": "faqs",
-          "settings": {
-            "question": "",
-            "Answer": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__8b4b86d4-315c-40bd-898c-850061ee00a9-faqs-1"
-      ],
       "settings": {
         "heading": "Frequently asked questions"
       }
@@ -403,53 +391,6 @@
         "heading": "Product Related"
       }
     },
-    "46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f": {
-      "type": "space",
-      "blocks": {
-        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-heading-1",
-        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-text-1",
-        "template--20832297845046__46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f-buttons-1"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "f42a9d4d-c5cc-4983-8020-563403540bba": {
       "type": "faq-for-one",
       "blocks": {
@@ -544,7 +485,6 @@
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "d0f8cc2f-6508-4e2a-839c-e13fba180489",
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
-    "46cf9d5f-7572-4c5b-b1f5-ccebfbae1b3f",
     "f42a9d4d-c5cc-4983-8020-563403540bba",
     "8233b563-83be-474b-9d7a-b395ec7877ad",
     "77b62a2e-e797-4be1-99fa-f33837889f7b"

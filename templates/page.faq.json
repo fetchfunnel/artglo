@@ -350,6 +350,13 @@
             "question": "Are ArtGlo signs safe to use?",
             "Answer": "Absolutely. Safety is a top priority for us at ArtGlo. Our signs use LED lights, which are known for their cool operation and energy efficiency. The signs are built with durable materials designed for longevity and safety. However, like any electrical product, they should be used responsibly. ArtGlo signs do not make good skateboards, frisbees, pitching backstops, or footstools."
           }
+        },
+        "cd8237c4-153c-4c24-9558-46c15c6c1041": {
+          "type": "faqs",
+          "settings": {
+            "question": "Can I customize an ArtGlo sign?",
+            "Answer": "Yes, customization is one of ArtGlo's most exciting features! We offer a range of pre-designed signs, but we also give our customers the opportunity to create their unique designs. Whether it's a logo, a favorite quote, a band poster, or anything else you can imagine, ArtGlo can help illuminate your creativity."
+          }
         }
       },
       "block_order": [
@@ -357,7 +364,8 @@
         "33853a87-18fa-4e63-9c5a-9c3c1abc525a",
         "aebcca86-41a2-402c-8295-42da425d7258",
         "e0e7fc09-aa1d-4ca4-aee1-ed1b32617504",
-        "587b1124-8358-4faf-a1f7-405098c5e48a"
+        "587b1124-8358-4faf-a1f7-405098c5e48a",
+        "cd8237c4-153c-4c24-9558-46c15c6c1041"
       ],
       "settings": {
         "heading": "Product Related"

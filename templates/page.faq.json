@@ -212,6 +212,13 @@
             "question": "What to do if my ArtGlo sign isn't working?",
             "Answer": "Go through the troubleshooting steps in the user manual."
           }
+        },
+        "3f618eae-6efe-4370-87f6-33745f1ac0eb": {
+          "type": "faqs",
+          "settings": {
+            "question": "Company Information: Who is behind ArtGlo?",
+            "Answer": "ArtGlo is brought to you by a dedicated team of innovative creatives, tech enthusiasts, and experienced business professionals. Our mission is to revolutionize the way art and lighting interact by providing high-quality, customizable glow-in-the-dark signs. We are committed to creating unique, eye-catching products that brighten up any space while keeping customer satisfaction at the heart of everything we do. Each member of our team is passionate about bringing this vision to life and making ArtGlo a beloved brand across the globe."
+          }
         }
       },
       "block_order": [
@@ -236,7 +243,8 @@
         "2351c8b0-e64a-4bd1-ada6-c90639494813",
         "80611434-3969-422d-bba2-d375aa044ecb",
         "5b1d495a-06bf-4b1f-85d8-69d235f08f2c",
-        "4b2aa9c6-3413-4187-a7c7-47ef9d7422e0"
+        "4b2aa9c6-3413-4187-a7c7-47ef9d7422e0",
+        "3f618eae-6efe-4370-87f6-33745f1ac0eb"
       ],
       "custom_css": [
 

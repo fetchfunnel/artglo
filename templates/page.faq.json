@@ -542,6 +542,24 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "c54e64fd-1b07-46e4-9365-b9b8f84c920d": {
+      "type": "faq-for-two",
+      "blocks": {
+        "template--20832297845046__c54e64fd-1b07-46e4-9365-b9b8f84c920d-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "",
+            "Answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20832297845046__c54e64fd-1b07-46e4-9365-b9b8f84c920d-faqs-1"
+      ],
+      "settings": {
+        "heading": "Frequently asked questions"
+      }
     }
   },
   "order": [
@@ -551,6 +569,7 @@
     "dc4a1fed-ae7b-470e-a6af-15317aaeef7f",
     "a5b68e36-a8d8-4c16-9277-8a2c56d641bd",
     "f2b476de-c073-47b1-b566-b1abd5aadad0",
-    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9"
+    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9",
+    "c54e64fd-1b07-46e4-9365-b9b8f84c920d"
   ]
 }

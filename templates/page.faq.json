@@ -277,6 +277,42 @@
         "heading": "Frequently asked questions"
       }
     },
+    "d0f8cc2f-6508-4e2a-839c-e13fba180489": {
+      "type": "faq-for-one",
+      "blocks": {
+        "template--20832297845046__d0f8cc2f-6508-4e2a-839c-e13fba180489-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "",
+            "Answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20832297845046__d0f8cc2f-6508-4e2a-839c-e13fba180489-faqs-1"
+      ],
+      "settings": {
+        "heading": "Frequently asked questions"
+      }
+    },
+    "c54e64fd-1b07-46e4-9365-b9b8f84c920d": {
+      "type": "faq-for-two",
+      "blocks": {
+        "template--20832297845046__c54e64fd-1b07-46e4-9365-b9b8f84c920d-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "vvv",
+            "Answer": "fjkbfkbf"
+          }
+        }
+      },
+      "block_order": [
+        "template--20832297845046__c54e64fd-1b07-46e4-9365-b9b8f84c920d-faqs-1"
+      ],
+      "settings": {
+        "heading": "Product Related"
+      }
+    },
     "6a98424f-444e-4ea2-b0a2-5d6678e22ad9": {
       "type": "banner-faq-bottom",
       "blocks": {
@@ -324,42 +360,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "d0f8cc2f-6508-4e2a-839c-e13fba180489": {
-      "type": "faq-for-one",
-      "blocks": {
-        "template--20832297845046__d0f8cc2f-6508-4e2a-839c-e13fba180489-faqs-1": {
-          "type": "faqs",
-          "settings": {
-            "question": "",
-            "Answer": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__d0f8cc2f-6508-4e2a-839c-e13fba180489-faqs-1"
-      ],
-      "settings": {
-        "heading": "Frequently asked questions"
-      }
-    },
-    "c54e64fd-1b07-46e4-9365-b9b8f84c920d": {
-      "type": "faq-for-two",
-      "blocks": {
-        "template--20832297845046__c54e64fd-1b07-46e4-9365-b9b8f84c920d-faqs-1": {
-          "type": "faqs",
-          "settings": {
-            "question": "vvv",
-            "Answer": "fjkbfkbf"
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__c54e64fd-1b07-46e4-9365-b9b8f84c920d-faqs-1"
-      ],
-      "settings": {
-        "heading": "Product Related"
-      }
     }
   },
   "order": [
@@ -368,8 +368,8 @@
     "7aec9b16-a5ac-48ab-9909-ba7a15974b0b",
     "dc4a1fed-ae7b-470e-a6af-15317aaeef7f",
     "a5b68e36-a8d8-4c16-9277-8a2c56d641bd",
-    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9",
     "d0f8cc2f-6508-4e2a-839c-e13fba180489",
-    "c54e64fd-1b07-46e4-9365-b9b8f84c920d"
+    "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
+    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9"
   ]
 }

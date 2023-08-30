@@ -326,48 +326,6 @@
         "right_heading": "fg;ojgpogn"
       }
     },
-    "a4cdaa85-bddc-4d96-a807-fc6265975b51": {
-      "type": "two-faqs",
-      "blocks": {
-        "ddff82bf-db41-4d79-8e45-d6c8aeed4e30": {
-          "type": "faqs",
-          "settings": {
-            "left_align": true,
-            "right_align": false,
-            "question": "How do I place an order?",
-            "Answer": "ArtGlo panels are a unique and innovative brand of customizable illuminated art signs. They harness proprietary solar powered illumination technology to create vibrant, energy-efficient, and customizable illuminated signs that add a unique aesthetic touch to any setting."
-          }
-        }
-      },
-      "block_order": [
-        "ddff82bf-db41-4d79-8e45-d6c8aeed4e30"
-      ],
-      "settings": {
-        "heading": "Shipping and Delivery:",
-        "right_heading": "fg;ojgpogn"
-      }
-    },
-    "50b649ac-8a18-4483-afea-2fe759082fc5": {
-      "type": "two-faqs",
-      "blocks": {
-        "0102e69b-25e0-4686-b16f-5f1b23bf4a85": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": true,
-            "question": "How do I place an order?",
-            "Answer": "ArtGlo panels are a unique and innovative brand of customizable illuminated art signs. They harness proprietary solar powered illumination technology to create vibrant, energy-efficient, and customizable illuminated signs that add a unique aesthetic touch to any setting."
-          }
-        }
-      },
-      "block_order": [
-        "0102e69b-25e0-4686-b16f-5f1b23bf4a85"
-      ],
-      "settings": {
-        "heading": "Returns, Exchanges, and Warranty:",
-        "right_heading": "fg;ojgpogn"
-      }
-    },
     "77b62a2e-e797-4be1-99fa-f33837889f7b": {
       "type": "banner-faq-bottom",
       "blocks": {
@@ -426,8 +384,6 @@
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "4f8da5e8-df8c-4bd2-8115-61d68a6139d1",
     "aab530f7-e255-4cce-9df7-58e808e1d03b",
-    "a4cdaa85-bddc-4d96-a807-fc6265975b51",
-    "50b649ac-8a18-4483-afea-2fe759082fc5",
     "77b62a2e-e797-4be1-99fa-f33837889f7b"
   ]
 }

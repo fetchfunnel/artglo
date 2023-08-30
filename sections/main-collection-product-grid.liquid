@@ -117,7 +117,7 @@ div#ProductGridContainer .grid_wrapper{
       </facet-filters-form>
     {%- endif -%}
     
-    <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'facets.js' | asset_url }}" ></script>
     {{ 'component-facets.css' | asset_url | stylesheet_tag }}
 
     <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">

@@ -325,13 +325,21 @@
             "question": "Can I cancel or modify my order?",
             "Answer": "We begin processing your order as soon as it's placed to ensure quick delivery, so we're unable to modify or cancel orders once they've been submitted. Please review your order carefully before placing it. If you have any concerns or issues after placing your order, please reach out to our customer service team as soon as possible."
           }
+        },
+        "118f835a-2c1b-4e3a-9dcb-4ae18dbb4418": {
+          "type": "faqs",
+          "settings": {
+            "question": "Do you offer bulk ordering or corporate discounts?",
+            "Answer": "Yes, we do! ArtGlo is a great solution for businesses looking for unique signage or promotional items. If you're interested in a bulk purchase or corporate order, please contact our sales team directly for more information on pricing and availability."
+          }
         }
       },
       "block_order": [
         "template--20832297845046__d0f8cc2f-6508-4e2a-839c-e13fba180489-faqs-1",
         "24ac2d96-5c63-4781-aebf-f8b598efc6a5",
         "357c9f05-c0c4-41cd-b6f7-2bce309d67ad",
-        "18b83e21-b836-47e9-ade8-5d57e244e6e7"
+        "18b83e21-b836-47e9-ade8-5d57e244e6e7",
+        "118f835a-2c1b-4e3a-9dcb-4ae18dbb4418"
       ],
       "settings": {
         "heading": "Ordering and Payment:"
@@ -395,6 +403,42 @@
         "heading": "Product Related"
       }
     },
+    "63fdc1be-60b2-4ae1-9d07-8b0527f889de": {
+      "type": "faq-for-one",
+      "blocks": {
+        "template--20832297845046__63fdc1be-60b2-4ae1-9d07-8b0527f889de-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "",
+            "Answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20832297845046__63fdc1be-60b2-4ae1-9d07-8b0527f889de-faqs-1"
+      ],
+      "settings": {
+        "heading": "Frequently asked questions"
+      }
+    },
+    "1ff3cffd-1b32-48b5-add1-23217bebb9c2": {
+      "type": "faq-for-two",
+      "blocks": {
+        "template--20832297845046__1ff3cffd-1b32-48b5-add1-23217bebb9c2-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "",
+            "Answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20832297845046__1ff3cffd-1b32-48b5-add1-23217bebb9c2-faqs-1"
+      ],
+      "settings": {
+        "heading": "Frequently asked questions"
+      }
+    },
     "6a98424f-444e-4ea2-b0a2-5d6678e22ad9": {
       "type": "banner-faq-bottom",
       "blocks": {
@@ -453,6 +497,8 @@
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "d0f8cc2f-6508-4e2a-839c-e13fba180489",
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
+    "63fdc1be-60b2-4ae1-9d07-8b0527f889de",
+    "1ff3cffd-1b32-48b5-add1-23217bebb9c2",
     "6a98424f-444e-4ea2-b0a2-5d6678e22ad9"
   ]
 }

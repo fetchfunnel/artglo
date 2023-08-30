@@ -1,4 +1,4 @@
-i am here!
+
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
@@ -28,7 +28,7 @@ i am here!
   }
 {%- endstyle -%}
 
-<div class="section-{{ section.id }}-padding ">
+<div class="section-{{ section.id }}-padding endless_container">
  
                 
   {%- paginate collection.products by section.settings.products_per_page -%}

@@ -135,6 +135,20 @@
             "question": "Do you offer bulk ordering or corporate discounts?",
             "Answer": "Yes, we do! ArtGlo is a great solution for businesses looking for unique signage or promotional items. If you're interested in a bulk purchase or corporate order, please contact our sales team directly for more information on pricing and availability."
           }
+        },
+        "08f578f9-ec78-4351-ae13-e43850a96376": {
+          "type": "faqs",
+          "settings": {
+            "question": "Shipping and Delivery: How long will it take for my order to arrive?",
+            "Answer": "5-7 business days. All of our orders are print on demand and shipped out on Monday, Wednesday, or Friday."
+          }
+        },
+        "ad8d8a47-9a2a-45b4-9fed-5596c055ecbc": {
+          "type": "faqs",
+          "settings": {
+            "question": "What are your shipping charges?",
+            "Answer": "Shipping is included in all of our pricing"
+          }
         }
       },
       "block_order": [
@@ -148,7 +162,9 @@
         "01301a1d-48c5-4583-bc84-7a31590f42fb",
         "74ef9abc-a850-4a6f-9479-7409f85d7952",
         "d6588e34-d83b-4844-beb8-01d716f9d073",
-        "1bacb760-2c28-442d-b0b0-3aa5dfecd544"
+        "1bacb760-2c28-442d-b0b0-3aa5dfecd544",
+        "08f578f9-ec78-4351-ae13-e43850a96376",
+        "ad8d8a47-9a2a-45b4-9fed-5596c055ecbc"
       ],
       "custom_css": [
 

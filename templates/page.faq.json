@@ -285,128 +285,6 @@
         "heading": "Frequently asked questions"
       }
     },
-    "d0f8cc2f-6508-4e2a-839c-e13fba180489": {
-      "type": "faq-for-one",
-      "blocks": {
-        "template--20832297845046__d0f8cc2f-6508-4e2a-839c-e13fba180489-faqs-1": {
-          "type": "faqs",
-          "settings": {
-            "left_align": true,
-            "right_align": false,
-            "question": "How do I place an order?",
-            "Answer": "Placing an order is easy! Just browse our catalog, select your desired sign, and click \"Add to Cart\". If you're creating a custom design, use our easy design tool to create your sign, then add it to your cart. When you're ready to check out, click on your cart and follow the prompts to complete your purchase."
-          }
-        },
-        "24ac2d96-5c63-4781-aebf-f8b598efc6a5": {
-          "type": "faqs",
-          "settings": {
-            "left_align": true,
-            "right_align": false,
-            "question": "What payment methods do you accept?",
-            "Answer": "We accept a wide variety of payment methods for your convenience. These include major credit and debit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay."
-          }
-        },
-        "357c9f05-c0c4-41cd-b6f7-2bce309d67ad": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": true,
-            "question": "Is my payment information secure?",
-            "Answer": "Absolutely. We take your security very seriously. Our checkout process uses secure socket layer (SSL) technology to ensure your personal information is encrypted and protected. We do not store your credit card details once the transaction is completed."
-          }
-        },
-        "18b83e21-b836-47e9-ade8-5d57e244e6e7": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": true,
-            "question": "Can I cancel or modify my order?",
-            "Answer": "We begin processing your order as soon as it's placed to ensure quick delivery, so we're unable to modify or cancel orders once they've been submitted. Please review your order carefully before placing it. If you have any concerns or issues after placing your order, please reach out to our customer service team as soon as possible."
-          }
-        },
-        "118f835a-2c1b-4e3a-9dcb-4ae18dbb4418": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": true,
-            "question": "Do you offer bulk ordering or corporate discounts?",
-            "Answer": "Yes, we do! ArtGlo is a great solution for businesses looking for unique signage or promotional items. If you're interested in a bulk purchase or corporate order, please contact our sales team directly for more information on pricing and availability."
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__d0f8cc2f-6508-4e2a-839c-e13fba180489-faqs-1",
-        "24ac2d96-5c63-4781-aebf-f8b598efc6a5",
-        "357c9f05-c0c4-41cd-b6f7-2bce309d67ad",
-        "18b83e21-b836-47e9-ade8-5d57e244e6e7",
-        "118f835a-2c1b-4e3a-9dcb-4ae18dbb4418"
-      ],
-      "settings": {
-        "heading": "Left Col",
-        "right_heading": "subtitiles"
-      }
-    },
-    "14be4708-b58a-468e-a37d-64e006bf0408": {
-      "type": "faq-for-one",
-      "blocks": {
-        "0cf12251-ed30-4534-b8d3-04608a871fe2": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": true,
-            "question": "ifoihfoihfo",
-            "Answer": "phfpogrhgohrp"
-          }
-        },
-        "da34dcab-fb55-4ab1-a4c0-677fd912d14b": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": true,
-            "question": "What payment methods do you accept?",
-            "Answer": "We accept a wide variety of payment methods for your convenience. These include major credit and debit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay."
-          }
-        },
-        "4e7535a3-b088-4221-81a9-ff4acb1d3dce": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": true,
-            "question": "Is my payment information secure?",
-            "Answer": "Absolutely. We take your security very seriously. Our checkout process uses secure socket layer (SSL) technology to ensure your personal information is encrypted and protected. We do not store your credit card details once the transaction is completed."
-          }
-        },
-        "3521a404-411a-4ebc-9e1d-4c8ee4375f94": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": false,
-            "question": "Can I cancel or modify my order?",
-            "Answer": "We begin processing your order as soon as it's placed to ensure quick delivery, so we're unable to modify or cancel orders once they've been submitted. Please review your order carefully before placing it. If you have any concerns or issues after placing your order, please reach out to our customer service team as soon as possible."
-          }
-        },
-        "13fee311-d574-4665-8290-60ee91ad08d2": {
-          "type": "faqs",
-          "settings": {
-            "left_align": false,
-            "right_align": false,
-            "question": "Do you offer bulk ordering or corporate discounts?",
-            "Answer": "Yes, we do! ArtGlo is a great solution for businesses looking for unique signage or promotional items. If you're interested in a bulk purchase or corporate order, please contact our sales team directly for more information on pricing and availability."
-          }
-        }
-      },
-      "block_order": [
-        "0cf12251-ed30-4534-b8d3-04608a871fe2",
-        "da34dcab-fb55-4ab1-a4c0-677fd912d14b",
-        "4e7535a3-b088-4221-81a9-ff4acb1d3dce",
-        "3521a404-411a-4ebc-9e1d-4c8ee4375f94",
-        "13fee311-d574-4665-8290-60ee91ad08d2"
-      ],
-      "settings": {
-        "heading": "flhfeponfpd",
-        "right_heading": ""
-      }
-    },
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d": {
       "type": "faq-for-two",
       "blocks": {
@@ -514,25 +392,35 @@
         "show_text_below": true
       }
     },
-    "70adae76-3c0f-41f5-85e6-26466bf91544": {
+    "9eb82f02-88ad-4aca-9f08-c3e1733d8595": {
       "type": "faq-for-one",
       "blocks": {
-        "template--20832297845046__70adae76-3c0f-41f5-85e6-26466bf91544-faqs-1": {
+        "template--20832297845046__9eb82f02-88ad-4aca-9f08-c3e1733d8595-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "left_align": true,
+            "right_align": false,
+            "question": "",
+            "Answer": ""
+          }
+        },
+        "f6f2cdbb-a2d6-44c1-ad69-546406d5cd46": {
           "type": "faqs",
           "settings": {
             "left_align": false,
-            "right_align": false,
-            "question": "jbvkvku",
+            "right_align": true,
+            "question": "",
             "Answer": ""
           }
         }
       },
       "block_order": [
-        "template--20832297845046__70adae76-3c0f-41f5-85e6-26466bf91544-faqs-1"
+        "template--20832297845046__9eb82f02-88ad-4aca-9f08-c3e1733d8595-faqs-1",
+        "f6f2cdbb-a2d6-44c1-ad69-546406d5cd46"
       ],
       "settings": {
         "heading": "subtitiles",
-        "right_heading": "subtitiles"
+        "right_heading": "hey"
       }
     }
   },
@@ -543,10 +431,8 @@
     "dc4a1fed-ae7b-470e-a6af-15317aaeef7f",
     "a5b68e36-a8d8-4c16-9277-8a2c56d641bd",
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
-    "d0f8cc2f-6508-4e2a-839c-e13fba180489",
-    "14be4708-b58a-468e-a37d-64e006bf0408",
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
     "77b62a2e-e797-4be1-99fa-f33837889f7b",
-    "70adae76-3c0f-41f5-85e6-26466bf91544"
+    "9eb82f02-88ad-4aca-9f08-c3e1733d8595"
   ]
 }

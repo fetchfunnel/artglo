@@ -1,1 +1,211 @@
-fff
+<style>
+  .tmb_about_banner {
+  	padding: 170px 0 119px;
+    margin-top:-82px;
+  	position: relative;
+       {% if section.settings.image !=blank %}
+  	 background: url("{{ section.settings.image | img_url : "master" }}");
+       {% else %}
+      background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/about_banner_bg.png?v=1692859144");
+       {% endif %}
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+
+input.searchtab::placeholder {
+    color: #C8C8C8;
+}
+
+#searchform{
+margin: auto;
+    text-align: center;
+}
+
+.hi-how{   text-align: left;
+    margin-left: 161px;}
+
+.searchbutton{
+     border-radius: 10px;
+    border: 2px solid #e50c7d;
+    background: linear-gradient(180deg,#e50c7dcc,transparent) #e50c7dcc;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    width: 16%;
+    line-height: 13px;
+    letter-spacing: 1px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.searchtab{
+  font-family: Circular Std;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 40%;
+    padding: 15px 16px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    border: 1px solid #BDBDBD;
+    background: rgba(255, 255, 255, 0.20);
+    color: white;
+    margin-right: 20px;
+
+}
+  .tmb_about_banner::before {
+      content: "";
+      border-radius: 932.258px;
+      opacity: 0.2;
+      background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(229, 12, 125, 0.90) 0%, rgba(244, 0, 127, 0.00) 100%);
+      backdrop-filter: blur(65px);
+      position: absolute;
+  	  width: 932px;
+      height: 841px;
+      bottom: 0;
+      left: -10%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+  }
+
+  .tmb_about_banner::after{
+          content: '';
+          position: absolute;
+          bottom: -50%;
+          right: -10%;
+          width: 614px;
+          height: 555px;
+          border-radius: 614.492px;
+          opacity: 0.2;
+          background: radial-gradient(50% 50.00% at 50% 50.00%, #E50C7D 0%, rgba(244, 0, 127, 0.00) 100%);
+          backdrop-filter: blur(65px);
+          z-index:-1;
+          }
+
+  .tmb_about_banner_content {
+  	padding: 40px 20px;
+  	border-radius: 10px;
+  	background: rgba(255, 255, 255, 0.30);
+  	backdrop-filter: blur(10px);
+  	max-width: 820px;
+  	width: 100%;
+  	margin: 0 auto;
+  	position: relative;
+  	z-index: 2;
+  }
+
+  .tmb_about_banner-title {
+  	color: #FFF;
+  	text-align: center;
+  	font-family: Newake;
+  	font-size: 56px;
+  	font-style: normal;
+  	font-weight: 400;
+  	line-height: 128%;
+      margin-bottom:24px;
+  }
+
+  .tmb_about_banner-brief {
+  	color: #FFF;
+  	text-align: center;
+  	font-family: Circular Std;
+  	font-size: 22px;
+  	font-style: normal;
+  	font-weight: 400;
+  	line-height: 163%;
+  	max-width: 765px;
+  	width: 100%;
+  	margin: 0 auto;
+  }
+
+  @media (max-width:1200px){
+    .tmb_about_banner-title {
+  	font-size: 50px;
+    }
+  }
+  @media (max-width:1024px){
+    .tmb_about_banner-title {
+  	font-size: 46px;
+    }
+    .tmb_about_banner-brief {
+      font-size: 20px;
+    }
+  }
+    @media (max-width:750px){
+        .tmb_about_banner {
+  	padding: 127px 0 64px !important;
+    margin-top:-82px;
+
+  }
+      .tmb_about_banner_content {
+  	padding: 24px 16px;
+  }
+
+    .tmb_about_banner-title {
+  	font-size: 32px;
+      line-height:30px;
+    }
+     .tmb_about_banner-brief {
+      font-size: 16px;
+       line-height:20px;
+    }
+  }
+</style>
+<section class="tmb_about_banner tmb_about_section">
+  <div class="tmb_container">
+    <div class="tmb_about_banner_content ">
+      <h2 class="tmb_about_banner-title {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ section.settings.heading }}
+      </h2>
+
+
+<form id="searchform" class="search" action="/search">
+      <p class="hi-how">Hi, how can we help?</p>  
+    <input type="text" class="searchtab" placeholder="Search ArtGlo help" name="q" value="{{ search.terms | escape }}"  />
+    <input type="submit" class="searchbutton" value="Search" />
+</form>
+      <p class="tmb_about_banner-brief {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ section.settings.page_description }}
+      </p>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "FAQ Banner",
+  "tag": "section",
+  "class": "about-banner-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Banner Background Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "page_description",
+      "label": "Page Description"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

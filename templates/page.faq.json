@@ -128,6 +128,13 @@
             "question": "Can I cancel or modify my order?",
             "Answer": "We begin processing your order as soon as it's placed to ensure quick delivery, so we're unable to modify or cancel orders once they've been submitted. Please review your order carefully before placing it. If you have any concerns or issues after placing your order, please reach out to our customer service team as soon as possible."
           }
+        },
+        "1bacb760-2c28-442d-b0b0-3aa5dfecd544": {
+          "type": "faqs",
+          "settings": {
+            "question": "Do you offer bulk ordering or corporate discounts?",
+            "Answer": "Yes, we do! ArtGlo is a great solution for businesses looking for unique signage or promotional items. If you're interested in a bulk purchase or corporate order, please contact our sales team directly for more information on pricing and availability."
+          }
         }
       },
       "block_order": [
@@ -140,7 +147,8 @@
         "c5af5e5c-73a5-45aa-8bb6-adb904655e8f",
         "01301a1d-48c5-4583-bc84-7a31590f42fb",
         "74ef9abc-a850-4a6f-9479-7409f85d7952",
-        "d6588e34-d83b-4844-beb8-01d716f9d073"
+        "d6588e34-d83b-4844-beb8-01d716f9d073",
+        "1bacb760-2c28-442d-b0b0-3aa5dfecd544"
       ],
       "custom_css": [
 

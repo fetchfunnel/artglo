@@ -311,11 +311,19 @@
             "question": "What payment methods do you accept?",
             "Answer": "We accept a wide variety of payment methods for your convenience. These include major credit and debit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay."
           }
+        },
+        "357c9f05-c0c4-41cd-b6f7-2bce309d67ad": {
+          "type": "faqs",
+          "settings": {
+            "question": "Is my payment information secure?",
+            "Answer": "Absolutely. We take your security very seriously. Our checkout process uses secure socket layer (SSL) technology to ensure your personal information is encrypted and protected. We do not store your credit card details once the transaction is completed."
+          }
         }
       },
       "block_order": [
         "template--20832297845046__d0f8cc2f-6508-4e2a-839c-e13fba180489-faqs-1",
-        "24ac2d96-5c63-4781-aebf-f8b598efc6a5"
+        "24ac2d96-5c63-4781-aebf-f8b598efc6a5",
+        "357c9f05-c0c4-41cd-b6f7-2bce309d67ad"
       ],
       "settings": {
         "heading": "Ordering and Payment:"

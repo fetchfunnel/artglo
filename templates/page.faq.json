@@ -149,6 +149,20 @@
             "question": "What are your shipping charges?",
             "Answer": "Shipping is included in all of our pricing"
           }
+        },
+        "8e272fa5-6c5f-4e04-af42-522ec26f1c50": {
+          "type": "faqs",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "Answer": "We do not ship internationally. All of our orders are shipped domestically via ground shipping"
+          }
+        },
+        "1f053b24-1acf-4530-bc34-d4289770554d": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I track my order?",
+            "Answer": "TBD"
+          }
         }
       },
       "block_order": [
@@ -164,7 +178,9 @@
         "d6588e34-d83b-4844-beb8-01d716f9d073",
         "1bacb760-2c28-442d-b0b0-3aa5dfecd544",
         "08f578f9-ec78-4351-ae13-e43850a96376",
-        "ad8d8a47-9a2a-45b4-9fed-5596c055ecbc"
+        "ad8d8a47-9a2a-45b4-9fed-5596c055ecbc",
+        "8e272fa5-6c5f-4e04-af42-522ec26f1c50",
+        "1f053b24-1acf-4530-bc34-d4289770554d"
       ],
       "custom_css": [
 

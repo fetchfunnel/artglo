@@ -110,11 +110,12 @@
       {% endif %}
           {% endfor %}
 
-{% for block in section.blocks %}
-      {% if block.settings.right_align %}
-        <h2 class="heading_xlh2 faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            <h2 class="heading_xlh2 faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {{ section.settings.heading }}
         </h2>
+{% for block in section.blocks %}
+      {% if block.settings.right_align %}
+
         <div class="faq_content-right">
           <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <div class="faq_que">

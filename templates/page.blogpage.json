@@ -32,6 +32,24 @@
         "heading": "",
         "add_link": "learn more",
         "heading_size": "h1",
+        "blog": "test",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f07f080a-9a77-4156-9897-697ce420a1b5": {
+      "type": "feature-posts-blog",
+      "settings": {
+        "heading": "",
+        "add_link": "learn more",
+        "heading_size": "h1",
         "blog": "news",
         "post_limit": 4,
         "columns_desktop": 4,
@@ -48,6 +66,7 @@
   "order": [
     "main",
     "f64fa934-ab0c-4dd0-9c5b-a1cec99ad95c",
-    "1382c5e5-4177-4a0e-8274-e68cce0d5efc"
+    "1382c5e5-4177-4a0e-8274-e68cce0d5efc",
+    "f07f080a-9a77-4156-9897-697ce420a1b5"
   ]
 }

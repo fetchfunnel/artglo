@@ -438,6 +438,89 @@
         "template--20819750093110__6a98424f-444e-4ea2-b0a2-5d6678e22ad9-buttons-1"
       ],
       "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "f42a9d4d-c5cc-4983-8020-563403540bba": {
+      "type": "faq-for-one",
+      "blocks": {
+        "template--20832297845046__f42a9d4d-c5cc-4983-8020-563403540bba-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "",
+            "Answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20832297845046__f42a9d4d-c5cc-4983-8020-563403540bba-faqs-1"
+      ],
+      "settings": {
+        "heading": "Frequently asked questions"
+      }
+    },
+    "8233b563-83be-474b-9d7a-b395ec7877ad": {
+      "type": "faq-for-two",
+      "blocks": {
+        "template--20832297845046__8233b563-83be-474b-9d7a-b395ec7877ad-faqs-1": {
+          "type": "faqs",
+          "settings": {
+            "question": "",
+            "Answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20832297845046__8233b563-83be-474b-9d7a-b395ec7877ad-faqs-1"
+      ],
+      "settings": {
+        "heading": "Frequently asked questions"
+      }
+    },
+    "77b62a2e-e797-4be1-99fa-f33837889f7b": {
+      "type": "banner-faq-bottom",
+      "blocks": {
+        "5012ba7d-0083-4614-afb3-1b47842aea87": {
+          "type": "heading",
+          "settings": {
+            "heading": "Still can’t find what you’re looking for?",
+            "heading_size": "h1"
+          }
+        },
+        "78bce970-485c-4e16-9656-ffe6385cd900": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "d3df837a-c961-4260-90b4-eeaac6041ea5": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Chat with us",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "Write us a message on artglo@support.com",
+            "button_link_2": "mailto:artglo@support.com",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "5012ba7d-0083-4614-afb3-1b47842aea87",
+        "78bce970-485c-4e16-9656-ffe6385cd900",
+        "d3df837a-c961-4260-90b4-eeaac6041ea5"
+      ],
+      "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_578659.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
@@ -461,6 +544,9 @@
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "d0f8cc2f-6508-4e2a-839c-e13fba180489",
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
-    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9"
+    "6a98424f-444e-4ea2-b0a2-5d6678e22ad9",
+    "f42a9d4d-c5cc-4983-8020-563403540bba",
+    "8233b563-83be-474b-9d7a-b395ec7877ad",
+    "77b62a2e-e797-4be1-99fa-f33837889f7b"
   ]
 }

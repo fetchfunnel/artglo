@@ -305,6 +305,27 @@
         "right_heading": "right subtitiles"
       }
     },
+    "aab530f7-e255-4cce-9df7-58e808e1d03b": {
+      "type": "two-faqs",
+      "blocks": {
+        "7d44d6e9-6a7e-4a79-b3dc-2455bbeeec01": {
+          "type": "faqs",
+          "settings": {
+            "left_align": false,
+            "right_align": true,
+            "question": "How do I place an order?",
+            "Answer": "ArtGlo panels are a unique and innovative brand of customizable illuminated art signs. They harness proprietary solar powered illumination technology to create vibrant, energy-efficient, and customizable illuminated signs that add a unique aesthetic touch to any setting."
+          }
+        }
+      },
+      "block_order": [
+        "7d44d6e9-6a7e-4a79-b3dc-2455bbeeec01"
+      ],
+      "settings": {
+        "heading": "Ordering and Payment:",
+        "right_heading": "right subtitiles"
+      }
+    },
     "77b62a2e-e797-4be1-99fa-f33837889f7b": {
       "type": "banner-faq-bottom",
       "blocks": {
@@ -362,6 +383,7 @@
     "a5b68e36-a8d8-4c16-9277-8a2c56d641bd",
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "4f8da5e8-df8c-4bd2-8115-61d68a6139d1",
+    "aab530f7-e255-4cce-9df7-58e808e1d03b",
     "77b62a2e-e797-4be1-99fa-f33837889f7b"
   ]
 }

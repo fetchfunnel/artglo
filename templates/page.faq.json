@@ -86,13 +86,21 @@
             "question": "What are the panel specs?",
             "Answer": ". ArtGlo signs come in a standard size of 18 inches by 24 inches. This size has been chosen to provide an optimal balance between visibility and convenience. The signs can be displayed in both portrait and landscape orientations to suit your design preferences and space requirements.\n<br>. ArtGlo Panels weigh just over 6 lbs. With the stand and mounting options, the total package weight comes to 11 lbs"
           }
+        },
+        "ff12b818-4614-4994-87bb-9979c3ddc1bb": {
+          "type": "faqs",
+          "settings": {
+            "question": "Are ArtGlo signs safe to use?",
+            "Answer": "Absolutely. Safety is a top priority for us at ArtGlo. Our signs use LED lights, which are known for their cool operation and energy efficiency. The signs are built with durable materials designed for longevity and safety. However, like any electrical product, they should be used responsibly. ArtGlo signs do not make good skateboards, frisbees, pitching backstops, or footstools."
+          }
         }
       },
       "block_order": [
         "template--20832297845046__a5b68e36-a8d8-4c16-9277-8a2c56d641bd-faqs-1",
         "fb1132a1-cf56-4a44-a2c3-9ae8f919d803",
         "8bfc67bc-07f4-4337-90b4-57e160056498",
-        "475a0700-9917-4122-8547-4177ac269331"
+        "475a0700-9917-4122-8547-4177ac269331",
+        "ff12b818-4614-4994-87bb-9979c3ddc1bb"
       ],
       "custom_css": [
 

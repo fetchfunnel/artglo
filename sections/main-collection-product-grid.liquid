@@ -230,7 +230,6 @@ div#ProductGridContainer .grid_wrapper{
                 </div>
                 
                 {%- for filter in results.filters -%}
-                  {{ filter.active_values }} ddf
                   {%- for value in filter.active_values -%}
                     <facet-remove> 
                       <a href="{{ value.url_to_remove }}" class="active-facets__button active-facets__button--light">

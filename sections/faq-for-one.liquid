@@ -4,6 +4,8 @@
 .faq-sec-fortwo.one{
    float: right;
   width: 41%;
+    margin-right: 80px;
+
 }
  
 
@@ -94,6 +96,8 @@
 <section>
 <div class="faq-sec-fortwo one sec_bg">
   <div class="tmb_container">
+      <h2 class="heading_xlh2xxxx faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.heading }}</h2>
+
     <div class="faq_content">
       <h2 class="heading_xlh2 faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.heading }}</h2>
 
@@ -147,6 +151,12 @@
       "id": "heading",
       "default": "Frequently asked questions",
       "label": "Section Heading"
+    },
+   {
+      "type": "text",
+      "id": "headingtitile",
+      "default": "Frequently asked questions",
+      "label": "headingtitile"
     }
   ],
   "blocks": [

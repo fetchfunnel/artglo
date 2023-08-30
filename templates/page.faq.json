@@ -170,6 +170,13 @@
             "question": "Subscription Information",
             "Answer": "To-Come"
           }
+        },
+        "a0a1be7b-5360-48d1-a19d-282ac24d5589": {
+          "type": "faqs",
+          "settings": {
+            "question": "Returns, Exchanges, and Warranty: What is your return policy?",
+            "Answer": "We stand behind the quality and craftsmanship of our ArtGlo signs. We want you to love your ArtGlo product and we understand that sometimes things just don't work out. Therefore, we've implemented a return policy that works for both us and our valued customers."
+          }
         }
       },
       "block_order": [
@@ -188,7 +195,8 @@
         "ad8d8a47-9a2a-45b4-9fed-5596c055ecbc",
         "8e272fa5-6c5f-4e04-af42-522ec26f1c50",
         "1f053b24-1acf-4530-bc34-d4289770554d",
-        "201fa082-a100-4b24-b360-e8972e7d953e"
+        "201fa082-a100-4b24-b360-e8972e7d953e",
+        "a0a1be7b-5360-48d1-a19d-282ac24d5589"
       ],
       "custom_css": [
 

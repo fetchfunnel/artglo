@@ -277,6 +277,224 @@
         "heading": "Frequently asked questions"
       }
     },
+    "f2b476de-c073-47b1-b566-b1abd5aadad0": {
+      "type": "faq-sec",
+      "blocks": {
+        "956f8cbf-f29d-43fe-ad1d-5e32dc5521a8": {
+          "type": "faqs",
+          "settings": {
+            "question": "What is ArtGlo?",
+            "Answer": "ArtGlo panels are a unique and innovative brand of customizable illuminated art signs. They harness proprietary solar powered illumination technology to create vibrant, energy-efficient, and customizable illuminated signs that add a unique aesthetic touch to any setting."
+          }
+        },
+        "08c1032a-5f40-4a49-a779-70fbe9bb52fe": {
+          "type": "faqs",
+          "settings": {
+            "question": "How does ArtGlo work?",
+            "Answer": "ArtGlo utilizes advanced LED technology in conjunction with a proprietary, patent-pending light-diffusing system designed by our part. Truly “set it and forget it” the LED lights within the sign automatically illuminate the entire design when the sun goes down, casting a radiant glow that allows it to be visible both day and night. The result is a stunning piece of illuminated art that can be personalized to your taste."
+          }
+        },
+        "189ddbac-ae5e-41ca-bd69-02309273cfc7": {
+          "type": "faqs",
+          "settings": {
+            "question": "How long does the light stay on?",
+            "Answer": "The panel will illuminate continuously for 4 hours. After 4 hours, the light turns off to preserve the battery life of the panel."
+          }
+        },
+        "bf3b7800-a407-4a80-9566-dd90f203d6be": {
+          "type": "faqs",
+          "settings": {
+            "question": "What are the panel specs?",
+            "Answer": ". ArtGlo signs come in a standard size of 18 inches by 24 inches. This size has been chosen to provide an optimal balance between visibility and convenience. The signs can be displayed in both portrait and landscape orientations to suit your design preferences and space requirements.\n<br>. ArtGlo Panels weigh just over 6 lbs. With the stand and mounting options, the total package weight comes to 11 lbs"
+          }
+        },
+        "8cf523e7-a8fb-4293-8269-bce194aca706": {
+          "type": "faqs",
+          "settings": {
+            "question": "Are ArtGlo signs safe to use?",
+            "Answer": "Absolutely. Safety is a top priority for us at ArtGlo. Our signs use LED lights, which are known for their cool operation and energy efficiency. The signs are built with durable materials designed for longevity and safety. However, like any electrical product, they should be used responsibly. ArtGlo signs do not make good skateboards, frisbees, pitching backstops, or footstools."
+          }
+        },
+        "46ed5db8-9880-4e81-b434-4147e12e7002": {
+          "type": "faqs",
+          "settings": {
+            "question": "Can I customize an ArtGlo sign?",
+            "Answer": "Yes, customization is one of ArtGlo's most exciting features! We offer a range of pre-designed signs, but we also give our customers the opportunity to create their unique designs. Whether it's a logo, a favorite quote, a band poster, or anything else you can imagine, ArtGlo can help illuminate your creativity."
+          }
+        },
+        "51164cd8-a044-4df0-84aa-873de7bdd865": {
+          "type": "faqs",
+          "settings": {
+            "question": "Ordering and Payment: How do I place an order?",
+            "Answer": "Placing an order is easy! Just browse our catalog, select your desired sign, and click \"Add to Cart\". If you're creating a custom design, use our easy design tool to create your sign, then add it to your cart. When you're ready to check out, click on your cart and follow the prompts to complete your purchase."
+          }
+        },
+        "ad8f5a19-0e82-460b-b8d6-503db9842a17": {
+          "type": "faqs",
+          "settings": {
+            "question": "What payment methods do you accept?",
+            "Answer": "We accept a wide variety of payment methods for your convenience. These include major credit and debit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay."
+          }
+        },
+        "345be5ae-349f-4a5c-8084-dea56b1df8db": {
+          "type": "faqs",
+          "settings": {
+            "question": "Is my payment information secure?",
+            "Answer": "Absolutely. We take your security very seriously. Our checkout process uses secure socket layer (SSL) technology to ensure your personal information is encrypted and protected. We do not store your credit card details once the transaction is completed."
+          }
+        },
+        "5bf938fe-835d-4888-bb17-d8339c760903": {
+          "type": "faqs",
+          "settings": {
+            "question": "Can I cancel or modify my order?",
+            "Answer": "We begin processing your order as soon as it's placed to ensure quick delivery, so we're unable to modify or cancel orders once they've been submitted. Please review your order carefully before placing it. If you have any concerns or issues after placing your order, please reach out to our customer service team as soon as possible."
+          }
+        },
+        "18ff4248-6608-4e4f-966d-c6f0f02cbd7c": {
+          "type": "faqs",
+          "settings": {
+            "question": "Do you offer bulk ordering or corporate discounts?",
+            "Answer": "Yes, we do! ArtGlo is a great solution for businesses looking for unique signage or promotional items. If you're interested in a bulk purchase or corporate order, please contact our sales team directly for more information on pricing and availability."
+          }
+        },
+        "9c66700c-f847-4e9f-96b9-15c04051d5e2": {
+          "type": "faqs",
+          "settings": {
+            "question": "Shipping and Delivery: How long will it take for my order to arrive?",
+            "Answer": "5-7 business days. All of our orders are print on demand and shipped out on Monday, Wednesday, or Friday."
+          }
+        },
+        "5915512b-c60e-4fa7-a47a-a988c5d9e95f": {
+          "type": "faqs",
+          "settings": {
+            "question": "What are your shipping charges?",
+            "Answer": "Shipping is included in all of our pricing"
+          }
+        },
+        "8d1710c8-8dbe-4504-bad3-f7a69cdd2b38": {
+          "type": "faqs",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "Answer": "We do not ship internationally. All of our orders are shipped domestically via ground shipping"
+          }
+        },
+        "14138cb0-c679-46c3-ab54-7c00e0da9fc1": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I track my order?",
+            "Answer": "TBD"
+          }
+        },
+        "e1891d79-c92e-4d1e-aefa-1852f6e3e340": {
+          "type": "faqs",
+          "settings": {
+            "question": "Subscription Information",
+            "Answer": "To-Come"
+          }
+        },
+        "eba8b27d-4569-49b7-b51b-0d2b8c5171c5": {
+          "type": "faqs",
+          "settings": {
+            "question": "Returns, Exchanges, and Warranty: What is your return policy?",
+            "Answer": ", We stand behind the quality and craftsmanship of our ArtGlo signs. We want you to love your ArtGlo product and we understand that sometimes things just don't work out. Therefore, we've implemented a return policy that works for both us and our valued customers. <br>\n\n. Unused Product: If you're not fully satisfied with your purchase, you may return your ArtGlo sign in its original, unused condition within 30 days of purchase. Please note that we deduct the cost of the printed sign panel ($25) from the refund amount to cover production costs. <br>\n. Customized Items: Due to their unique nature, customized ArtGlo signs cannot be returned unless they are defective or incorrect. We strongly encourage our customers to double-check the details of their customized orders before submission.\n<br>\n.Defective or Incorrect Items: We do our best to ensure that you receive your product in perfect condition. However, if your ArtGlo sign arrives defective or incorrect due to our error, please contact us within 14 days of receiving your order. We will arrange for a return and replacement at no additional cost to you."
+          }
+        },
+        "03bd67c0-6d99-4c9a-ac6c-ca07ffe66d01": {
+          "type": "faqs",
+          "settings": {
+            "question": "What if my panel arrives damaged?",
+            "Answer": "At ArtGlo, we are committed to ensuring that every product you order arrives in perfect condition. However, we understand that sometimes, despite our best efforts, items may be damaged during transit. If your product arrives damaged, please contact us immediately. Send us an email at support@artglo.com with your order number and photos of the damaged product. Our customer service team will work with you to resolve the issue as quickly as possible.\nWe may ask you to return the damaged product to us. If this is the case, we will provide you with a prepaid return shipping label. Once we receive and confirm the damage, we'll expedite a replacement at no additional cost to you. Your satisfaction is our priority, and we appreciate your understanding in this matter."
+          }
+        },
+        "adafda70-b23f-40e4-92ef-cd00505f10d6": {
+          "type": "faqs",
+          "settings": {
+            "question": "Do you offer a warranty?",
+            "Answer": "Every ArtGlo product comes with a 1-year manufacturer's warranty, assuring you of its quality and durability. This warranty covers any manufacturing defects in your ArtGlo sign from the date of purchase. If a defect arises within the warranty period, please contact our customer service at support@artglo.com with your order number and a detailed description of the issue. We will either repair or replace your product free of charge. Please note that this warranty does not cover damage caused by improper use, accidents, or normal wear and tear."
+          }
+        },
+        "e4ee525b-499c-47f1-aa50-ea1fcc8b320b": {
+          "type": "faqs",
+          "settings": {
+            "question": "Technical Support: How do I install my ArtGlo sign?",
+            "Answer": "Link to User Manual"
+          }
+        },
+        "d67f521a-d6aa-4f74-b012-6edbccb52c10": {
+          "type": "faqs",
+          "settings": {
+            "question": "How do I care for and maintain my ArtGlo sign?",
+            "Answer": "ArtGlo panels are designed for the outdoors. They can take a beating, but sometimes need to be freshened up. Using a soft microfiber towel, and some warm water with dish soap will bring your panel and insert back to looking fresh!"
+          }
+        },
+        "8a2a5ea2-3244-4b96-8aad-308aa0fd4025": {
+          "type": "faqs",
+          "settings": {
+            "question": "What to do if my ArtGlo sign isn't working?",
+            "Answer": "Go through the troubleshooting steps in the user manual."
+          }
+        },
+        "01dd9668-1435-48c1-b422-d998c020b644": {
+          "type": "faqs",
+          "settings": {
+            "question": "Company Information: Who is behind ArtGlo?",
+            "Answer": "ArtGlo is brought to you by a dedicated team of innovative creatives, tech enthusiasts, and experienced business professionals. Our mission is to revolutionize the way art and lighting interact by providing high-quality, customizable glow-in-the-dark signs. We are committed to creating unique, eye-catching products that brighten up any space while keeping customer satisfaction at the heart of everything we do. Each member of our team is passionate about bringing this vision to life and making ArtGlo a beloved brand across the globe."
+          }
+        },
+        "98033243-065e-4c4d-b83b-f3f67a2bd931": {
+          "type": "faqs",
+          "settings": {
+            "question": "Are you hiring?",
+            "Answer": "At ArtGlo, we are always interested in meeting talented, enthusiastic individuals who share our passion for innovation and creativity. Even if we don't have a specific role open at the moment, we believe in the power of connections. If you think you would be a great fit for our team, we encourage you to send us your resume and a brief description of your skills, experiences, and how you can contribute to our mission. We'll be sure to keep your information on file and reach out if a suitable opportunity arises in the future. So, while we may not be hiring right this moment, we're always open to exploring potential fits."
+          }
+        },
+        "774ed432-ef16-4cb1-af77-beb4835015fb": {
+          "type": "faqs",
+          "settings": {
+            "question": "Want to be a featured artist?",
+            "Answer": "At ArtGlo, we are dedicated to fostering creativity and bringing stunning artwork to life. We are constantly seeking artists who can bring unique perspectives and styles to our glowing signs. If you're an artist who is excited about the opportunity to have your artwork featured in a new and innovative format, we want to hear from you! We encourage artists of all styles and backgrounds to apply for the chance to have their work showcased and sold on our platform. You’ll not only receive exposure, but also financial compensation for each sign sold featuring your artwork. Please submit a portfolio of your work, a brief bio, and an explanation of why you think your art would be a great fit for ArtGlo. We can’t wait to potentially illuminate your art for the world!"
+          }
+        },
+        "87f6c8f0-ace2-4205-b4a9-a96f8963f8f0": {
+          "type": "faqs",
+          "settings": {
+            "question": "How can I contact you?",
+            "Answer": "Send an email to XX@artglo.com…"
+          }
+        }
+      },
+      "block_order": [
+        "956f8cbf-f29d-43fe-ad1d-5e32dc5521a8",
+        "08c1032a-5f40-4a49-a779-70fbe9bb52fe",
+        "189ddbac-ae5e-41ca-bd69-02309273cfc7",
+        "bf3b7800-a407-4a80-9566-dd90f203d6be",
+        "8cf523e7-a8fb-4293-8269-bce194aca706",
+        "46ed5db8-9880-4e81-b434-4147e12e7002",
+        "51164cd8-a044-4df0-84aa-873de7bdd865",
+        "ad8f5a19-0e82-460b-b8d6-503db9842a17",
+        "345be5ae-349f-4a5c-8084-dea56b1df8db",
+        "5bf938fe-835d-4888-bb17-d8339c760903",
+        "18ff4248-6608-4e4f-966d-c6f0f02cbd7c",
+        "9c66700c-f847-4e9f-96b9-15c04051d5e2",
+        "5915512b-c60e-4fa7-a47a-a988c5d9e95f",
+        "8d1710c8-8dbe-4504-bad3-f7a69cdd2b38",
+        "14138cb0-c679-46c3-ab54-7c00e0da9fc1",
+        "e1891d79-c92e-4d1e-aefa-1852f6e3e340",
+        "eba8b27d-4569-49b7-b51b-0d2b8c5171c5",
+        "03bd67c0-6d99-4c9a-ac6c-ca07ffe66d01",
+        "adafda70-b23f-40e4-92ef-cd00505f10d6",
+        "e4ee525b-499c-47f1-aa50-ea1fcc8b320b",
+        "d67f521a-d6aa-4f74-b012-6edbccb52c10",
+        "8a2a5ea2-3244-4b96-8aad-308aa0fd4025",
+        "01dd9668-1435-48c1-b422-d998c020b644",
+        "98033243-065e-4c4d-b83b-f3f67a2bd931",
+        "774ed432-ef16-4cb1-af77-beb4835015fb",
+        "87f6c8f0-ace2-4205-b4a9-a96f8963f8f0"
+      ],
+      "settings": {
+        "heading": "Frequently asked questions"
+      }
+    },
     "6a98424f-444e-4ea2-b0a2-5d6678e22ad9": {
       "type": "banner-faq-bottom",
       "blocks": {
@@ -332,6 +550,7 @@
     "7aec9b16-a5ac-48ab-9909-ba7a15974b0b",
     "dc4a1fed-ae7b-470e-a6af-15317aaeef7f",
     "a5b68e36-a8d8-4c16-9277-8a2c56d641bd",
+    "f2b476de-c073-47b1-b566-b1abd5aadad0",
     "6a98424f-444e-4ea2-b0a2-5d6678e22ad9"
   ]
 }

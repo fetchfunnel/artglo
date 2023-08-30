@@ -163,6 +163,13 @@
             "question": "How can I track my order?",
             "Answer": "TBD"
           }
+        },
+        "201fa082-a100-4b24-b360-e8972e7d953e": {
+          "type": "faqs",
+          "settings": {
+            "question": "Subscription Information",
+            "Answer": "To-Come"
+          }
         }
       },
       "block_order": [
@@ -180,7 +187,8 @@
         "08f578f9-ec78-4351-ae13-e43850a96376",
         "ad8d8a47-9a2a-45b4-9fed-5596c055ecbc",
         "8e272fa5-6c5f-4e04-af42-522ec26f1c50",
-        "1f053b24-1acf-4530-bc34-d4289770554d"
+        "1f053b24-1acf-4530-bc34-d4289770554d",
+        "201fa082-a100-4b24-b360-e8972e7d953e"
       ],
       "custom_css": [
 

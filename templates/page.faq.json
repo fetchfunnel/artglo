@@ -301,8 +301,8 @@
         "template--20832297845046__d0f8cc2f-6508-4e2a-839c-e13fba180489-faqs-1": {
           "type": "faqs",
           "settings": {
-            "question": "",
-            "Answer": ""
+            "question": "How do I place an order?",
+            "Answer": "Placing an order is easy! Just browse our catalog, select your desired sign, and click \"Add to Cart\". If you're creating a custom design, use our easy design tool to create your sign, then add it to your cart. When you're ready to check out, click on your cart and follow the prompts to complete your purchase."
           }
         }
       },

@@ -1,12 +1,180 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+
+.faq-sec-fortwo {
+    width: 41%;
+    margin-left: 166px;
+}
+
+.heading_xlh2 {
+    font-family: Newake;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 1.6px;
+    color: #f9f9f9;
+    text-align: left;
+}
+  .faq-sec {
+         /* padding: 94px 0 100px; */
+    /* background: linear-gradient(0deg, rgba(9, 18, 37, 0.90) 0%, rgba(9, 18, 37, 0.90) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+     } */
+
+
+
+
+
+.faq-sec-fortwo {
+    padding: 40px 0 70px;
+}
+     .faq_headingtwo {
+        text-shadow: none;
+         margin-bottom: 0px;
+     }
+
+     .faq_item {
+        background: #1C1D3C;
+        border-radius: 20px;
+       padding: 22px;
+        
+     }
+  .faq_item:not(:last-child){
+    margin-bottom: 20px;
   }
+   .faq_que{
+       display: flex;
+       justify-content: space-between;
+       cursor:pointer;
+   }
+   .faq_ans{
+     height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+        transition: 0.4s;
+   }
+  .faq_que.active + .faq_ans{
+    visibility: visible;
+    opacity: 1;
+  }
+     .faq_title {
+         color: #FFF;
+         font-family: Inter;
+         font-size: 17px;
+         font-weight: 700;
+         line-height: 25.714px;
+     }
+
+     .plus {
+         color: #FFF;
+         font-size: 28px;
+         font-weight: 700;
+         line-height: 28px;
+           transition: 0.4s;
+     }
+   .faq_que.active  .plus{
+  transform: rotate(-135deg)
+  }
+
+  @media (max-width:750px){
+    .faq-sec-fortwo{
+          padding: 64px 0;  
+    }
+    .faq_item{
+      padding:14px;
+      border-radius:10px;
+    }
+     .faq-sec-fortwo .faq_content .heading_xlh2{
+        margint-bottom:20px;
+    }
+  }
+</style>
+
+<section>
+<div class="faq-sec-fortwo sec_bg ">
+  <div class="tmb_container">
+    <div class="faq_content">
+      <h2 class="heading_xlh2 faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.heading }}</h2>
+
+
+      {% for block in section.blocks %}
+        <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <div class="faq_que">
+            <p class="faq_title">{{ block.settings.question }}</p>
+            <span class="plus">+</span>
+          </div>
+          <div class="faq_ans">
+            <p class="body_text_md">
+              {{ block.settings.Answer }}
+            </p>
+          </div>
+        </div>
+      {% endfor %}
+    
+    </div>
+  </div>
+</section>
+
+<script>
+  
+  
+     let faqTitle = document.querySelectorAll(".faq_que");
+        for (let i of faqTitle) {
+            i.addEventListener("click", () => {
+                i.classList.toggle("active");
+                let nextSibling = i.nextElementSibling;
+                let nextSiblingHeight = nextSibling.scrollHeight;
+                console.log(nextSibling);
+                if (i.classList.contains("active")) {
+                    nextSibling.setAttribute("style", `height:${nextSiblingHeight}px`);
+                } else {
+                    nextSibling.removeAttribute("style");
+                }
+            })
+        }
+
+
+
+</script>
+
+{% schema %}
+{
+  "name": "Faq Section for one",
+  "settings": [
+   {
+      "type": "text",
+      "id": "heading",
+      "default": "Frequently asked questions",
+      "label": "Section Heading"
+    }
+  ],
+  "blocks": [
+    {
+     "type": "faqs",
+      "name": "Faqs",
+       "settings": [
+         {
+          "type": "text",
+          "id": "question",
+          "label": "Faq Question"
+        },
+         {
+          "type": "textarea",
+          "id": "Answer",
+          "label": "Faq Answer"
+        }
+       ]
+    }
+  ],
+  "presets":[
+    {
+      "name": "Faq Section for one",
+      "blocks":[
+        {
+         "type": "faqs"
+        }
+      ]
+    }
+      
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}

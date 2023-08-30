@@ -291,7 +291,8 @@
         "template--20832297845046__d0f8cc2f-6508-4e2a-839c-e13fba180489-faqs-1": {
           "type": "faqs",
           "settings": {
-            "align": "left",
+            "left_align": true,
+            "right_align": false,
             "question": "How do I place an order?",
             "Answer": "Placing an order is easy! Just browse our catalog, select your desired sign, and click \"Add to Cart\". If you're creating a custom design, use our easy design tool to create your sign, then add it to your cart. When you're ready to check out, click on your cart and follow the prompts to complete your purchase."
           }
@@ -299,7 +300,8 @@
         "24ac2d96-5c63-4781-aebf-f8b598efc6a5": {
           "type": "faqs",
           "settings": {
-            "align": "",
+            "left_align": false,
+            "right_align": false,
             "question": "What payment methods do you accept?",
             "Answer": "We accept a wide variety of payment methods for your convenience. These include major credit and debit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay."
           }
@@ -307,7 +309,8 @@
         "357c9f05-c0c4-41cd-b6f7-2bce309d67ad": {
           "type": "faqs",
           "settings": {
-            "align": "",
+            "left_align": false,
+            "right_align": false,
             "question": "Is my payment information secure?",
             "Answer": "Absolutely. We take your security very seriously. Our checkout process uses secure socket layer (SSL) technology to ensure your personal information is encrypted and protected. We do not store your credit card details once the transaction is completed."
           }
@@ -315,7 +318,8 @@
         "18b83e21-b836-47e9-ade8-5d57e244e6e7": {
           "type": "faqs",
           "settings": {
-            "align": "",
+            "left_align": false,
+            "right_align": false,
             "question": "Can I cancel or modify my order?",
             "Answer": "We begin processing your order as soon as it's placed to ensure quick delivery, so we're unable to modify or cancel orders once they've been submitted. Please review your order carefully before placing it. If you have any concerns or issues after placing your order, please reach out to our customer service team as soon as possible."
           }
@@ -323,7 +327,8 @@
         "118f835a-2c1b-4e3a-9dcb-4ae18dbb4418": {
           "type": "faqs",
           "settings": {
-            "align": "",
+            "left_align": false,
+            "right_align": false,
             "question": "Do you offer bulk ordering or corporate discounts?",
             "Answer": "Yes, we do! ArtGlo is a great solution for businesses looking for unique signage or promotional items. If you're interested in a bulk purchase or corporate order, please contact our sales team directly for more information on pricing and availability."
           }
@@ -453,7 +458,8 @@
         "template--20832297845046__70adae76-3c0f-41f5-85e6-26466bf91544-faqs-1": {
           "type": "faqs",
           "settings": {
-            "align": "joho",
+            "left_align": false,
+            "right_align": false,
             "question": "jbvkvku",
             "Answer": ""
           }

@@ -4,7 +4,7 @@
       "type": "faq-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/about_banner_bg.png",
-        "heading": "You’ve got questions, <br> We got answers!",
+        "heading": "You’ve got questions,  We got answers!",
         "page_description": ""
       }
     },
@@ -342,7 +342,8 @@
         "118f835a-2c1b-4e3a-9dcb-4ae18dbb4418"
       ],
       "settings": {
-        "heading": "Left Col"
+        "heading": "Left Col",
+        "right_heading": "subtitiles"
       }
     },
     "14be4708-b58a-468e-a37d-64e006bf0408": {
@@ -402,7 +403,8 @@
         "13fee311-d574-4665-8290-60ee91ad08d2"
       ],
       "settings": {
-        "heading": "flhfeponfpd"
+        "heading": "flhfeponfpd",
+        "right_heading": ""
       }
     },
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d": {
@@ -529,7 +531,8 @@
         "template--20832297845046__70adae76-3c0f-41f5-85e6-26466bf91544-faqs-1"
       ],
       "settings": {
-        "heading": "subtitiles"
+        "heading": "subtitiles",
+        "right_heading": "subtitiles"
       }
     }
   },

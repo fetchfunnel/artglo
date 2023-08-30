@@ -57,7 +57,6 @@ div#ProductGridContainer .grid_wrapper{
     padding: 0;
 }
 {%- endstyle -%}
-  ddf {{ section.settings.filter_type }}
 
             {%- if section.settings.filter_type == 'vertical' -%}
               <div class="active-facets active-facets-desktop">
@@ -80,6 +79,7 @@ div#ProductGridContainer .grid_wrapper{
                 </div>
                 
                 {%- for filter in results.filters -%}
+                  {{ filter }}
                   {%- for value in filter.active_values -%}
                     <facet-remove> 
                       <a href="{{ value.url_to_remove }}" class="active-facets__button active-facets__button--light">

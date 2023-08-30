@@ -86,9 +86,9 @@
                   {%- endfor -%}
                   {% if filter.type == 'price_range' %}
                     {%- if filter.min_value.value != null or filter.max_value.value != null -%}
-                      <facet-remove> dfdfd
+                      <facet-remove> 
                         <a href="{{ filter.url_to_remove }}" class="active-facets__button active-facets__button--light">
-                          <span class="active-facets__button-inner button button--tertiary"> 
+                          <span class="active-facets__button-inner button button--tertiary"> dfdfd
                             {%- if filter.min_value.value -%}
                               {{ filter.min_value.value | money }}
                             {%- else -%}

@@ -121,6 +121,13 @@
             "question": "Is my payment information secure?",
             "Answer": "Absolutely. We take your security very seriously. Our checkout process uses secure socket layer (SSL) technology to ensure your personal information is encrypted and protected. We do not store your credit card details once the transaction is completed."
           }
+        },
+        "d6588e34-d83b-4844-beb8-01d716f9d073": {
+          "type": "faqs",
+          "settings": {
+            "question": "Can I cancel or modify my order?",
+            "Answer": "We begin processing your order as soon as it's placed to ensure quick delivery, so we're unable to modify or cancel orders once they've been submitted. Please review your order carefully before placing it. If you have any concerns or issues after placing your order, please reach out to our customer service team as soon as possible."
+          }
         }
       },
       "block_order": [
@@ -132,7 +139,8 @@
         "4e1e3d5d-6a7a-415c-a5b7-9cd97232bc05",
         "c5af5e5c-73a5-45aa-8bb6-adb904655e8f",
         "01301a1d-48c5-4583-bc84-7a31590f42fb",
-        "74ef9abc-a850-4a6f-9479-7409f85d7952"
+        "74ef9abc-a850-4a6f-9479-7409f85d7952",
+        "d6588e34-d83b-4844-beb8-01d716f9d073"
       ],
       "custom_css": [
 

@@ -91,7 +91,7 @@ flex-flow:nowrap column;
     <div class="faq_content-left">
       <h2 class="heading_xlh2 faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.heading }}</h2>
       {% for block in section.blocks %}
-         {% if block.settings.align %} 
+         {% if block.settings.left_align %} 
 
         <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           <div class="faq_que">

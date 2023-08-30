@@ -403,51 +403,6 @@
         "heading": "Product Related"
       }
     },
-    "91e2bfa7-fc35-449c-bab4-c7bb247f4f01": {
-      "type": "space",
-      "blocks": {
-        "template--20832297845046__91e2bfa7-fc35-449c-bab4-c7bb247f4f01-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--20832297845046__91e2bfa7-fc35-449c-bab4-c7bb247f4f01-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--20832297845046__91e2bfa7-fc35-449c-bab4-c7bb247f4f01-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__91e2bfa7-fc35-449c-bab4-c7bb247f4f01-heading-1",
-        "template--20832297845046__91e2bfa7-fc35-449c-bab4-c7bb247f4f01-text-1",
-        "template--20832297845046__91e2bfa7-fc35-449c-bab4-c7bb247f4f01-button-1"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 64,
-        "padding_bottom": 80
-      }
-    },
     "63fdc1be-60b2-4ae1-9d07-8b0527f889de": {
       "type": "faq-for-one",
       "blocks": {
@@ -542,7 +497,6 @@
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "d0f8cc2f-6508-4e2a-839c-e13fba180489",
     "c54e64fd-1b07-46e4-9365-b9b8f84c920d",
-    "91e2bfa7-fc35-449c-bab4-c7bb247f4f01",
     "63fdc1be-60b2-4ae1-9d07-8b0527f889de",
     "1ff3cffd-1b32-48b5-add1-23217bebb9c2",
     "6a98424f-444e-4ea2-b0a2-5d6678e22ad9"

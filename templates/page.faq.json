@@ -300,7 +300,7 @@
         "24ac2d96-5c63-4781-aebf-f8b598efc6a5": {
           "type": "faqs",
           "settings": {
-            "left_align": false,
+            "left_align": true,
             "right_align": false,
             "question": "What payment methods do you accept?",
             "Answer": "We accept a wide variety of payment methods for your convenience. These include major credit and debit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay."
@@ -310,7 +310,7 @@
           "type": "faqs",
           "settings": {
             "left_align": false,
-            "right_align": false,
+            "right_align": true,
             "question": "Is my payment information secure?",
             "Answer": "Absolutely. We take your security very seriously. Our checkout process uses secure socket layer (SSL) technology to ensure your personal information is encrypted and protected. We do not store your credit card details once the transaction is completed."
           }
@@ -319,7 +319,7 @@
           "type": "faqs",
           "settings": {
             "left_align": false,
-            "right_align": false,
+            "right_align": true,
             "question": "Can I cancel or modify my order?",
             "Answer": "We begin processing your order as soon as it's placed to ensure quick delivery, so we're unable to modify or cancel orders once they've been submitted. Please review your order carefully before placing it. If you have any concerns or issues after placing your order, please reach out to our customer service team as soon as possible."
           }
@@ -328,7 +328,7 @@
           "type": "faqs",
           "settings": {
             "left_align": false,
-            "right_align": false,
+            "right_align": true,
             "question": "Do you offer bulk ordering or corporate discounts?",
             "Answer": "Yes, we do! ArtGlo is a great solution for businesses looking for unique signage or promotional items. If you're interested in a bulk purchase or corporate order, please contact our sales team directly for more information on pricing and availability."
           }
@@ -342,7 +342,7 @@
         "118f835a-2c1b-4e3a-9dcb-4ae18dbb4418"
       ],
       "settings": {
-        "heading": "flnflifnlonfol"
+        "heading": "Left Col"
       }
     },
     "14be4708-b58a-468e-a37d-64e006bf0408": {

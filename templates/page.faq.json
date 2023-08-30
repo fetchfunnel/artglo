@@ -226,6 +226,13 @@
             "question": "Are you hiring?",
             "Answer": "At ArtGlo, we are always interested in meeting talented, enthusiastic individuals who share our passion for innovation and creativity. Even if we don't have a specific role open at the moment, we believe in the power of connections. If you think you would be a great fit for our team, we encourage you to send us your resume and a brief description of your skills, experiences, and how you can contribute to our mission. We'll be sure to keep your information on file and reach out if a suitable opportunity arises in the future. So, while we may not be hiring right this moment, we're always open to exploring potential fits."
           }
+        },
+        "99471608-08eb-48e5-a4b5-71112ace7196": {
+          "type": "faqs",
+          "settings": {
+            "question": "Want to be a featured artist?",
+            "Answer": "At ArtGlo, we are dedicated to fostering creativity and bringing stunning artwork to life. We are constantly seeking artists who can bring unique perspectives and styles to our glowing signs. If you're an artist who is excited about the opportunity to have your artwork featured in a new and innovative format, we want to hear from you! We encourage artists of all styles and backgrounds to apply for the chance to have their work showcased and sold on our platform. You’ll not only receive exposure, but also financial compensation for each sign sold featuring your artwork. Please submit a portfolio of your work, a brief bio, and an explanation of why you think your art would be a great fit for ArtGlo. We can’t wait to potentially illuminate your art for the world!"
+          }
         }
       },
       "block_order": [
@@ -252,7 +259,8 @@
         "5b1d495a-06bf-4b1f-85d8-69d235f08f2c",
         "4b2aa9c6-3413-4187-a7c7-47ef9d7422e0",
         "3f618eae-6efe-4370-87f6-33745f1ac0eb",
-        "7d9cd5ec-5b64-4dac-bcf8-7492a09d2660"
+        "7d9cd5ec-5b64-4dac-bcf8-7492a09d2660",
+        "99471608-08eb-48e5-a4b5-71112ace7196"
       ],
       "custom_css": [
 

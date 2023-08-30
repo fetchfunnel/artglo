@@ -107,6 +107,13 @@
             "question": "Ordering and Payment: How do I place an order?",
             "Answer": "Placing an order is easy! Just browse our catalog, select your desired sign, and click \"Add to Cart\". If you're creating a custom design, use our easy design tool to create your sign, then add it to your cart. When you're ready to check out, click on your cart and follow the prompts to complete your purchase."
           }
+        },
+        "01301a1d-48c5-4583-bc84-7a31590f42fb": {
+          "type": "faqs",
+          "settings": {
+            "question": "What payment methods do you accept?",
+            "Answer": "We accept a wide variety of payment methods for your convenience. These include major credit and debit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay."
+          }
         }
       },
       "block_order": [
@@ -116,7 +123,8 @@
         "475a0700-9917-4122-8547-4177ac269331",
         "ff12b818-4614-4994-87bb-9979c3ddc1bb",
         "4e1e3d5d-6a7a-415c-a5b7-9cd97232bc05",
-        "c5af5e5c-73a5-45aa-8bb6-adb904655e8f"
+        "c5af5e5c-73a5-45aa-8bb6-adb904655e8f",
+        "01301a1d-48c5-4583-bc84-7a31590f42fb"
       ],
       "custom_css": [
 

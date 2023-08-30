@@ -57,9 +57,9 @@ div#ProductGridContainer .grid_wrapper{
     padding: 0;
 }
 {%- endstyle -%}
-  ddf {{ filter_type }}
+  ddf {{ section.settings.filter_type }}
 
-            {%- if filter_type == 'vertical' -%}
+            {%- if section.settings.filter_type == 'vertical' -%}
               <div class="active-facets active-facets-desktop">
                 <div class="active-facets-vertical-filter">
                   

@@ -89,6 +89,7 @@
   }
 </style>
 
+<section>
 <div class="faq-sec-fortwo sec_bg ">
   <div class="tmb_container">
     <div class="faq_content">
@@ -111,35 +112,9 @@
     
     </div>
   </div>
-</div>
-
-
-<div class="faq-sec-fortwo sec_bg amira">
-  <div class="tmb_container">
-    <div class="faq_content">
-      <h2 class="heading_xlh2 faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.heading }}</h2>
-
-
-      {% for block in section.blocks %}
-        <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <div class="faq_que">
-            <p class="faq_title">{{ block.settings.question }}</p>
-            <span class="plus">+</span>
-          </div>
-          <div class="faq_ans">
-            <p class="body_text_md">
-              {{ block.settings.Answer }}
-            </p>
-          </div>
-        </div>
-      {% endfor %}
-    
-    </div>
-  </div>
-</div>
+</section>
 
 <script>
-  
   
   
      let faqTitle = document.querySelectorAll(".faq_que");

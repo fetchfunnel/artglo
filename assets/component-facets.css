@@ -506,7 +506,7 @@ a.active-facets__button.focused .active-facets__button-inner,
   margin-left: 0.6rem;
   margin-right: -0.2rem;
   pointer-events: none;
-  width: 1.2rem;
+  width: 16px;
 }
 
 @media all and (min-width: 990px) {

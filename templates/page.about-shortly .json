@@ -69,7 +69,7 @@
         "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Get Your Unique Art",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -135,7 +135,7 @@
         "template--20866317451574__84cf3365-c3ff-4311-93b8-144d263fdfad-slide-2"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "medium",
         "slider_visual": "counter",
         "auto_rotate": false,

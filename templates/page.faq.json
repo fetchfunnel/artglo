@@ -330,13 +330,49 @@
             "question": "x",
             "Answer": "flnflfn"
           }
+        },
+        "bb10a355-e906-4af6-8d98-692cfcb4f80d": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "fff",
+            "left_align": true,
+            "right_align": false,
+            "question": "ffffffff",
+            "Answer": "fffffffffffffff"
+          }
+        },
+        "58ce83a7-3dc6-4c2e-9869-36b25ce6da99": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": true,
+            "block_heading": "ffffffffff",
+            "left_align": true,
+            "right_align": false,
+            "question": "f",
+            "Answer": "ggjjgjg"
+          }
+        },
+        "7b6f96a6-185a-414b-aba1-49e149c23d0f": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": true,
+            "block_heading": "jkb",
+            "left_align": false,
+            "right_align": true,
+            "question": "mmm",
+            "Answer": "kbkkb"
+          }
         }
       },
       "block_order": [
         "template--20832297845046__4f8da5e8-df8c-4bd2-8115-61d68a6139d1-faqs-1",
         "38794136-735d-40a4-8343-bf831454bdae",
         "e16aa9cc-165f-480f-bd89-518e5c6ef4c4",
-        "2263dda4-e4df-451a-a74a-b643f8f7041c"
+        "2263dda4-e4df-451a-a74a-b643f8f7041c",
+        "bb10a355-e906-4af6-8d98-692cfcb4f80d",
+        "58ce83a7-3dc6-4c2e-9869-36b25ce6da99",
+        "7b6f96a6-185a-414b-aba1-49e149c23d0f"
       ],
       "custom_css": [
         "{display: inline-block;}"

@@ -915,10 +915,13 @@
 </style>
   <script>
 
-    let productBtn = document.querySelector(".tmb_product_btn")
+    let productBtn = document.querySelector(".tmb_product_btn");
+    let overlay = document.querySelector(".tmb_overlay");
+    
     
     productBtn.addEventListener("click",()=>{
       console.log(productBtn,"click add to cart")
+      overlay.classList.add("acitve");
 
       document.querySelector(".tmb_product_banner").classList.add("showPopup")
      

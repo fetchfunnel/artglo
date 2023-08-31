@@ -498,7 +498,9 @@ ul .tmb_product_description_list:last-child {
 .card__information.ag-product-info .tmb_price_item{
      font-family: Circular Std !important;
 }
-        
+.tmb-item-wrapper{
+  z-index:9;
+}        
         
         
         

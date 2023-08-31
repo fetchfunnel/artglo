@@ -15,7 +15,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-2.png",
-            "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.<br\/><\/p>",
+            "description": "<p><strong>Our Story: Illuminating the World of Art<br\/><\/strong><br\/>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.<br\/><\/p>",
             "button_show": false,
             "button_link": ""
           }
@@ -23,7 +23,7 @@
         "fc141cf9-5ab6-4bb1-94fc-34ef91d10f53": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dog-img.png",
+            "image": "shopify:\/\/shop_images\/Image_3_1.png",
             "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.<br\/><\/p>",
             "button_show": false,
             "button_link": ""
@@ -31,6 +31,7 @@
         },
         "11d1cef4-6d12-45cb-b5d1-16d1e4f95939": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/about-big-img.png",
             "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<\/p>",
@@ -55,8 +56,7 @@
         "ae43ed87-3b81-49f2-b9f5-db87086e8f90"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/artglo-logo_c0e412fc-6378-435a-a982-c2f4c122f8b8.png",
-        "title": "Our story is your story. You want to do good work. You're motivated by mission and purpose. And you want your work to make a difference. We want the same thing.",
+        "title": "",
         "fullwidthsection": 3
       }
     }

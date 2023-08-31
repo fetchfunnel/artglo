@@ -161,10 +161,19 @@ padding:16px 17.50px 14px;
                   uploadCta.addEventListener("click",()=>{
                     fileupload.click();
                   })
-                  fileupload.addEventListener("change",()=>{
-                    console.log("Change or Edit Uploaded image")
-                  })
+                  let myInterval = setInterval(function () {
+                     let fileupload = document?.querySelector(".fileupload")
+                     if(fileupload){
+                          fileupload.addEventListener("change",()=>{
+                            console.log("Change or Edit Uploaded image")
+                          })
+                         clearInterval(myInterval);
+                     }
+
+                  }, 1000);
+               
                }
+               
 
                 
                

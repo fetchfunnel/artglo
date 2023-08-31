@@ -103,8 +103,8 @@
       {{ section.settings.info }}
     </p>
     <form class="newsletter_form">
-      <input type="email" class="newsletter_email " placeholder="Email">
-      <button class="solid_cta newsletter_btn " type="submit">Subscribe</button>
+      <input type="email" class="newsletter_email {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" placeholder="Email">
+      <button class="solid_cta newsletter_btn {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" type="submit">Subscribe</button>
     </form>
   </div>
 </section>

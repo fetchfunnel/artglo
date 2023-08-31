@@ -507,7 +507,9 @@ ul .tmb_product_description_list:last-child {
 .collection-sec .product-grid{
   padding:55px;
 }
-
+.slider-mobile-gutter{
+  overflow-x:hidden;
+}
 
         
       

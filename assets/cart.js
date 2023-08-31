@@ -65,7 +65,6 @@ class CartItems extends HTMLElement {
           console.error(e);
         });
     } else {
-      console.log("ppppppp")
       fetch(`${routes.cart_url}?section_id=main-cart-items`)
         .then((response) => response.text())
         .then((responseText) => {

@@ -331,6 +331,28 @@
             "Answer": ", ArtGlo signs come in a standard size of 18 inches by 24 inches. This size has been chosen to provide an optimal balance between visibility and convenience. The signs can be displayed in both portrait and landscape orientations to suit your design preferences and space requirements.\n\n,ArtGlo Panels weigh just over 6 lbs. With the stand and mounting options, the total package weight comes to 11 lbs"
           }
         },
+        "ce5db627-80ea-4394-9606-789b755eb577": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "Are ArtGlo signs safe to use?",
+            "Answer": "Absolutely. Safety is a top priority for us at ArtGlo. Our signs use LED lights, which are known for their cool operation and energy efficiency. The signs are built with durable materials designed for longevity and safety. However, like any electrical product, they should be used responsibly. ArtGlo signs do not make good skateboards, frisbees, pitching backstops, or footstools."
+          }
+        },
+        "f3372608-f35c-4308-9bdd-593aee9ac2c6": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "Can I customize an ArtGlo sign?",
+            "Answer": "Yes, customization is one of ArtGlo's most exciting features! We offer a range of pre-designed signs, but we also give our customers the opportunity to create their unique designs. Whether it's a logo, a favorite quote, a band poster, or anything else you can imagine, ArtGlo can help illuminate your creativity."
+          }
+        },
         "38794136-735d-40a4-8343-bf831454bdae": {
           "type": "faqs",
           "settings": {
@@ -359,6 +381,8 @@
         "e16aa9cc-165f-480f-bd89-518e5c6ef4c4",
         "bb10a355-e906-4af6-8d98-692cfcb4f80d",
         "9d7e9ec1-c6c2-4180-a4e6-6b1534aa9cbc",
+        "ce5db627-80ea-4394-9606-789b755eb577",
+        "f3372608-f35c-4308-9bdd-593aee9ac2c6",
         "38794136-735d-40a4-8343-bf831454bdae",
         "2263dda4-e4df-451a-a74a-b643f8f7041c"
       ],

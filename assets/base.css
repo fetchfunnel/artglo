@@ -1654,7 +1654,7 @@ details[open] > .share-button__fallback {
   border-radius: var(--inputs-radius);
 }
 
-.field__input:focus-visible,
+
 .select__select:focus-visible,
 .customer .field input:focus-visible,
 .customer select:focus-visible,
@@ -1664,7 +1664,7 @@ details[open] > .share-button__fallback {
   border-radius: var(--inputs-radius);
 }
 
-.field__input:focus,
+
 .select__select:focus,
 .customer .field input:focus,
 .customer select:focus,
@@ -1758,7 +1758,7 @@ details[open] > .share-button__fallback {
   letter-spacing: 0.04rem;
 }
 
-.field__input:focus,
+
 .field__input:not(:placeholder-shown),
 .field__input:-webkit-autofill,
 .customer .field input:focus,
@@ -3128,7 +3128,7 @@ details-disclosure > details {
     outline: solid transparent 1px;
   }
 
-  .field__input:focus,
+  
   .select__select:focus,
   .customer .field input:focus,
   .customer select:focus,

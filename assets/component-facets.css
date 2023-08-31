@@ -508,7 +508,7 @@ a.active-facets__button.focused .active-facets__button-inner,
   outline: none;
 }
 
-.active-facets__button-inner .active-facets__button svg {
+ .active-facets__button .active-facets__button-inner svg {
   align-self: center;
   flex-shrink: 0;
   margin-left: 0.6rem;

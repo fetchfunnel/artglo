@@ -454,7 +454,7 @@ ul .tmb_product_description_list:last-child {
   height:auto;
 }
 .slider-button--prev .icon{
-      transform: rotate(270deg); !important
+      transform: rotate(270deg) !important;
 }
 @media screen and (min-width: 750px) {
   .tmb_main_Image {

@@ -98,7 +98,7 @@
         "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Let's Create Together: Your Artistic Journey Awaits",
             "heading_size": "h1"
           }
         },
@@ -106,6 +106,12 @@
           "type": "text",
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "0c610334-4af5-41ae-b0ea-befa7b85f754": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us in celebrating the beauty of art, the power of expression, and the magic of illumination. Your artistic journey starts here, and we can't wait to be a part of it.<\/p>"
           }
         },
         "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-button-1": {
@@ -123,16 +129,17 @@
       "block_order": [
         "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-heading-1",
         "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-text-1",
+        "0c610334-4af5-41ae-b0ea-befa7b85f754",
         "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-button-1"
       ],
       "settings": {
-        "background-image": "shopify:\/\/shop_images\/public_18a16715-778b-445a-82e6-3ab3732cfe82.jpg",
+        "background-image": "shopify:\/\/shop_images\/Group-5783.jpg",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": false,
-        "padding_top": 24,
-        "padding_bottom": 36
+        "padding_top": 72,
+        "padding_bottom": 76
       }
     }
   },

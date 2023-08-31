@@ -4,7 +4,6 @@
   data-section="{{ section.id }}"
 >
 
-  <div class="tmb_container ">
 
 
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -55,14 +54,14 @@
       href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css"
       media="print"
       onload="this.media='all'"
-    >
+    />
     <link
       id="ModelViewerOverride"
       rel="stylesheet"
       href="{{ 'component-model-viewer-ui.css' | asset_url }}"
       media="print"
       onload="this.media='all'"
-    >
+    />
   {%- endif -%}
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}

@@ -972,6 +972,7 @@ input.mobile-facets__checkbox {
     display: flex;
     flex-direction: column;
     min-width: 288px;
+     max-width: 288px;
     width:100%;
   }
 

@@ -306,17 +306,19 @@
 .no-js .facet-checkbox input[type='checkbox'] {
   z-index: 0;
 }
-
-.facet-checkbox > svg {
-  margin-right: 1.2rem;
-  flex-shrink: 0;
-  border-radius: 4px;
+.facet-checkbox .default_checkbox{
+   border-radius: 4px;
   border: 1px solid #FFF;
   background: #FFF;
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.20) inset;
   width: 20px;
   height: 20px;
-      color: transparent;
+  color: transparent;
+}
+.facet-checkbox > svg {
+  margin-right: 1.2rem;
+  flex-shrink: 0;
+ 
 }
 
 .facet-checkbox .icon-checkmark {

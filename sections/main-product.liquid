@@ -878,7 +878,7 @@
   .tmb_overlay{
     
   }
-.tmb_product_btn.showPopup{
+.tmb_product_banner.showPopup{
 
     z-index: 4;
     opacity: 1;
@@ -904,9 +904,12 @@
   <script>
 
     let productBtn = document.querySelector(".tmb_product_btn")
+    
     productBtn.addEventListener("click",()=>{
       console.log(productBtn,"click add to cart")
-      productBtn.classList.add("showPopup")
+
+      document.querySelector(".tmb_product_banner").classList.add("showPopup")
+     
     })
   </script>
 </div>

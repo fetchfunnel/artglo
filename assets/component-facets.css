@@ -356,6 +356,11 @@
 .facets__price .field-currency {
   align-self: center;
   margin-right: 0.6rem;
+  color: rgba(255, 255, 255, 0.70);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .facets__price .field__label {

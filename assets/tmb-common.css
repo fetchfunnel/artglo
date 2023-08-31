@@ -455,9 +455,11 @@ ul .tmb_product_description_list:last-child {
 }
 .slider-button--prev .icon{
       transform: rotate(270deg) !important;
+     color:#FFDD40;
 }
 .slider-button--next .icon{
     transform: rotate(90deg) !important;
+    color:#FFDD40;
 }
 @media screen and (min-width: 750px) {
   .tmb_main_Image {

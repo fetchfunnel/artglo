@@ -223,10 +223,10 @@
   transition: text-decoration var(--duration-short) ease;
 }
 
-.facets__summary:hover span {
+/* .facets__summary:hover span {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
-}
+} */
 
 .disclosure-has-popup[open] > .facets__summary::before {
   z-index: 2;

@@ -570,6 +570,17 @@
             "question": "Want to be a featured artist?",
             "Answer": "At ArtGlo, we are dedicated to fostering creativity and bringing stunning artwork to life. We are constantly seeking artists who can bring unique perspectives and styles to our glowing signs. If you're an artist who is excited about the opportunity to have your artwork featured in a new and innovative format, we want to hear from you! We encourage artists of all styles and backgrounds to apply for the chance to have their work showcased and sold on our platform. You’ll not only receive exposure, but also financial compensation for each sign sold featuring your artwork. Please submit a portfolio of your work, a brief bio, and an explanation of why you think your art would be a great fit for ArtGlo. We can’t wait to potentially illuminate your art for the world!"
           }
+        },
+        "73a3a188-f103-4897-b698-b78cf3bb86b5": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "How can I contact you?",
+            "Answer": "Send an email to XX@artglo.com…"
+          }
         }
       },
       "block_order": [
@@ -597,7 +608,8 @@
         "39abf82e-8229-4717-b2fe-c6075836876f",
         "2ca6a002-2fbe-4911-a9ff-f941e1205648",
         "b65cfb0f-98e2-41d6-aa9d-1a2ada8d92fa",
-        "c150ae99-08cb-4150-973b-5e787e35a35a"
+        "c150ae99-08cb-4150-973b-5e787e35a35a",
+        "73a3a188-f103-4897-b698-b78cf3bb86b5"
       ],
       "custom_css": [
         "{display: inline-block;}"

@@ -1071,7 +1071,7 @@ input.mobile-facets__checkbox {
   }
 
   .facets-vertical .active-facets {
-    margin: 0;
+    margin: 0 0 25px 0;
     align-items: center;
     row-gap: 20px;
   }

@@ -1597,7 +1597,7 @@ details[open] > .share-button__fallback {
   border: 0;
 }
 
-.field:before,
+
 .select:before,
 .customer .field:before,
 .customer select:before,
@@ -1615,7 +1615,7 @@ details[open] > .share-button__fallback {
   z-index: -1;
 }
 
-.field:after,
+
 .select:after,
 .customer .field:after,
 .customer select:after,

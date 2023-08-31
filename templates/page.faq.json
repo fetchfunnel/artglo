@@ -291,11 +291,22 @@
           "type": "faqs",
           "settings": {
             "has_heading": true,
-            "block_heading": "hey",
+            "block_heading": "Product Related:",
             "left_align": true,
             "right_align": false,
             "question": "What is ArtGlo?",
             "Answer": "ArtGlo panels are a unique and innovative brand of customizable illuminated art signs. They harness proprietary solar powered illumination technology to create vibrant, energy-efficient, and customizable illuminated signs that add a unique aesthetic touch to any setting."
+          }
+        },
+        "e16aa9cc-165f-480f-bd89-518e5c6ef4c4": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "How does ArtGlo work?",
+            "Answer": "ArtGlo utilizes advanced LED technology in conjunction with a proprietary, patent-pending light-diffusing system designed by our part. Truly “set it and forget it” the LED lights within the sign automatically illuminate the entire design when the sun goes down, casting a radiant glow that allows it to be visible both day and night. The result is a stunning piece of illuminated art that can be personalized to your taste."
           }
         },
         "38794136-735d-40a4-8343-bf831454bdae": {
@@ -307,17 +318,6 @@
             "right_align": true,
             "question": "ffff",
             "Answer": "flf;nflnf"
-          }
-        },
-        "e16aa9cc-165f-480f-bd89-518e5c6ef4c4": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": false,
-            "block_heading": "",
-            "left_align": true,
-            "right_align": false,
-            "question": "adsfadsfadsf",
-            "Answer": ".nflhf"
           }
         },
         "2263dda4-e4df-451a-a74a-b643f8f7041c": {
@@ -341,41 +341,88 @@
             "question": "ffffffff",
             "Answer": "fffffffffffffff"
           }
-        },
-        "58ce83a7-3dc6-4c2e-9869-36b25ce6da99": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": true,
-            "block_heading": "ffffffffff",
-            "left_align": true,
-            "right_align": false,
-            "question": "f",
-            "Answer": "ggjjgjg"
-          }
-        },
-        "7b6f96a6-185a-414b-aba1-49e149c23d0f": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": true,
-            "block_heading": "jkb",
-            "left_align": false,
-            "right_align": true,
-            "question": "mmm",
-            "Answer": "kbkkb"
-          }
         }
       },
       "block_order": [
         "template--20832297845046__4f8da5e8-df8c-4bd2-8115-61d68a6139d1-faqs-1",
-        "38794136-735d-40a4-8343-bf831454bdae",
         "e16aa9cc-165f-480f-bd89-518e5c6ef4c4",
+        "38794136-735d-40a4-8343-bf831454bdae",
         "2263dda4-e4df-451a-a74a-b643f8f7041c",
-        "bb10a355-e906-4af6-8d98-692cfcb4f80d",
-        "58ce83a7-3dc6-4c2e-9869-36b25ce6da99",
-        "7b6f96a6-185a-414b-aba1-49e149c23d0f"
+        "bb10a355-e906-4af6-8d98-692cfcb4f80d"
       ],
       "custom_css": [
         "{display: inline-block;}"
+      ],
+      "settings": {
+        "heading": "Product Related:",
+        "right_heading": "right subtitiles"
+      }
+    },
+    "f461afc8-784b-4cf5-afe3-0d3642190483": {
+      "type": "two-faqs",
+      "blocks": {
+        "925accfe-8a67-4681-8c19-2912b954aab9": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": true,
+            "block_heading": "Product Related:",
+            "left_align": true,
+            "right_align": false,
+            "question": "What is ArtGlo?",
+            "Answer": "ArtGlo panels are a unique and innovative brand of customizable illuminated art signs. They harness proprietary solar powered illumination technology to create vibrant, energy-efficient, and customizable illuminated signs that add a unique aesthetic touch to any setting."
+          }
+        },
+        "c6da026b-db11-4b9a-bc2f-8db8dad76757": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "How does ArtGlo work?",
+            "Answer": "ArtGlo utilizes advanced LED technology in conjunction with a proprietary, patent-pending light-diffusing system designed by our part. Truly “set it and forget it” the LED lights within the sign automatically illuminate the entire design when the sun goes down, casting a radiant glow that allows it to be visible both day and night. The result is a stunning piece of illuminated art that can be personalized to your taste."
+          }
+        },
+        "5134ea9e-ad7c-4e9c-a55b-9cfa1cb12f22": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": true,
+            "block_heading": "hey",
+            "left_align": false,
+            "right_align": true,
+            "question": "ffff",
+            "Answer": "flf;nflnf"
+          }
+        },
+        "d8609e9c-0a45-49ac-93ee-ef6e96874b6f": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "x",
+            "Answer": "flnflfn"
+          }
+        },
+        "7359df43-6a65-4f29-beff-b6cebf723407": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "fff",
+            "left_align": true,
+            "right_align": false,
+            "question": "ffffffff",
+            "Answer": "fffffffffffffff"
+          }
+        }
+      },
+      "block_order": [
+        "925accfe-8a67-4681-8c19-2912b954aab9",
+        "c6da026b-db11-4b9a-bc2f-8db8dad76757",
+        "5134ea9e-ad7c-4e9c-a55b-9cfa1cb12f22",
+        "d8609e9c-0a45-49ac-93ee-ef6e96874b6f",
+        "7359df43-6a65-4f29-beff-b6cebf723407"
       ],
       "settings": {
         "heading": "Product Related:",
@@ -439,6 +486,7 @@
     "a5b68e36-a8d8-4c16-9277-8a2c56d641bd",
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "4f8da5e8-df8c-4bd2-8115-61d68a6139d1",
+    "f461afc8-784b-4cf5-afe3-0d3642190483",
     "77b62a2e-e797-4be1-99fa-f33837889f7b"
   ]
 }

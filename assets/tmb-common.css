@@ -427,7 +427,10 @@ ul .tmb_product_description_list:last-child {
 .product__column-sticky {
   justify-content: flex-end;
 }
-.tmb_product_banner .slider-buttons {
+/* .tmb_product_banner .slider-buttons {
+  display: none;
+} */
+.slider-buttons {
   display: none;
 }
 .tmb_product-shoppay {

@@ -480,7 +480,9 @@ ul .tmb_product_description_list:last-child {
 .grid__item.slider__slide .card-information .tmb_add_to_wish_btn{
   display:none;
 }
-
+.card__information{
+  padding:0 10px;
+}
 .card.card--standard.card--media{
   
 }

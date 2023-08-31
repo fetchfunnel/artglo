@@ -148,12 +148,15 @@ padding:16px 17.50px 14px;
                 {% endfor %}
                 <script>
                   let uploadCta = document.querySelector(".tmb-cta--modifier");
+                  let fileupload = document.querySelector(".fileupload")
                   if(uploadCta){
                   
                   uploadCta.addEventListener("click",()=>{
-                    document.querySelector(".fileupload").click();
+                    fileupload.click();
                   })
                }
+
+               
                 </script>
                   <img id="imagePreview" src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/avtar_preview.png?v=1693460046">
             

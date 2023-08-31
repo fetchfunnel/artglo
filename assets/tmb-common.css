@@ -470,6 +470,13 @@ ul .tmb_product_description_list:last-child {
   display:block;
 }
  */
+.card__information .tmb_price_item{
+  font-size: 1.6rem;
+    letter-spacing: .1rem;
+  color:#fff;
+}
+
+
 @media screen and (min-width: 750px) {
   .tmb_main_Image {
     max-width: 490px;

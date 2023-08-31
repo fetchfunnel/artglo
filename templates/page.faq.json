@@ -374,6 +374,28 @@
             "question": "What payment methods do you accept?",
             "Answer": "We accept a wide variety of payment methods for your convenience. These include major credit and debit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay."
           }
+        },
+        "2aa8d73a-5e41-4414-84e0-ca1527e293c5": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "Is my payment information secure?",
+            "Answer": "Absolutely. We take your security very seriously. Our checkout process uses secure socket layer (SSL) technology to ensure your personal information is encrypted and protected. We do not store your credit card details once the transaction is completed."
+          }
+        },
+        "2909051c-380b-4cd7-afbc-79b4adbd2e25": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "Can I cancel or modify my order?",
+            "Answer": "We begin processing your order as soon as it's placed to ensure quick delivery, so we're unable to modify or cancel orders once they've been submitted. Please review your order carefully before placing it. If you have any concerns or issues after placing your order, please reach out to our customer service team as soon as possible."
+          }
         }
       },
       "block_order": [
@@ -384,7 +406,9 @@
         "ce5db627-80ea-4394-9606-789b755eb577",
         "f3372608-f35c-4308-9bdd-593aee9ac2c6",
         "38794136-735d-40a4-8343-bf831454bdae",
-        "2263dda4-e4df-451a-a74a-b643f8f7041c"
+        "2263dda4-e4df-451a-a74a-b643f8f7041c",
+        "2aa8d73a-5e41-4414-84e0-ca1527e293c5",
+        "2909051c-380b-4cd7-afbc-79b4adbd2e25"
       ],
       "custom_css": [
         "{display: inline-block;}"

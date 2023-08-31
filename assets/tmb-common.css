@@ -481,9 +481,12 @@ ul .tmb_product_description_list:last-child {
   line-height: 20px;
 }
 
-/* .endless_container .grid__item.slider__slide .card-information .tmb_add_to_wish_btn{
-  display:none;
-} */
+.endless_container
+  .grid__item.slider__slide
+  .card-information
+  .tmb_add_to_wish_btn {
+  display: none;
+}
 .card__information {
   padding: 0 10px;
 }

@@ -882,7 +882,6 @@
     bottom: 0;
     left: 0;
     background-color: rgba(0, 35, 82, 0.7);
-
     opacity: 0;
     visibility: none;
     z-index: -1;
@@ -910,6 +909,10 @@
     
     productBtn.addEventListener("click",()=>{
       console.log(productBtn,"click add to cart-------")
+    let overlay = document.querySelector(".tmb_overlay");
+    
+      overlay.classList.add("active")
+    
 
       document.querySelector(".tmb_addCart_popup").classList.add("showPopup")
      

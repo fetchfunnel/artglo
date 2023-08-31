@@ -197,16 +197,21 @@ input.pplr_monogram.fileupload.cstmfy_c_required {
                             let tt = setInterval(()=>{
                               console.log('init')
                               let pplr_delete = document?.querySelector("a.pplr_delete")
+                              let pplr_delete1 = document?.querySelector("a.js-modal-close.pplr_close.p_r_d")
                               
                                  if(pplr_delete){
                                   pplr_delete.addEventListener("click",()=>{
-                              console.log('init click')
-                                    
                                      uploadCta.innerText= 'Upload Your Own Image'
                                   })
-                                clearInterval(tt);
-                                  
-                              }
+                                   clearInterval(tt);
+                                 }
+                                 
+                                 if(pplr_delete1){
+                                  pplr_delete1.addEventListener("click",()=>{
+                                     uploadCta.innerText= 'Upload Your Own Image'
+                                  })
+                                   clearInterval(tt);
+                                 }
                               
                             },1000)
                           }

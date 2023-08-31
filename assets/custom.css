@@ -193,11 +193,11 @@
   transition: all 0.5s ease;
   border: none;
 }
-
+/* 
 .button:hover,
 .button--primary:hover {
-  box-shadow: 0 0 35px #d22f7a !important;
-}
+  box-shadow: 0 0 35px #d22f7a;
+} */
 
 .button:after,
 .button--primary:after {

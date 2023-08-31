@@ -154,9 +154,9 @@ padding:16px 17.50px 14px;
                {% endcase %}
                 {% endfor %}
                 <script>
-                  let uploadCta = document.querySelector(".tmb-cta--modifier");
-                  let fileupload = document.querySelector(".fileupload")
+                  let uploadCta = document?.querySelector(".tmb-cta--modifier");
                   if(uploadCta){
+                  let fileupload = document?.querySelector(".fileupload")
                   
                   uploadCta.addEventListener("click",()=>{
                     fileupload.click();

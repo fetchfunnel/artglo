@@ -50,48 +50,6 @@
         "fullwidthsection": 3
       }
     },
-    "947748e4-35fe-4d97-bc6c-dae2097646ab": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Let's Create Together: Your Artistic Journey Awaits",
-            "heading_size": "h1"
-          }
-        },
-        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Whether you're here to explore, shop, or share your creations, ArtGlo is your canvas. Let your imagination run wild, discover new horizons of creativity, and illuminate your world with art that speaks to your soul.<br\/><br\/>Join us in celebrating the beauty of art, the power of expression, and the magic of illumination. Your artistic journey starts here, and we can't wait to be a part of it.<\/p>"
-          }
-        },
-        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Your Unique Art",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-heading-1",
-        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-text-1",
-        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "06a959e0-883d-413f-b611-63b7cc94049b": {
       "type": "rich-text-with-background",
       "blocks": {
@@ -117,7 +75,7 @@
         "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Get Your Unique Art",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -146,7 +104,6 @@
   "order": [
     "tmb_about_banner",
     "tmb-about-story",
-    "947748e4-35fe-4d97-bc6c-dae2097646ab",
     "06a959e0-883d-413f-b611-63b7cc94049b"
   ]
 }

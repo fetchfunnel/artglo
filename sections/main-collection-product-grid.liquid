@@ -488,8 +488,10 @@ ul.facet-filters__sort.tmb_sort_list {
   for(let i of DuplicatedLIst){
     i.addEventListener("click",()=>{
       let value = i.getAttribute("value");
+      console.log( value)
       for(let j of orignalList){
         let orignalValue = j.getAttribute("value");
+        console.log(orignalValue)
         if(value == orignalValue){
           console.log("dlkfjsldjfjsdlj",j)
         }

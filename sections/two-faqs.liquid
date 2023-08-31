@@ -96,8 +96,9 @@ display: flex;
 
 
 <div class="faq-sec-for-one sec_bg box">
-  <div class="boxs">
     <h2 class="heading_xlh2 faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+
+  <div class="boxs">
       {{ section.settings.heading }}
     </h2>
     {% for block in section.blocks %}

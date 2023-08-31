@@ -1,4 +1,34 @@
 <style>
+
+    body.tmb_overlay.active {
+  overflow: hidden;
+}
+  .tmb_overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 35, 82, 0.7);
+    opacity: 0;
+    visibility: none;
+    z-index: -1;
+    
+  }
+  .tmb_overlay.active{
+       opacity: 1;
+    visibility: visible;
+    z-index: 2;
+    
+    
+  }
+
+  .showPopup{
+   visibility: visible;
+    opacity: 1;
+    z-index: 999999;
+  }
+
   .tmb_addCart_popup{
     max-width:529px;
     width:100%;

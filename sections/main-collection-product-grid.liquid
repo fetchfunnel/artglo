@@ -480,6 +480,26 @@ ul.facet-filters__sort.tmb_sort_list {
   {%- endif -%}
 </div>
 
+
+<script>
+
+  let DuplicatedLIst = document.querySelectorAll(".duplicated-list");
+  let orignalList = document.querySelectorAll(".orignal-list");
+  for(let i of DuplicatedLIst){
+    i.addEventListerner("click",()=>{
+      let value = i.getAttribute("value");
+      for(let j of orignalList){
+        let orignalValue = j.getAttribute("value");
+        if(value == orignalValue){
+          j.click();
+        }
+      }
+    });
+  }
+  
+  
+</script>
+
 {% schema %}
 {
   "name": "t:sections.main-collection-product-grid.name",

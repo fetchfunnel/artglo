@@ -23,9 +23,11 @@ position: absolute;
   }
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
+<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}" style="background: url('{{ section. settings.background-image | img_url: 'master' }}')"
+
+>
 <!-- {{ section.settings.image_with_text_image | image_url: width: 1000 | image_tag }}
-<img src="{{ section.settings.zeva_image_1 | img_url: 'master' }}" /> -->
+<!-- <img src="{{ section.settings.zeva_image_1 | img_url: 'master' }}" /> -->
 
   <div class="richtextimages rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
@@ -117,7 +119,7 @@ position: absolute;
   "settings": [
 {
   "type": "image_picker",
-  "id": "zeva_image_1",
+  "id": "background-image",
   "label": "Image"
 },
     {

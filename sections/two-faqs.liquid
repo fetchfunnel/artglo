@@ -137,6 +137,44 @@ display: flex;
   </div>
 </div>
 
+
+
+
+
+
+
+<div class="faq-section">
+  <div class="faq-column">
+    <h2>FAQs</h2>
+    <ul>
+      {% for faq in faqs %}
+        <li>
+          <label>
+            <input type="checkbox" class="faq-toggle" data-faq="{{ faq.title }}">
+            {{ faq.title }}
+          </label>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="faq-column">
+    <h2>FAQ Answers</h2>
+    <ul>
+      {% for faq in faqs %}
+        <li class="faq-answer" data-faq="{{ faq.title }}">
+          {{ faq.content }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
 <script>
   
      let faqTitle = document.querySelectorAll(".faq_que");

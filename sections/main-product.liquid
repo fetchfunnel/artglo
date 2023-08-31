@@ -919,9 +919,15 @@
     
       overlay.classList.add("active")
     
-
+  
       document.querySelector(".tmb_addCart_popup").classList.add("showPopup")
      
+    })
+
+    let closePopup = document.querySelector(".tmbClose_popup")
+    closepop.addEventListener("click" , ()=>{
+      document.querySelector(".tmb_addCart_popup").classList.remove("showPopup")
+      
     })
   </script>
 </div>

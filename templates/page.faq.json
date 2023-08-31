@@ -469,7 +469,7 @@
             "has_heading": true,
             "block_heading": "Shipping and Delivery:",
             "left_align": true,
-            "right_align": false,
+            "right_align": true,
             "question": "How long will it take for my order to arrive?",
             "Answer": "5-7 business days. All of our orders are print on demand and shipped out on Monday, Wednesday, or Friday."
           }
@@ -551,8 +551,8 @@
         "d8609e9c-0a45-49ac-93ee-ef6e96874b6f"
       ],
       "settings": {
-        "heading": "kkkkkk",
-        "right_heading": "mmmmmmmm"
+        "heading": "",
+        "right_heading": ""
       }
     },
     "eee4ec4a-3475-42c3-82d2-8eed97cc4152": {

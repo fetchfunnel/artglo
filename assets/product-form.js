@@ -50,7 +50,9 @@ if (!customElements.get('product-form')) {
     <p class="tmb_addCart_popup_info"> Let’s explore our 3000+ collection of art to find perfect unique piece of art for you.</p>
     <button class="tmb_product_btn solid_cta">Explore The Art</button>
     <p class="tmb_addCart_popup_btn"> Keep shopping</p>`;
-            document?.querySelector("#cart_response_data").innerHTML = cartResp
+            
+            document.querySelector("#cart_response_data").innerHTML = cartResp
+            
             if (response.status) {
               publish(PUB_SUB_EVENTS.cartError, {
                 source: 'product-form',

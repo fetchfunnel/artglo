@@ -96,7 +96,7 @@ display: flex;
 
 
 <div class="faq-sec-for-one sec_bg box">
-
+  <div class="boxs">
     <!-- <h2 class="heading_xlh2 faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       {{ section.settings.heading }}
     </h2> -->
@@ -116,7 +116,8 @@ display: flex;
           </div>
         </div>
       {% endif %}
-     
+          {% endfor %}
+      {% for block in section.blocks %}
       {% if block.settings.right_align %}
         <div class="faq_content-right">
           <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -133,7 +134,7 @@ display: flex;
         </div>
       {% endif %}
   {% endfor %}
-
+  </div>
 </div>
 
 

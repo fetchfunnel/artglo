@@ -430,6 +430,149 @@
         "right_heading": "right subtitiles"
       }
     },
+    "dd17a79f-ac42-410d-9033-710f96e4f6bf": {
+      "type": "two-faqs",
+      "blocks": {
+        "37d94dbf-2297-496a-863f-f8c179d68ffe": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": true,
+            "block_heading": "Product Related:",
+            "left_align": true,
+            "right_align": false,
+            "question": "What is ArtGlo?",
+            "Answer": "ArtGlo panels are a unique and innovative brand of customizable illuminated art signs. They harness proprietary solar powered illumination technology to create vibrant, energy-efficient, and customizable illuminated signs that add a unique aesthetic touch to any setting."
+          }
+        },
+        "35ffc331-4da2-4b7c-bd39-5b659daddade": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "How does ArtGlo work?",
+            "Answer": "ArtGlo utilizes advanced LED technology in conjunction with a proprietary, patent-pending light-diffusing system designed by our part. Truly “set it and forget it” the LED lights within the sign automatically illuminate the entire design when the sun goes down, casting a radiant glow that allows it to be visible both day and night. The result is a stunning piece of illuminated art that can be personalized to your taste."
+          }
+        },
+        "c8234823-e11e-4f31-950b-08f233ffc9d1": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "How long does the light stay on?",
+            "Answer": "The panel will illuminate continuously for 4 hours. After 4 hours, the light turns off to preserve the battery life of the panel."
+          }
+        },
+        "8b8a1913-1d66-413b-9409-f6a256b978d7": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "What are the panel specs?",
+            "Answer": ", ArtGlo signs come in a standard size of 18 inches by 24 inches. This size has been chosen to provide an optimal balance between visibility and convenience. The signs can be displayed in both portrait and landscape orientations to suit your design preferences and space requirements.\n\n,ArtGlo Panels weigh just over 6 lbs. With the stand and mounting options, the total package weight comes to 11 lbs"
+          }
+        },
+        "26be8e14-81b8-4718-924c-7b4f6345116a": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "Are ArtGlo signs safe to use?",
+            "Answer": "Absolutely. Safety is a top priority for us at ArtGlo. Our signs use LED lights, which are known for their cool operation and energy efficiency. The signs are built with durable materials designed for longevity and safety. However, like any electrical product, they should be used responsibly. ArtGlo signs do not make good skateboards, frisbees, pitching backstops, or footstools."
+          }
+        },
+        "12a512b9-b7a7-4d6f-b1fd-f8f80376c3bb": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "Can I customize an ArtGlo sign?",
+            "Answer": "Yes, customization is one of ArtGlo's most exciting features! We offer a range of pre-designed signs, but we also give our customers the opportunity to create their unique designs. Whether it's a logo, a favorite quote, a band poster, or anything else you can imagine, ArtGlo can help illuminate your creativity."
+          }
+        },
+        "6d64f0a8-e427-4a73-b9cb-eff5e42d5cb4": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": true,
+            "block_heading": "Ordering and Payment:",
+            "left_align": false,
+            "right_align": true,
+            "question": "How do I place an order?",
+            "Answer": "Placing an order is easy! Just browse our catalog, select your desired sign, and click \"Add to Cart\". If you're creating a custom design, use our easy design tool to create your sign, then add it to your cart. When you're ready to check out, click on your cart and follow the prompts to complete your purchase."
+          }
+        },
+        "29c537ef-15b1-4599-9ce9-f014f93a2894": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "What payment methods do you accept?",
+            "Answer": "We accept a wide variety of payment methods for your convenience. These include major credit and debit cards (Visa, Mastercard, American Express, Discover), PayPal, Apple Pay, and Google Pay."
+          }
+        },
+        "407340bf-6a5d-4350-90f0-9a43af246c97": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "Is my payment information secure?",
+            "Answer": "Absolutely. We take your security very seriously. Our checkout process uses secure socket layer (SSL) technology to ensure your personal information is encrypted and protected. We do not store your credit card details once the transaction is completed."
+          }
+        },
+        "aef390d8-3e48-4e0b-9b6a-abc7791a7090": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "Can I cancel or modify my order?",
+            "Answer": "We begin processing your order as soon as it's placed to ensure quick delivery, so we're unable to modify or cancel orders once they've been submitted. Please review your order carefully before placing it. If you have any concerns or issues after placing your order, please reach out to our customer service team as soon as possible."
+          }
+        },
+        "1fd1a389-18eb-4c6b-9c28-c570ffee341e": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "Do you offer bulk ordering or corporate discounts?",
+            "Answer": "Yes, we do! ArtGlo is a great solution for businesses looking for unique signage or promotional items. If you're interested in a bulk purchase or corporate order, please contact our sales team directly for more information on pricing and availability."
+          }
+        }
+      },
+      "block_order": [
+        "37d94dbf-2297-496a-863f-f8c179d68ffe",
+        "35ffc331-4da2-4b7c-bd39-5b659daddade",
+        "c8234823-e11e-4f31-950b-08f233ffc9d1",
+        "8b8a1913-1d66-413b-9409-f6a256b978d7",
+        "26be8e14-81b8-4718-924c-7b4f6345116a",
+        "12a512b9-b7a7-4d6f-b1fd-f8f80376c3bb",
+        "6d64f0a8-e427-4a73-b9cb-eff5e42d5cb4",
+        "29c537ef-15b1-4599-9ce9-f014f93a2894",
+        "407340bf-6a5d-4350-90f0-9a43af246c97",
+        "aef390d8-3e48-4e0b-9b6a-abc7791a7090",
+        "1fd1a389-18eb-4c6b-9c28-c570ffee341e"
+      ],
+      "settings": {
+        "heading": "Product Related:",
+        "right_heading": "right subtitiles"
+      }
+    },
     "f461afc8-784b-4cf5-afe3-0d3642190483": {
       "type": "two-faqs",
       "blocks": {
@@ -582,6 +725,7 @@
     "a5b68e36-a8d8-4c16-9277-8a2c56d641bd",
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "4f8da5e8-df8c-4bd2-8115-61d68a6139d1",
+    "dd17a79f-ac42-410d-9033-710f96e4f6bf",
     "f461afc8-784b-4cf5-afe3-0d3642190483",
     "77b62a2e-e797-4be1-99fa-f33837889f7b"
   ]

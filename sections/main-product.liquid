@@ -874,38 +874,6 @@
     {% render "tmb_addCart_popup" %}
   <div>
 <style>
-  body.tmb_overlay.active {
-  overflow: hidden;
-}
-  .tmb_overlay{
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 35, 82, 0.7);
-    opacity: 0;
-    visibility: none;
-    z-index: -1;
-    
-  }
-  .tmb_overlay.active{
-       opacity: 1;
-    visibility: visible;
-    z-index: 2;
-    
-    
-  }
-  /* 
-.drawer.active {
-  visibility: hidden;
-}
- */
-  .showPopup{
-   visibility: visible;
-    opacity: 1;
-    z-index: 999999;
-  }
 
   
 
@@ -913,25 +881,20 @@
   <script>
 
     let productBtn = document.querySelector(".tmb_product_btn");
-    let cardPopup = document.querySelector(".tmb_addCart_popup")
+    let cardPopup = document.querySelector(".tmb_addCart_popup");
+    let closePopup = document.querySelector(".tmbClose_popup")
     
     
     productBtn.addEventListener("click",()=>{
-      console.log(productBtn,"click add to cart-------")
     let overlay = document.querySelector(".tmb_overlay");
-    
       overlay.classList.add("active")
-    
-  
       document.querySelector(".tmb_addCart_popup").classList.add("showPopup")
      
     })
 
-    let closePopup = document.querySelector(".tmbClose_popup")
   
 closePopup.addEventListener("click" , ()=>{
     let overlay = document.querySelector(".tmb_overlay");
-    
     if(cardPopup.classList.contains("showPopup")){
       cardPopup.classList.remove("showPopup")
     overlay.classList.remove("active")

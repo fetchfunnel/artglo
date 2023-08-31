@@ -499,7 +499,7 @@ ul .tmb_product_description_list:last-child {
      font-family: Circular Std !important;
 }
 .tmb-item-wrapper{
-  z-index:99;
+  z-index:99 !important;
 }        
         
         

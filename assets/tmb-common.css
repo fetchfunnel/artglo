@@ -430,7 +430,7 @@ ul .tmb_product_description_list:last-child {
 /* .tmb_product_banner .slider-buttons {
   display: none;
 } */
-.slider-buttons {
+.tmb_product_banner .slider-buttons {
   display: none;
 }
 .tmb_product-shoppay {

@@ -533,7 +533,7 @@
           "settings": {
             "has_heading": true,
             "block_heading": "fffffffff",
-            "left_align": false,
+            "left_align": true,
             "right_align": false,
             "question": "ffffffff",
             "Answer": "ffffff"

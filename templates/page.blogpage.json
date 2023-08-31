@@ -1,5 +1,11 @@
 {
   "sections": {
+    "4cb44caf-bbb8-4aae-9b43-529fcf2449e9": {
+      "type": "amiratest",
+      "settings": {
+        "heading": "Heading"
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -81,6 +87,7 @@
     }
   },
   "order": [
+    "4cb44caf-bbb8-4aae-9b43-529fcf2449e9",
     "main",
     "f64fa934-ab0c-4dd0-9c5b-a1cec99ad95c",
     "1382c5e5-4177-4a0e-8274-e68cce0d5efc",

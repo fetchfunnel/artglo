@@ -281,7 +281,7 @@
     "8b4b86d4-315c-40bd-898c-850061ee00a9": {
       "type": "Heading",
       "custom_css": [
-        "{padding:20px;}"
+        "{padding: 20px;}"
       ],
       "settings": {
         "heading": ""
@@ -424,8 +424,8 @@
             "block_heading": "Shipping and Delivery:",
             "left_align": true,
             "right_align": false,
-            "question": "x",
-            "Answer": "x"
+            "question": "How long will it take for my order to arrive?",
+            "Answer": "5-7 business days. All of our orders are print on demand and shipped out on Monday, Wednesday, or Friday."
           }
         },
         "ec390062-17ed-4a75-8a16-806bc03b5bcf": {
@@ -467,124 +467,6 @@
       "type": "Heading",
       "settings": {
         "heading": ""
-      }
-    },
-    "f461afc8-784b-4cf5-afe3-0d3642190483": {
-      "type": "two-faqs",
-      "blocks": {
-        "925accfe-8a67-4681-8c19-2912b954aab9": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": true,
-            "block_heading": "Shipping and Delivery:",
-            "left_align": true,
-            "right_align": true,
-            "question": "How long will it take for my order to arrive?",
-            "Answer": "5-7 business days. All of our orders are print on demand and shipped out on Monday, Wednesday, or Friday."
-          }
-        },
-        "c6da026b-db11-4b9a-bc2f-8db8dad76757": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": false,
-            "block_heading": "",
-            "left_align": true,
-            "right_align": false,
-            "question": "What are your shipping charges?",
-            "Answer": "Shipping is included in all of our pricing"
-          }
-        },
-        "f872ae48-3bb6-4326-b20b-bdc7a0bd41ed": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": false,
-            "block_heading": "",
-            "left_align": true,
-            "right_align": false,
-            "question": "Do you ship internationally?",
-            "Answer": "We do not ship internationally. All of our orders are shipped domestically via ground shipping"
-          }
-        },
-        "7359df43-6a65-4f29-beff-b6cebf723407": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": false,
-            "block_heading": "",
-            "left_align": true,
-            "right_align": false,
-            "question": "How can I track my order?",
-            "Answer": "TBD"
-          }
-        },
-        "89aadf7c-bea3-4ee1-b692-6c8da6929435": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": false,
-            "block_heading": "",
-            "left_align": true,
-            "right_align": false,
-            "question": "Subscription Information",
-            "Answer": "To-Come"
-          }
-        },
-        "5134ea9e-ad7c-4e9c-a55b-9cfa1cb12f22": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": true,
-            "block_heading": "Returns, Exchanges, and Warranty:",
-            "left_align": false,
-            "right_align": true,
-            "question": "What is your return policy?",
-            "Answer": ".We stand behind the quality and craftsmanship of our ArtGlo signs. We want you to love your ArtGlo product and we understand that sometimes things just don't work out. Therefore, we've implemented a return policy that works for both us and our valued customers. <br>\n\n.Unused Product: If you're not fully satisfied with your purchase, you may return your ArtGlo sign in its original, unused condition within 30 days of purchase. Please note that we deduct the cost of the printed sign panel ($25) from the refund amount to cover production costs.\n.Customized Items: Due to their unique nature, customized ArtGlo signs cannot be returned unless they are defective or incorrect. We strongly encourage our customers to double-check the details of their customized orders before submission. <br>\n.Defective or Incorrect Items: We do our best to ensure that you receive your product in perfect condition. However, if your ArtGlo sign arrives defective or incorrect due to our error, please contact us within 14 days of receiving your order. We will arrange for a return and replacement at no additional cost to you."
-          }
-        },
-        "d8609e9c-0a45-49ac-93ee-ef6e96874b6f": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": false,
-            "block_heading": "",
-            "left_align": false,
-            "right_align": true,
-            "question": "x",
-            "Answer": "flnflfn"
-          }
-        }
-      },
-      "block_order": [
-        "925accfe-8a67-4681-8c19-2912b954aab9",
-        "c6da026b-db11-4b9a-bc2f-8db8dad76757",
-        "f872ae48-3bb6-4326-b20b-bdc7a0bd41ed",
-        "7359df43-6a65-4f29-beff-b6cebf723407",
-        "89aadf7c-bea3-4ee1-b692-6c8da6929435",
-        "5134ea9e-ad7c-4e9c-a55b-9cfa1cb12f22",
-        "d8609e9c-0a45-49ac-93ee-ef6e96874b6f"
-      ],
-      "settings": {
-        "heading": "",
-        "right_heading": ""
-      }
-    },
-    "eee4ec4a-3475-42c3-82d2-8eed97cc4152": {
-      "type": "two-faqs",
-      "blocks": {
-        "template--20832297845046__eee4ec4a-3475-42c3-82d2-8eed97cc4152-faqs-1": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": true,
-            "block_heading": "fffffffff",
-            "left_align": true,
-            "right_align": false,
-            "question": "ffffffff",
-            "Answer": "ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--20832297845046__eee4ec4a-3475-42c3-82d2-8eed97cc4152-faqs-1"
-      ],
-      "settings": {
-        "heading": "kk",
-        "right_heading": "kk"
       }
     },
     "77b62a2e-e797-4be1-99fa-f33837889f7b": {
@@ -646,8 +528,6 @@
     "bae25a92-41cc-4541-ae2a-9c7054b9b2e2",
     "4f8da5e8-df8c-4bd2-8115-61d68a6139d1",
     "a84136a5-6965-4f89-8909-e32cd29d5baf",
-    "f461afc8-784b-4cf5-afe3-0d3642190483",
-    "eee4ec4a-3475-42c3-82d2-8eed97cc4152",
     "77b62a2e-e797-4be1-99fa-f33837889f7b"
   ]
 }

@@ -484,7 +484,7 @@ ul .tmb_product_description_list:last-child {
   padding:0 10px;
 }
 
-.card__information.ag-product-info{
+.card__information.ag-product-info .tmb_price_item{
    font-family: Circular Std;
 }
         

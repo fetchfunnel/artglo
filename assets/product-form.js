@@ -40,10 +40,17 @@ if (!customElements.get('product-form')) {
           this.cart.setActiveElement(document.activeElement);
         }
         config.body = formData;
-        console.log('ppppp')
+        
         fetch(`${routes.cart_add_url}`, config)
           .then((response) => response.json())
           .then((response) => {
+      
+            let cartResp = `<p class="tmb_addCart_popup_msg">You successfully added your Easel to cart!</p> 
+    <img class="tmb_addCart_popup_img" src="" width="102" height="113" alt="Image of Product" loading="lazy">
+    <p class="tmb_addCart_popup_info"> Let’s explore our 3000+ collection of art to find perfect unique piece of art for you.</p>
+    <button class="tmb_product_btn solid_cta">Explore The Art</button>
+    <p class="tmb_addCart_popup_btn"> Keep shopping</p>`;
+            document?.querySelector("#cart_response_data").innerHTML = cartResp
             if (response.status) {
               publish(PUB_SUB_EVENTS.cartError, {
                 source: 'product-form',

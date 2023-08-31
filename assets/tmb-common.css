@@ -477,7 +477,9 @@ ul .tmb_product_description_list:last-child {
   font-weight:400;
 }
 
-
+.grid__item.slider__slide .card-information .tmb_add_to_wish_btn{
+  display:none;
+}
 @media screen and (min-width: 750px) {
   .tmb_main_Image {
     max-width: 490px;

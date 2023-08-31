@@ -170,10 +170,12 @@ padding:16px 17.50px 14px;
                            console.log(fileupload.value, ' vales')
                            if(fileupload.value){
                              let pplr_modify = document?.querySelector("a.pplr_modify")
-                             if(pplr_modify)
-                               pplr_modify.click()
-                             else
+                             if(pplr_modify) {
+                               pplr_modify.click() }
+                             else {
                                fileupload.click();
+                               deleteInit()
+                             }
                              return;
                            }
                            fileupload.click();
@@ -185,6 +187,7 @@ padding:16px 17.50px 14px;
                           
                           fileupload.addEventListener("change",()=>{
                              uploadCta.innerText= 'Change or Edit Uploaded image'
+                             deleteInit()
                           })
                           function deleteInit(){
                             setTimeout(()=>{

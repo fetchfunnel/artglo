@@ -90,7 +90,7 @@
       "settings": {
         "title": "Blog posts",
         "blog": "news",
-        "post_limit": 12,
+        "post_limit": 6,
         "blog_show_author": false,
         "blog_show_date": false,
         "show_view_all": true

@@ -428,7 +428,7 @@ window.TriplePixelData={TripleName:"artglo-signs.myshopify.com",ver:"1.9.0"},fun
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
       };
     </script>
-    {% render 'wishlist' %}
+    {% render 'wishlist-js' %}
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}

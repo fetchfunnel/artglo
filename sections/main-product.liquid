@@ -936,6 +936,16 @@ closePopup.addEventListener("click" , ()=>{
     }
       
     })
+     overlay.addEventListner("click", ()=>{
+     let overlay = document.querySelector(".tmb_overlay");
+    
+    if(cardPopup.classList.contains("showPopup")){
+      cardPopup.classList.remove("showPopup")
+    overlay.classList.remove("active")
+    
+     })
+
+    
   </script>
 </div>
 </section>

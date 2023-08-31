@@ -873,7 +873,25 @@
     <div class="tmb_overlay"></div>
     {% render "tmb_addCart_popup" %}
   <div>
+<style>
+.tmb_product_btn.showPopup{
+      position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    opacity: 1;
+    visibility: visible;
 
+}
+  .showPopup{
+    
+       opacity: 0;
+    visibility: hidden;
+  }
+  
+
+</style>
   <script>
 
     let productBtn = document.querySelector(".tmb_product_btn")

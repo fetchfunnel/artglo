@@ -437,7 +437,7 @@
           "type": "faqs",
           "settings": {
             "has_heading": true,
-            "block_heading": "Product Related:",
+            "block_heading": "Shipping and Delivery:",
             "left_align": true,
             "right_align": false,
             "question": "What is ArtGlo?",
@@ -459,7 +459,7 @@
           "type": "faqs",
           "settings": {
             "has_heading": true,
-            "block_heading": "hey",
+            "block_heading": "Returns, Exchanges, and Warranty:",
             "left_align": false,
             "right_align": true,
             "question": "ffff",
@@ -497,8 +497,8 @@
         "7359df43-6a65-4f29-beff-b6cebf723407"
       ],
       "settings": {
-        "heading": "Product Related:",
-        "right_heading": "right subtitiles"
+        "heading": "",
+        "right_heading": ""
       }
     },
     "77b62a2e-e797-4be1-99fa-f33837889f7b": {

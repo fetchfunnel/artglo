@@ -504,7 +504,11 @@ ul .tmb_product_description_list:last-child {
 .endless_container .collection__title{
   margin-bottom:64px;
 }
-        
+. product-grid{
+  padding:60px;
+}
+
+
         
       
 

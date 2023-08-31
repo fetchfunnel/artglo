@@ -508,7 +508,7 @@ ul .tmb_product_description_list:last-child {
   padding:55px;
 }
 .slider-mobile-gutter{
-  overflow-x:hidden;
+  overflow-x:auto;
 }
 
         

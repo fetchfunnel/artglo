@@ -140,7 +140,9 @@ padding:16px 17.50px 14px;
               {%- for block in section.blocks -%} 
                {%- case block.type -%} 
                  {%- when '@app' -%}
+                 
                    {% render block %}
+                   
                  
                {% endcase %}
                 {% endfor %}

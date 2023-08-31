@@ -365,7 +365,7 @@
         class="card__inner{% if settings.card_style == 'standard' %} color-{{ settings.card_color_scheme }} gradient{% endif %} ratio"
         style="--ratio-percent: 100%;"
       >
-        {% comment %}
+     
           <div class="card__media">
             <div class="media media--transparent">
               {%- if placeholder_image -%}
@@ -375,9 +375,9 @@
               {% endif %}
             </div>
           </div> tmbComment
-        {% endcomment %}
+     
       </div>
-      {% comment %}
+  
         <div class="card__content">
           <div class="card__information">
             <h3 class="card__heading card__heading--placeholder{% if settings.card_style == 'standard' %} h5{% endif %}">
@@ -394,7 +394,7 @@
             </div>
           </div>
         </div> tmbComment
-      {% endcomment %}
+      
     </div>
   </div>
 {%- endif -%}

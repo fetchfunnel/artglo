@@ -280,6 +280,15 @@
     },
     "8b4b86d4-315c-40bd-898c-850061ee00a9": {
       "type": "Heading",
+      "custom_css": [
+        "{padding:20px;}"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    },
+    "bae25a92-41cc-4541-ae2a-9c7054b9b2e2": {
+      "type": "Heading",
       "settings": {
         "heading": "Frequently asked questions"
       }
@@ -634,6 +643,7 @@
     "dc4a1fed-ae7b-470e-a6af-15317aaeef7f",
     "a5b68e36-a8d8-4c16-9277-8a2c56d641bd",
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
+    "bae25a92-41cc-4541-ae2a-9c7054b9b2e2",
     "4f8da5e8-df8c-4bd2-8115-61d68a6139d1",
     "a84136a5-6965-4f89-8909-e32cd29d5baf",
     "f461afc8-784b-4cf5-afe3-0d3642190483",

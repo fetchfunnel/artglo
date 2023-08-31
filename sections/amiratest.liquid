@@ -3,3 +3,41 @@
 <div id="faqContainer">
   <!-- Your FAQ sections here -->
 </div>
+
+
+<script>
+// Get references to the search input and button
+const searchInput = document.getElementById('searchInput');
+const searchButton = document.getElementById('searchButton');
+const faqContainer = document.getElementById('faqContainer');
+
+// Add an event listener to the search button
+searchButton.addEventListener('click', function () {
+  // Get the user's search query
+  const query = searchInput.value.toLowerCase();
+
+  // Create an array to store matching FAQ sections
+  const matchingSections = [];
+
+  // Loop through each FAQ section
+  const sections = faqContainer.querySelectorAll('.faq-section');
+  sections.forEach((section) => {
+    // Check if the section contains the search query
+    const sectionText = section.textContent.toLowerCase();
+    if (sectionText.includes(query)) {
+      matchingSections.push(section);
+    }
+  });
+
+  // Hide all FAQ sections
+  sections.forEach((section) => {
+    section.style.display = 'none';
+  });
+
+  // Show only the matching FAQ sections
+  matchingSections.forEach((section) => {
+    section.style.display = 'block';
+  });
+});
+
+</script>

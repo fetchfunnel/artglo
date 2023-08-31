@@ -294,7 +294,7 @@
                                   <rect width="16" height="16" stroke="currentColor" fill="none" stroke-width="1"></rect>
                                 </svg>
 
-                                <svg
+                                {% comment %}<svg
                                   aria-hidden="true"
                                   class="icon icon-checkmark"
                                   width="1.1rem"
@@ -308,6 +308,10 @@
                                     stroke-width="1.75"
                                     stroke-linecap="round"
                                     stroke-linejoin="round" />
+                                </svg> {% endcomment %}
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-checkmark" width="13" height="9" viewBox="0 0 13 9" fill="none">
+                                  <path d="M4.38903 7.50599L11.921 0.180882C12.0465 0.0598057 12.1954 -0.000732422 12.3678 -0.000732422C12.5403 -0.000732422 12.6888 0.0601618 12.8133 0.181951C12.9378 0.303727 13 0.448346 13 0.615808C13 0.783256 12.9378 0.927519 12.8133 1.04859L4.82477 8.81765C4.70027 8.93873 4.55502 8.99927 4.38903 8.99927C4.22303 8.99927 4.07779 8.93873 3.95329 8.81765L0.176915 5.14501C0.0524194 5.02303 -0.00637041 4.87819 0.000546035 4.71049C0.00746248 4.54277 0.0735351 4.39837 0.198764 4.27729C0.32398 4.15622 0.472683 4.09568 0.644875 4.09568C0.817053 4.09568 0.96539 4.15622 1.08989 4.27729L4.38903 7.50599Z" fill="black"/>
                                 </svg>
 
                                 <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>

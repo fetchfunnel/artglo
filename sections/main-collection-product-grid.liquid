@@ -193,6 +193,9 @@ ul.facet-filters__sort.tmb_sort_list {
   .facet-filters__field svg {
     margin-left: 20px;
 }
+  .orignal-list{
+    display:none;
+  }
   /* Responsive Breakpoints */
   @media(max-width:749px){
     div#ProductGridContainer .grid_wrapper {
@@ -281,7 +284,7 @@ ul.facet-filters__sort.tmb_sort_list {
                 {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
                 <select
                   name="sort_by"
-                  class="facet-filters__sort select__select caption-large tmb_sort_list"
+                  class="facet-filters__sort select__select caption-large tmb_sort_list orignal-list"
                   id="SortBy"
                   aria-describedby="a11y-refresh-page-message"
                 >
@@ -303,7 +306,7 @@ ul.facet-filters__sort.tmb_sort_list {
              <div class="select">
                 <ul
                   name="sort_by"
-                  class="facet-filters__sort select__select caption-large tmb_sort_list"
+                  class="facet-filters__sort select__select caption-large tmb_sort_list duplicated-list"
                   id="SortBy"
                   aria-describedby="a11y-refresh-page-message"
                 >

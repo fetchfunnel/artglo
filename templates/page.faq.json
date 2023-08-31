@@ -482,6 +482,17 @@
             "question": "What is your return policy?",
             "Answer": ". We stand behind the quality and craftsmanship of our ArtGlo signs. We want you to love your ArtGlo product and we understand that sometimes things just don't work out. Therefore, we've implemented a return policy that works for both us and our valued customers. \n<br>\n. Unused Product: If you're not fully satisfied with your purchase, you may return your ArtGlo sign in its original, unused condition within 30 days of purchase. Please note that we deduct the cost of the printed sign panel ($25) from the refund amount to cover production costs.\n<br>\n.Customized Items: Due to their unique nature, customized ArtGlo signs cannot be returned unless they are defective or incorrect. We strongly encourage our customers to double-check the details of their customized orders before submission. <br>\n. Defective or Incorrect Items: We do our best to ensure that you receive your product in perfect condition. However, if your ArtGlo sign arrives defective or incorrect due to our error, please contact us within 14 days of receiving your order. We will arrange for a return and replacement at no additional cost to you."
           }
+        },
+        "cebe9dcd-9060-40be-b479-c8d98c5e0fcd": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "What if my panel arrives damaged?",
+            "Answer": "At ArtGlo, we are committed to ensuring that every product you order arrives in perfect condition. However, we understand that sometimes, despite our best efforts, items may be damaged during transit. If your product arrives damaged, please contact us immediately. Send us an email at support@artglo.com with your order number and photos of the damaged product. Our customer service team will work with you to resolve the issue as quickly as possible.\n<br>\nWe may ask you to return the damaged product to us. If this is the case, we will provide you with a prepaid return shipping label. Once we receive and confirm the damage, we'll expedite a replacement at no additional cost to you. Your satisfaction is our priority, and we appreciate your understanding in this matter."
+          }
         }
       },
       "block_order": [
@@ -501,7 +512,8 @@
         "9b66ae92-e820-4409-864b-30d527a28682",
         "e3675cc2-f436-4553-9571-01516519d82d",
         "5d7db30e-8422-4a05-8ec4-c13eb28166f2",
-        "ec390062-17ed-4a75-8a16-806bc03b5bcf"
+        "ec390062-17ed-4a75-8a16-806bc03b5bcf",
+        "cebe9dcd-9060-40be-b479-c8d98c5e0fcd"
       ],
       "custom_css": [
         "{display: inline-block;}"

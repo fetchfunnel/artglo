@@ -306,29 +306,25 @@ ul.facet-filters__sort.tmb_sort_list {
             </div>
 
              
-                <ul
-                  name="sort_by"
-                  class="facet-filters__sort select__select caption-large tmb_sort_list duplicated-list"
-                  id="SortBy"
-                  aria-describedby="a11y-refresh-page-message"
-                >
-                  {%- for option in collection.sort_options -%}
-                    <li
-                      value="{{ option.value | escape }}"
-                      {% if option.value == sort_by %}
-                        selected="selected"
-                      {% endif %}
-                    >
-                      {{ option.name | escape }}
-                    </li>
-                  {%- endfor -%}
-                </ul>
               </div>
-                {% render 'white-caret-icon' %}
-            
-         
-
         </form>
+              <ul
+                name="sort_by"
+                class="facet-filters__sort select__select caption-large tmb_sort_list duplicated-list"
+                id="SortBy"
+                aria-describedby="a11y-refresh-page-message"
+              >
+                {%- for option in collection.sort_options -%}
+                  <li
+                    value="{{ option.value | escape }}"
+                    {% if option.value == sort_by %}
+                      selected="selected"
+                    {% endif %}
+                  >
+                    {{ option.name | escape }}
+                  </li>
+                {%- endfor -%}
+              </ul>
       </facet-filters-form>
     {%- endif -%}
     

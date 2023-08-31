@@ -309,6 +309,17 @@
             "Answer": "ArtGlo utilizes advanced LED technology in conjunction with a proprietary, patent-pending light-diffusing system designed by our part. Truly “set it and forget it” the LED lights within the sign automatically illuminate the entire design when the sun goes down, casting a radiant glow that allows it to be visible both day and night. The result is a stunning piece of illuminated art that can be personalized to your taste."
           }
         },
+        "bb10a355-e906-4af6-8d98-692cfcb4f80d": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "How long does the light stay on?",
+            "Answer": "The panel will illuminate continuously for 4 hours. After 4 hours, the light turns off to preserve the battery life of the panel."
+          }
+        },
         "38794136-735d-40a4-8343-bf831454bdae": {
           "type": "faqs",
           "settings": {
@@ -330,25 +341,14 @@
             "question": "x",
             "Answer": "flnflfn"
           }
-        },
-        "bb10a355-e906-4af6-8d98-692cfcb4f80d": {
-          "type": "faqs",
-          "settings": {
-            "has_heading": false,
-            "block_heading": "fff",
-            "left_align": true,
-            "right_align": false,
-            "question": "ffffffff",
-            "Answer": "fffffffffffffff"
-          }
         }
       },
       "block_order": [
         "template--20832297845046__4f8da5e8-df8c-4bd2-8115-61d68a6139d1-faqs-1",
         "e16aa9cc-165f-480f-bd89-518e5c6ef4c4",
+        "bb10a355-e906-4af6-8d98-692cfcb4f80d",
         "38794136-735d-40a4-8343-bf831454bdae",
-        "2263dda4-e4df-451a-a74a-b643f8f7041c",
-        "bb10a355-e906-4af6-8d98-692cfcb4f80d"
+        "2263dda4-e4df-451a-a74a-b643f8f7041c"
       ],
       "custom_css": [
         "{display: inline-block;}"

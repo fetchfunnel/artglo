@@ -117,10 +117,10 @@
     {% endif %}
   {% endfor %}
         </div>
+      <div class="faq_content-right">
 
   {% for block in section.blocks %}
     {% if block.settings.right_align %}
-      <div class="faq_content-right">
         {% if block.settings.has_heading %}          <h2 class="heading_xlh2 faq_headingtwo {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             {{ block.settings.block_heading }}
           </h2>{% endif %}
@@ -136,9 +136,10 @@
             </p>
           </div>
         </div>
-      </div>
     {% endif %}
   {% endfor %}
+        </div>
+
 </div>
 
 <script>

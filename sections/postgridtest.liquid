@@ -1,3 +1,4 @@
+<div>
 <h1>{{ section.settings.title | escape }}</h1>
 
 {%- assign blog = blogs[section.settings.blog] -%}
@@ -63,7 +64,7 @@
 
   </ul>
 {%- endif -%}
-
+</div>
 {%- if section.settings.show_view_all -%}
   <a href="{{ blog.url }}"
     class="btn"

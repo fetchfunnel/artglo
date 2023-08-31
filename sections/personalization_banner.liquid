@@ -142,10 +142,19 @@ padding:16px 17.50px 14px;
                  {%- when '@app' -%}
                  
                    {% render block %}
-                   <button class="solid_cta">Upload Your Own Image</button>
+                   <button class="solid_cta tmb-cta--modifier">Upload Your Own Image</button>
                  
                {% endcase %}
                 {% endfor %}
+                <script>
+                  let uploadCta = document.querySelector(".tmb-cta--modifier");
+                  if(uploadCta){
+                  
+                  uploadCta.addEventListener("click",()=>{
+                    document.querySelector(".fileupload").click();
+                  })
+               }
+                </script>
                   <img id="imagePreview" src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/avtar_preview.png?v=1693460046">
             
               </div>

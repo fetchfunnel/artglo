@@ -439,6 +439,17 @@
             "Answer": "Shipping is included in all of our pricing"
           }
         },
+        "9b66ae92-e820-4409-864b-30d527a28682": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "Do you ship internationally?",
+            "Answer": "We do not ship internationally. All of our orders are shipped domestically via ground shipping"
+          }
+        },
         "ec390062-17ed-4a75-8a16-806bc03b5bcf": {
           "type": "faqs",
           "settings": {
@@ -465,6 +476,7 @@
         "0cb299aa-967e-49a5-a8dd-acbc523275d5",
         "524b5860-6c26-47ea-85ea-0c7c162d280c",
         "d3b8101b-4e58-48d8-be89-b3da755b9719",
+        "9b66ae92-e820-4409-864b-30d527a28682",
         "ec390062-17ed-4a75-8a16-806bc03b5bcf"
       ],
       "custom_css": [

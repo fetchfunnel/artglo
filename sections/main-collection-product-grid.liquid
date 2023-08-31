@@ -484,7 +484,7 @@ ul.facet-filters__sort.tmb_sort_list {
 <script>
 
   let DuplicatedLIst = document.querySelectorAll(".duplicated-list");
-  let orignalList = document.querySelectorAll(".orignal-list");
+  let orignalList = document.querySelectorAll(".orignal-list option");
   for(let i of DuplicatedLIst){
     i.addEventListener("click",()=>{
       let value = i.getAttribute("value");

@@ -911,6 +911,7 @@
   <script>
 
     let productBtn = document.querySelector(".tmb_product_btn");
+    let cardPopup = document.querySelector(".tmb_addCart_popup")
     
     
     productBtn.addEventListener("click",()=>{
@@ -925,8 +926,11 @@
     })
 
     let closePopup = document.querySelector(".tmbClose_popup")
+  
     closepop.addEventListener("click" , ()=>{
-      document.querySelector(".tmb_addCart_popup").classList.remove("showPopup")
+    if(cardPopup.classList.contains("showPopup")){
+      cardPopup.classList.remove("showPopup")
+    }
       
     })
   </script>

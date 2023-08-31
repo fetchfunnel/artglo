@@ -883,23 +883,23 @@
                     <div class="mobile-facets__sort">
                       <label for="SortBy-mobile">{{ 'products.facets.sort_by_label' | t }}</label>
                       <div class="select">
-                        <select
+                        <ul
                           name="sort_by"
                           class="select__select"
                           id="SortBy-mobile"
                           aria-describedby="a11y-refresh-page-message"
                         >
                           {%- for option in results.sort_options -%}
-                            <option
+                            <li
                               value="{{ option.value | escape }}"
                               {% if option.value == sort_by %}
                                 selected="selected"
                               {% endif %}
                             >
                               {{ option.name | escape }}
-                            </option>
+                            </li>
                           {%- endfor -%}
-                        </select>
+                        </ul>
                         {% render 'icon-caret' %}
                       </div>
                     </div>

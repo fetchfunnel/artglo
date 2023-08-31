@@ -194,17 +194,20 @@ input.pplr_monogram.fileupload.cstmfy_c_required {
                              deleteInit()
                           })
                           function deleteInit(){
-                            setTimeout(()=>{
+                            let tt = setInterval(()=>{
                               console.log('init')
                               let pplr_delete = document?.querySelector("a.pplr_delete")
-                              console.log(pplr_delete)
+                              
                                  if(pplr_delete){
                                   pplr_delete.addEventListener("click",()=>{
                               console.log('init click')
                                     
                                      uploadCta.innerText= 'Upload Your Own Image'
                                   })
+                                clearInterval(tt);
+                                  
                               }
+                              
                             },1000)
                           }
                           

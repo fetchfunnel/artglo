@@ -373,12 +373,6 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "eab3f822-970d-4593-8040-97b037142bb9": {
-      "type": "amiratest",
-      "settings": {
-        "heading": "Heading"
-      }
     }
   },
   "order": [
@@ -390,7 +384,6 @@
     "8b4b86d4-315c-40bd-898c-850061ee00a9",
     "4f8da5e8-df8c-4bd2-8115-61d68a6139d1",
     "aab530f7-e255-4cce-9df7-58e808e1d03b",
-    "77b62a2e-e797-4be1-99fa-f33837889f7b",
-    "eab3f822-970d-4593-8040-97b037142bb9"
+    "77b62a2e-e797-4be1-99fa-f33837889f7b"
   ]
 }

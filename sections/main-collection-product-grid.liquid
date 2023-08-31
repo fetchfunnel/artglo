@@ -495,8 +495,12 @@ ul.facet-filters__sort.tmb_sort_list {
         if(value === orignalValue){
           console.log(orignalValue)
           console.log( value)
-          j.click();
-          // j.dispatchEvent(new Event('click'));
+
+           j.selected = true; // Select the option
+           j.parentElement.dispatchEvent(new Event('change')); 
+        break; 
+          
+          
         }
       }
     });

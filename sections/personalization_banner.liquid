@@ -154,25 +154,25 @@ padding:16px 17.50px 14px;
                {% endcase %}
                 {% endfor %}
                 <script>
-                  let uploadCta = document?.querySelector(".tmb-cta--modifier");
-                  if(uploadCta){
-                  let fileupload = document?.querySelector(".fileupload")
                   
-                  uploadCta.addEventListener("click",()=>{
-                    fileupload.click();
-                  })
+                  
+                  
+                 // uploadCta.addEventListener("click",()=>{
+                 //   fileupload.click();
+                 // })
                   let myInterval = setInterval(function () {
-                     let fileupload = document?.querySelector(".fileupload")
-                     if(fileupload){
+                       let uploadCta = document?.querySelector(".tmb-cta--modifier");
+                      let fileupload = document?.querySelector(".fileupload")
+                    /* if(fileupload){
                           fileupload.addEventListener("change",()=>{
                             console.log("Change or Edit Uploaded image")
                           })
                          clearInterval(myInterval);
-                     }
+                     }*/
 
                   }, 1000);
                
-               }
+               
                
 
                 

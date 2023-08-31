@@ -548,6 +548,17 @@
             "question": "Who is behind ArtGlo?",
             "Answer": "ArtGlo is brought to you by a dedicated team of innovative creatives, tech enthusiasts, and experienced business professionals. Our mission is to revolutionize the way art and lighting interact by providing high-quality, customizable glow-in-the-dark signs. We are committed to creating unique, eye-catching products that brighten up any space while keeping customer satisfaction at the heart of everything we do. Each member of our team is passionate about bringing this vision to life and making ArtGlo a beloved brand across the globe."
           }
+        },
+        "b65cfb0f-98e2-41d6-aa9d-1a2ada8d92fa": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "Are you hiring?",
+            "Answer": "At ArtGlo, we are always interested in meeting talented, enthusiastic individuals who share our passion for innovation and creativity. Even if we don't have a specific role open at the moment, we believe in the power of connections. If you think you would be a great fit for our team, we encourage you to send us your resume and a brief description of your skills, experiences, and how you can contribute to our mission. We'll be sure to keep your information on file and reach out if a suitable opportunity arises in the future. So, while we may not be hiring right this moment, we're always open to exploring potential fits."
+          }
         }
       },
       "block_order": [
@@ -573,7 +584,8 @@
         "fe9b3a47-f6ed-4728-a913-4acd2dfd0fe0",
         "b28ebcc5-8f82-48f4-8960-9cd5549224d3",
         "39abf82e-8229-4717-b2fe-c6075836876f",
-        "2ca6a002-2fbe-4911-a9ff-f941e1205648"
+        "2ca6a002-2fbe-4911-a9ff-f941e1205648",
+        "b65cfb0f-98e2-41d6-aa9d-1a2ada8d92fa"
       ],
       "custom_css": [
         "{display: inline-block;}"

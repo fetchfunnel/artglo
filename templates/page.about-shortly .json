@@ -38,31 +38,64 @@
             "button_show": false,
             "button_link": ""
           }
-        },
-        "ae43ed87-3b81-49f2-b9f5-db87086e8f90": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-2.png",
-            "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout <\/p>",
-            "button_show": true,
-            "button_link": "shopify:\/\/collections"
-          }
         }
       },
       "block_order": [
         "a807f535-a6e0-4d95-ab11-fb009171db51",
         "fc141cf9-5ab6-4bb1-94fc-34ef91d10f53",
-        "11d1cef4-6d12-45cb-b5d1-16d1e4f95939",
-        "ae43ed87-3b81-49f2-b9f5-db87086e8f90"
+        "11d1cef4-6d12-45cb-b5d1-16d1e4f95939"
       ],
       "settings": {
         "title": "",
         "fullwidthsection": 3
       }
+    },
+    "947748e4-35fe-4d97-bc6c-dae2097646ab": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-heading-1",
+        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-text-1",
+        "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "tmb_about_banner",
-    "tmb-about-story"
+    "tmb-about-story",
+    "947748e4-35fe-4d97-bc6c-dae2097646ab"
   ]
 }

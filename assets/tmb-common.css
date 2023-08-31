@@ -127,7 +127,7 @@ h6 {
 .solid_cta {
   border-radius: 10px;
   border: 2px solid #E50C7D;
-  background: #E50C7D;
+  background: rgba(229, 12, 125, 0.80);
   color: #fff;
   text-align: center;
   font-family: Inter;
@@ -142,6 +142,7 @@ h6 {
   cursor: pointer;
 }
 .solid_cta:hover {
+  background: rgba(229, 12, 125, 0.80);
   box-shadow: 0px 0px 27px 0px #E50C7D;
 }
 

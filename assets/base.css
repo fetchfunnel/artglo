@@ -643,7 +643,7 @@ h3 .icon-arrow,
 .animate-arrow:hover .icon-arrow path {
   transform: translateX(-0.05rem);
 }
-
+ 
 /* base-details-summary */
 summary {
   cursor: pointer;

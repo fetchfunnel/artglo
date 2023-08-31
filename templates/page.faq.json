@@ -450,6 +450,28 @@
             "Answer": "We do not ship internationally. All of our orders are shipped domestically via ground shipping"
           }
         },
+        "e3675cc2-f436-4553-9571-01516519d82d": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "How can I track my order?",
+            "Answer": "TBD"
+          }
+        },
+        "5d7db30e-8422-4a05-8ec4-c13eb28166f2": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "Subscription Information",
+            "Answer": "To-Come"
+          }
+        },
         "ec390062-17ed-4a75-8a16-806bc03b5bcf": {
           "type": "faqs",
           "settings": {
@@ -457,8 +479,8 @@
             "block_heading": "Returns, Exchanges, and Warranty:",
             "left_align": false,
             "right_align": true,
-            "question": "vvvvvvvvvvvvvv",
-            "Answer": "cccc"
+            "question": "What is your return policy?",
+            "Answer": ".We stand behind the quality and craftsmanship of our ArtGlo signs. We want you to love your ArtGlo product and we understand that sometimes things just don't work out. Therefore, we've implemented a return policy that works for both us and our valued customers. \n<br>\n,Unused Product: If you're not fully satisfied with your purchase, you may return your ArtGlo sign in its original, unused condition within 30 days of purchase. Please note that we deduct the cost of the printed sign panel ($25) from the refund amount to cover production costs.\n<br>\n.Customized Items: Due to their unique nature, customized ArtGlo signs cannot be returned unless they are defective or incorrect. We strongly encourage our customers to double-check the details of their customized orders before submission. <br>\n.Defective or Incorrect Items: We do our best to ensure that you receive your product in perfect condition. However, if your ArtGlo sign arrives defective or incorrect due to our error, please contact us within 14 days of receiving your order. We will arrange for a return and replacement at no additional cost to you."
           }
         }
       },
@@ -477,6 +499,8 @@
         "524b5860-6c26-47ea-85ea-0c7c162d280c",
         "d3b8101b-4e58-48d8-be89-b3da755b9719",
         "9b66ae92-e820-4409-864b-30d527a28682",
+        "e3675cc2-f436-4553-9571-01516519d82d",
+        "5d7db30e-8422-4a05-8ec4-c13eb28166f2",
         "ec390062-17ed-4a75-8a16-806bc03b5bcf"
       ],
       "custom_css": [

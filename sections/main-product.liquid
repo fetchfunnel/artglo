@@ -874,7 +874,9 @@
     {% render "tmb_addCart_popup" %}
   <div>
 <style>
-
+  body.tmb_overlay.active {
+  overflow: hidden;
+}
   .tmb_overlay{
     position: fixed;
     top: 0;

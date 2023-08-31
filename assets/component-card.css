@@ -336,7 +336,7 @@
 
 .card--horizontal .card__badge,
 .card--horizontal.card--text .card__inner {
-  display: none;
+  /* display: none; */
 }
 
 .card--extend-height {

@@ -493,6 +493,17 @@
             "question": "What if my panel arrives damaged?",
             "Answer": "At ArtGlo, we are committed to ensuring that every product you order arrives in perfect condition. However, we understand that sometimes, despite our best efforts, items may be damaged during transit. If your product arrives damaged, please contact us immediately. Send us an email at support@artglo.com with your order number and photos of the damaged product. Our customer service team will work with you to resolve the issue as quickly as possible.\n<br>\nWe may ask you to return the damaged product to us. If this is the case, we will provide you with a prepaid return shipping label. Once we receive and confirm the damage, we'll expedite a replacement at no additional cost to you. Your satisfaction is our priority, and we appreciate your understanding in this matter."
           }
+        },
+        "53c9f5dc-93ac-4987-b81d-067679696dde": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "Do you offer a warranty?",
+            "Answer": "Every ArtGlo product comes with a 1-year manufacturer's warranty, assuring you of its quality and durability. This warranty covers any manufacturing defects in your ArtGlo sign from the date of purchase. If a defect arises within the warranty period, please contact our customer service at support@artglo.com with your order number and a detailed description of the issue. We will either repair or replace your product free of charge. Please note that this warranty does not cover damage caused by improper use, accidents, or normal wear and tear.\n<br>\nWe may ask you to return the damaged product to us. If this is the case, we will provide you with a prepaid return shipping label. Once we receive and confirm the damage, we'll expedite a replacement at no additional cost to you. Your satisfaction is our priority, and we appreciate your understanding in this matter."
+          }
         }
       },
       "block_order": [
@@ -513,7 +524,8 @@
         "e3675cc2-f436-4553-9571-01516519d82d",
         "5d7db30e-8422-4a05-8ec4-c13eb28166f2",
         "ec390062-17ed-4a75-8a16-806bc03b5bcf",
-        "cebe9dcd-9060-40be-b479-c8d98c5e0fcd"
+        "cebe9dcd-9060-40be-b479-c8d98c5e0fcd",
+        "53c9f5dc-93ac-4987-b81d-067679696dde"
       ],
       "custom_css": [
         "{display: inline-block;}"

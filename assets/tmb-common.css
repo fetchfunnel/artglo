@@ -464,7 +464,7 @@ ul .tmb_product_description_list:last-child {
     transform: rotate(90deg) !important;
 }
 .card__information{
-      bottom: -26px;
+      bottom: -30px;
 }
 .card__information .tmb_price_per_items{
   display:block;

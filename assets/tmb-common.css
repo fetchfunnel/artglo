@@ -431,9 +431,9 @@ ul .tmb_product_description_list:last-child {
 .tmb_product_banner .slider-buttons {
   display: none;
 }
-/* .tmb_price_per_items button {
+body.collection .tmb_price_per_items button {
   display: none;
-} */
+} 
 .tmb_product-shoppay {
   margin-top: 16px;
 }

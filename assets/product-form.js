@@ -45,8 +45,8 @@ if (!customElements.get('product-form')) {
           .then((response) => response.json())
           .then((response) => {
             console.log(response)
-            let cartResp = `<p class="tmb_addCart_popup_msg">You successfully added your Easel to cart!</p> 
-    <img class="tmb_addCart_popup_img" src="" width="102" height="113" alt="Image of Product" loading="lazy">
+            let cartResp = `<p class="tmb_addCart_popup_msg">You successfully added your ${response.title} to cart!</p> 
+    <img class="tmb_addCart_popup_img" src="${response.featured_image.url}" width="102" height="113" alt="Image of Product" loading="lazy">
     <p class="tmb_addCart_popup_info"> Let’s explore our 3000+ collection of art to find perfect unique piece of art for you.</p>
     <button class="tmb_product_btn solid_cta">Explore The Art</button>
     <p class="tmb_addCart_popup_btn"> Keep shopping</p>`;

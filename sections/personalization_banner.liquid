@@ -194,7 +194,7 @@ padding:16px 17.50px 14px;
                             setTimeout(()=>{
                               let pplr_delete = document?.querySelector("a.pplr_modify")
                                  if(pplr_delete){
-                                  fileupload.addEventListener("change",()=>{
+                                  pplr_delete.addEventListener("change",()=>{
                                      uploadCta.innerText= 'Upload Your Own Image'
                                   })
                               }

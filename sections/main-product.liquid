@@ -879,13 +879,14 @@
 
 </style>
   <script>
-    debugger
+    
     let productBtn = document.querySelector(".tmb_product_btn");
     let cardPopup = document.querySelector(".tmb_addCart_popup");
     let closePopup = document.querySelector(".tmbClose_popup")
     
     
     productBtn.addEventListener("click",()=>{
+    debugger
     let overlay = document.querySelector(".tmb_overlay");
       overlay.classList.add("active")
       document.querySelector(".tmb_addCart_popup").classList.add("showPopup")

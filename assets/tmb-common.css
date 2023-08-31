@@ -499,7 +499,7 @@ ul .tmb_product_description_list:last-child {
      font-family: Circular Std !important;
 }
 .tmb-item-wrapper:hover,
-.grid__item.slider__slide:hover {
+.card-wrapper.product-card-wrapper:hover {
   z-index:999 !important;
 }        
 .endless_container .collection__title{

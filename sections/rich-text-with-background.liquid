@@ -12,6 +12,18 @@ a.button.button--primary {
 }
 
 
+h2.imagerich-text__heading {
+    font-family: Newake;
+    text-shadow: 0px 0px 27px #E50C7D !important;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 1.6px;
+    color: #E50C7D;
+    text-align: center;
+}
+
+
 .button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
     opacity: 1;
 }
@@ -40,7 +52,7 @@ a.button.button--primary {
           {%- case block.type -%}
             {%- when 'heading' -%}
               <h2
-                class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="imagerich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade

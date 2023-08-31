@@ -472,7 +472,7 @@ ul .tmb_product_description_list:last-child {
  */
 .card__information .tmb_price_item{
   font-size: 1.6rem;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
   color:#fff;
 }
 

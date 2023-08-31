@@ -44,7 +44,7 @@ if (!customElements.get('product-form')) {
         fetch(`${routes.cart_add_url}`, config)
           .then((response) => response.json())
           .then((response) => {
-      
+            console.log(response)
             let cartResp = `<p class="tmb_addCart_popup_msg">You successfully added your Easel to cart!</p> 
     <img class="tmb_addCart_popup_img" src="" width="102" height="113" alt="Image of Product" loading="lazy">
     <p class="tmb_addCart_popup_info"> Let’s explore our 3000+ collection of art to find perfect unique piece of art for you.</p>

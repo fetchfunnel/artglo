@@ -1,5 +1,14 @@
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+
+  {%- style -%}
 
 
+.faq-section {
+  display: none;
+  /* Add your styling here */
+}
+
+ {%- endstyle -%}
 <input type="text" id="searchInput" placeholder="Search FAQ">
 <button id="searchButton">Search</button>
 <div id="faqContainer">

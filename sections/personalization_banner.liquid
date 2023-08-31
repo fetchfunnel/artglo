@@ -30,6 +30,10 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+    .product--large:not(.product--no-media) .product__media-wrapper {
+        max-width: 50%;
+        width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    }
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>

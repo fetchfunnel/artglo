@@ -84,6 +84,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "b314608a-0ccc-4bde-941f-986cd908cb3e": {
+      "type": "postgridtest",
+      "settings": {
+        "title": "Blog posts",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_author": false,
+        "blog_show_date": true,
+        "show_view_all": false
+      }
     }
   },
   "order": [
@@ -92,6 +103,7 @@
     "f64fa934-ab0c-4dd0-9c5b-a1cec99ad95c",
     "1382c5e5-4177-4a0e-8274-e68cce0d5efc",
     "f07f080a-9a77-4156-9897-697ce420a1b5",
-    "a75b8981-f3c9-4eda-8c9f-881121dedceb"
+    "a75b8981-f3c9-4eda-8c9f-881121dedceb",
+    "b314608a-0ccc-4bde-941f-986cd908cb3e"
   ]
 }

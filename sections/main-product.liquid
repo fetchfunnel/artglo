@@ -885,10 +885,13 @@
 
      opacity: 0;
     visibility: none;
+       z-index: -1;
+    
   }
   .tmb_overlay.active{
        opacity: 1;
     visibility: visible;
+    
   }
 .tmb_product_banner.showPopup{
 
@@ -904,6 +907,7 @@
           position: absolute;
     left: 50%;
     top: 50%;
+       z-index: -1;
     transform: translate(-50%, -50%);
     transition:0.5;
   }

@@ -963,7 +963,8 @@ input.mobile-facets__checkbox {
   .facets__form-vertical {
     display: flex;
     flex-direction: column;
-    width: 26rem;
+    max-width: 288px;
+    width:100%;
   }
 
   .facets__disclosure-vertical {

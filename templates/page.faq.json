@@ -446,6 +446,7 @@
         "524b5860-6c26-47ea-85ea-0c7c162d280c",
         "ec390062-17ed-4a75-8a16-806bc03b5bcf"
       ],
+      "disabled": true,
       "custom_css": [
         "{display: inline-block;}"
       ],

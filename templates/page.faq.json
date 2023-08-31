@@ -515,6 +515,28 @@
             "question": "How do I install my ArtGlo sign?",
             "Answer": "Link to User Manual"
           }
+        },
+        "b28ebcc5-8f82-48f4-8960-9cd5549224d3": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "How do I care for and maintain my ArtGlo sign?",
+            "Answer": "ArtGlo panels are designed for the outdoors. They can take a beating, but sometimes need to be freshened up. Using a soft microfiber towel, and some warm water with dish soap will bring your panel and insert back to looking fresh!"
+          }
+        },
+        "39abf82e-8229-4717-b2fe-c6075836876f": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": true,
+            "right_align": false,
+            "question": "What to do if my ArtGlo sign isn't working?",
+            "Answer": "Go through the troubleshooting steps in the user manual."
+          }
         }
       },
       "block_order": [
@@ -537,7 +559,9 @@
         "ec390062-17ed-4a75-8a16-806bc03b5bcf",
         "cebe9dcd-9060-40be-b479-c8d98c5e0fcd",
         "53c9f5dc-93ac-4987-b81d-067679696dde",
-        "fe9b3a47-f6ed-4728-a913-4acd2dfd0fe0"
+        "fe9b3a47-f6ed-4728-a913-4acd2dfd0fe0",
+        "b28ebcc5-8f82-48f4-8960-9cd5549224d3",
+        "39abf82e-8229-4717-b2fe-c6075836876f"
       ],
       "custom_css": [
         "{display: inline-block;}"

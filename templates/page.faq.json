@@ -504,6 +504,17 @@
             "question": "Do you offer a warranty?",
             "Answer": "Every ArtGlo product comes with a 1-year manufacturer's warranty, assuring you of its quality and durability. This warranty covers any manufacturing defects in your ArtGlo sign from the date of purchase. If a defect arises within the warranty period, please contact our customer service at support@artglo.com with your order number and a detailed description of the issue. We will either repair or replace your product free of charge. Please note that this warranty does not cover damage caused by improper use, accidents, or normal wear and tear.\n<br>\nWe may ask you to return the damaged product to us. If this is the case, we will provide you with a prepaid return shipping label. Once we receive and confirm the damage, we'll expedite a replacement at no additional cost to you. Your satisfaction is our priority, and we appreciate your understanding in this matter."
           }
+        },
+        "fe9b3a47-f6ed-4728-a913-4acd2dfd0fe0": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": true,
+            "block_heading": "Technical Support:",
+            "left_align": true,
+            "right_align": false,
+            "question": "How do I install my ArtGlo sign?",
+            "Answer": "Link to User Manual"
+          }
         }
       },
       "block_order": [
@@ -525,7 +536,8 @@
         "5d7db30e-8422-4a05-8ec4-c13eb28166f2",
         "ec390062-17ed-4a75-8a16-806bc03b5bcf",
         "cebe9dcd-9060-40be-b479-c8d98c5e0fcd",
-        "53c9f5dc-93ac-4987-b81d-067679696dde"
+        "53c9f5dc-93ac-4987-b81d-067679696dde",
+        "fe9b3a47-f6ed-4728-a913-4acd2dfd0fe0"
       ],
       "custom_css": [
         "{display: inline-block;}"

@@ -466,10 +466,10 @@ ul .tmb_product_description_list:last-child {
 .card__information{
       bottom: -30px;
 }
-.card__information .tmb_price_per_items{
+/* .card__information .tmb_price_per_items{
   display:block;
 }
-
+ */
 @media screen and (min-width: 750px) {
   .tmb_main_Image {
     max-width: 490px;

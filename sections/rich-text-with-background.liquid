@@ -19,7 +19,7 @@
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
 
-{{ section.settings.image_with_text_image | image_url: width: 100 | image_tag }}
+{{ section.settings.image_with_text_image | image_url: width: 1500 | image_tag }}
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}

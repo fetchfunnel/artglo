@@ -126,7 +126,7 @@ h6 {
 }
 .solid_cta {
   border-radius: 10px;
-  border: 2px solid #e50c7d;
+  border: 2px solid #E50C7D;
   background: #E50C7D;
   color: #fff;
   text-align: center;
@@ -142,10 +142,7 @@ h6 {
   cursor: pointer;
 }
 .solid_cta:hover {
-  border-radius: 10px;
-border: 2px solid #E50C7D;
-background: #E50C7D;
-box-shadow: 0px 0px 27px 0px #E50C7D;
+  box-shadow: 0px 0px 27px 0px #E50C7D;
 }
 
 /* 

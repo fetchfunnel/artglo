@@ -559,6 +559,17 @@
             "question": "Are you hiring?",
             "Answer": "At ArtGlo, we are always interested in meeting talented, enthusiastic individuals who share our passion for innovation and creativity. Even if we don't have a specific role open at the moment, we believe in the power of connections. If you think you would be a great fit for our team, we encourage you to send us your resume and a brief description of your skills, experiences, and how you can contribute to our mission. We'll be sure to keep your information on file and reach out if a suitable opportunity arises in the future. So, while we may not be hiring right this moment, we're always open to exploring potential fits."
           }
+        },
+        "c150ae99-08cb-4150-973b-5e787e35a35a": {
+          "type": "faqs",
+          "settings": {
+            "has_heading": false,
+            "block_heading": "",
+            "left_align": false,
+            "right_align": true,
+            "question": "Want to be a featured artist?",
+            "Answer": "At ArtGlo, we are dedicated to fostering creativity and bringing stunning artwork to life. We are constantly seeking artists who can bring unique perspectives and styles to our glowing signs. If you're an artist who is excited about the opportunity to have your artwork featured in a new and innovative format, we want to hear from you! We encourage artists of all styles and backgrounds to apply for the chance to have their work showcased and sold on our platform. You’ll not only receive exposure, but also financial compensation for each sign sold featuring your artwork. Please submit a portfolio of your work, a brief bio, and an explanation of why you think your art would be a great fit for ArtGlo. We can’t wait to potentially illuminate your art for the world!"
+          }
         }
       },
       "block_order": [
@@ -585,7 +596,8 @@
         "b28ebcc5-8f82-48f4-8960-9cd5549224d3",
         "39abf82e-8229-4717-b2fe-c6075836876f",
         "2ca6a002-2fbe-4911-a9ff-f941e1205648",
-        "b65cfb0f-98e2-41d6-aa9d-1a2ada8d92fa"
+        "b65cfb0f-98e2-41d6-aa9d-1a2ada8d92fa",
+        "c150ae99-08cb-4150-973b-5e787e35a35a"
       ],
       "custom_css": [
         "{display: inline-block;}"

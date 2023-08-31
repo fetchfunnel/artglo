@@ -169,7 +169,9 @@ padding:16px 17.50px 14px;
                           uploadCta.addEventListener("click",()=>{
                            console.log(fileupload.value, ' vales')
                            if(fileupload.value){
-                             let pplr_modify = document?.querySelector("a.pplr_modify").click()
+                             let pplr_modify = document?.querySelector("a.pplr_modify")
+                             console.log(pplr_modify)
+                             pplr_modify.click()
                              return;
                            }
                            fileupload.click();

@@ -611,3 +611,6 @@ ul .tmb_product_description_list:last-child {
 .pplrlabel {
   display: none;
 }
+. personalizatin_part {
+  display: relative;
+}

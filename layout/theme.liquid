@@ -425,6 +425,8 @@ window.TriplePixelData={TripleName:"artglo-signs.myshopify.com",ver:"1.9.0"},fun
       };
     </script>
 
+{% render 'wishlist-js' %}
+    
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}

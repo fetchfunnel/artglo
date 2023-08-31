@@ -56,14 +56,14 @@
         "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Let's Create Together: Your Artistic Journey Awaits",
             "heading_size": "h1"
           }
         },
         "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Whether you're here to explore, shop, or share your creations, ArtGlo is your canvas. Let your imagination run wild, discover new horizons of creativity, and illuminate your world with art that speaks to your soul.<br\/><br\/>Join us in celebrating the beauty of art, the power of expression, and the magic of illumination. Your artistic journey starts here, and we can't wait to be a part of it.<\/p>"
           }
         },
         "template--20866317451574__947748e4-35fe-4d97-bc6c-dae2097646ab-button-1": {
@@ -91,11 +91,65 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "84cf3365-c3ff-4311-93b8-144d263fdfad": {
+      "type": "slideshow",
+      "blocks": {
+        "template--20866317451574__84cf3365-c3ff-4311-93b8-144d263fdfad-slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--20866317451574__84cf3365-c3ff-4311-93b8-144d263fdfad-slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--20866317451574__84cf3365-c3ff-4311-93b8-144d263fdfad-slide-1",
+        "template--20866317451574__84cf3365-c3ff-4311-93b8-144d263fdfad-slide-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "tmb_about_banner",
     "tmb-about-story",
-    "947748e4-35fe-4d97-bc6c-dae2097646ab"
+    "947748e4-35fe-4d97-bc6c-dae2097646ab",
+    "84cf3365-c3ff-4311-93b8-144d263fdfad"
   ]
 }

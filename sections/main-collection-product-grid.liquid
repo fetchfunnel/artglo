@@ -151,7 +151,13 @@ input[type="number"]::-webkit-inner-spin-button {
   #product-grid{
     margin-top:-25px;
   }
-  
+
+  /* Responsive Breakpoints */
+  @media(max-width:750px){
+    div#ProductGridContainer .grid_wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
 {%- endstyle -%}
 {% assign results =  collection  %}
 {%- liquid

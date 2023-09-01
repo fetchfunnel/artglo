@@ -308,7 +308,9 @@
 .no-js .facet-checkbox input[type='checkbox'] {
   z-index: 0;
 }
-.facet-checkbox .default_checkbox{
+.facet-checkbox .default_checkbox,
+.default_check_box_mobile
+{
    border-radius: 4px;
   border: 1px solid #FFF;
   background: #FFF;

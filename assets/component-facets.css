@@ -1024,6 +1024,8 @@ input.mobile-facets__checkbox {
   .facets-vertical-form {
     display: flex;
     justify-content: flex-end;
+    z-index: 1;
+    position: relative;
   }
 
   .product-count-vertical {

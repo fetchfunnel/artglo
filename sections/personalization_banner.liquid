@@ -285,6 +285,7 @@ img#imagePreview {
                                  
                                  if(pplr_delete1){
                                   pplr_delete1.addEventListener("click",()=>{
+                                    uploadCta.classList.add("hide-cta");
                                      uploadCta.innerText= 'Upload Your Own Image';
                                      let imagePreview = document?.querySelector("#imagePreview");
                                      imagePreview.src = '{{ product.featured_image | img_url:"master" }}';

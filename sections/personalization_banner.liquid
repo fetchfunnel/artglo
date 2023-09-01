@@ -215,14 +215,15 @@ img#imagePreview {
                   
                  
                   let myInterval = setInterval(function () {
-                       let uploadCta = document?.querySelector("#imagePreview");
+                       let uploadCta = document?.querySelector(".tmb-cta--modifier");
+                       let uploadWithImage = document?.querySelector("#imagePreview");
                       let fileupload = document?.querySelector(".fileupload")
-                       if(uploadCta && fileupload){
+                       if(uploadWithImage && fileupload){
                           //*************************************//
                             // init stage
                           //*************************************//
                           
-                          uploadCta.addEventListener("click",()=>{
+                          uploadWithImage.addEventListener("click",()=>{
                            console.log(fileupload.value, ' vales')
                            if(fileupload.value){
                              let pplr_modify = document?.querySelector("a.pplr_modify")

@@ -39,7 +39,7 @@
     margin-bottom: 16px;
 } */
   .collection-sec {
-    padding: 64px 0 24px;
+    padding: 64px 0 37px;
     background-image:url({{  section.settings.bgImageDesktop | img_url:"" }});
     background-repeat:no-repeat;
     background-size:cover;
@@ -203,6 +203,7 @@
         contains-card--standard
         slider
         {% endif %} 
+      {% if collections[collection.handle].products.length <= 5 %} less-products {% endif %}
       grid--{{ section.settings.columns_desktop }}-col-desktop
       {% if section.settings.collection == blank %} 
         grid--2-col-tablet-down{% else %} 

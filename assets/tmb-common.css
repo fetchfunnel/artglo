@@ -511,6 +511,14 @@ body.collection .tmb_price_per_items button {
 /* .slider-mobile-gutter{
   overflow-x:auto;
 } */
+.slider-mobile-gutter.slider-component-full-width{
+width:100%;
+}
+
+.grid.product-grid.contains-card.contains-card--product{
+  gap:26px;
+}
+
 
 @media screen and (min-width: 750px) {
   .tmb_main_Image {

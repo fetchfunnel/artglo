@@ -227,7 +227,12 @@ input.pplr_monogram.fileupload.cstmfy_c_required {
                           //*************************************//
                           
                           fileupload.addEventListener("change",()=>{
-                             uploadCta.innerText= 'Change or Edit Uploaded image'
+                             uploadCta.innerText= 'Change or Edit Uploaded image';
+                              setTimeout(()=>{
+                                let pplr_img = document?.querySelector(".pplr_img");
+                                let pplImgAttr = pplr_img.getAttribute("src");
+                                console.log(pplImgAttr)
+                              },2000);
                              deleteInit()
                           })
                           function deleteInit(){
@@ -236,11 +241,7 @@ input.pplr_monogram.fileupload.cstmfy_c_required {
                               let pplr_delete = document?.querySelector("a.pplr_delete")
                               let pplr_delete1 = document?.querySelector("a.js-modal-close.pplr_close.p_r_d")
                               
-                              setTimeout(()=>{
-                                let pplr_img = document?.querySelector(".pplr_img");
-                                let pplImgAttr = pplr_img.getAttribute("src");
-                                console.log(pplImgAttr)
-                              },2000);
+                             
                               
                               
                               

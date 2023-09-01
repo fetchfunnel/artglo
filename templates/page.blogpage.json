@@ -1,5 +1,13 @@
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "b314608a-0ccc-4bde-941f-986cd908cb3e": {
       "type": "postgridtest",
       "settings": {
@@ -9,14 +17,6 @@
         "blog_show_author": false,
         "blog_show_date": false,
         "show_view_all": true
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     },
     "f64fa934-ab0c-4dd0-9c5b-a1cec99ad95c": {
@@ -74,8 +74,8 @@
     }
   },
   "order": [
-    "b314608a-0ccc-4bde-941f-986cd908cb3e",
     "main",
+    "b314608a-0ccc-4bde-941f-986cd908cb3e",
     "f64fa934-ab0c-4dd0-9c5b-a1cec99ad95c",
     "f07f080a-9a77-4156-9897-697ce420a1b5",
     "a75b8981-f3c9-4eda-8c9f-881121dedceb"

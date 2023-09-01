@@ -228,11 +228,11 @@ input.pplr_monogram.fileupload.cstmfy_c_required {
                           
                           fileupload.addEventListener("change",()=>{
                              uploadCta.innerText= 'Change or Edit Uploaded image';
-                              setTimeout(()=>{
+                              
                                 let pplr_img = document?.querySelector(".pplr_img");
                                 let pplImgAttr = pplr_img.getAttribute("src");
                                 console.log(pplImgAttr)
-                              },2000);
+                              
                              deleteInit()
                           })
                           function deleteInit(){

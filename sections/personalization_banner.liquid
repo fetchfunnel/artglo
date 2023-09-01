@@ -247,22 +247,25 @@ img#imagePreview {
                               console.log('init')
                               let pplr_delete = document?.querySelector("a.pplr_delete")
                               let pplr_delete1 = document?.querySelector("a.js-modal-close.pplr_close.p_r_d")
-                              let imagePreview = document?.querySelector("#imagePreview");
-                              imagePreview.src = {{  product.featured_image | img_url:"master" }};
+                              
                              
                               
                               
                               
                                  if(pplr_delete){
                                   pplr_delete.addEventListener("click",()=>{
-                                     uploadCta.innerText= 'Upload Your Own Image'
+                                     uploadCta.innerText= 'Upload Your Own Image';
+                                     let imagePreview = document?.querySelector("#imagePreview");
+                                      imagePreview.src = {{  product.featured_image | img_url:"master" }};
                                   })
                                    clearInterval(tt);
                                  }
                                  
                                  if(pplr_delete1){
                                   pplr_delete1.addEventListener("click",()=>{
-                                     uploadCta.innerText= 'Upload Your Own Image'
+                                     uploadCta.innerText= 'Upload Your Own Image';
+                                     let imagePreview = document?.querySelector("#imagePreview");
+                                      imagePreview.src = {{  product.featured_image | img_url:"master" }};
                                   })
                                    clearInterval(tt);
                                  }

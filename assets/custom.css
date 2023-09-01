@@ -100,7 +100,7 @@
   .ag-product-card:hover {
     transform: scale(1.2);
     animation: delayZindexForwards 0.01s linear forwards;
-    box-shadow: 0px 6px 30px 4px #2b2c59;
+    /* box-shadow: 0px 6px 30px 4px #2b2c59; */
   }
 
   .ag-product-card:hover .ag-product-info {

@@ -38,10 +38,10 @@
 a.pagination__item:hover::after {
   height: 0.1rem;
 }
-
+/* 
 .pagination__item .icon-caret {
   height: 0.6rem;
-}
+} */
 
 .pagination__item--current::after {
   height: 0.1rem;
@@ -70,7 +70,7 @@ a.pagination__item:hover::after {
 
 .pagination__item--prev .icon {
   margin-right: -0.2rem;
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
 }
 
 .pagination__item--prev:hover .icon {

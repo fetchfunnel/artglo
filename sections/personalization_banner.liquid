@@ -89,11 +89,8 @@ img#imagePreview {
     box-shadow: 0px 34.94445px 58.24074px 17.47222px rgba(0, 0, 0, 0.24);
     backdrop-filter: blur(8.736111640930176px);
     padding: 10px;
-    cursor:pointer;
 }
-.hide-cta {
-    display: none;
-}
+
 @media(max-width:1024px){
   .personalize-banner.tmb_product_grid {
     flex-direction: column;
@@ -119,7 +116,6 @@ img#imagePreview {
       bottom: 20px;
 }
 }
-
 </style>
 
 
@@ -209,11 +205,10 @@ img#imagePreview {
                  {%- when '@app' -%}
                  
                    {% render block %}
-                   <button class="solid_cta tmb-cta--modifier hide-cta">Upload Your Own Image</button>
+                   <button class="solid_cta tmb-cta--modifier">Upload Your Own Image</button>
                  
                {% endcase %}
                 {% endfor %}
-                <img id="imagePreview" src="{{ product.featured_image | img_url:"master" }}">
                 <script>
                   
                   
@@ -221,48 +216,35 @@ img#imagePreview {
                  
                   let myInterval = setInterval(function () {
                        let uploadCta = document?.querySelector(".tmb-cta--modifier");
-                       let uploadWithImage = document?.querySelector("#imagePreview");
                       let fileupload = document?.querySelector(".fileupload")
-                       if(uploadWithImage && fileupload){
+                       if(uploadCta && fileupload){
                           //*************************************//
                             // init stage
                           //*************************************//
-
-                          [uploadCta,uploadWithImage].forEach((elem)=>{
-                             console.log(elem)
-                            elem.addEventListener("click",()=>{
-                             if(fileupload.value){
-                               let pplr_modify = document?.querySelector("a.pplr_modify")
-                               if(pplr_modify) {
-                                 pplr_modify.click() ;
-                                 uploadCta.classList.add("hide-cta");
-                                  let imagePreview = document?.querySelector("#imagePreview");
-                                  imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
-                                 }
-                               else {
-                                 fileupload.click();
-                                 deleteInit()
-                               }
-                               return;
-                             }
-                             fileupload.click();
-                            })
-                          })
-
-
                           
+                          uploadCta.addEventListener("click",()=>{
+                           console.log(fileupload.value, ' vales')
+                           if(fileupload.value){
+                             let pplr_modify = document?.querySelector("a.pplr_modify")
+                             if(pplr_modify) {
+                               pplr_modify.click() 
+                               }
+                             else {
+                               fileupload.click();
+                               deleteInit()
+                             }
+                             return;
+                           }
+                           fileupload.click();
+                          })
                           
                           //*************************************//
                             // when user upload the image then change button text
                           //*************************************//
                           
                           fileupload.addEventListener("change",()=>{
-                            
-                             
+                             uploadCta.innerText= 'Change or Edit Uploaded image';
                               setTimeout(()=>{
-                                uploadCta.classList.remove("hide-cta");
-                                 uploadCta.innerText= 'Change or Edit Uploaded image';
-                             
                                 let pplr_img = document?.querySelector(".pplr_img");
                                 let pplImgAttr = pplr_img.getAttribute("href");
                                 
@@ -285,7 +267,6 @@ img#imagePreview {
                               
                                  if(pplr_delete){
                                   pplr_delete.addEventListener("click",()=>{
-                                      uploadCta.classList.add("hide-cta");
                                      uploadCta.innerText= 'Upload Your Own Image';
                                      let imagePreview = document?.querySelector("#imagePreview");
                                       imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
@@ -295,7 +276,6 @@ img#imagePreview {
                                  
                                  if(pplr_delete1){
                                   pplr_delete1.addEventListener("click",()=>{
-                                  uploadCta.classList.add("hide-cta");
                                      uploadCta.innerText= 'Upload Your Own Image';
                                      let imagePreview = document?.querySelector("#imagePreview");
                                      imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
@@ -322,7 +302,7 @@ img#imagePreview {
                 
                
                 </script>
-                  
+                  <img id="imagePreview" src="{{ product.featured_image | img_url:"master" }}">
             
               </div>
             </div>
@@ -456,7 +436,7 @@ img#imagePreview {
                           <path d="M9.45027 15.7004L18.5253 6.62539C18.6764 6.47539 18.8558 6.40039 19.0636 6.40039C19.2714 6.40039 19.4503 6.47583 19.6003 6.62672C19.7503 6.77758 19.8253 6.95675 19.8253 7.16422C19.8253 7.37167 19.7503 7.55039 19.6003 7.70039L9.97527 17.3254C9.82527 17.4754 9.65027 17.5504 9.45027 17.5504C9.25027 17.5504 9.07527 17.4754 8.92527 17.3254L4.37527 12.7754C4.22527 12.6243 4.15443 12.4448 4.16277 12.2371C4.1711 12.0293 4.25071 11.8504 4.40159 11.7004C4.55246 11.5504 4.73163 11.4754 4.93909 11.4754C5.14654 11.4754 5.32527 11.5504 5.47527 11.7004L9.45027 15.7004Z" fill="white"/>
                       </svg>
                   </span>
-                  <span class="">2 Years Warranty</span>
+                  <span class="">1 Years Warranty</span>
               </li>
               <li class="tmb_product_feature_item">
                   <span>

@@ -57,7 +57,7 @@ section.cards {
     display: grid;
     grid-auto-flow: row dense;
     grid-template-columns: repeat(3, 332px);
-    grid-template-rows: repeat(1, 196px);
+    grid-template-rows: repeat(12, 196px);
     grid-gap: 38px;
 }
 
@@ -92,14 +92,14 @@ section.cards {
 }
 
 
-/* .horizontal .card__img, .reverse-horizontal .card__img {
+.horizontal .card__img, .reverse-horizontal .card__img {
   height: 100%;
-} */
+}
 
 .vertical .card__img {
   width: 100%;
 }
-.card__content-box {
+.card__content {
   padding: 16px;
 }
 
@@ -140,7 +140,6 @@ section.cards {
 
 .tag {
   display: inline;
-
   padding: 0.5em;
   border-radius: 0.5em;
   font-size: 12px;
@@ -181,23 +180,21 @@ section.cards {
   <section class="cards">
     <article class="vertical cardxz">
       <img class="card__img" src="https://picsum.photos/256/196/?image=321" class="card__image">
-      <div class="card__content-box">
+      <div class="card__content">
         <div class="card__title">
-         Impact Of Extrinsic Motivation On Intrinsic Move forward
+          Test Post: Electric Boogaloo
         </div>
         <div class="card__excerpt">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-  
+          This is a test article, in a perculiar context, to see whether grid and flexbox works to make a blog...     <span>Learn more</span>
+        </div>
         <div class="card__tags">
-          <div class="tag">   Learn more
-</div>
-      </div>
+          <div class="tag"></div>
         </div>
       </div>
     </article>
     <article class="horizontal cardxz">
       <img class="card__img" src="https://picsum.photos/256/196/?image=990" class="card__image">
-      <div class="card__content-box">
+      <div class="card__content">
         <div class="card__title">
           Test Post: Electric Boogaloo
         </div>
@@ -211,7 +208,7 @@ section.cards {
     </article>
     <article class="horizontal cardxz">
       <img class="card__img" src="https://picsum.photos/256/196/?image=123" class="card__image">
-      <div class="card__content-box">
+      <div class="card__content">
         <div class="card__title">
           Test Post: Electric Boogaloo
         </div>
@@ -240,7 +237,20 @@ section.cards {
 
 
 
-{% comment %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div>
@@ -311,9 +321,6 @@ section.cards {
   </ul>
 {%- endif -%}
 </div>
-
-
-
 {%- if section.settings.show_view_all -%}
   <a href="{{ blog.url }}"
     class="btn"
@@ -322,7 +329,6 @@ section.cards {
   </a>
 {%- endif -%}
 
-{% endcomment %} 
 {% schema %}
 {
   "name": "new Blog posts",

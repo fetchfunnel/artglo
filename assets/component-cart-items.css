@@ -2,7 +2,7 @@
 .cart-item__quantity-wrapper .button--tertiary.button {
   min-height: unset;
   min-width: unset;
-  padding: 20px;
+  padding: 15px;
 }
 
 .cart-items td,
@@ -154,8 +154,8 @@ cart-remove-button .button:not([disabled]):hover {
 }
 
 cart-remove-button .icon-remove {
-  height: 1.5rem;
-  width: 1.5rem;
+  /* height: 1.5rem; */
+  width: 1.8rem;
 }
 
 .cart-item .loading-overlay {

@@ -880,7 +880,15 @@
   
 
 </style>
-  <script>
+ 
+
+</div>
+  <div class="tmb_offer_header">
+   {% render "sticky_offer_header" %}     
+  </div>
+</section>
+
+ <script>
     
     let productBtn = document.querySelector(".tmb_product_btn");
     let cardPopup = document.querySelector(".tmb_addCart_popup");
@@ -933,13 +941,7 @@ closePopup.addEventListener("click" , ()=>{
 
     
   </script>
-
-</div>
-  <div class="tmb_offer_header">
-   {% render "sticky_offer_header" %}     
-  </div>
-</section>
-
+    
 {% schema %}
 {
   "name": "t:sections.main-product.name",

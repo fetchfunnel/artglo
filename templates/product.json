@@ -117,7 +117,7 @@
       ],
       "settings": {
         "title": "How to get started",
-        "button_show": true,
+        "button_show": false,
         "btnText": "Get Your Unique Art",
         "button_link": "#"
       }
@@ -136,7 +136,7 @@
           "animals-pets"
         ],
         "showMoreCheckbox": false,
-        "showMoreCheckbox2": false,
+        "showMoreCheckbox2": true,
         "CtaText": "Show More",
         "CtaText2": "Explore More Arts",
         "linkSolid": "shopify:\/\/collections\/animals-pets",

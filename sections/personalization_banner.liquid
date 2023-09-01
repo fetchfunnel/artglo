@@ -228,6 +228,8 @@ img#imagePreview {
                              let pplr_modify = document?.querySelector("a.pplr_modify")
                              if(pplr_modify) {
                                pplr_modify.click() 
+                                let imagePreview = document?.querySelector("#imagePreview");
+                                imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
                                }
                              else {
                                fileupload.click();

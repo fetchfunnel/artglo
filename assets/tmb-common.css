@@ -299,12 +299,7 @@ h6 {
   font-weight: 500;
   line-height: 18px;
 }
-.tmb_product_featuresList {
-  display: flex;
-  flex-direction: column;
-  gap: 19px;
-  margin: 22px 0;
-}
+
 .tmb_product_feature_item {
   display: flex;
   gap: 16px;

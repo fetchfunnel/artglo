@@ -232,9 +232,6 @@ input.pplr_monogram.fileupload.cstmfy_c_required {
                                 let pplr_img = document?.querySelector(".pplr_img");
                                 let pplImgAttr = pplr_img.getAttribute("href");
                                 
-                                const lastIndex = pplImgAttr.lastIndexOf("blob:");
-                                const pathnameAfterLastSlash = pplImgAttr.substring(lastIndex + 1);
-
                                 console.log(pathnameAfterLastSlash)
                               },2000);
                              deleteInit()

@@ -4,12 +4,15 @@
     min-height: 708px;
 }
 .product__info-wrapper.tmb_product_info_wrapper.grid__item.scroll-trigger.animate--slide-in{
-    width: 100%;
-    max-width: calc(100% - 640px);
+    width: 100% !important; 
+    max-width: calc(100% - 640px) !important;
 }
 @media(max-width:1024px){
   .personalize-banner.tmb_product_grid {
     flex-direction: column;
+}
+.product__info-wrapper.tmb_product_info_wrapper.grid__item.scroll-trigger.animate--slide-in{
+    max-width: 100% !important;
 }
 }
 

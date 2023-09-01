@@ -1,6 +1,7 @@
 .cart-item__quantity-wrapper .button--tertiary,
 .cart-item__quantity-wrapper .button--tertiary.button {
   min-height: unset;
+  min-width: unset;
   padding: 10px;
   height: fit-content;
 }

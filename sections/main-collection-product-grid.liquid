@@ -168,7 +168,7 @@ ul.facet-filters__sort.tmb_sort_list {
     background: #32334f;
     padding: 16px;
     z-index: 1;
-    /* display:none; */
+    display:none;
 }
   .tmb_sort_list li {
     color: #FFF;
@@ -194,9 +194,9 @@ ul.facet-filters__sort.tmb_sort_list {
   .facet-filters__field svg {
     margin-left: 20px;
 }
-   .orignal-list option{
+   /* .orignal-list option{
      dispalay:none;
-  } 
+  }  */
   /* Responsive Breakpoints */
   @media(max-width:749px){
     div#ProductGridContainer .grid_wrapper {
@@ -480,30 +480,30 @@ ul.facet-filters__sort.tmb_sort_list {
 
 <script>
 
-  let DuplicatedLIst = document.querySelectorAll(".duplicated-list li");
-  let orignalList = document.querySelectorAll(".orignal-list option");
-  for(let i of DuplicatedLIst){
-    i.addEventListener("click",()=>{
-      let value = i.getAttribute("value");
+  // let DuplicatedLIst = document.querySelectorAll(".duplicated-list li");
+  // let orignalList = document.querySelectorAll(".orignal-list option");
+  // for(let i of DuplicatedLIst){
+  //   i.addEventListener("click",()=>{
+  //     let value = i.getAttribute("value");
       
-      for(let j of orignalList){
-        let orignalValue = j.getAttribute("value");
-        j.removeAttribute("selected");
-        if(value === orignalValue){
-          console.log(orignalValue)
-          console.log( value)
+  //     for(let j of orignalList){
+  //       let orignalValue = j.getAttribute("value");
+  //       j.removeAttribute("selected");
+  //       if(value === orignalValue){
+  //         console.log(orignalValue)
+  //         console.log( value)
 
-           j.setAttribute("selected","selected")
-          j.click();
+  //          j.setAttribute("selected","selected")
+  //         j.click();
           
-           // j.dispatchEvent(new Event('click')); 
+  //          // j.dispatchEvent(new Event('click')); 
         
           
           
-        }
-      }
-    });
-  }
+  //       }
+  //     }
+  //   });
+  // }
   
   
 </script>

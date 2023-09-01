@@ -7,11 +7,6 @@
     width: 80%;
     margin: auto;
 }
-
-/* .blog-articles {
-    display: flex;
- 
-} */
 .news h1.title--primary.scroll-trigger.animate--fade-in {
     display: none;
 }
@@ -28,7 +23,7 @@
   }
 {%- endstyle -%}
 
-{%- paginate blog.articles by 4 -%}
+{%- paginate blog.articles by 12 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {{ blog.title | escape }}
@@ -64,7 +59,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.main-blog.name",
+  "name": "blog-grid",
   "tag": "section",
   "class": "section",
   "settings": [

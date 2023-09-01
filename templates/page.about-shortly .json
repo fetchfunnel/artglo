@@ -1,0 +1,117 @@
+{
+  "sections": {
+    "tmb_about_banner": {
+      "type": "tmb_about_banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_banner_bg.png",
+        "heading": "Welcome to ArtGlo, where art meets illumination, and creativity knows no bounds",
+        "page_description": " We're more than just an online store! We're a community of artists, dreamers, and visionaries who believe that art has the power to transform outdoor spaces, ignite imaginations, and create memorable moments."
+      }
+    },
+    "tmb-about-story": {
+      "type": "tmb-about-story",
+      "blocks": {
+        "a807f535-a6e0-4d95-ab11-fb009171db51": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner-2.png",
+            "description": "<p><strong>Our Story: Illuminating the World of Art<br\/><\/strong><br\/>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.<br\/><\/p>",
+            "button_show": false,
+            "button_link": ""
+          }
+        },
+        "fc141cf9-5ab6-4bb1-94fc-34ef91d10f53": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_3_1.png",
+            "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.<br\/><\/p>",
+            "button_show": false,
+            "button_link": ""
+          }
+        },
+        "11d1cef4-6d12-45cb-b5d1-16d1e4f95939": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/about-big-img.png",
+            "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<\/p>",
+            "button_show": false,
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a807f535-a6e0-4d95-ab11-fb009171db51",
+        "fc141cf9-5ab6-4bb1-94fc-34ef91d10f53",
+        "11d1cef4-6d12-45cb-b5d1-16d1e4f95939"
+      ],
+      "settings": {
+        "title": "",
+        "fullwidthsection": 3
+      }
+    },
+    "06a959e0-883d-413f-b611-63b7cc94049b": {
+      "type": "rich-text-with-background",
+      "blocks": {
+        "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let's Create Together:",
+            "heading_size": "h0"
+          }
+        },
+        "2ead16f1-9772-455c-853c-d185661657a4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your Artistic Journey Awaits",
+            "heading_size": "h0"
+          }
+        },
+        "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're here to explore, shop, or share your creations, ArtGlo is your canvas. Let your imagination run wild, discover new horizons of creativity, and illuminate your world with art that speaks to your soul.<br\/><\/p>"
+          }
+        },
+        "0c610334-4af5-41ae-b0ea-befa7b85f754": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us in celebrating the beauty of art, the power of expression, and the magic of illumination. Your artistic journey starts here, and we can't wait to be a part of it.<\/p>"
+          }
+        },
+        "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Your Unique Art",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-heading-1",
+        "2ead16f1-9772-455c-853c-d185661657a4",
+        "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-text-1",
+        "0c610334-4af5-41ae-b0ea-befa7b85f754",
+        "template--20866317451574__06a959e0-883d-413f-b611-63b7cc94049b-button-1"
+      ],
+      "settings": {
+        "background-image": "shopify:\/\/shop_images\/Group-5783.jpg",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 72,
+        "padding_bottom": 76
+      }
+    }
+  },
+  "order": [
+    "tmb_about_banner",
+    "tmb-about-story",
+    "06a959e0-883d-413f-b611-63b7cc94049b"
+  ]
+}

@@ -1,0 +1,339 @@
+<style>
+    .faq-sec-for-one.sec_bg.box{
+    display: flex;
+        margin: auto;
+        width: 70%;
+
+    }
+
+
+  .faq .faq_content-right > h2:nth-child(11) {
+      margin-top: 193px;
+  }
+
+
+  .body_text_md {
+
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+
+  .faq .faq_content-right > h2:nth-child(7) {
+      margin-top: 72px;
+  }
+
+  .faq_content-left{
+
+  padding-right:30px
+  }
+
+  h2.heading_xlh2 {
+      font-size: 23px;
+      line-height: 16px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+      .faq_content-left,
+    .faq_content-right{
+      width:48%;
+      display:flex;
+      flex-direction: column;
+      /* margin-top: 20px;
+   */
+      }
+
+
+      .heading_xlh2 {
+          font-family: Newake;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 64px;
+          letter-spacing: 1.6px;
+          color: #f9f9f9;
+          text-align: left;
+      }
+
+
+
+      .faq-sec-for-one {
+          /* padding: 40px 0 70px; */
+      }
+           .faq_headingtwo {
+              text-shadow: none;
+               margin-bottom: 0px;
+           }
+
+           .faq_item {
+              background: #1C1D3C;
+              border-radius: 20px;
+             padding: 22px;
+
+           }
+        .faq_item:not(:last-child){
+          margin-bottom: 20px;
+        }
+         .faq_que{
+             display: flex;
+             justify-content: space-between;
+             cursor:pointer;
+         }
+         .faq_ans{
+           height: 0;
+          overflow: hidden;
+          visibility: hidden;
+          opacity: 0;
+              transition: 0.4s;
+         }
+        .faq_que.active + .faq_ans{
+          visibility: visible;
+          opacity: 1;
+        }
+           .faq_title {
+               color: #FFF;
+               font-family: Inter;
+               font-size: 17px;
+               font-weight: 700;
+               line-height: 25.714px;
+           }
+
+           .plus {
+               color: #FFF;
+               font-size: 28px;
+               font-weight: 700;
+               line-height: 28px;
+                 transition: 0.4s;
+           }
+         .faq_que.active  .plus{
+        transform: rotate(-135deg)
+        }
+
+   @media (max-width:950px){
+
+    .faq-sec-for-one.sec_bg.box{
+    display: block;
+        margin: auto;
+        width: 80%;
+
+    }
+  .faq_content-left, .faq_content-right {
+      width: 100%;
+      display: block;
+      margin-top: 20px;
+  }
+
+  .faq_content-left {
+      padding-right: 0px;
+  }
+
+  .faq .faq_content-right > h2:nth-child(7) {
+      margin-top: 0px;
+  }
+
+  .faq .faq_content-right > h2:nth-child(11) {
+      margin-top: 0px;
+  }
+
+  h2.heading_xlh2 {
+      line-height: 31px;
+  }
+          /* .faq-sec-for-one{
+                padding: 64px 0;
+          } */
+          .faq_item{
+            padding:14px;
+            border-radius:10px;
+          }
+           .faq-sec-for-one .faq_content .heading_xlh2{
+              margint-bottom:20px;
+          }
+        }
+
+
+   @media (max-width:750px){
+    .faq-sec-for-one.sec_bg.box{
+    display: block;
+        margin: auto;
+        width: 80%;
+
+    }
+  .faq_content-left, .faq_content-right {
+      width: 100%;
+      display: block;
+      margin-top: 20px;
+  }
+
+  .faq_content-left {
+      padding-right: 0px;
+  }
+
+  .faq .faq_content-right > h2:nth-child(7) {
+      margin-top: 0px;
+  }
+
+  .faq .faq_content-right > h2:nth-child(11) {
+      margin-top: 0px;
+  }
+
+  h2.heading_xlh2 {
+      line-height: 31px;
+  }
+          /* .faq-sec-for-one{
+                padding: 64px 0;
+          } */
+          .faq_item{
+            padding:14px;
+            border-radius:10px;
+          }
+           .faq-sec-for-one .faq_content .heading_xlh2{
+              margint-bottom:20px;
+          }
+        }
+</style>
+
+<div class="faq-sec-for-one sec_bg box">
+  <div class="faq_content-left">
+    {% for block in section.blocks %}
+      {% if block.settings.left_align %}
+        {% if block.settings.has_heading %}
+          <h2 class="heading_xlh2  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {{ block.settings.block_heading }}
+          </h2>
+        {% endif %}
+
+        <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <div class="faq_que">
+            <p class="faq_title">{{ block.settings.question }}</p>
+            <span class="plus">+</span>
+          </div>
+          <div class="faq_ans">
+            <p class="body_text_md">
+              {{ block.settings.Answer }}
+            </p>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="faq_content-right">
+    {% for block in section.blocks %}
+      {% if block.settings.right_align %}
+        {% if block.settings.has_heading %}
+          <h2 class="heading_xlh2  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {{ block.settings.block_heading }}
+          </h2>
+        {% endif %}
+
+        <div class="faq_item {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <div class="faq_que">
+            <p class="faq_title">{{ block.settings.question }}</p>
+            <span class="plus">+</span>
+          </div>
+          <div class="faq_ans">
+            <p class="body_text_md">
+              {{ block.settings.Answer }}
+            </p>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  
+  
+  
+  
+     let faqTitle = document.querySelectorAll(".faq_que");
+        for (let i of faqTitle) {
+            i.addEventListener("click", () => {
+                i.classList.toggle("active");
+                let nextSibling = i.nextElementSibling;
+                let nextSiblingHeight = nextSibling.scrollHeight;
+                console.log(nextSibling);
+                if (i.classList.contains("active")) {
+                    nextSibling.setAttribute("style", `height:${nextSiblingHeight}px`);
+                } else {
+                    nextSibling.removeAttribute("style");
+                }
+            })
+        }
+
+
+
+
+
+
+
+</script>
+
+{% schema %}
+{
+  "name": "Faq Section for two",
+  "settings": [
+   {
+      "type": "text",
+      "id": "heading",
+      "default": "left subtitiles",
+      "label": "left Section Heading"
+    },
+         { "type": "text",
+      "id": "right_heading",
+      "default": "right subtitiles",
+      "label": "Section Right Heading"
+    }
+  ],
+  "blocks": [
+    {
+     "type": "faqs",
+      "name": "Faqs",
+       "settings": [
+                     {
+          "type": "checkbox",
+          "id": "has_heading",
+          "label": "Has heading?"
+        },
+                     {
+          "type": "text",
+          "id": "block_heading",
+          "label": "Block Heading (leave empty if will not be used)"
+        },
+         {
+          "type": "checkbox",
+          "id": "left_align",
+          "label": "Align FAQ to left column"
+        },
+          {
+          "type": "checkbox",
+          "id": "right_align",
+          "label": "Align FAQ to the right column"
+        },
+
+         {
+          "type": "text",
+          "id": "question",
+          "label": "Faq Question"
+        },
+         {
+          "type": "textarea",
+          "id": "Answer",
+          "label": "Faq Answer"
+        }
+       ]
+    }
+  ],
+  "presets":[
+    {
+      "name": "Faq Section for two",
+      "blocks":[
+        {
+         "type": "faqs"
+        }
+      ]
+    }
+
+  ]
+}
+{% endschema %}

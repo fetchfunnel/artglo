@@ -437,5 +437,13 @@ window.TriplePixelData={TripleName:"artglo-signs.myshopify.com",ver:"1.9.0"},fun
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
           <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        let body = document.querySelector("body");
+        const route = window.location.pathname;
+        const lastIndex = route.lastIndexOf("/");
+        const dynamicRoute = route.substring(lastIndex + 1);
+
+        body.classList.add(`${dynamicRoute}`);
+    </script>
   </body>
 </html>

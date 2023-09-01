@@ -890,7 +890,12 @@
     
       window.addEventListener("scroll",()=>{
         let tmbOfferHeader = document?.querySelector(".tmb_offer_header")
-        console.log(tmbOfferHeader.getBoundingClientRect())
+        let topPosition =  tmbOfferHeader.getBoundingClientRect();
+        if(window.scrollY == topPosition){
+          tmbOfferHeader.classList.add("sticky-banner")
+        }else{
+          tmbOfferHeader.classList.remove("sticky-banner")
+        }
       })
     
     

@@ -233,8 +233,8 @@ input.pplr_monogram.fileupload.cstmfy_c_required {
                                 let pplImgAttr = pplr_img.getAttribute("href");
                                 
                                 let imagePreview = document?.querySelector("#imagePreview");
-                                let imagePreviewAttr = imagePreview.getAttribute("src");
-                                imagePreviewAttr = pplImgAttr
+                                {% comment %} let imagePreviewAttr = imagePreview.getAttribute("src"); {% endcomment %}
+                                imagePreview.src = pplImgAttr;
                                 
                                 console.log(pplImgAttr)
                               },2000);

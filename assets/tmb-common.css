@@ -452,7 +452,9 @@ body.collection .tmb_price_per_items button {
 
 .tmb_add_to_wish_btn.active svg path {
   fill: #e50c7d;
+  stroke: #e50c7d;
 }
+
 .collection .slider-component-desktop .slider-button .icon {
   height: auto;
 }

@@ -597,6 +597,9 @@ width:100% !important;
   .tmb_media_previewImage img {
     padding: 10px;
   }
+  .collection-sec .product-grid{
+    padding:0;
+  }
 }
 
 @media screen and (max-width: 991px) {

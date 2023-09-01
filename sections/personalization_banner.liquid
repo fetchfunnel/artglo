@@ -265,7 +265,7 @@ img#imagePreview {
                                   pplr_delete1.addEventListener("click",()=>{
                                      uploadCta.innerText= 'Upload Your Own Image';
                                      let imagePreview = document?.querySelector("#imagePreview");
-                                      imagePreview.src = `{{  product.featured_image | img_url:"master" }}`;
+                                     imagePreview.src = `{{  product.featured_image | img_url:"master" }}`;
                                   })
                                    clearInterval(tt);
                                  }

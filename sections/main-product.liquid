@@ -887,10 +887,10 @@
     let closePopup = document.querySelector(".tmbClose_popup")
     
     
-    
+    let topPosition =  tmbOfferHeader.getBoundingClientRect().top;
       window.addEventListener("scroll",()=>{
         let tmbOfferHeader = document?.querySelector(".tmb_offer_header")
-        let topPosition =  tmbOfferHeader.getBoundingClientRect().top;
+        
           console.log(window.scrollY,"====",topPosition)
         if(window.scrollY == topPosition){
           console.log("matched====");

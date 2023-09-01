@@ -1,0 +1,215 @@
+/* Card Interaction */
+@keyframes delayZindexForwards {
+  0% {
+    z-index: 2;
+  }
+  100% {
+    z-index: 3;
+  }
+}
+
+@keyframes delayZindexBackwards {
+  0% {
+    z-index: 3;
+  }
+  100% {
+    z-index: 2;
+  }
+}
+
+.collection {
+  animation: delayZindexBackwards 0.55s linear forwards !important;
+  position: relative;
+}
+
+.collection .grid {
+  --grid-mobile-horizontal-spacing: 12px;
+}
+
+.ag-product-row {
+  display: flex;
+}
+
+.ag-product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition-delay: 0.25s;
+  animation: delayZindexBackwards 0.55s linear forwards;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.ag-product-card .card__media {
+  margin: 0;
+  width: 100%;
+}
+.ag-product-card img {
+  object-fit: cover;
+}
+
+.ag-product-card .ag-product-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(28, 29, 60, 0.7);
+  color: white;
+  border-radius: 0 0 6px 6px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+  transition-delay: 0.25s;
+  visibility: hidden;
+}
+
+.ag-product-card .ag-product-info .h5 {
+  font-size: 1rem;
+}
+
+.ag-product-card .ag-product-info .price-item span {
+  font-size: 1rem;
+}
+
+.ag-product-info .card__information {
+  padding: 0.4rem;
+}
+
+.ag-product-card .ag-product-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #d22f7a;
+  border-radius: 0 6px 0 6px;
+  padding: 5px 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+  transition-delay: 0.5s;
+}
+
+@media screen and (min-width: 750px) {
+  .collection .grid {
+    padding-bottom: 48px;
+  }
+
+  .collection:hover {
+    animation: delayZindexForwards 0.55s linear forwards !important;
+    position: relative;
+  }
+
+  .ag-product-card:hover {
+    transform: scale(1.2);
+    animation: delayZindexForwards 0.01s linear forwards;
+    box-shadow: 0px 6px 30px 4px #2b2c59;
+  }
+
+  .ag-product-card:hover .ag-product-info {
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  .ag-product-card:hover .ag-product-label {
+    transform: translateY(0);
+  }
+}
+
+/* Zepto product customer - custom CSS */
+.pplr-wrapper input[type="text"],
+.pplr-wrapper textarea {
+  border-radius: 4px;
+  min-height: 48px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #d22f7a !important;
+  font-size: 1.6rem;
+  font-family: "circular";
+}
+
+/* cart count override */
+.pplr_cart_count {
+  color: white;
+}
+
+/* Hide desktop slider controls */
+@media screen and (min-width: 768px) {
+  .slider-buttons {
+    display: none;
+  }
+}
+
+/* Glow for it. */
+
+/* Original gradient
+  linear-gradient(
+    90deg,
+    #efe240 0%,
+    #e2bf57 14.06%,
+    #e6a36d 31.31%,
+    #e98777 44.41%,
+    #9e3d59 58.79%,
+    #903052 73.16%,
+    #65243e 86.26%,
+    #4e1132 100%);
+*/
+.banner__heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 68px;
+  /* identical to box height */
+  align-items: center;
+  text-align: inherit;
+  background: linear-gradient(
+    90deg,
+    #efe240 0%,
+    #e2bf57 14.06%,
+    #e6a36d 31.31%,
+    #e98777 44.41%,
+    #9e3d59 58.79%,
+    #903052 73.16%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.subtitle {
+  color: #ffffff !important;
+}
+
+/* announcement bar override */
+.announcement-bar {
+  background-color: #d22f7a !important;
+}
+
+/* buttons */
+/* badge customization */
+.button,
+.button--primary,
+.badge--secondary {
+  background: #d22f7a;
+  color: #fff;
+  transition: all 0.5s ease;
+  border: none;
+}
+/* 
+.button:hover,
+.button--primary:hover {
+  box-shadow: 0 0 35px #d22f7a;
+} */
+
+.button:after,
+.button--primary:after {
+  box-shadow: none !important;
+}
+
+/* navigation */
+.header__menu-item {
+  color: #d22f7a;
+}
+
+/* .header__active-menu-item {
+  color: #d22f7a !important;
+  font-weight: 800 !important;
+} */

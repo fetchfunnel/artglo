@@ -64,6 +64,7 @@
         "topImage": "shopify:\/\/shop_images\/Subtitle.png",
         "sectionHeading": "Illuminate Your Yard with",
         "sectionHeadingHighlighted": "Unique Art Prints",
+        "frameTitle": "Illuminate your creativity.",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -73,8 +74,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 72
       }
     },
     "63607d9b-a75d-4e56-af97-1691b332e6ad": {
@@ -119,6 +120,7 @@
         "hideDEsktopImage": false,
         "sectionHeading": "",
         "sectionHeadingHighlighted": "",
+        "frameTitle": "Illuminate your creativity.",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -128,8 +130,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 68,
+        "padding_bottom": 100
       }
     },
     "d9aea10e-76b4-450a-a288-326b38784fa9": {
@@ -148,6 +150,11 @@
           "celebration",
           "cocktail-bar"
         ],
+        "showMoreCheckbox": false,
+        "showMoreCheckbox2": true,
+        "CtaText": "Show More",
+        "CtaText2": "Explore More Arts",
+        "linkSolid": "shopify:\/\/collections",
         "products_to_show": 16,
         "columns_desktop": 5,
         "full_width": true,
@@ -163,8 +170,8 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 32,
+        "padding_bottom": 40
       }
     },
     "get-started": {

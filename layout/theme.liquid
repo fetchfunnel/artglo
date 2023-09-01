@@ -3,7 +3,7 @@
 <style>
   #MainContent {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding-top: 83px;
 }
  .collection slider-component:not(.page-width-desktop) {
@@ -64,7 +64,11 @@ height: 1rem;
     /* visibility: hidden; */
 }
 
-
+#FacetFiltersFormMobile.mobile-facets,
+  .mobile-facets__open-wrapper .mobile-facets__close
+  {
+  top: -73px;
+}
 
 
 
@@ -358,10 +362,11 @@ window.TriplePixelData={TripleName:"artglo-signs.myshopify.com",ver:"1.9.0"},fun
     </script>
     {{ 'custom-font-faces.css' | asset_url | stylesheet_tag }}
     {{ 'tmb-common.css' | asset_url | stylesheet_tag }}
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
     
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="{{ template.name }} gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -423,7 +428,7 @@ window.TriplePixelData={TripleName:"artglo-signs.myshopify.com",ver:"1.9.0"},fun
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
       };
     </script>
-
+    {% render 'wishlist-js' %}
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}

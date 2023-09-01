@@ -36,6 +36,7 @@
   display: flex;
   grid-column: 2;
   grid-row: 1;
+  position:relative;
   padding-left: 2.5rem;
 }
 
@@ -73,6 +74,7 @@
   align-items: center;
   display: flex;
   flex-grow: 1;
+  cursor:pointer;
   justify-content: flex-end;
 }
 
@@ -223,10 +225,10 @@
   transition: text-decoration var(--duration-short) ease;
 }
 
-.facets__summary:hover span {
+/* .facets__summary:hover span {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
-}
+} */
 
 .disclosure-has-popup[open] > .facets__summary::before {
   z-index: 2;
@@ -306,11 +308,19 @@
 .no-js .facet-checkbox input[type='checkbox'] {
   z-index: 0;
 }
-
+.facet-checkbox .default_checkbox{
+   border-radius: 4px;
+  border: 1px solid #FFF;
+  background: #FFF;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.20) inset;
+  width: 20px;
+  height: 20px;
+  color: transparent;
+}
 .facet-checkbox > svg {
-  background-color: rgb(var(--color-background));
   margin-right: 1.2rem;
   flex-shrink: 0;
+ 
 }
 
 .facet-checkbox .icon-checkmark {
@@ -356,6 +366,11 @@
 .facets__price .field-currency {
   align-self: center;
   margin-right: 0.6rem;
+  color: rgba(255, 255, 255, 0.70);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .facets__price .field__label {
@@ -495,13 +510,13 @@ a.active-facets__button.focused .active-facets__button-inner,
   outline: none;
 }
 
-.active-facets__button svg {
+ .active-facets__button .active-facets__button-inner svg {
   align-self: center;
   flex-shrink: 0;
   margin-left: 0.6rem;
   margin-right: -0.2rem;
   pointer-events: none;
-  width: 1.2rem;
+  width: 16px;
 }
 
 @media all and (min-width: 990px) {
@@ -958,7 +973,9 @@ input.mobile-facets__checkbox {
   .facets__form-vertical {
     display: flex;
     flex-direction: column;
-    width: 26rem;
+    min-width: 288px;
+     max-width: 288px;
+    width:100%;
   }
 
   .facets__disclosure-vertical {
@@ -987,7 +1004,7 @@ input.mobile-facets__checkbox {
   }
 
   .facets-vertical .facets-wrapper {
-    padding-right: 3rem;
+    padding-right: 20px;
   }
 
   .facets-vertical .facets-wrapper--no-filters {
@@ -1057,9 +1074,11 @@ input.mobile-facets__checkbox {
   }
 
   .facets-vertical .active-facets {
-    margin: 0;
-    align-items: flex-start;
+    margin: 0 0 25px 0;
+    align-items: center;
+    row-gap: 20px;
   }
+  
 
   .facets__disclosure-vertical[open] .facets__summary .icon-caret {
     transform: rotate(180deg);

@@ -324,8 +324,8 @@
 }
 
 .card--standard > .card__content .card__information {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .card--card.card--media .card__inner .card__information,

@@ -57,12 +57,12 @@
   transition: transform var(--duration-short) ease, visibility 0s var(--duration-short) ease;
 }
 
-.cart-notification.active {
+/* .cart-notification.active {
   transform: translateY(0);
   transition: transform var(--duration-default) ease, visibility 0s;
   visibility: visible;
 }
-
+ */
 .cart-notification__header {
   align-items: flex-start;
   display: flex;

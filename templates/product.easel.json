@@ -63,7 +63,7 @@
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
-        "hide_variants": false,
+        "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 56,
         "padding_bottom": 64
@@ -118,6 +118,7 @@
       "settings": {
         "title": "How to get started",
         "button_show": true,
+        "btnText": "Get Your Unique Art",
         "button_link": "#"
       }
     },
@@ -134,6 +135,11 @@
         "collection": [
           "animals-pets"
         ],
+        "showMoreCheckbox": false,
+        "showMoreCheckbox2": true,
+        "CtaText": "Show More",
+        "CtaText2": "Explore More Arts",
+        "linkSolid": "shopify:\/\/collections\/animals-pets",
         "products_to_show": 16,
         "columns_desktop": 5,
         "full_width": true,

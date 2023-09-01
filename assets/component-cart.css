@@ -86,8 +86,6 @@ cart-items {
   top: 2.5rem;
 }
 
-
-
 .cart__note label {
   display: flex;
   align-items: flex-end;
@@ -103,6 +101,7 @@ cart-items {
   position: relative;
   border-radius: var(--inputs-radius);
   padding: 1rem 2rem;
+  border: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
 .cart__note .text-area {
@@ -170,7 +169,7 @@ cart-items {
   margin: 0 auto;
 }
 
-.cart__dynamic-checkout-buttons div[role='button'] {
+.cart__dynamic-checkout-buttons div[role="button"] {
   border-radius: var(--buttons-radius-outset) !important;
 }
 

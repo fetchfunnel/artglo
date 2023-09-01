@@ -643,7 +643,7 @@ h3 .icon-arrow,
 .animate-arrow:hover .icon-arrow path {
   transform: translateX(-0.05rem);
 }
-
+ 
 /* base-details-summary */
 summary {
   cursor: pointer;
@@ -653,9 +653,9 @@ summary {
 
 summary .icon-caret {
   position: absolute;
-  height: 0.6rem;
+  /* height: 0.6rem; */
   right: 1.5rem;
-  top: calc(50% - 0.2rem);
+  /* top: calc(50% - 0.2rem); */
 }
 
 summary::-webkit-details-marker {
@@ -707,11 +707,7 @@ summary::-webkit-details-marker {
   box-shadow: none;
 }
 
-*:focus-visible {
-  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
-  outline-offset: 0.3rem;
-  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
-}
+
 
 /* Fallback - for browsers that don't support :focus-visible, a fallback is set for :focus */
 .focused,
@@ -1073,7 +1069,8 @@ summary::-webkit-details-marker {
   }
 
   .grid--2-col-tablet-down .grid__item {
-    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+    max-width: 100%;
+    width: 100%;
   }
 
   .slider--tablet.grid--peek.grid--2-col-tablet-down .grid__item,
@@ -1536,7 +1533,7 @@ details[open] > .share-button__fallback {
   transition: none;
 }
 
-.share-button__fallback .field__input:focus,
+.share-button__fallback,
 .share-button__fallback .field__input:-webkit-autofill {
   outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
   outline-offset: 0.1rem;
@@ -1597,7 +1594,7 @@ details[open] > .share-button__fallback {
   border: 0;
 }
 
-.field:before,
+
 .select:before,
 .customer .field:before,
 .customer select:before,
@@ -1615,7 +1612,7 @@ details[open] > .share-button__fallback {
   z-index: -1;
 }
 
-.field:after,
+
 .select:after,
 .customer .field:after,
 .customer select:after,
@@ -1654,7 +1651,7 @@ details[open] > .share-button__fallback {
   border-radius: var(--inputs-radius);
 }
 
-.field__input:focus-visible,
+
 .select__select:focus-visible,
 .customer .field input:focus-visible,
 .customer select:focus-visible,
@@ -1664,7 +1661,7 @@ details[open] > .share-button__fallback {
   border-radius: var(--inputs-radius);
 }
 
-.field__input:focus,
+
 .select__select:focus,
 .customer .field input:focus,
 .customer select:focus,
@@ -1690,7 +1687,7 @@ details[open] > .share-button__fallback {
 
 .select .icon-caret,
 .customer select + svg {
-  height: 0.6rem;
+  /* height: 0.6rem; */
   pointer-events: none;
   position: absolute;
   top: calc(50% - 0.2rem);
@@ -1758,7 +1755,7 @@ details[open] > .share-button__fallback {
   letter-spacing: 0.04rem;
 }
 
-.field__input:focus,
+
 .field__input:not(:placeholder-shown),
 .field__input:-webkit-autofill,
 .customer .field input:focus,
@@ -2865,7 +2862,7 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__submenu.list-menu {
-  padding: 1rem 0;
+      padding: 1rem 0 35px 0;
 }
 
 .header__submenu .header__submenu {
@@ -3128,7 +3125,7 @@ details-disclosure > details {
     outline: solid transparent 1px;
   }
 
-  .field__input:focus,
+  
   .select__select:focus,
   .customer .field input:focus,
   .customer select:focus,

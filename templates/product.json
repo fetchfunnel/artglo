@@ -26,6 +26,12 @@
           "settings": {
           }
         },
+        "43486d1f-ee9e-4ca1-a37e-38678eba92a1": {
+          "type": "shopify:\/\/apps\/zepto-product-personalizer\/blocks\/product_personalizer_page\/7411210d-7b32-4c09-9455-e129e3be4729",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -74,6 +80,7 @@
         "title",
         "price",
         "description",
+        "43486d1f-ee9e-4ca1-a37e-38678eba92a1",
         "buy_buttons",
         "aaa3fa8f-3384-4158-9ff9-102f6d8f2bde",
         "d3daa43f-ebc5-475f-bc25-2477064097ab",
@@ -119,7 +126,6 @@
         "template--19042602844470__b3b89f06-0023-44c2-90a3-c022528b0451-1687200966c906fcd6-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CopyofArtGlo_Lifestyle_1OVERLAY21.jpg",
             "caption": "",
             "heading": "Wireless Illumination",
             "text": "<p>Harnessing patented solar technology, ArtGlo signs automatically light up for 4 hours every night, no manual intervention required. Enjoy the beauty of your customized sign with the convenience of a set-and-forget system.<\/p>",

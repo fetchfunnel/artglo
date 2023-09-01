@@ -507,6 +507,7 @@ body.collection .tmb_price_per_items button {
 }
 .collection-sec .product-grid {
     padding: 30px 55px;
+  margin-bottom:34px;
 }
 /* .slider-mobile-gutter{
   overflow-x:auto;

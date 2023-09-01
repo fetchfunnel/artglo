@@ -350,8 +350,8 @@
           
         </div>
       
-        <div class="text_wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <h2 class="text_heading">{{ forloop.index }}</h2>
+        <div class="text_wrapper ">
+          <h2 class="text_heading {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ forloop.index }}</h2>
           <div>
               <h3 class="heading_lg">{{ block.settings.heading }}</h3>
               <p class="body_text_lg">

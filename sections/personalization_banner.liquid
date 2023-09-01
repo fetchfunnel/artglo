@@ -244,10 +244,12 @@ img#imagePreview {
                           //*************************************//
                           
                           fileupload.addEventListener("change",()=>{
-                            uploadCta.classList.remove("hide-cta");
-                             uploadCta.innerText= 'Change or Edit Uploaded image';
+                            
                              
                               setTimeout(()=>{
+                                uploadCta.classList.remove("hide-cta");
+                                 uploadCta.innerText= 'Change or Edit Uploaded image';
+                             
                                 let pplr_img = document?.querySelector(".pplr_img");
                                 let pplImgAttr = pplr_img.getAttribute("href");
                                 

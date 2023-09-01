@@ -256,8 +256,7 @@ img#imagePreview {
                                   pplr_delete.addEventListener("click",()=>{
                                      uploadCta.innerText= 'Upload Your Own Image';
                                      let imagePreview = document?.querySelector("#imagePreview");
-                                      imagePreview.src = `//ux7egagg2g3q9qf9-76506956086.shopifypreview.com/cdn/shop/files/Upload-your-own-design.webp?v=1693545672;`;
-                                  })
+                                      imagePreview.src = ''{{ product.featured_image | img_url:"master" }}'';                                  })
                                    clearInterval(tt);
                                  }
                                  
@@ -265,7 +264,7 @@ img#imagePreview {
                                   pplr_delete1.addEventListener("click",()=>{
                                      uploadCta.innerText= 'Upload Your Own Image';
                                      let imagePreview = document?.querySelector("#imagePreview");
-                                     imagePreview.src = `//ux7egagg2g3q9qf9-76506956086.shopifypreview.com/cdn/shop/files/Upload-your-own-design.webp?v=1693545672;`;
+                                     imagePreview.src = `{{ product.featured_image | img_url:"master" }}`;
                                   })
                                    clearInterval(tt);
                                  }

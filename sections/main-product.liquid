@@ -887,6 +887,14 @@
     let cardPopup = document.querySelector(".tmb_addCart_popup");
     let closePopup = document.querySelector(".tmbClose_popup")
     
+    let tmbOfferHeader = document?.querySelector(".tmb_offer_header")
+    if(tmbOfferHeader){
+      window.addEventListener("scroll",()=>{
+        console.log(tmbOfferHeader.getBoundingClientRect())
+      })
+    }
+    
+
     
     productBtn.addEventListener("click",()=>{
    // let overlay = document.querySelector(".tmb_overlay");

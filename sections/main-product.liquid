@@ -886,10 +886,10 @@
     let cardPopup = document.querySelector(".tmb_addCart_popup");
     let closePopup = document.querySelector(".tmbClose_popup")
     
-    
+    let tmbOfferHeader = document?.querySelector(".tmb_offer_header")
     let topPosition =  tmbOfferHeader.getBoundingClientRect().top;
       window.addEventListener("scroll",()=>{
-        let tmbOfferHeader = document?.querySelector(".tmb_offer_header")
+        
         
           console.log(window.scrollY,"====",topPosition)
         if(window.scrollY == topPosition){

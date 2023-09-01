@@ -1,0 +1,54 @@
+<style>
+  .faq-sec {
+         padding: 94px 0 100px;
+    background: linear-gradient(0deg, rgba(9, 18, 37, 0.90) 0%, rgba(9, 18, 37, 0.90) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+     }
+
+     .faq_heading {
+        text-shadow: none;
+     }
+
+
+     .faq_title {
+         color: #FFF;
+         font-family: Inter;
+         font-size: 17px;
+         font-weight: 700;
+         line-height: 25.714px;
+     }
+
+
+</style>
+
+<section class="faq-sec-heading sec_bg ">
+  <div class="tmb_container">
+    <div class="faq_content">
+      <h2 class="heading_xl faq_heading {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.heading }}</h2>    
+    </div>
+  </div>
+</section>
+
+
+
+{% schema %}
+{
+  "name": "heading",
+  "settings": [
+   {
+      "type": "text",
+      "id": "heading",
+      "default": "Heading",
+      "label": "Section Heading"
+    }
+  ],
+
+  "presets":[
+    {
+      "name": "heading"
+    }
+      
+  ]
+}
+
+
+{% endschema %}

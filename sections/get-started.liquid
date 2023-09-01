@@ -387,12 +387,13 @@
         </div>
       {% endfor %}
 
-      {% if section.settings.button_show %}
+      
+    </div>
+    {% if section.settings.button_show %}
         <div class="cta_wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           <a href="{{ section.settings.button_link }}" class="solid_cta">{{ section.settings.btnText }}</a>
         </div>
       {% endif %}
-    </div>
   </div>
 </section>
 

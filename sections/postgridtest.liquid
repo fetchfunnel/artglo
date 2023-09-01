@@ -254,23 +254,39 @@ section.cards {
 
 
 
-<div>
-
-<!-- <h1>{{ section.settings.title | escape }}</h1>
- -->
+<div class="container">
 {%- assign blog = blogs[section.settings.blog] -%}
-
 {%- if blog.articles_count > 0 -%}
-  <ul class="postgrid">
 
+  <section class="cards">
+    <article class="vertical cardxz">
     {%- for article in blog.articles limit: section.settings.post_limit -%}
-      <li>
-        <a href="{{ article.url }}">
+  <a href="{{ article.url }}">
           {%- if article.image -%}
-            {{ article | img_url: '150x150', scale: 2 | img_tag: '' }}
+           
           {%- endif -%}
-          <h2>{{ article.title }}</h2>
-        </a>
+      <img class="card__img" src=" {{ article | img_url: '150x150', scale: 2 | img_tag: '' }}" class="card__image">
+      <div class="card__content">
+        <div class="card__title">
+          <h2>{{ article.title }}</h2>  </a>
+        </div>
+        <div class="card__excerpt">
+     {%- if article.excerpt.size > 0 -%}
+          {{ article.excerpt }}
+        {%- else -%}
+          {{ article.content | strip_html | truncate: 150 }}
+        {%- endif -%}
+        </div>
+        <div class="card__tags">
+          <div class="tag"></div>
+        </div>
+      </div>
+    </article>
+
+  <ul class="postgrid">
+      <li>
+      
+       
 
         {%- if section.settings.blog_show_author -%}
           <span>
@@ -284,11 +300,7 @@ section.cards {
           </span>
         {%- endif -%}
 
-        {%- if article.excerpt.size > 0 -%}
-          {{ article.excerpt }}
-        {%- else -%}
-          {{ article.content | strip_html | truncate: 150 }}
-        {%- endif -%}
+   
 
         {%- if article.tags.size > 0 -%}
           <ul aria-label="{{ 'blogs.article.tags' }}">
@@ -321,7 +333,66 @@ section.cards {
 
   </ul>
 {%- endif -%}
+
+
+    </article>
+  
+  </section>
 </div>
+
+
+
+
+
+
+
+
+    <article class="horizontal cardxz">
+      <img class="card__img" src="https://picsum.photos/256/196/?image=990" class="card__image">
+      <div class="card__content">
+        <div class="card__title">
+          Test Post: Electric Boogaloo
+        </div>
+        <div class="card__excerpt">
+          This is a test article, in a perculiar context, to see whether grid and flexbox works to make a blog...    <span>Learn more</span>
+        </div>
+        <div class="card__tags">
+          <div class="tag"></div>
+        </div>
+      </div>
+    </article>
+    <article class="horizontal cardxz">
+      <img class="card__img" src="https://picsum.photos/256/196/?image=123" class="card__image">
+      <div class="card__content">
+        <div class="card__title">
+          Test Post: Electric Boogaloo
+        </div>
+        <div class="card__excerpt">
+          This is a test article, in a perculiar context, to see whether grid and flexbox works to make a blog...
+        </div>
+        <div class="card__tags">
+          <div class="tag"></div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {%- if section.settings.show_view_all -%}
   <a href="{{ blog.url }}"
     class="btn"

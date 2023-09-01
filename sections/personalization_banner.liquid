@@ -246,23 +246,26 @@ img#imagePreview {
                             // when user upload the image then change button text
                           //*************************************//
                           
-                          fileupload.addEventListener("change",()=>{
+                          [fileupload,uploadCta].forEach((elem)=>{
+                            elem.addEventListener("change",()=>{
                             
-                             
-                              setTimeout(()=>{
-                                uploadCta.classList.remove("hide-cta");
-                                 uploadCta.innerText= 'Change or Edit Uploaded image';
-                             
-                                let pplr_img = document?.querySelector(".pplr_img");
-                                let pplImgAttr = pplr_img.getAttribute("href");
-                                
-                                let imagePreview = document?.querySelector("#imagePreview");
-                                imagePreview.src = pplImgAttr;
-                                
-                                console.log(pplImgAttr)
-                              },2000);
-                             deleteInit()
+                               
+                                setTimeout(()=>{
+                                  uploadCta.classList.remove("hide-cta");
+                                   uploadCta.innerText= 'Change or Edit Uploaded image';
+                               
+                                  let pplr_img = document?.querySelector(".pplr_img");
+                                  let pplImgAttr = pplr_img.getAttribute("href");
+                                  
+                                  let imagePreview = document?.querySelector("#imagePreview");
+                                  imagePreview.src = pplImgAttr;
+                                  
+                                  console.log(pplImgAttr)
+                                },2000);
+                               deleteInit()
+                            })
                           })
+                          
                           function deleteInit(){
                             let tt = setInterval(()=>{
                               console.log('init')

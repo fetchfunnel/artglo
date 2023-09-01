@@ -890,7 +890,7 @@
     
       window.addEventListener("scroll",()=>{
         let tmbOfferHeader = document?.querySelector(".tmb_offer_header")
-        let topPosition =  tmbOfferHeader.getBoundingClientRect();
+        let topPosition =  tmbOfferHeader.getBoundingClientRect().top;
           console.log(window.scrollY,"====",topPosition)
         if(window.scrollY == topPosition){
           console.log("matched====");

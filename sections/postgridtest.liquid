@@ -63,7 +63,7 @@ section.cards {
 .card {
   display: flex;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  //background: rgba(0, 0, 0, 0.05);
+ background: rgba(0, 0, 0, 0.05);
   transition: all 0.25s ease;
 }
 
@@ -77,11 +77,11 @@ section.cards {
   grid-column: span 1;
 }
 
-.horizontal {
+/* .horizontal {
   flex-direction: row;
   grid-row: span 1;
   grid-column: span 2;
-}
+} */
 
 .reverse-horizontal {
   flex-direction: row-reverse;
@@ -89,23 +89,6 @@ section.cards {
   grid-column: span 2;
 }
 
-//.card {
-//  border-radius: 0.5em;
-//}
-// .horizontal.not(.reverse) img {
-//   border-top-left-radius: 0.5em;
-//   border-bottom-left-radius: 0.5em;
-// }
-
-// .horizontal-reverse img {
-//   border-top-right-radius: 0.5em;
-//   border-bottom-right-radius: 0.5em;
-// }
-
-// .vertical img {
-//   border-top-left-radius: 0.5em;
-//   border-top-right-radius: 0.5em;
-// }
 
 .horizontal .card__img, .reverse-horizontal .card__img {
   height: 100%;

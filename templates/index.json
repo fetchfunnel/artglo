@@ -151,10 +151,10 @@
           "cocktail-bar"
         ],
         "showMoreCheckbox": false,
-        "showMoreCheckbox2": false,
+        "showMoreCheckbox2": true,
         "CtaText": "Show More",
         "CtaText2": "Explore More Arts",
-        "linkSolid": "",
+        "linkSolid": "shopify:\/\/collections",
         "products_to_show": 16,
         "columns_desktop": 5,
         "full_width": true,

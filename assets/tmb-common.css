@@ -512,7 +512,7 @@ body.collection .tmb_price_per_items button {
   overflow-x:auto;
 } */
 .slider-mobile-gutter.slider-component-full-width{
-width:100%;
+width:100% !important;
 }
 
 .grid.product-grid.contains-card.contains-card--product{

@@ -225,47 +225,49 @@ img#imagePreview {
                           //*************************************//
                             // init stage
                           //*************************************//
-                          
-                          uploadWithImage.addEventListener("click",()=>{
-                           console.log(fileupload.value, ' vales')
-                           if(fileupload.value){
-                             let pplr_modify = document?.querySelector("a.pplr_modify")
-                             if(pplr_modify) {
-                               pplr_modify.click() 
+
+                          [fileupload,uploadCta].forEach((elem)=>{
+                            elem.addEventListener("click",()=>{
+                             console.log(fileupload.value, ' vales')
+                             if(fileupload.value){
+                               let pplr_modify = document?.querySelector("a.pplr_modify")
+                               if(pplr_modify) {
+                                 pplr_modify.click() 
+                                 }
+                               else {
+                                 fileupload.click();
+                                 deleteInit()
                                }
-                             else {
-                               fileupload.click();
-                               deleteInit()
+                               return;
                              }
-                             return;
-                           }
-                           fileupload.click();
+                             fileupload.click();
+                            })
                           })
+
+
+                          
                           
                           //*************************************//
                             // when user upload the image then change button text
                           //*************************************//
                           
-                          [fileupload,uploadCta].forEach((elem)=>{
-                            elem.addEventListener("change",()=>{
+                          fileupload.addEventListener("change",()=>{
                             
-                               
-                                setTimeout(()=>{
-                                  uploadCta.classList.remove("hide-cta");
-                                   uploadCta.innerText= 'Change or Edit Uploaded image';
-                               
-                                  let pplr_img = document?.querySelector(".pplr_img");
-                                  let pplImgAttr = pplr_img.getAttribute("href");
-                                  
-                                  let imagePreview = document?.querySelector("#imagePreview");
-                                  imagePreview.src = pplImgAttr;
-                                  
-                                  console.log(pplImgAttr)
-                                },2000);
-                               deleteInit()
-                            })
+                             
+                              setTimeout(()=>{
+                                uploadCta.classList.remove("hide-cta");
+                                 uploadCta.innerText= 'Change or Edit Uploaded image';
+                             
+                                let pplr_img = document?.querySelector(".pplr_img");
+                                let pplImgAttr = pplr_img.getAttribute("href");
+                                
+                                let imagePreview = document?.querySelector("#imagePreview");
+                                imagePreview.src = pplImgAttr;
+                                
+                                console.log(pplImgAttr)
+                              },2000);
+                             deleteInit()
                           })
-                          
                           function deleteInit(){
                             let tt = setInterval(()=>{
                               console.log('init')
@@ -288,7 +290,7 @@ img#imagePreview {
                                  
                                  if(pplr_delete1){
                                   pplr_delete1.addEventListener("click",()=>{
-                                    uploadCta.classList.add("hide-cta");
+                                  uploadCta.classList.add("hide-cta");
                                      uploadCta.innerText= 'Upload Your Own Image';
                                      let imagePreview = document?.querySelector("#imagePreview");
                                      imagePreview.src = '{{ product.featured_image | img_url:"master" }}';

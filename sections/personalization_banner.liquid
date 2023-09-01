@@ -234,6 +234,9 @@ input.pplr_monogram.fileupload.cstmfy_c_required {
                               console.log('init')
                               let pplr_delete = document?.querySelector("a.pplr_delete")
                               let pplr_delete1 = document?.querySelector("a.js-modal-close.pplr_close.p_r_d")
+                              let pplr_img = document?.querySelector(".pplr_img");
+                              let pplImgAttr = pplr_img.getAttribute("src");
+                              console.log(pplImgAttr)
                               
                                  if(pplr_delete){
                                   pplr_delete.addEventListener("click",()=>{

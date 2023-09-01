@@ -212,6 +212,7 @@ img#imagePreview {
                  
                {% endcase %}
                 {% endfor %}
+                <img id="imagePreview" src="{{ product.featured_image | img_url:"master" }}">
                 <script>
                   
                   
@@ -317,7 +318,7 @@ img#imagePreview {
                 
                
                 </script>
-                  <img id="imagePreview" src="{{ product.featured_image | img_url:"master" }}">
+                  
             
               </div>
             </div>

@@ -236,7 +236,6 @@ img#imagePreview {
                                 let pplImgAttr = pplr_img.getAttribute("href");
                                 
                                 let imagePreview = document?.querySelector("#imagePreview");
-                                {% comment %} let imagePreviewAttr = imagePreview.getAttribute("src"); {% endcomment %}
                                 imagePreview.src = pplImgAttr;
                                 
                                 console.log(pplImgAttr)
@@ -248,7 +247,8 @@ img#imagePreview {
                               console.log('init')
                               let pplr_delete = document?.querySelector("a.pplr_delete")
                               let pplr_delete1 = document?.querySelector("a.js-modal-close.pplr_close.p_r_d")
-                              
+                              let imagePreview = document?.querySelector("#imagePreview");
+                              imagePreview.src = {{  product.featured_image | img_url:"master" }};
                              
                               
                               

@@ -600,6 +600,9 @@ width:100% !important;
   .collection-sec .product-grid{
     padding:0;
   }
+  .grid.product-grid.contains-card.contains-card--product{
+    gap:10px;
+  }
 }
 
 @media screen and (max-width: 991px) {

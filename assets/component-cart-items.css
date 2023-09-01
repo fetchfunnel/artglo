@@ -4,6 +4,7 @@
   padding: 10px;
   height: fit-content;
   min-width: unset;
+  width: 35px;
 }
 
 .cart-items td,

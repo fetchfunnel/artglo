@@ -136,7 +136,7 @@
           "animals-pets"
         ],
         "showMoreCheckbox": false,
-        "showMoreCheckbox2": true,
+        "showMoreCheckbox2": false,
         "CtaText": "Show More",
         "CtaText2": "Explore More Arts",
         "linkSolid": "shopify:\/\/collections\/animals-pets",

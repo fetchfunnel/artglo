@@ -300,9 +300,6 @@ h6 {
   line-height: 18px;
 }
 .tmb_product_featuresList {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
   margin: 22px 0;
 }
 .tmb_product_feature_item {

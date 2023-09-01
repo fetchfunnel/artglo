@@ -136,12 +136,12 @@ letter-spacing: 1px;
         <div class="easel_box">
           <div class="easel_content">
               <div>
-                  <img class="easel_img" src="background copy.png" alt="Home Image">
+                  <img class="easel_img" src="{{ product.featured_image | img_url }}" alt="Home Image">
               </div>
               <div>
                   <div class="easel_title">
                       <h3>{{ product.title }}</h3>
-                      <p class="tmb_offer_header_price">$199.00</p>
+                      <p class="tmb_offer_header_price">{{ product.price }}</p>
                   </div>
                   <div class="warranty-Guarantee">
                       <div class="warranty"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"

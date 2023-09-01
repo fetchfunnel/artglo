@@ -114,6 +114,21 @@ letter-spacing: 1px;
     max-width: 540px;
     width: 100%;
 }
+  .tmb_offer_header{
+    opacity:0;
+    visibility:hidden;
+    transition:0.3s;
+  }
+  .tmb_offer_header.sticky-banner {
+    opacity:1;
+    visibility:visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #1c1d3c;
+    z-index: 9;
+}
 </style>
 <div class=" sticky_offer_header">
     <div class="tmb_container">

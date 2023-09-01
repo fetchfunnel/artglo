@@ -325,12 +325,12 @@
   <div class="bg-elements"></div>
   <div class="tmb_container">
     <div class="sec_head">
-      <div class="sec_head_inner">
+      <div class="sec_head_inner {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <div class="star_wrapper">
           <img src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/stars.png?v=1692956061" alt="image-description">
         </div>
         <div class="spacer"> </div>
-        <h2 class="heading_xl {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.title }}</h2>
+        <h2 class="heading_xl ">{{ section.settings.title }}</h2>
       </div>
     </div>
     <div class="sec_content">

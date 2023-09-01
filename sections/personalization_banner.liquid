@@ -364,10 +364,10 @@ img#imagePreview {
                 </ul>
             </div> {% endcomment %}
               
-              <div class="product__title tmb_product_title" {{ block.shopify_attributes }}>
+              <div class="product__title tmb_product_title" {{ block.shopify_attributes }} >
                 <h1>{{ product.title | escape }}</h1>
                 <a href="{{ product.url }}" class="product__title">
-                  <h2 class="h1">
+                  <h2 class="h1" id="tmb_sticky_id">
                     {{ product.title | escape }}
                   </h2>
                 </a>
@@ -409,7 +409,7 @@ img#imagePreview {
                         </defs>
                     </svg>
                 </span>
-                <a href="">Learn more</a>
+                <a href="#">Learn more</a>
 
             </p>
 

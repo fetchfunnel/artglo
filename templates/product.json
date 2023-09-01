@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -41,6 +42,7 @@
         },
         "aaa3fa8f-3384-4158-9ff9-102f6d8f2bde": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Free shipping on orders over $50",
             "icon": "none",
@@ -50,6 +52,7 @@
         },
         "d3daa43f-ebc5-475f-bc25-2477064097ab": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Made in the U.S.A.",
             "icon": "none",
@@ -59,6 +62,7 @@
         },
         "e8574a9b-132e-4244-9362-cbffbf68220a": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "What's in the box",
             "icon": "none",
@@ -68,6 +72,7 @@
         },
         "63040ffb-94ea-4ad3-ab16-37f8ff04a7ee": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
             "text_style": "uppercase",
             "inventory_threshold": 47,

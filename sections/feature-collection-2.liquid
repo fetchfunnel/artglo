@@ -46,7 +46,9 @@
     background-attachment: unset;
     position:relative;
   }
-    .collection-sec:after {
+    .collection-sec:after,
+    .collection-sec:before
+      {
       content: '';
       width: 1262.481px;
       height: 2333.615px;
@@ -58,6 +60,12 @@
       top: -500px;
       left: -500px;
     }
+  .collection-sec:before{
+      top: auto;
+      bottom:35%;
+      left: auto;
+      right:-500px;
+  }
   .product-grid{
     margin-bottom:64px;
   }
@@ -98,7 +106,9 @@
     }
   }
   @media(max-width:989px){
-    .collection-sec:after{
+    .collection-sec:after,
+    .collection-sec:before, 
+    {
       display:none;
     }
     .slider_info > .collection__description {

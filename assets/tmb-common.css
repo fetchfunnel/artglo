@@ -301,6 +301,9 @@ h6 {
 }
 .tmb_product_featuresList {
   margin: 22px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .tmb_product_feature_item {
   display: flex;

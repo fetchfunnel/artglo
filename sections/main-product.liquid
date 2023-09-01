@@ -892,6 +892,7 @@
         let tmbOfferHeader = document?.querySelector(".tmb_offer_header")
         let topPosition =  tmbOfferHeader.getBoundingClientRect();
         if(window.scrollY == topPosition){
+          console.log("matched====");
           tmbOfferHeader.classList.add("sticky-banner")
         }else{
           tmbOfferHeader.classList.remove("sticky-banner")

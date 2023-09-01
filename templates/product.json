@@ -117,7 +117,7 @@
       ],
       "settings": {
         "title": "How to get started",
-        "button_show": true,
+        "button_show": false,
         "btnText": "Get Your Unique Art",
         "button_link": "#"
       }

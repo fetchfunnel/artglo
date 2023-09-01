@@ -66,7 +66,7 @@
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 52,
-        "padding_bottom": 64
+        "padding_bottom": 0
       }
     },
     "d9aea10e-76b4-450a-a288-326b38784fa9": {
@@ -154,7 +154,7 @@
       ],
       "settings": {
         "title": "How to get started",
-        "button_show": true,
+        "button_show": false,
         "btnText": "Get Your Unique Art",
         "button_link": "shopify:\/\/collections"
       }

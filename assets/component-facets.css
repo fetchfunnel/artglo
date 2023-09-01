@@ -109,7 +109,7 @@
   height: auto;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   margin: 0;
-  padding-left: 0;
+  padding-left: 10px;
   padding-right: 1.75rem;
 }
 
@@ -1024,6 +1024,8 @@ input.mobile-facets__checkbox {
   .facets-vertical-form {
     display: flex;
     justify-content: flex-end;
+    z-index: 1;
+    position: relative;
   }
 
   .product-count-vertical {

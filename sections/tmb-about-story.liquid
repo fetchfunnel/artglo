@@ -1,6 +1,6 @@
 <style>
         .tmb_story_section{
-          padding:86px 0 91px;
+          padding:86px 0 106px;
         }
 
         .tmb_story_section::after{
@@ -73,7 +73,7 @@
         .tmb_grid_image img{
           display:block;
           height:auto;
-          border-radius:inherit:
+          border-radius: inherit;
         }
 
       .story_reverse{
@@ -145,9 +145,9 @@
 
   }
         @media (max-width:750px){
-          .tmb_about_banner{
+          /* .tmb_about_banner{
             padding:86px 0 64px;
-          }
+          } */
           .tmb_story_brief{
             margin-bottom:61px;
           }
@@ -170,7 +170,7 @@
       }
         @media (max-width:455px){
             .tmb_story_grid {
-                  margin-bottom: 56px;
+                  margin-bottom: 48px;
               }
           .tmb_grid_image{
            width: calc(100% + 35px);
@@ -216,7 +216,7 @@
             </div>
 
             {% if block.settings.button_show %}
-              <a href="{{block.settings.button_link}}" class="solid_cta about-btn">Get Your Unique Art</a>
+              <a href="{{block.settings.button_link}}" class="solid_cta about-btn {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">Get Your Unique Art</a>
             {% endif %}
           </div>
           <div class="tmb_grid_image {% if mod == 0  %} right-overflow {% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">

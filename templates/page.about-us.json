@@ -11,24 +11,16 @@
     "tmb-about-story": {
       "type": "tmb-about-story",
       "blocks": {
-        "9e63677a-a2cb-4385-9abd-f560fa9de89d": {
-          "type": "slide",
+        "5c87dfb0-3f3e-4024-bfd8-19cb1d7887d8": {
+          "type": "block",
           "settings": {
             "storyTitle1": "Our Story: Illuminating the World of Art",
-            "description1": "<p>ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.<\/p><p><\/p><p>Our journey began with a simple idea: What if outdoor art could be more than just your grandma’s garden gnome? What if it could come to life, captivating your senses and creating immersive experiences? That's where illumination became our muse, and ArtGlo was born.<\/p>"
-          }
-        },
-        "1f659551-12e3-4a94-a4af-e8e01bed68d8": {
-          "type": "slide",
-          "settings": {
-            "storyTitle1": "Our Mission: Celebrating Creativity and Expression",
-            "description1": "<p>We're committed to showcasing a diverse range of art styles, from classic to contemporary, abstract to realistic, and everything in between. Our collections feature original pieces, curated works from emerging artists, and even AI-generated creations, ensuring there's something for every taste.<\/p>"
+            "description1": "<p>ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.<br\/><br\/>Our journey began with a simple idea: What if outdoor art could be more than just your grandma’s garden gnome? What if it could come to life, captivating your senses and creating immersive experiences? That's where illumination became our muse, and ArtGlo was born.<\/p>"
           }
         }
       },
       "block_order": [
-        "9e63677a-a2cb-4385-9abd-f560fa9de89d",
-        "1f659551-12e3-4a94-a4af-e8e01bed68d8"
+        "5c87dfb0-3f3e-4024-bfd8-19cb1d7887d8"
       ],
       "settings": {
         "uppreImage": "shopify:\/\/shop_images\/story1.png",

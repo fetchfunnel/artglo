@@ -144,20 +144,18 @@ font-size: 20px;
     <div class="tmb_container">
         <div class="tmb_story_grid_one">
           <div class="tmb_story_grid_one_content">
+
+            
+            
+             {% for block in section.blocks %}
             <div class="tmb_stroy_content_one">
-            <h3 class="story_content_title">Our Story: Illuminating the World of Art</h3>
+            <h3 class="story_content_title">{{ block.settings.storyTitle1 }} </h3>
             <p class="story_description">
-              ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.
-            </p>
-            <p class="story_description">
-              ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.
-            </p>
+               {{ block.settings.description1 }}
+              </p>
             </div>
-            <div class="tmb_stroy_content_one">
-            <h3 class="story_content_title">Our Story: Illuminating the World of Art</h3>
-            <p class="story_description">
-              ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.</p>
-            </div>
+
+               {% endfor %}
           </div>
           <div class="tmb_grid_image">
             <img src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/story1.png?v=1693655309" alt="Image of story" width="" height="" loading="lazy" />

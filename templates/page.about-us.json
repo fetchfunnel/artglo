@@ -70,10 +70,16 @@
             "heading_size": "h0"
           }
         },
+        "2495d4bc-20ec-4b64-8b67-e00d5fefb786": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
         "template--20759784194358__fb5a9969-af3f-41a9-bea7-53df5fc5ae56-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p><p><\/p><p>announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p><p><\/p>"
           }
         },
         "template--20759784194358__fb5a9969-af3f-41a9-bea7-53df5fc5ae56-button-1": {
@@ -90,6 +96,7 @@
       },
       "block_order": [
         "template--20759784194358__fb5a9969-af3f-41a9-bea7-53df5fc5ae56-heading-1",
+        "2495d4bc-20ec-4b64-8b67-e00d5fefb786",
         "template--20759784194358__fb5a9969-af3f-41a9-bea7-53df5fc5ae56-text-1",
         "template--20759784194358__fb5a9969-af3f-41a9-bea7-53df5fc5ae56-button-1"
       ],

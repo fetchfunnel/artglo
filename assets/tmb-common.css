@@ -525,6 +525,10 @@ div#shopify-section-template--20759575429430__459aae35-97c9-4540-b575-43aec70938
     position: relative;
     z-index: 2;
 }
+.tmb_about_section .body_text_lg{
+  line-height:26px;
+  letter-spacing:0;
+}
 
 @media screen and (min-width: 750px) {
   .tmb_main_Image {

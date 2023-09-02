@@ -3,12 +3,6 @@
     "main": {
       "type": "personalization_banner",
       "blocks": {
-        "9d3b1100-ae1c-4e44-a8f8-9f7d97542567": {
-          "type": "shopify:\/\/apps\/zepto-product-personalizer\/blocks\/product_personalizer_page\/7411210d-7b32-4c09-9455-e129e3be4729",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "vendor": {
           "type": "text",
           "disabled": true,
@@ -31,6 +25,12 @@
           "type": "description",
           "disabled": true,
           "settings": {
+          }
+        },
+        "9d3b1100-ae1c-4e44-a8f8-9f7d97542567": {
+          "type": "shopify:\/\/apps\/zepto-product-personalizer\/blocks\/product_personalizer_page\/7411210d-7b32-4c09-9455-e129e3be4729",
+          "settings": {
+            "product": "{{product}}"
           }
         },
         "buy_buttons": {
@@ -81,11 +81,11 @@
         }
       },
       "block_order": [
-        "9d3b1100-ae1c-4e44-a8f8-9f7d97542567",
         "vendor",
         "title",
         "price",
         "description",
+        "9d3b1100-ae1c-4e44-a8f8-9f7d97542567",
         "buy_buttons",
         "aaa3fa8f-3384-4158-9ff9-102f6d8f2bde",
         "d3daa43f-ebc5-475f-bc25-2477064097ab",

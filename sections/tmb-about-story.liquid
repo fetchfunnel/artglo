@@ -196,52 +196,49 @@ font-size: 20px;
 
 {% schema %}
 {
-"name": "About Story Section",
-"tag": "section",
-"class": "slideshow",
-"max_blocks": 5,
-"settings": [
-{
-"type": "image_picker",
-"id": "uppreImage",
-"label": "Upper Story Image"
-},
-{
-"type": "image_picker",
-"id": "lowerImage",
-"label": "Lower Story Image"
-},
-  {
-"type": "text",
-"id": "lowerTitle",
-"label": "lower Story Title"
-},
-{
-"type": "textarea",
-"id": "title",
-"label": "heading"
-}
-],
-"blocks": [
-{
-"name": "Upper Story Content",
-"type": "block",
- "settings": [
-
+  "name": "About Story Section",
+  "tag": "section",
+  "class": "slideshow",
+  "settings": [
     {
-    "type": "textarea",
-    "id": "storyTitle1",
-    "label": "Left Description Title"
-  },
-  {
-    "type": "richtext",
-    "id": "description1",
-    "label": "Left Description"
-  }
- 
- ]
-},
-  {
+      "type": "image_picker",
+      "id": "uppreImage",
+      "label": "Upper Story Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "lowerImage",
+      "label": "Lower Story Image"
+    },
+    {
+      "type": "text",
+      "id": "lowerTitle",
+      "label": "lower Story Title"
+    },
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": "heading"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Upper Story Content",
+      "type": "block",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "storyTitle1",
+          "label": "Left Description Title"
+        },
+        {
+          "type": "richtext",
+          "id": "description1",
+          "label": "Left Description"
+        }
+      ]
+    },
+    {
       "name": "lower Story Content",
       "type": "lower_block",
       "settings": [
@@ -257,7 +254,7 @@ font-size: 20px;
         }
       ]
     }
-]
+  ]
 }
 {% endschema %}
 

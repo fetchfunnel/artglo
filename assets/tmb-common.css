@@ -360,7 +360,10 @@ ul .tmb_product_description_list:last-child {
 }
 .tmb_product_btn {
   width: 100%;
-  margin: 11px 0 16px;
+  /* margin: 11px 0 16px; */
+}
+.tmb_feature_on_buy{
+  margin-top: 11px ; 
 }
 .button:after {
   box-shadow: none;
@@ -454,6 +457,7 @@ body.collection .tmb_price_per_items button {
   fill: #e50c7d;
   stroke: #e50c7d;
 }
+
 .collection .slider-component-desktop .slider-button .icon {
   height: auto;
 }
@@ -519,6 +523,17 @@ body.collection .tmb_price_per_items button {
 
 .grid.product-grid.contains-card.contains-card--product {
   gap: 26px;
+}
+div#shopify-section-template--20759575429430__459aae35-97c9-4540-b575-43aec709385f {
+    position: relative;
+    z-index: 2;
+}
+.tmb_about_section .body_text_lg{
+  line-height:26px;
+  letter-spacing:0;
+}
+.card__inner a{
+  z-index:2;
 }
 
 @media screen and (min-width: 750px) {
@@ -650,7 +665,7 @@ body.collection .tmb_price_per_items button {
   }
 }
 textarea.pplr_text.pplr_monogram.p_u_t.cstmfy_c_required {
-  color: #7c7c7c;
+  color: #cccccc;
   /* text-align: center; */
   font-family: Circular Std;
   font-size: 16px;

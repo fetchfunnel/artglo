@@ -3,12 +3,6 @@
     "main": {
       "type": "personalization_banner",
       "blocks": {
-        "9d3b1100-ae1c-4e44-a8f8-9f7d97542567": {
-          "type": "shopify:\/\/apps\/zepto-product-personalizer\/blocks\/product_personalizer_page\/7411210d-7b32-4c09-9455-e129e3be4729",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "vendor": {
           "type": "text",
           "disabled": true,
@@ -31,6 +25,18 @@
           "type": "description",
           "disabled": true,
           "settings": {
+          }
+        },
+        "5da4a365-03d3-42b0-9334-ca391f31e7b2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<button class=\"solid_cta \n  right_cta\">Upload Your Own Image<\/button>"
+          }
+        },
+        "9d3b1100-ae1c-4e44-a8f8-9f7d97542567": {
+          "type": "shopify:\/\/apps\/zepto-product-personalizer\/blocks\/product_personalizer_page\/7411210d-7b32-4c09-9455-e129e3be4729",
+          "settings": {
+            "product": "{{product}}"
           }
         },
         "buy_buttons": {
@@ -81,11 +87,12 @@
         }
       },
       "block_order": [
-        "9d3b1100-ae1c-4e44-a8f8-9f7d97542567",
         "vendor",
         "title",
         "price",
         "description",
+        "5da4a365-03d3-42b0-9334-ca391f31e7b2",
+        "9d3b1100-ae1c-4e44-a8f8-9f7d97542567",
         "buy_buttons",
         "aaa3fa8f-3384-4158-9ff9-102f6d8f2bde",
         "d3daa43f-ebc5-475f-bc25-2477064097ab",
@@ -123,7 +130,7 @@
         "showMoreCheckbox": false,
         "showMoreCheckbox2": false,
         "CtaText": "Show More",
-        "CtaText2": "Explore More Arts",
+        "CtaText2": "Explore More Art",
         "linkSolid": "",
         "products_to_show": 16,
         "columns_desktop": 5,
@@ -260,6 +267,7 @@
         "4ff557f3-187f-4d7a-8241-cb9c488df829",
         "1e6c0af7-bb09-4a4a-903d-a25544b8f812"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Frequently asked questions"
       }

@@ -85,7 +85,7 @@
         "showMoreCheckbox": false,
         "showMoreCheckbox2": false,
         "CtaText": "Show More",
-        "CtaText2": "Explore More Arts",
+        "CtaText2": "Explore More Art",
         "linkSolid": "",
         "products_to_show": 16,
         "columns_desktop": 5,
@@ -222,6 +222,7 @@
         "4ff557f3-187f-4d7a-8241-cb9c488df829",
         "1e6c0af7-bb09-4a4a-903d-a25544b8f812"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Frequently asked questions"
       }

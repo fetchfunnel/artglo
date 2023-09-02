@@ -1,5 +1,19 @@
 <style>
-
+.product-form__buttons.disabled .tmb_product_btn {
+    background: #D3D3D3;
+    pointer-events: none;
+    margin: 0;
+    border: transparent;
+}
+.product-form__buttons.disabled {
+    cursor: not-allowed;
+}
+button.solid_cta.right_cta {
+    margin-bottom: 12px;
+}
+.tmb_feature_on_buy {
+    margin-top: 12px;
+}
 .product__info-wrapper.tmb_product_info_wrapper.grid__item.scroll-trigger.animate--slide-in{
     width: 100% !important; 
     max-width: calc(100% - 640px) !important;
@@ -64,13 +78,13 @@ box-shadow: 0px 34.9444465637207px 58.24074172973633px 17.47222328186035px rgba(
 backdrop-filter: blur(8.736111640930176px);
 padding:16px 17.50px 14px;
 }
-.tmb-cta--modifier {
+/* .tmb-cta--modifier {
     position: absolute;
     z-index: 99;
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
-}
+}*/
 input.pplr_monogram.fileupload.cstmfy_c_required {
     display: none;
 }
@@ -91,9 +105,9 @@ img#imagePreview {
     padding: 10px;
     cursor:pointer;
 }
-.hide-cta {
+{% comment %} .hide-cta {
     display: none;
-}
+} {% endcomment %}
 @media(max-width:1024px){
   .personalize-banner.tmb_product_grid {
     flex-direction: column;
@@ -209,118 +223,11 @@ img#imagePreview {
                  {%- when '@app' -%}
                  
                    {% render block %}
-                   <button class="solid_cta tmb-cta--modifier hide-cta">Upload Your Own Image</button>
+                   {% comment %} <button class="solid_cta tmb-cta--modifier hide-cta">Upload Your Own Image</button> {% endcomment %}
                  
                {% endcase %}
                 {% endfor %}
-                <script>
-                  
-                  
-                  
-                 
-                  let myInterval = setInterval(function () {
-                       let uploadCta = document?.querySelector(".tmb-cta--modifier");
-                       let uploadWithImage = document?.querySelector("#imagePreview");
-                      let fileupload = document?.querySelector(".fileupload")
-                       if(uploadWithImage && fileupload){
-                          //*************************************//
-                            // init stage
-                          //*************************************//
-
-                          [uploadCta,uploadWithImage].forEach((elem)=>{
-                             console.log(elem)
-                            elem.addEventListener("click",()=>{
-                             if(fileupload.value){
-                               let pplr_modify = document?.querySelector("a.pplr_modify")
-                               if(pplr_modify) {
-                                 pplr_modify.click();
-                                 uploadCta.classList.add("hide-cta");
-                                 let imagePreview = document?.querySelector("#imagePreview");
-                                 imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
-                                 }
-                               else {
-                                 fileupload.click();
-                                 deleteInit()
-                               }
-                               return;
-                             }
-                             fileupload.click();
-                            })
-                          })
-
-
-                          
-                          
-                          //*************************************//
-                            // when user upload the image then change button text
-                          //*************************************//
-                          
-                          fileupload.addEventListener("change",()=>{
-                            
-                             
-                              setTimeout(()=>{
-                                uploadCta.classList.remove("hide-cta");
-                                 uploadCta.innerText= 'Change or Edit Uploaded image';
-                             
-                                let pplr_img = document?.querySelector(".pplr_img");
-                                let pplImgAttr = pplr_img.getAttribute("href");
-                                
-                                let imagePreview = document?.querySelector("#imagePreview");
-                                imagePreview.src = pplImgAttr;
-                                
-                                console.log(pplImgAttr)
-                              },2000);
-                             deleteInit()
-                          })
-                          function deleteInit(){
-                            let tt = setInterval(()=>{
-                              console.log('init')
-                              let pplr_delete = document?.querySelector("a.pplr_delete")
-                              let pplr_delete1 = document?.querySelector("a.js-modal-close.pplr_close.p_r_d")
-                              
-                             
-                              
-                              
-                              
-                                 if(pplr_delete){
-                                  pplr_delete.addEventListener("click",()=>{
-                                      uploadCta.classList.add("hide-cta");
-                                     uploadCta.innerText= 'Upload Your Own Image';
-                                     let imagePreview = document?.querySelector("#imagePreview");
-                                      imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
-                                  })
-                                   clearInterval(tt);
-                                 }
-                                 
-                                 if(pplr_delete1){
-                                  pplr_delete1.addEventListener("click",()=>{
-                                  uploadCta.classList.add("hide-cta");
-                                     uploadCta.innerText= 'Upload Your Own Image';
-                                     let imagePreview = document?.querySelector("#imagePreview");
-                                     imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
-                                  })
-                                   clearInterval(tt);
-                                 }
-                              
-                            },1000)
-                          }
-                          
-                          //*************************************//
-                            // init stage
-                          //*************************************//
-                            clearInterval(myInterval);
-
-                       }
-                   
-
-                  }, 1000);
-               
-               
-               
-
                 
-               
-                </script>
                   <img id="imagePreview" src="{{ product.featured_image | img_url:"master" }}">
             
               </div>
@@ -329,6 +236,7 @@ img#imagePreview {
  </div>
 
           </div>
+          
     <div class="product__info-wrapper  tmb_product_info_wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <product-info
         id="ProductInfo-{{ section.id }}"
@@ -455,7 +363,7 @@ img#imagePreview {
                           <path d="M9.45027 15.7004L18.5253 6.62539C18.6764 6.47539 18.8558 6.40039 19.0636 6.40039C19.2714 6.40039 19.4503 6.47583 19.6003 6.62672C19.7503 6.77758 19.8253 6.95675 19.8253 7.16422C19.8253 7.37167 19.7503 7.55039 19.6003 7.70039L9.97527 17.3254C9.82527 17.4754 9.65027 17.5504 9.45027 17.5504C9.25027 17.5504 9.07527 17.4754 8.92527 17.3254L4.37527 12.7754C4.22527 12.6243 4.15443 12.4448 4.16277 12.2371C4.1711 12.0293 4.25071 11.8504 4.40159 11.7004C4.55246 11.5504 4.73163 11.4754 4.93909 11.4754C5.14654 11.4754 5.32527 11.5504 5.47527 11.7004L9.45027 15.7004Z" fill="white"/>
                       </svg>
                   </span>
-                  <span class="">2 Years Warranty</span>
+                  <span class="">1 Years Warranty</span>
               </li>
               <li class="tmb_product_feature_item">
                   <span>
@@ -1122,12 +1030,136 @@ img#imagePreview {
         {%- endfor -%}
       ]
     }
+
+                                                 
   </script>
 </div>
    {% render "sticky_offer_header", product:product %}     
 
 </section>
 
+        <script>
+          let templateName = '{{ template.suffix }}';
+          let cartCta = document?.querySelector(".product-form__buttons");
+          if(templateName == 'personalization-with-image'){
+            cartCta.classList.add("disabled");
+          }
+
+
+   
+                  let myInterval = setInterval(function () {
+                       let uploadCta = document?.querySelector(".right_cta");
+                       
+                       
+                       let uploadWithImage = document?.querySelector("#imagePreview");
+                      let fileupload = document?.querySelector(".fileupload")
+                       if(uploadWithImage && fileupload){
+                         
+                          //*************************************//
+                            // init stage
+                          //*************************************//
+
+                          [uploadCta,uploadWithImage].forEach((elem)=>{
+                             
+                            elem.addEventListener("click",()=>{
+                             if(fileupload.value){
+                               let pplr_modify = document?.querySelector("a.pplr_modify")
+                               if(pplr_modify) {
+                                 pplr_modify.click();
+                                 uploadCta.classList.add("hide-cta");
+                                 cartCta.classList.remove("disabled");
+                                 let imagePreview = document?.querySelector("#imagePreview");
+                                 imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
+                                 }
+                               else {
+                                 fileupload.click();
+                                 deleteInit()
+                               }
+                               return;
+                             }
+                             fileupload.click();
+                            })
+                          })
+
+
+                          
+                          
+                          //*************************************//
+                            // when user upload the image then change button text
+                          //*************************************//
+                          
+                          fileupload.addEventListener("change",()=>{
+                            
+                             
+                              setTimeout(()=>{
+                                uploadCta.classList.remove("hide-cta");
+                                 uploadCta.innerText= 'Change or Edit Uploaded image';
+                                 cartCta.classList.remove("disabled");
+                                let pplr_img = document?.querySelector(".pplr_img");
+                                let pplImgAttr = pplr_img.getAttribute("href");
+                                
+                                let imagePreview = document?.querySelector("#imagePreview");
+                                imagePreview.src = pplImgAttr;
+                                
+                                
+                              },2000);
+                             deleteInit()
+                          })
+                          function deleteInit(){
+                            let tt = setInterval(()=>{
+                              console.log('init')
+                              let pplr_delete = document?.querySelector("a.pplr_delete")
+                              let pplr_delete1 = document?.querySelector("a.js-modal-close.pplr_close.p_r_d")
+                              
+                             
+                              
+                              
+                              
+                                 if(pplr_delete){
+                                  pplr_delete.addEventListener("click",()=>{
+                                      uploadCta.classList.add("hide-cta");
+                                      cartCta.classList.add("disabled");
+                                     uploadCta.innerText= 'Upload Your Own Image';
+                                     let imagePreview = document?.querySelector("#imagePreview");
+                                      imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
+                                  })
+                                   clearInterval(tt);
+                                 }
+                                 
+                                 if(pplr_delete1){
+                                  pplr_delete1.addEventListener("click",()=>{
+                                  uploadCta.classList.add("hide-cta");
+                                    cartCta.classList.add("disabled");
+                                     uploadCta.innerText= 'Upload Your Own Image';
+                                     let imagePreview = document?.querySelector("#imagePreview");
+                                     imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
+                                  })
+                                   clearInterval(tt);
+                                 }
+                              
+                            },1000)
+                          }
+                          
+                          //*************************************//
+                            // init stage
+                          //*************************************//
+                            clearInterval(myInterval);
+
+                       }
+                   
+
+                  }, 1000);
+               
+               
+               
+
+                
+
+
+          
+        </script>
+
+        
 {% schema %}
 {
   "name": "t:sections.main-product.name",

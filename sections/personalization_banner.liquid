@@ -214,12 +214,17 @@ img#imagePreview {
                {% endcase %}
                 {% endfor %}
                 <script>
-                  
+                  let templateName = '{{ template.suffix }}';
+                  if(templateName){
+                    let cartCta = document.querySelector(".tmb_product_btn");
+                    cartCta.classList.add("disabled");
+                  }
                   
                   
                  
                   let myInterval = setInterval(function () {
                        let uploadCta = document?.querySelector(".right_cta");
+                       
                        
                        let uploadWithImage = document?.querySelector("#imagePreview");
                       let fileupload = document?.querySelector(".fileupload")

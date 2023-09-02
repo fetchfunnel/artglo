@@ -647,6 +647,10 @@ line-height: normal;
   .grid.product-grid.contains-card.contains-card--product {
     gap: 10px;
   }
+  .tmb_rich_title{
+    font-size:26px;
+    letter-spacing:0;
+  }
 }
 
 @media screen and (max-width: 991px) {

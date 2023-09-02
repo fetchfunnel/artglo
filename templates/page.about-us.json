@@ -15,7 +15,8 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-2.png",
-            "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.<br\/><\/p>",
+            "storyTitle": "Our Story: Illuminating the World of Art",
+            "description": "<p>ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.<br\/><br\/>Our journey began with a simple idea: What if outdoor art could be more than just your grandma’s garden gnome? What if it could come to life, captivating your senses and creating immersive experiences? That's where illumination became our muse, and ArtGlo was born.<\/p>",
             "button_show": false,
             "button_link": ""
           }
@@ -24,6 +25,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/dog-img.png",
+            "storyTitle": "",
             "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.<br\/><\/p>",
             "button_show": false,
             "button_link": ""
@@ -33,6 +35,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/about-big-img.png",
+            "storyTitle": "",
             "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<\/p>",
             "button_show": false,
             "button_link": ""
@@ -42,6 +45,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-2.png",
+            "storyTitle": "",
             "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout <\/p>",
             "button_show": true,
             "button_link": "shopify:\/\/collections"

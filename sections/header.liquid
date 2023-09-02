@@ -692,13 +692,12 @@
       oldValue = window.scrollY;
       header.setAttribute("style", "top: -100%;");
       header.classList.remove("with-bg");
-      console.log(window.scrollY,"=====")
-    }else if(window.scrollY === 0){
+    }else if(window.scrollY == 0){
       header.classList.remove("with-bg");
       header.setAttribute("style", `top: ${utilityBarHeight}px;`);
     } 
     else {
-      oldValue = window.scrollY;
+      // oldValue = window.scrollY;
       header.setAttribute("style", `top:0px;`);
       header.classList.add("with-bg");
     }

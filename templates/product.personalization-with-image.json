@@ -30,7 +30,7 @@
         "5da4a365-03d3-42b0-9334-ca391f31e7b2": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button class=\"solid_cta \n tmb-cta--modifier\">Upload Your Own Image<\/button>"
+            "custom_liquid": "<button class=\"solid_cta \n  right_cta\">Upload Your Own Image<\/button>"
           }
         },
         "9d3b1100-ae1c-4e44-a8f8-9f7d97542567": {

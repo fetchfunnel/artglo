@@ -44,7 +44,7 @@
               </p>
             {%- when 'text' -%}
               <div
-                class="rich-text__text rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="rich-text__text tmb_rich_para rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -56,8 +56,6 @@
 
 
 
-
-                sdfl
               </div>
             {%- when 'button' -%}
               <div
@@ -87,7 +85,7 @@
                     {% else %}
                       href="{{ block.settings.button_link_2 }}"
                     {% endif %}
-                    class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                    class="button{% if block.settings.button_style_secondary_2 %}solid_cta button--secondary{% else %} button--primary{% endif %}"
                   >
                     {{- block.settings.button_label_2 | escape -}}
                   </a>

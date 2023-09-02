@@ -158,7 +158,7 @@ font-size: 20px;
                {% endfor %}
           </div>
           <div class="tmb_grid_image">
-            <img src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/story1.png?v=1693655309" alt="Image of story" width="" height="" loading="lazy" />
+            <img src="{{ section.settings.uppreImage }}" alt="Image of story" width="" height="" loading="lazy" />
           </div>
         
         </div>
@@ -195,23 +195,13 @@ font-size: 20px;
 "settings": [
 {
 "type": "image_picker",
-"id": "image",
-"label": "Logo"
+"id": "uppreImage",
+"label": "Upper Story Image"
 },
 {
 "type": "textarea",
 "id": "title",
 "label": "heading"
-},
-{
-"type": "range",
-"id": "fullwidthsection",
-"min": 1,
-"max": 8,
-"step": 1,
-"unit": "px",
-"label": "Set number for full width section",
-"default": 3
 }
 ],
 "blocks": [

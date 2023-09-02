@@ -559,7 +559,7 @@ font-style: normal;
 font-weight: 450;
 line-height: normal;
 }
-.tmb_rich_btn{
+.tmb_rich_btn.solid_cta{
   max-width:317px;
 }
 

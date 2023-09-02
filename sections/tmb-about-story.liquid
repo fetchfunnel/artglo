@@ -158,7 +158,7 @@ font-size: 20px;
                {% endfor %}
           </div>
           <div class="tmb_grid_image">
-            <img src="{{ section.settings.uppreImage }}" alt="Image of story" width="" height="" loading="lazy" />
+            <img src="{{ section.settings.uppreImage | image_url}}" alt="Image of story" width="" height="" loading="lazy" />
           </div>
         
         </div>
@@ -166,7 +166,7 @@ font-size: 20px;
 
         <div class="tmb_story_grid_two">
           <div class="tmb_grid_image tmb_grid_image2">
-            <img src="{{ section.settings.lowerImage }}" alt="Image of story" width="" height="" loading="lazy" />
+            <img src="{{ section.settings.lowerImage | image_url }}" alt="Image of story" width="" height="" loading="lazy" />
           </div>
           <div class="tmb_story_grid_one_content tmb_story_two">
             <div class="tmb_story_content_two">

@@ -362,6 +362,9 @@ ul .tmb_product_description_list:last-child {
   width: 100%;
   /* margin: 11px 0 16px; */
 }
+.tmb_feature_on_buy{
+  margin-top: 11px ; 
+}
 .button:after {
   box-shadow: none;
 }

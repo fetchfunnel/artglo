@@ -56,6 +56,7 @@
 .article-template header {
   margin-top: 4.4rem;
   margin-bottom: 2rem;
+  margin-inline: auto;
   line-height: calc(0.8 / var(--font-body-scale));
 }
 

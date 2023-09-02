@@ -4,8 +4,8 @@
       "type": "tmb_about_banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/about_banner_bg.png",
-        "heading": "We're in business to help you thrive",
-        "page_description": "a azuki bean corn fava bean mustard tigernut jï¿½cama green bean celtuce collard greens avocado quandong fennel        gumbo black-eyed pea. Grape silver beet watercress potato tigernut corn groundnut."
+        "heading": "Welcome to ArtGlo, where art meets illumination, and creativity knows no bounds",
+        "page_description": " We're more than just an online store! We're a community of artists, dreamers, and visionaries who believe that art has the power to transform outdoor spaces, ignite imaginations, and create memorable moments."
       }
     },
     "tmb-about-story": {
@@ -15,6 +15,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-2.png",
+            "storyTitle": "",
             "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.<br\/><\/p>",
             "button_show": false,
             "button_link": ""
@@ -24,6 +25,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/dog-img.png",
+            "storyTitle": "",
             "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.<br\/><\/p>",
             "button_show": false,
             "button_link": ""
@@ -33,6 +35,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/about-big-img.png",
+            "storyTitle": "",
             "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<\/p>",
             "button_show": false,
             "button_link": ""
@@ -42,6 +45,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-2.png",
+            "storyTitle": "",
             "description": "<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.<br\/><br\/>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout <\/p>",
             "button_show": true,
             "button_link": "shopify:\/\/collections"
@@ -54,6 +58,7 @@
         "11d1cef4-6d12-45cb-b5d1-16d1e4f95939",
         "ae43ed87-3b81-49f2-b9f5-db87086e8f90"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/artglo-logo_c0e412fc-6378-435a-a982-c2f4c122f8b8.png",
         "title": "Our story is your story. You want to do good work. You're motivated by mission and purpose. And you want your work to make a difference. We want the same thing.",

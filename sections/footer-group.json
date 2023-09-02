@@ -1,1 +1,61 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"2b4e78ff-0305-4ae2-9b32-b99f1e826c9b":{"type":"brand_information","settings":{"show_social":true}},"69b921e5-6f3b-4aca-99e3-7f86a2056de5":{"type":"link_list","settings":{"heading":"Company","menu":"footer"}},"381a5f7a-d0f4-4d72-aa20-69b8a02708e0":{"type":"link_list","settings":{"heading":"Customer Support","menu":"support"}},"238ce4b4-aa1c-4623-b4e1-49ccc2eb5736":{"type":"link_list","settings":{"heading":"Learn more","menu":"community"}}},"block_order":["2b4e78ff-0305-4ae2-9b32-b99f1e826c9b","69b921e5-6f3b-4aca-99e3-7f86a2056de5","381a5f7a-d0f4-4d72-aa20-69b8a02708e0","238ce4b4-aa1c-4623-b4e1-49ccc2eb5736"],"settings":{"color_scheme":"background-1","newsletter_enable":false,"newsletter_heading":"Subcribe to get 20% off your Artglo when we launch.","enable_follow_on_shop":false,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":false,"show_policy":true,"margin_top":0,"padding_top":60,"padding_bottom":60}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "2b4e78ff-0305-4ae2-9b32-b99f1e826c9b": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "69b921e5-6f3b-4aca-99e3-7f86a2056de5": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Company",
+            "menu": "footer"
+          }
+        },
+        "381a5f7a-d0f4-4d72-aa20-69b8a02708e0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Customer Support",
+            "menu": "support"
+          }
+        },
+        "238ce4b4-aa1c-4623-b4e1-49ccc2eb5736": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": ""
+          }
+        }
+      },
+      "block_order": [
+        "2b4e78ff-0305-4ae2-9b32-b99f1e826c9b",
+        "69b921e5-6f3b-4aca-99e3-7f86a2056de5",
+        "381a5f7a-d0f4-4d72-aa20-69b8a02708e0",
+        "238ce4b4-aa1c-4623-b4e1-49ccc2eb5736"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subcribe to get 20% off your Artglo when we launch.",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

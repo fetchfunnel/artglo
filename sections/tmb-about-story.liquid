@@ -173,13 +173,15 @@ font-size: 20px;
             <h3 class="story_content_title">{{ section.settings.lowerTitle }}</h3>
             <div class="story_contents">
              {% for block in section.blocks %}
-              
+              {% if block.type == 'lower_block' %}
+
               <div class="story_contents_wrapper">
                 <h4 class="story_content_subtitle"> {{ block.settings.lowerSubTitle }}</h4>
                 <p class="story_description">
                   {{ block.settings.lowerDescription }}
                </p>
               </div>
+                {% endif %}
                {% endfor %}
               
           </div>
@@ -222,24 +224,40 @@ font-size: 20px;
 ],
 "blocks": [
 {
- "name": "Slide",
- "type": "slide",
- "limit" : 8,
+"name": "Left Content",
+"type": "block",
+ "limit" : 2,
  "settings": [
 
     {
-    "type": "text",
+    "type": "textarea",
     "id": "storyTitle1",
-    "label": "Description Title"
+    "label": "Left Description Title"
   },
   {
     "type": "richtext",
     "id": "description1",
-    "label": "Description"
+    "label": "Left Description"
   }
  
  ]
-}
+},
+  {
+      "name": "lower Content",
+      "type": "lower_block",
+      "settings": [
+        {
+          "type": "text",
+          "label": "lower SubTitle",
+          "id": "lowerSubTitle"
+        },
+        {
+          "type": "textarea",
+          "label": "Upper Description",
+          "id": "lowerDescription"
+        }
+      ]
+    }
 ]
 }
 {% endschema %}

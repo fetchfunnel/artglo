@@ -692,6 +692,7 @@
       oldValue = window.scrollY;
       header.setAttribute("style", "top: -100%;");
       header.classList.remove("with-bg");
+      console.log(window.scrollY,"=====")
     }else if(window.scrollY == 0){
       header.classList.remove("with-bg");
       header.setAttribute("style", `top: ${utilityBarHeight}px;`);

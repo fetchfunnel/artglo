@@ -214,11 +214,7 @@ img#imagePreview {
                {% endcase %}
                 {% endfor %}
                 <script>
-                  let templateName = '{{ template.suffix }}';
-                  if(templateName){
-                    let cartCta = document.querySelector(".tmb_product_btn");
-                    cartCta.classList.add("disabled");
-                  }
+                  
                   
                   
                  
@@ -1129,12 +1125,23 @@ img#imagePreview {
         {%- endfor -%}
       ]
     }
+
+                                                 
   </script>
 </div>
    {% render "sticky_offer_header", product:product %}     
 
 </section>
 
+        <script>
+          let templateName = '{{ template.suffix }}';
+          if(templateName == 'personalization-with-image'){
+            let cartCta = document.querySelector(".tmb_product_btn");
+            cartCta.classList.add("disabled");
+          }
+        </script>
+
+        
 {% schema %}
 {
   "name": "t:sections.main-product.name",

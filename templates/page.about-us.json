@@ -10,10 +10,23 @@
     },
     "tmb-about-story": {
       "type": "tmb-about-story",
+      "blocks": {
+        "9e63677a-a2cb-4385-9abd-f560fa9de89d": {
+          "type": "slide",
+          "settings": {
+            "storyTitle1": "",
+            "description1": ""
+          }
+        }
+      },
+      "block_order": [
+        "9e63677a-a2cb-4385-9abd-f560fa9de89d"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/artglo-logo_c0e412fc-6378-435a-a982-c2f4c122f8b8.png",
-        "title": "Our story is your story. You want to do good work. You're motivated by mission and purpose. And you want your work to make a difference. We want the same thing.",
-        "fullwidthsection": 3
+        "uppreImage": "shopify:\/\/shop_images\/story1.png",
+        "lowerImage": "shopify:\/\/shop_images\/story2.png",
+        "lowerTitle": "Why Choose ArtGlo: Your Creative Partner",
+        "title": ""
       }
     },
     "fb5a9969-af3f-41a9-bea7-53df5fc5ae56": {

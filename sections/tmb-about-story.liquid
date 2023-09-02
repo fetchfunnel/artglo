@@ -159,12 +159,14 @@
             
             
              {% for block in section.blocks %}
+               {% if block.type == 'upper_block' %}
             <div class="tmb_stroy_content_one">
             <h3 class="story_content_title">{{ block.settings.storyTitle1 }} </h3>
             <p class="story_description">
                {{ block.settings.description1 }}
               </p>
             </div>
+                {% endif %}
 
                {% endfor %}
           </div>

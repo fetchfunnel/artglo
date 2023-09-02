@@ -33,6 +33,7 @@
         },
         "11d1cef4-6d12-45cb-b5d1-16d1e4f95939": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/about-big-img.png",
             "storyTitle": "",
@@ -43,6 +44,7 @@
         },
         "ae43ed87-3b81-49f2-b9f5-db87086e8f90": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-2.png",
             "storyTitle": "",
@@ -50,23 +52,125 @@
             "button_show": true,
             "button_link": "shopify:\/\/collections"
           }
+        },
+        "0b2bcfab-7e27-46f7-89f7-161339f761a2": {
+          "type": "slide",
+          "settings": {
+            "storyTitle": "",
+            "description": "",
+            "button_show": false,
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "a807f535-a6e0-4d95-ab11-fb009171db51",
         "fc141cf9-5ab6-4bb1-94fc-34ef91d10f53",
         "11d1cef4-6d12-45cb-b5d1-16d1e4f95939",
-        "ae43ed87-3b81-49f2-b9f5-db87086e8f90"
+        "ae43ed87-3b81-49f2-b9f5-db87086e8f90",
+        "0b2bcfab-7e27-46f7-89f7-161339f761a2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/artglo-logo_c0e412fc-6378-435a-a982-c2f4c122f8b8.png",
         "title": "Our story is your story. You want to do good work. You're motivated by mission and purpose. And you want your work to make a difference. We want the same thing.",
         "fullwidthsection": 3
       }
+    },
+    "7512f724-04a3-4533-81a2-4a8f64800878": {
+      "type": "image-banner",
+      "blocks": {
+        "template--20833758970166__7512f724-04a3-4533-81a2-4a8f64800878-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--20833758970166__7512f724-04a3-4533-81a2-4a8f64800878-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--20833758970166__7512f724-04a3-4533-81a2-4a8f64800878-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20833758970166__7512f724-04a3-4533-81a2-4a8f64800878-heading-1",
+        "template--20833758970166__7512f724-04a3-4533-81a2-4a8f64800878-text-1",
+        "template--20833758970166__7512f724-04a3-4533-81a2-4a8f64800878-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "68f0a65d-2a7a-4716-835f-c0207ccf6b04": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20833758970166__68f0a65d-2a7a-4716-835f-c0207ccf6b04-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Let's Create Together: Your Artistic Journey Awaits",
+            "heading_size": "h1"
+          }
+        },
+        "template--20833758970166__68f0a65d-2a7a-4716-835f-c0207ccf6b04-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're here to explore, shop, or share your creations, ArtGlo is your canvas. Let your imagination run wild, discover new horizons of creativity, and illuminate your world with art that speaks to your soul.<\/p><p><\/p><p>Join us in celebrating the beauty of art, the power of expression, and the magic of illumination. Your artistic journey starts here, and we can't wait to be a part of it.<\/p>"
+          }
+        },
+        "template--20833758970166__68f0a65d-2a7a-4716-835f-c0207ccf6b04-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Your Unique Art",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20833758970166__68f0a65d-2a7a-4716-835f-c0207ccf6b04-heading-1",
+        "template--20833758970166__68f0a65d-2a7a-4716-835f-c0207ccf6b04-text-1",
+        "template--20833758970166__68f0a65d-2a7a-4716-835f-c0207ccf6b04-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "tmb_about_banner",
-    "tmb-about-story"
+    "tmb-about-story",
+    "7512f724-04a3-4533-81a2-4a8f64800878",
+    "68f0a65d-2a7a-4716-835f-c0207ccf6b04"
   ]
 }

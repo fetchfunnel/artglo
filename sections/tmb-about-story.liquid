@@ -185,6 +185,7 @@
 </style>
 <section class="tmb_story_section tmb_about_section">
   <div class="tmb_container">
+    {% comment %}
     <div class="tmb_story_brief">
       {% if section.settings.image != blank %}
         <span class="tmb_story_logo block">
@@ -199,6 +200,7 @@
         <P class="tmb_story_brief_text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.title }} </P>
       {% endif %}
     </div>
+     {% endcomment %}
 
     {% assign fullWidthNum = section.settings.fullwidthsection %}
 

@@ -18,9 +18,9 @@
                 class="header__menu-item list-menu__item list-menu-main-link link focus-inset"
               >
                 <span >
-                <a href="{{ link.url }}"
+                <a href="{{ link.url }}"  class="list-menu__item"
                   {%- if link.child_active %}
-                    class="list-menu__item "
+                    class="header__active-menu-item "
                   {% endif %}
                 >
                   {{- link.title | escape -}}

@@ -45,6 +45,20 @@
             "lowerSubTitle": "Endless Possibilities",
             "lowerDescription": "ArtGlo offers you the freedom to customize your art like never before. With interchangeable prints, you can refresh your space seasonally, for special occasions, or simply to reflect your evolving style."
           }
+        },
+        "2d163137-3039-462e-abca-49e353bf0b4f": {
+          "type": "lower_block",
+          "settings": {
+            "lowerSubTitle": "Community and Inspiration",
+            "lowerDescription": "Join a thriving community of art enthusiasts, gain inspiration from fellow artists, and showcase your creations. ArtGlo is more than a store; it's a platform for self-expression and connection."
+          }
+        },
+        "7597fc6d-ab99-4a39-97e9-bb6cbfc0a394": {
+          "type": "lower_block",
+          "settings": {
+            "lowerSubTitle": "Quality and Craftsmanship",
+            "lowerDescription": "We take pride in the quality of our products. Each piece is meticulously crafted in the USA, ensuring durability, longevity, and a touch of artistic finesse."
+          }
         }
       },
       "block_order": [
@@ -52,7 +66,9 @@
         "f7527f56-a15f-439a-95c3-13bef0be0a69",
         "40d6dbc6-55f9-49b9-ba8f-d67f7781c38f",
         "75aba93d-13ea-4ea2-9935-3a3b3e88ac9a",
-        "bf17a907-76c5-415d-90be-d2a777c3babc"
+        "bf17a907-76c5-415d-90be-d2a777c3babc",
+        "2d163137-3039-462e-abca-49e353bf0b4f",
+        "7597fc6d-ab99-4a39-97e9-bb6cbfc0a394"
       ],
       "settings": {
         "uppreImage": "shopify:\/\/shop_images\/story1.png",

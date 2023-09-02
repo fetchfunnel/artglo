@@ -170,12 +170,18 @@ font-size: 20px;
           </div>
           <div class="tmb_story_grid_one_content tmb_story_two">
             <div class="tmb_story_content_two">
-            <h3 class="story_content_title">Our Story: Illuminating the World of Art</h3>
+            <h3 class="story_content_title">{{ section.settings.lowerTitle }}</h3>
             <div class="story_contents">
+             {% for block in section.blocks %}
+              
               <div class="story_contents_wrapper">
-              <h4 class="story_content_subtitle"> Innovative Illumination</h4>
-              <p class="story_description">We've merged art and technology to create illuminated masterpieces that shine life into your space. Our illuminated art pieces use energy-efficient lighting to add a touch of magic to your surroundings.</p>
-            </div>
+                <h4 class="story_content_subtitle"> {{ block.settings.lowerSubTitle }}</h4>
+                <p class="story_description">
+                  {{ block.settings.lowerDescription }}
+               </p>
+              </div>
+               {% endfor %}
+              
           </div>
             </div>
           </div>
@@ -202,6 +208,11 @@ font-size: 20px;
 "type": "image_picker",
 "id": "lowerImage",
 "label": "Lower Story Image"
+},
+  {
+"type": "text",
+"id": "lowerTitle",
+"label": "Upper Story Title"
 },
 {
 "type": "textarea",

@@ -11,20 +11,6 @@
     "tmb-about-story": {
       "type": "tmb-about-story",
       "blocks": {
-        "5c87dfb0-3f3e-4024-bfd8-19cb1d7887d8": {
-          "type": "block",
-          "settings": {
-            "storyTitle1": "Our Story: Illuminating the World of Art",
-            "description1": "<p>ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.<br\/><br\/>Our journey began with a simple idea: What if outdoor art could be more than just your grandma’s garden gnome? What if it could come to life, captivating your senses and creating immersive experiences? That's where illumination became our muse, and ArtGlo was born.<\/p>"
-          }
-        },
-        "f7527f56-a15f-439a-95c3-13bef0be0a69": {
-          "type": "block",
-          "settings": {
-            "storyTitle1": "Our Mission: Celebrating Creativity and Expression",
-            "description1": "<p>We're committed to showcasing a diverse range of art styles, from classic to contemporary, abstract to realistic, and everything in between. Our collections feature original pieces, curated works from emerging artists, and even AI-generated creations, ensuring there's something for every taste.<\/p>"
-          }
-        },
         "40d6dbc6-55f9-49b9-ba8f-d67f7781c38f": {
           "type": "lower_block",
           "settings": {
@@ -52,15 +38,29 @@
             "lowerSubTitle": "Quality and Craftsmanship",
             "lowerDescription": "We take pride in the quality of our products. Each piece is meticulously crafted in the USA, ensuring durability, longevity, and a touch of artistic finesse."
           }
+        },
+        "e1e74878-4fb4-4e01-a289-207244a60cd5": {
+          "type": "upper_block",
+          "settings": {
+            "storyTitle1": "Our Story: Illuminating the World of Art",
+            "description1": "<p>ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.<br\/><br\/>Our journey began with a simple idea: What if outdoor art could be more than just your grandma’s garden gnome? What if it could come to life, captivating your senses and creating immersive experiences? That's where illumination became our muse, and ArtGlo was born.<\/p>"
+          }
+        },
+        "5e9ebcd8-95db-47b0-9a4f-bafc86e30a3f": {
+          "type": "upper_block",
+          "settings": {
+            "storyTitle1": "Our Mission: Celebrating Creativity and Expression",
+            "description1": "<p>We're committed to showcasing a diverse range of art styles, from classic to contemporary, abstract to realistic, and everything in between. Our collections feature original pieces, curated works from emerging artists, and even AI-generated creations, ensuring there's something for every taste.<\/p>"
+          }
         }
       },
       "block_order": [
-        "5c87dfb0-3f3e-4024-bfd8-19cb1d7887d8",
-        "f7527f56-a15f-439a-95c3-13bef0be0a69",
         "40d6dbc6-55f9-49b9-ba8f-d67f7781c38f",
         "bf17a907-76c5-415d-90be-d2a777c3babc",
         "2d163137-3039-462e-abca-49e353bf0b4f",
-        "7597fc6d-ab99-4a39-97e9-bb6cbfc0a394"
+        "7597fc6d-ab99-4a39-97e9-bb6cbfc0a394",
+        "e1e74878-4fb4-4e01-a289-207244a60cd5",
+        "5e9ebcd8-95db-47b0-9a4f-bafc86e30a3f"
       ],
       "settings": {
         "uppreImage": "shopify:\/\/shop_images\/story1.png",

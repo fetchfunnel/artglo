@@ -1,297 +1,256 @@
 <style>
-        .tmb_story_section{
-          padding:86px 0 106px;
-        }
-
-        .tmb_story_section::after{
-          content: '';
-          position: absolute;
-          top: 120px;
-          left: -30%;
-          width: 1262.481px;
-          height: 2333.615px;
-          border-radius: 2333.615px;
-          opacity: 0.2;
-          background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(229, 12, 125, 0.90) 0%, rgba(244, 0, 127, 0.00) 100%);
-          backdrop-filter: blur(65px);
-          z-index:-1;
-          }
-
-        .tmb_story_brief {
-                  max-width: 709px;
-                  width: 100%;
-                  margin: 0 auto;
-                  text-align:center;
-                  margin-bottom:64px;
-              }
-
-              .tmb_story_logo img {
-                  margin: 0 auto;
-                max-width:166px;
-                width:100%
-              }
-
-              .tmb_story_brief_text {
-                  margin-top: 24px;
-                  color: #FFF;
-                  text-align: center;
-                  font-family: Circular Std;
-                  font-size: 22px;
-                  font-weight: 400;
-                  line-height: 35.992px;
-              }
-
-              .tmb_story_grid {
-                  display: flex;
-                  gap: 70px;
-                  justify-content: space-between;
-                  align-items: center;
-                  margin-bottom: 80px;
-              }
-
-
-              .tmb_grid_content {
-                  max-width: 645px;
-                  width: 100%;
-              }
-
-              .tmb_grid_content p:not(:first-child) {
-                  margin-top: 25px;
-              }
-
-
-              .tmb_grid_image {
-                  max-width: 515px;
-                  width: 100%;
-                  border-radius: 8.736px;
-                  border: 1.456px solid rgba(255, 221, 64, 0.60);
-                  background: rgba(255, 255, 255, 0.06);
-                  box-shadow: 0px 34.9444465637207px 58.24074172973633px 17.47222328186035px rgba(0, 0, 0, 0.24);
-                  backdrop-filter: blur(8.736111640930176px);
-                  padding: 7px;
-              }
-        .tmb_grid_image img{
-          display:block;
-          height:auto;
-          border-radius: inherit;
-        }
-
-      .story_reverse{
-        flex-direction: row-reverse;
-      }
-
-
-    .about_main_img{
-      background:url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/about-big-img.png?v=1693047990");
-      min-height:390px;
-      margin-bottom:32px;
+    .tmb_story_section {
+        padding: 86px 0 106px;
     }
 
-  .about_main_img::after{
-      content: '';
-      position: absolute;
-      top: 50%;
-      right: -29%;
-      width: 832px;
-      height: 1227px;
-      border-radius: 1227px;
-      opacity: 0.2;
-      background: radial-gradient(50% 50.00% at 50% 50.00%, #E50C7D 0%, rgba(244, 0, 127, 0.00) 100%);
-      backdrop-filter: blur(65px);
-     }
-  
-    .main_img_text{
-        margin-bottom:70px;
+    .tmb_story_section::after {
+        content: '';
+        position: absolute;
+        top: 120px;
+        left: -30%;
+        width: 1262.481px;
+        height: 2333.615px;
+        border-radius: 2333.615px;
+        opacity: 0.2;
+        background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(229, 12, 125, 0.90) 0%, rgba(244, 0, 127, 0.00) 100%);
+        backdrop-filter: blur(65px);
+        z-index: -1;
     }
 
 
-    .about-btn{
-      display:block;
-      max-width:317px;
-      width:100%;
-       margin-top:40px;
+    .tmb_story_grid_one,
+    .tmb_story_grid_two {
+        display: flex;
+        gap: 70px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
     }
-      @media (max-width:1024px){
-         .tmb_grid_image{
-          max-width: 420px;
-          width: 100%;
-        }
-      }
-      @media (max-width:991px){
-        .tmb_story_section{
-                  padding:44px 0 0;
-        }
-         .tmb_grid_image{
-          max-width: 380px;
-           width: 100%;
-        }
-         .tmb_story_brief_text {
-                  font-size: 18px;
-                  line-height: 22px;
-              }
-        .tmb_story_grid{
-            flex-direction: column;
-        }
-        .tmb_grid_content{
-          text-align:center;
-          max-width:100%;
-        }
-        .about_main_img{
-        min-height:340px;
-      }
-        .story-btn{
-        flex-direction: column-reverse;
-        }
 
+.tmb_story_grid_one_content{
+  max-width:694px;
+  width: 100%;
+}
+
+.story_content_title{
+  text-shadow: 0px 0px 27px #FFDD40;
+font-family: Newake;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 133.333% */
+letter-spacing: 1.6px;
+color: #FFDD40;
+margin-bottom:16px;
+}
+
+.story_description{
+  color: #F3F3F3;
+  font-family: Circular Std;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+
+
+    .tmb_grid_image {
+        max-width: 560px;
+        width: 100%;
+        border-radius: 8.736px;
+        border: 1.456px solid rgba(255, 221, 64, 0.60);
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: 0 34.9444465637207px 58.24074172973633px 17.47222328186035px rgba(0, 0, 0, 0.24);
+        backdrop-filter: blur(8.736111640930176px);
+        padding: 7px;
+    }
+    .tmb_grid_image img {
+        display: block;
+        height: auto;
+        border-radius: inherit;
+        width:100%;
+        border-radius: 8.736px;
+    }
+    .tmb_grid_image.tmb_grid_image2{
+      max-width: 515px;
+    }
+
+
+
+    .about_main_img {
+        background: url("https://cdn.shopify.com/s/files/1/0765/0695/6086/files/about-big-img.png?v=1693047990");
+        min-height: 390px;
+        margin-bottom: 32px;
+    }
+
+    .about_main_img::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: -29%;
+        width: 832px;
+        height: 1227px;
+        border-radius: 1227px;
+        opacity: 0.2;
+        background: radial-gradient(50% 50.00% at 50% 50.00%, #E50C7D 0%, rgba(244, 0, 127, 0.00) 100%);
+        backdrop-filter: blur(65px);
+    }
+    .tmb_story_grid_one_content{
+      display:flex;
+      flex-direction: column;
+      gap:32px;
+    }
+    .story_content_subtitle{
+      color: #FFF;
+font-family: Circular Std;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-bottom:8px;
+    }
+    .story_contents{
+    display:flex;
+    gap:24px;
+    flex-direction: column;
   }
-        @media (max-width:750px){
-          /* .tmb_about_banner{
-            padding:86px 0 64px;
-          } */
-          .tmb_story_brief{
-            margin-bottom:61px;
-          }
-          .tmb_story_grid {
-              gap: 32px;
-          }
-          .tmb_grid_image{
-          max-width:462px;
-            width:100%
-        }
-          .tmb_grid_content{
-          text-align:left;
-        }
-        .main_img_text{
-        margin-bottom:48px;
-        }
-        .about-btn{
-          max-width:100%;
-        }
-      }
-        @media (max-width:455px){
-            .tmb_story_grid {
-                  margin-bottom: 48px;
-              }
-          .tmb_grid_image{
-           width: calc(100% + 35px);
-            margin-left: -35px;
-        }
-          .right-overflow{
-            width: calc(100% + 35px);
-            margin-right: -80px;
-          }
+@media (max-width:1100px){
+  .tmb_story_grid_one,
+  .tmb_story_grid_two {
+    display: flex;
+    gap: 20px;
+}
+}
+@media (max-width:991px){
+  .tmb_story_grid_one,
+  .tmb_story_grid_two {
+    flex-direction: column-reverse;
+}
+.story_description{
+  font-size:16px;
+}
+.story_content_title{
+font-size: 20px;
+}
 
-      }
+.tmb_grid_image_one{
+  align-sel:center;
+}
+}
 </style>
 <section class="tmb_story_section tmb_about_section">
-  <div class="tmb_container">
-    <div class="tmb_story_brief">
-      {% if section.settings.image != blank %}
-        <span class="tmb_story_logo block">
-          <img
-            src="{{  section.settings.image | img_url : "master"}}"
-            alt="Image of logo"
-            class="tmb_block"
-          >
-        </span>
-      {% endif %}
-      {% if section.settings.title != blank %}
-        <P class="tmb_story_brief_text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.title }} </P>
-      {% endif %}
-    </div>
-
-    {% assign fullWidthNum = section.settings.fullwidthsection %}
-
-    {% for block in section.blocks %}
-      {% assign mod = forloop.index | modulo: 2 %}
-
-      {% if forloop.index == fullWidthNum %}
-        <div class="about_main_img {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="background-image:url({{ block.settings.image | img_url : "master" }})"></div>
-        <div class="body_text_lg main_img_text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ block.settings.description }}</div>
-      {% else %}
-        <div class="tmb_story_grid {% if block.settings.button_show  %} story-btn{% else %} {% if mod == 0  %} story_reverse {% else %} {% endif %}{% endif %}">
-          <div class="tmb_grid_content {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            <div class="body_text_lg tmb_grid_content_text">
-              {{ block.settings.description }}
+    <div class="tmb_container">
+        <div class="tmb_story_grid_one">
+          <div class="tmb_story_grid_one_content">
+            <div class="tmb_stroy_content_one">
+            <h3 class="story_content_title">Our Story: Illuminating the World of Art</h3>
+            <p class="story_description">
+              ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.
+            </p>
+            <p class="story_description">
+              ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.
+            </p>
             </div>
-
-            {% if block.settings.button_show %}
-              <a href="{{block.settings.button_link}}" class="solid_cta about-btn {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">Get Your Unique Art</a>
-            {% endif %}
+            <div class="tmb_stroy_content_one">
+            <h3 class="story_content_title">Our Story: Illuminating the World of Art</h3>
+            <p class="story_description">
+              ArtGlo was born from a passion for art and a desire to make it accessible to everyone, anywhere, at any time. We understand that art isn't just something you hang on your wall; it's a reflection of your personality, your experiences, and your unique vision.</p>
+            </div>
           </div>
-          <div class="tmb_grid_image {% if mod == 0  %} right-overflow {% endif %} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            <img
-              src="{{ block.settings.image | img_url : "master" }}"
-              width="501"
-              height="370"
-              alt="Image"
-              class="tmb_block"
-            >
+          <div class="tmb_grid_image">
+            <img src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/story1.png?v=1693655309" alt="Image of story" width="" height="" loading="lazy" />
+          </div>
+        
+        </div>
+
+
+        <div class="tmb_story_grid_two">
+          <div class="tmb_grid_image tmb_grid_image2">
+            <img src="https://cdn.shopify.com/s/files/1/0765/0695/6086/files/story1.png?v=1693655309" alt="Image of story" width="" height="" loading="lazy" />
+          </div>
+          <div class="tmb_story_grid_one_content tmb_story_two">
+            <div class="tmb_story_content_two">
+            <h3 class="story_content_title">Our Story: Illuminating the World of Art</h3>
+            <div class="story_contents">
+              <div class="story_contents_wrapper">
+              <h4 class="story_content_subtitle"> Innovative Illumination</h4>
+              <p class="story_description">We've merged art and technology to create illuminated masterpieces that shine life into your space. Our illuminated art pieces use energy-efficient lighting to add a touch of magic to your surroundings.</p>
+            </div>
+          </div>
+            </div>
           </div>
         </div>
-      {% endif %}
-    {% endfor %}
-  </div>
+
+
+        {% for block in section.blocks %}{% endfor %}
+    </div>
 </section>
 
 {% schema %}
 {
-  "name": "Slideshow",
-  "tag": "section",
-  "class": "slideshow",
-  "max_blocks": 5,
-  "settings": [
+"name": "Slideshow",
+"tag": "section",
+"class": "slideshow",
+"max_blocks": 5,
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "Logo"
+},
+{
+"type": "textarea",
+"id": "title",
+"label": "heading"
+},
+{
+"type": "range",
+"id": "fullwidthsection",
+"min": 1,
+"max": 8,
+"step": 1,
+"unit": "px",
+"label": "Set number for full width section",
+"default": 3
+}
+],
+"blocks": [
+{
+ "name": "Slide",
+ "type": "slide",
+ "limit" : 8,
+ "settings": [
+   {
+     "type": "image_picker",
+     "id": "image",
+     "label": "Image"
+   },
     {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Logo"
-    },
-    {
-      "type": "textarea",
-      "id": "title",
-      "label": "heading"
-    },
-    {
-      "type": "range",
-      "id": "fullwidthsection",
-      "min": 1,
-      "max": 8,
-      "step": 1,
-      "unit": "px",
-      "label": "Set number for full width section",
-      "default": 3
+    "type": "text",
+    "id": "storyTitle",
+    "label": "Description Title"
+  },
+  {
+    "type": "richtext",
+    "id": "description",
+    "label": "Description"
+  },
+  {
+    "type": "checkbox",
+    "id": "button_show",
+    "label": "Button Show/Hide",
+    "default": false
+  },
+   {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
     }
-  ],
-  "blocks": [
-     {
-       "name": "Slide",
-       "type": "slide",
-       "limit" : 8,
-       "settings": [
-         {
-           "type": "image_picker",
-           "id": "image",
-           "label": "Image"
-         },
-        {
-          "type": "richtext",
-          "id": "description",
-          "label": "Description"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_show",
-          "label": "Button Show/Hide",
-          "default": false
-        },
-         {
-            "type": "url",
-            "id": "button_link",
-            "label": "Button link"
-          }
-       ]
-     }
-   ]
+ ]
+}
+]
 }
 {% endschema %}
 

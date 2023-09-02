@@ -1,4 +1,126 @@
+<style>
 
+.product__info-wrapper.tmb_product_info_wrapper.grid__item.scroll-trigger.animate--slide-in{
+    width: 100% !important; 
+    max-width: calc(100% - 640px) !important;
+}
+.pplr img {
+      visibility: visible !important;
+  }
+  
+
+
+.pplr-wrapper label{
+display:none;
+}
+div#pplr-8672176537910 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+::-webkit-file-upload-button {
+   display: none;
+}
+.fileupload{
+border-radius: 10px;
+border: 2px solid #E50C7D;
+background: rgba(229, 12, 125, 0.80);
+max-width: 432px;
+width:100%;
+position:relative;
+
+}
+.fileupload::after{
+content="abc button";
+position:absolute;
+top:0;
+left:0;
+z-index:3;
+
+
+}
+.avatar-preview {
+    position: relative;
+}
+.jscroll ul {
+float:unset;
+}
+.cp-sel-Photos .pplr_img{
+min-height: 678px;
+    height: 100%;
+    min-width: 577px;
+    width:100%;
+    border-radius: 8.736px;
+}
+
+.cp-sel-Photos li {
+max-width:612px;
+width:100%;
+height:100%;
+border-radius: 8.736px;
+border: 1.456px solid rgba(255, 221, 64, 0.60);
+background: rgba(255, 255, 255, 0.06);
+box-shadow: 0px 34.9444465637207px 58.24074172973633px 17.47222328186035px rgba(0, 0, 0, 0.24);
+backdrop-filter: blur(8.736111640930176px);
+padding:16px 17.50px 14px;
+}
+.tmb-cta--modifier {
+    position: absolute;
+    z-index: 99;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+input.pplr_monogram.fileupload.cstmfy_c_required {
+    display: none;
+}
+li.pplr_img_w{
+  display:none;
+}
+.avatar-preview {
+    text-align: center;
+}
+img#imagePreview {
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    border-radius: 8.736px;
+    border: 1.456px solid rgba(255, 221, 64, 0.60);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0px 34.94445px 58.24074px 17.47222px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(8.736111640930176px);
+    padding: 10px;
+    cursor:pointer;
+}
+{% comment %} .hide-cta {
+    display: none;
+} {% endcomment %}
+@media(max-width:1024px){
+  .personalize-banner.tmb_product_grid {
+    flex-direction: column;
+}
+.product__info-wrapper.tmb_product_info_wrapper.grid__item.scroll-trigger.animate--slide-in{
+    max-width: 100% !important;
+}
+
+  .personalize-banner.product--large:not(.product--no-media) .product__media-wrapper {
+    max-width: 100%;
+    width: 100%;
+}
+  .pplr_preview_wrapper canvas{
+    display:none;
+  }
+  
+.pplr_preview_wrapper, .pplr_preview_final{
+  z-index:0;
+}
+.tmb-cta--modifier{
+  max-width:calc(100% - 32px);
+  font-size: 14px;
+      bottom: 20px;
+}
+}
+
+</style>
 
 
 <section
@@ -82,115 +204,7 @@
             <div class="avatar-upload">
               
               <div class="avatar-preview">
-             
-                <script>
-                  
-                  
-                  
-                 
-                  let myInterval = setInterval(function () {
-                       let uploadCta = document?.querySelector(".tmb-cta--modifier");
-                       let uploadWithImage = document?.querySelector("#imagePreview");
-                      let fileupload = document?.querySelector(".fileupload")
-                       if(uploadWithImage && fileupload){
-                          //*************************************//
-                            // init stage
-                          //*************************************//
-
-                          [uploadCta,uploadWithImage].forEach((elem)=>{
-                             console.log(elem)
-                            elem.addEventListener("click",()=>{
-                             if(fileupload.value){
-                               let pplr_modify = document?.querySelector("a.pplr_modify")
-                               if(pplr_modify) {
-                                 pplr_modify.click();
-                                 uploadCta.classList.add("hide-cta");
-                                 let imagePreview = document?.querySelector("#imagePreview");
-                                 imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
-                                 }
-                               else {
-                                 fileupload.click();
-                                 deleteInit()
-                               }
-                               return;
-                             }
-                             fileupload.click();
-                            })
-                          })
-
-
-                          
-                          
-                          //*************************************//
-                            // when user upload the image then change button text
-                          //*************************************//
-                          
-                          fileupload.addEventListener("change",()=>{
-                            
-                             
-                              setTimeout(()=>{
-                                uploadCta.classList.remove("hide-cta");
-                                 uploadCta.innerText= 'Change or Edit Uploaded image';
-                             
-                                let pplr_img = document?.querySelector(".pplr_img");
-                                let pplImgAttr = pplr_img.getAttribute("href");
-                                
-                                let imagePreview = document?.querySelector("#imagePreview");
-                                imagePreview.src = pplImgAttr;
-                                
-                                console.log(pplImgAttr)
-                              },2000);
-                             deleteInit()
-                          })
-                          function deleteInit(){
-                            let tt = setInterval(()=>{
-                              console.log('init')
-                              let pplr_delete = document?.querySelector("a.pplr_delete")
-                              let pplr_delete1 = document?.querySelector("a.js-modal-close.pplr_close.p_r_d")
-                              
-                             
-                              
-                              
-                              
-                                 if(pplr_delete){
-                                  pplr_delete.addEventListener("click",()=>{
-                                      uploadCta.classList.add("hide-cta");
-                                     uploadCta.innerText= 'Upload Your Own Image';
-                                     let imagePreview = document?.querySelector("#imagePreview");
-                                      imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
-                                  })
-                                   clearInterval(tt);
-                                 }
-                                 
-                                 if(pplr_delete1){
-                                  pplr_delete1.addEventListener("click",()=>{
-                                  uploadCta.classList.add("hide-cta");
-                                     uploadCta.innerText= 'Upload Your Own Image';
-                                     let imagePreview = document?.querySelector("#imagePreview");
-                                     imagePreview.src = '{{ product.featured_image | img_url:"master" }}';
-                                  })
-                                   clearInterval(tt);
-                                 }
-                              
-                            },1000)
-                          }
-                          
-                          //*************************************//
-                            // init stage
-                          //*************************************//
-                            clearInterval(myInterval);
-
-                       }
-                   
-
-                  }, 1000);
-               
-               
-               
-
-                
-               
-                </script>
+          
                   <img id="imagePreview" src="{{ product.featured_image | img_url:"master" }}">
             
               </div>

@@ -224,7 +224,7 @@ letter-spacing: 1.6px;
         <div class="tmb_story_grid {% if block.settings.button_show  %} story-btn{% else %} {% if mod == 0  %} story_reverse {% else %} {% endif %}{% endif %}">
           <div class="tmb_grid_content {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             <div class="body_text_lg tmb_grid_content_text">
-              <h3 class="tmb_stroy_title"> Our Story: Illuminating the World of Art </h3>
+              <h3 class="tmb_stroy_title">  {{ block.settings.storyTitle }} </h3>
               {{ block.settings.description }}
             </div>
 
@@ -286,6 +286,11 @@ letter-spacing: 1.6px;
            "id": "image",
            "label": "Image"
          },
+          {
+          "type": "text",
+          "id": "storyTitle",
+          "label": "Description Title"
+        },
         {
           "type": "richtext",
           "id": "description",

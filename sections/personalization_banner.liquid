@@ -209,7 +209,7 @@ img#imagePreview {
                  {%- when '@app' -%}
                  
                    {% render block %}
-                   <button class="solid_cta tmb-cta--modifier hide-cta">Upload Your Own Image</button>
+                   {% comment %} <button class="solid_cta tmb-cta--modifier hide-cta">Upload Your Own Image</button> {% endcomment %}
                  
                {% endcase %}
                 {% endfor %}

@@ -561,6 +561,7 @@ line-height: normal;
 }
 .tmb_rich_btn.solid_cta{
   max-width:317px;
+  width:100%;
 }
 
 @media screen and (min-width: 750px) {

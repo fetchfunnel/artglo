@@ -24,11 +24,35 @@
             "storyTitle1": "Our Mission: Celebrating Creativity and Expression",
             "description1": "<p>We're committed to showcasing a diverse range of art styles, from classic to contemporary, abstract to realistic, and everything in between. Our collections feature original pieces, curated works from emerging artists, and even AI-generated creations, ensuring there's something for every taste.<\/p>"
           }
+        },
+        "40d6dbc6-55f9-49b9-ba8f-d67f7781c38f": {
+          "type": "lower_block",
+          "settings": {
+            "lowerSubTitle": "Innovative Illumination",
+            "lowerDescription": "We've merged art and technology to create illuminated masterpieces that shine life into your space. Our illuminated art pieces use energy-efficient lighting to add a touch of magic to your surroundings."
+          }
+        },
+        "75aba93d-13ea-4ea2-9935-3a3b3e88ac9a": {
+          "type": "lower_block",
+          "settings": {
+            "lowerSubTitle": "",
+            "lowerDescription": ""
+          }
+        },
+        "bf17a907-76c5-415d-90be-d2a777c3babc": {
+          "type": "lower_block",
+          "settings": {
+            "lowerSubTitle": "",
+            "lowerDescription": ""
+          }
         }
       },
       "block_order": [
         "5c87dfb0-3f3e-4024-bfd8-19cb1d7887d8",
-        "f7527f56-a15f-439a-95c3-13bef0be0a69"
+        "f7527f56-a15f-439a-95c3-13bef0be0a69",
+        "40d6dbc6-55f9-49b9-ba8f-d67f7781c38f",
+        "75aba93d-13ea-4ea2-9935-3a3b3e88ac9a",
+        "bf17a907-76c5-415d-90be-d2a777c3babc"
       ],
       "settings": {
         "uppreImage": "shopify:\/\/shop_images\/story1.png",

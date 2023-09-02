@@ -48,7 +48,7 @@ if (!customElements.get('product-form')) {
             let cartResp = `<p class="tmb_addCart_popup_msg">You successfully added your ${response.title} to cart!</p> 
     <img class="tmb_addCart_popup_img" src="${response.featured_image.url}" width="102" height="113" alt="Image of Product" loading="lazy">
     <p class="tmb_addCart_popup_info"> Let’s explore our 1000+ collection of art to find the perfect unique piece of art for you.</p>
-    <button class="tmb_product_btn solid_cta">Explore The Art</button>
+    <a href="/cart" class="tmb_product_btn solid_cta">Go to Cart</a>
     <a href="/collections" class="tmb_addCart_popup_btn"> Keep shopping</a>`;
             let overlay = document.querySelector(".tmb_overlay");
             

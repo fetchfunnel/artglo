@@ -85,8 +85,8 @@
         "template--20759784194358__fb5a9969-af3f-41a9-bea7-53df5fc5ae56-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Get Your Unique Art",
+            "button_link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",

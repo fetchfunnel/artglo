@@ -521,9 +521,9 @@ body.collection .tmb_price_per_items button {
 .grid.product-grid.contains-card.contains-card--product {
   gap: 26px;
 }
-div#bg-banners {
-  position:relative;
-  z-index:5;
+div#shopify-section-template--20759575429430__459aae35-97c9-4540-b575-43aec709385f {
+    position: relative;
+    z-index: 2;
 }
 
 @media screen and (min-width: 750px) {

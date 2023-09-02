@@ -689,7 +689,7 @@
   let oldValue = 0;
   window.addEventListener("scroll", () => {
     if (window.scrollY > oldValue) {
-      // oldValue = window.scrollY;
+      oldValue = window.scrollY;
       header.setAttribute("style", "top: -100%;");
       header.classList.remove("with-bg");
     }else if(window.scrollY == 0){

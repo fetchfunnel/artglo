@@ -521,7 +521,7 @@ body.collection .tmb_price_per_items button {
 .grid.product-grid.contains-card.contains-card--product {
   gap: 26px;
 }
-.image-with-text-tmb{
+div#bg-banners {
   position:relative;
   z-index:1;
 }

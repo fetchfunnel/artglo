@@ -2,14 +2,17 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "custom_css": [
+
+      ],
       "settings": {
         "layout": "grid",
         "show_image": true,
         "image_height": "small",
         "show_date": false,
         "show_author": false,
-        "padding_top": 24,
-        "padding_bottom": 0
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     },
     "810017b8-e586-46e6-b447-6961ab09b239": {

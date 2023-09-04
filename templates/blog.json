@@ -17,7 +17,7 @@
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",
-        "blog": "",
+        "blog": "news",
         "post_limit": 4,
         "columns_desktop": 4,
         "color_scheme": "",

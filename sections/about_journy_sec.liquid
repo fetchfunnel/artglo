@@ -52,9 +52,12 @@ margin: auto;
 display: flex;
     justify-content: center;
 }
-.tmb_aboutJourney_para_bottom{
-    padding: 20px 0px;
-}
+
+  .tmb_aboutJourney_description{
+    display:flex;
+    flex-direction:columns;
+    gap:20px;
+  }
 
 
 
@@ -75,11 +78,15 @@ display: flex;
         <div class="tmb_aboutJourney_headingBox">
       <h3 class="tmb_aboutJourney_heading ">{{ section.settings.title1 }}</h3>
    <h3  class="tmb_aboutJourney_heading ">{{ section.settings.title2 }} </h3>
+        </div >
+      <div class="tmb_aboutJourney_description" >
+
+       {% for block in section.blocks %}
+          <p class="tmb_aboutJourney_para">{{ block.settings.textDetail }}</p>
+       {% endfor %}
+        </div>
     </div>
-      <p class="tmb_aboutJourney_para">Whether you're here to explore, shop, or share your creations, ArtGlo is your canvas. Let your imagination run wild, discover new horizons of creativity, and illuminate your world with art that speaks to your soul.</p>
-      <p class="tmb_aboutJourney_para tmb_aboutJourney_para_bottom ">Join us in celebrating the beauty of art, the power of expression, and the magic of illumination. Your artistic journey starts here, and we can't wait to be a part of it.</p>
-    </div>
-    <button class="about_button">Get Your Unique Art</button>
+    <a href="{{ section.settings.link }}" class="about_button">{ section.settings.btnLabel }}</a>
 </div>
 </section>
 
@@ -104,9 +111,33 @@ display: flex;
       "id": "title2",
       "label": "Page Description",
       "default":"Your Artistic Journey Awaits"
+    },
+    {
+      "type": "textarea",
+      "id": "btnLabel",
+      "label": "Button Link"
+    },
+    {
+      "type": "textarea",
+      "id": "link",
+      "label": "Button Title",
+      "default":"Get Your Unique Art"
       
     }
-  ]
+  ],
+    "blocks": [
+    {
+      "name": "Content",
+      "type": "description",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "textDetail",
+          "label": "Text"
+        }
+      ]
+    }
+    ]
 }
 {% endschema %}
 

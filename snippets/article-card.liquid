@@ -139,7 +139,9 @@
                 {%- if article.excerpt.size > 0 -%}
                   {{ article.excerpt | strip_html | truncatewords: 10 }}
                 {%- else -%}
-                  {{ article.content | strip_html | truncatewords: 10 }} <span> Learn More</span>
+                  {{ article.content | strip_html | truncatewords: 10 }}
+  <a class="readmore" href="{{ article.url }}">Learn More</a>
+ <span> Learn More</span>
                 {%- endif -%}
               </p>
             {%- endif -%}

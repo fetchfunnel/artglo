@@ -92,9 +92,9 @@
               {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
                 <p class="article-card__excerpt rte-width">
                   {%- if article.excerpt.size > 0 -%}
-                    {{ article.excerpt | strip_html | truncatewords: 8 }}
+                    {{ article.excerpt | strip_html | truncatewords: 7 }}
                   {%- else -%}
-                    {{ article.content | strip_html | truncatewords: 8 }}
+                    {{ article.content | strip_html | truncatewords: 7 }}
                   {%- endif -%}
 
                    {% if article_link != blank -%}
@@ -137,9 +137,9 @@
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
               <p class="article-card__excerpt rte-width">
                 {%- if article.excerpt.size > 0 -%}
-                  {{ article.excerpt | strip_html | truncatewords: 8 }}
+                  {{ article.excerpt | strip_html | truncatewords: 7 }}
                 {%- else -%}
-                  {{ article.content | strip_html | truncatewords: 8 }}
+                  {{ article.content | strip_html | truncatewords: 7 }}
   <a class="readmore" href="{{ article.url }}">Learn More</a>
                 {%- endif -%}
               </p>

@@ -93,12 +93,13 @@
                 <p class="article-card__excerpt rte-width">
                   {%- if article.excerpt.size > 0 -%}
                     {{ article.excerpt | strip_html | truncatewords: 10 }}
-  {% if article_link != blank -%}
-                    <a class="readmore" href="{{ article.url }}">{{ article_link }} read more</a>
-                           {%- endif -%}
                   {%- else -%}
                     {{ article.content | strip_html | truncatewords: 10 }}
                   {%- endif -%}
+
+  {% if article_link != blank -%}
+                    <a class="readmore" href="{{ article.url }}">{{ article_link }} read more</a>
+                           {%- endif -%}
                 </p>
                 
               {%- endif -%}

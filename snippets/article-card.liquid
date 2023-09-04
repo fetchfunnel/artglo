@@ -97,6 +97,9 @@
                     {{ article.content | strip_html | truncatewords: 10 }}
                   {%- endif -%}
 
+  {% if article_link != blank -%}
+                    <a class="readmore" href="{{ article.url }}">{{ article_link }}</a>
+                           {%- endif -%}
                 </p>
                 
               {%- endif -%}

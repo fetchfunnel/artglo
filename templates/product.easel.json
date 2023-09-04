@@ -224,12 +224,31 @@
       "settings": {
         "heading": "Frequently asked questions"
       }
+    },
+    "16938336562706a988": {
+      "type": "apps",
+      "blocks": {
+        "db5ba615-9c5d-41c9-82e2-f3ff07c08c1a": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "db5ba615-9c5d-41c9-82e2-f3ff07c08c1a"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "get-started",
     "d9aea10e-76b4-450a-a288-326b38784fa9",
-    "faq-sec"
+    "faq-sec",
+    "16938336562706a988"
   ]
 }

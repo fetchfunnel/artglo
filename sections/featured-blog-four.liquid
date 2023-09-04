@@ -197,7 +197,7 @@ h3.titile-forbanner {
 
 {%- liquid
   assign posts_displayed = section.settings.blog.articles_count
-  if section.settings.post_limit <= section.settings.blog.articles_count or section.settings.post_limit <= 4
+  if section.settings.post_limit <= section.settings.blog.articles_count or section.settings.post_limit <= 8
     assign posts_exceed_limit = true
     assign posts_displayed = section.settings.post_limit
   endif

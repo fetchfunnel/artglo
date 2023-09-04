@@ -109,6 +109,7 @@
         "template--20759784194358__fb5a9969-af3f-41a9-bea7-53df5fc5ae56-text-1",
         "template--20759784194358__fb5a9969-af3f-41a9-bea7-53df5fc5ae56-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -120,7 +121,29 @@
     },
     "about_journy_sec": {
       "type": "about_journy_sec",
+      "blocks": {
+        "df6ac3ea-ee62-4bf5-913f-7b0a8867747c": {
+          "type": "description",
+          "settings": {
+            "textDetail": "Whether you're here to explore, shop, or share your creations, ArtGlo is your canvas. Let your imagination run wild, discover new horizons of creativity, and illuminate your world with art that speaks to your soul."
+          }
+        },
+        "20c81de0-b9fc-4ac2-8b9c-2c1e5464efce": {
+          "type": "description",
+          "settings": {
+            "textDetail": "Join us in celebrating the beauty of art, the power of expression, and the magic of illumination. Your artistic journey starts here, and we can't wait to be a part of it."
+          }
+        }
+      },
+      "block_order": [
+        "df6ac3ea-ee62-4bf5-913f-7b0a8867747c",
+        "20c81de0-b9fc-4ac2-8b9c-2c1e5464efce"
+      ],
       "settings": {
+        "title1": "Let's Create Together:",
+        "title2": "Your Artistic Journey Awaits",
+        "link": "",
+        "btnLabel": "Get Your Unique Art"
       }
     }
   },

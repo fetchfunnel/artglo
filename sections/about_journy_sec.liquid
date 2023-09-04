@@ -73,8 +73,8 @@ display: flex;
         <div class="container">
     <div>
         <div class="tmb_aboutJourney_headingBox">
-      <h3 class="tmb_aboutJourney_heading ">Let's Create Together:</h3>
-   <h3  class="tmb_aboutJourney_heading ">Your Artistic Journey Awaits </h3>
+      <h3 class="tmb_aboutJourney_heading ">{{ section.settings.title1 }}</h3>
+   <h3  class="tmb_aboutJourney_heading ">{{ section.settings.title2 }} </h3>
     </div>
       <p class="tmb_aboutJourney_para">Whether you're here to explore, shop, or share your creations, ArtGlo is your canvas. Let your imagination run wild, discover new horizons of creativity, and illuminate your world with art that speaks to your soul.</p>
       <p class="tmb_aboutJourney_para tmb_aboutJourney_para_bottom ">Join us in celebrating the beauty of art, the power of expression, and the magic of illumination. Your artistic journey starts here, and we can't wait to be a part of it.</p>
@@ -86,9 +86,28 @@ display: flex;
 
 {% schema %}
   {
-    "name": "Create Journey",
-    "settings": []
-  }
+  "name": "About Journey Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Banner Background Image"
+    },
+    {
+      "type": "textarea",
+      "id": "title1",
+      "label": "Heading",
+      "default":"Let's Create Together:"
+    },
+    {
+      "type": "textarea",
+      "id": "title2",
+      "label": "Page Description",
+      "default":"Your Artistic Journey Awaits"
+      
+    }
+  ]
+}
 {% endschema %}
 
 {% stylesheet %}

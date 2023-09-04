@@ -139,13 +139,8 @@
                 {%- if article.excerpt.size > 0 -%}
                   {{ article.excerpt | strip_html | truncatewords: 10 }}
                 {%- else -%}
-                  {{ article.content | strip_html | truncatewords: 10 }}
-
+                  {{ article.content | strip_html | truncatewords: 10 }} <span> Learn More</span>
                 {%- endif -%}
-                   {% if article_link != blank -%}
-                    <a class="readmore" href="{{ article.url }}">{{ article_link }}</a>
-
-                  {% endif %}
               </p>
             {%- endif -%}
             <div class="article-card__footer">

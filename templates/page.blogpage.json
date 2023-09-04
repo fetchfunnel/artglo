@@ -46,14 +46,14 @@
         "heading": "",
         "add_link": "learn more",
         "heading_size": "h1",
-        "blog": "news",
+        "blog": "test",
         "post_limit": 4,
         "columns_desktop": 4,
         "color_scheme": "",
         "show_image": true,
         "show_date": false,
         "show_author": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 12
       }

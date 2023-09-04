@@ -144,15 +144,11 @@
                 {%- endif -%}
                    {% if article_link != blank -%}
                     <a class="readmore" href="{{ article.url }}">{{ article_link }}</a>
-
                   {% endif %}
               </p>
+<p>test</p>
             {%- endif -%}
             <div class="article-card__footer">
-  {% if article_link != blank -%}
-                    <a class="readmore" href="{{ article.url }}">{{ article_link }}</a>
-<p>test</p>
-                  {% endif %}
               {%- if article.comments_count > 0 and blog.comments_enabled? -%}
                 <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
               {%- endif -%}

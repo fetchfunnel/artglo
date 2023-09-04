@@ -65,7 +65,7 @@
         "add_link": "learn more",
         "heading_size": "h1",
         "blog": "news",
-        "post_limit": 4,
+        "post_limit": 8,
         "columns_desktop": 4,
         "color_scheme": "",
         "show_image": true,

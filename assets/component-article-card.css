@@ -114,9 +114,7 @@
 }
 
 @media screen and (min-width: 990px) {
-  .article-card__image--small .ratio::before {
-    padding-bottom: 17.7rem;
-  }
+
 
   .article-card__image--medium .ratio::before {
     padding-bottom: 30.7rem;
